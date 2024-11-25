@@ -1,32 +1,18 @@
-import React, { useState } from 'react';
-import Navbar_ from './components/Navbar_';
-import Sidebar from './components/Sidebar';
-import Lessons from './components/Lessons';
-import Footer from './components/Footer';
-const App = () => {
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Dashboard from './dashBoardPage/Dashboard';
+// import Login from './loginpage/Login';
+// import Register from './loginpage/Register';
 
-    const [selectedLevel, setSelectedLevel] = useState('Beginner');
+// const App = () => {
+//     return (
+//         <Router>
+//             <Routes>
+//                 <Route path="/login" element={<Login />} />
+//                 <Route path="/register" element={<Register />} />
+//                 <Route path="/dashboard" element={<Dashboard />} />
+//             </Routes>
+//         </Router>
+//     );
+// };
 
-    return (
-        <>
-            <Navbar_ />
-            <div className=' min-h-[100vh]' style={{ backgroundColor: ' #f2f2f2' }}>
-                <div className="container">
-                    <div className='flex gap-x-10 p-5'>
-                        <div className='basis-1/3'>
-                            <Sidebar setSelectedLevel={setSelectedLevel} />
-                        </div>
-                        <div className='basis-2/3'>
-                            <Lessons selectedLevel={selectedLevel} />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <Footer />
-            <script src="js/main.js"></script>
-        </>
-    );
-};
-
-export default App;
+// export default App;
