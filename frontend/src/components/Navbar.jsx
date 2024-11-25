@@ -28,7 +28,7 @@ const Navbar_ = () => {
                 </div>
 
             </div>
-            <section className=" bg-green-700 p-2">
+            <section className=" p-2" style={{backgroundColor:'rgb(78, 172, 109)'}}>
                 <div className='container'>
                     <div className=" px-5 py-3  rounded-md flex justify-between items-center">
                         <div className="flex items-center gap-4">
