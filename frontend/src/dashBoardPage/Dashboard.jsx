@@ -1,8 +1,8 @@
 import  { useState } from 'react';
-import Navbar_ from './components/Navbar_';
-import Sidebar from './components/Sidebar';
-import Lessons from './components/Lessons';
-import Footer from './components/Footer';
+import Navbar_ from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
+import Lessons from '../components/Lessons';
+import Footer from '../components/Footer';
 
 const levelList = [
     {
