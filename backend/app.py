@@ -79,7 +79,7 @@ def login_user():
 @app.route("/@me")
 def get_current_user():
     user_id = session.get("user_id")
-    print(f"Current session user_id: {user_id}")  # Debug log
+    print(f"Current session user_id: {user_id}")
 
     if not user_id:
         return jsonify({"error": "Unauthorized"}), 401
