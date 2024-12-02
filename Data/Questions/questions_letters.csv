@@ -1,0 +1,721 @@
+,Address
+0,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+1,['Data\\Signs\\A.png']
+2,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+3,['Data\\Signs\\C.png']
+4,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+5,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+6,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+7,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+8,['Data\\Signs\\C.png']
+9,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+10,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+11,['Data\\Signs\\C.png']
+12,['Data\\Signs\\A.png']
+13,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+14,['Data\\Signs\\C.png']
+15,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+16,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+17,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+18,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+19,['Data\\Signs\\A.png']
+20,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+21,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+22,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+23,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+24,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+25,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+26,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+27,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+28,['Data\\Signs\\A.png']
+29,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+30,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+31,['Data\\Signs\\C.png']
+32,['Data\\Signs\\A.png']
+33,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+34,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+35,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+36,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+37,['Data\\Signs\\A.png']
+38,['Data\\Signs\\A.png']
+39,['Data\\Signs\\C.png']
+40,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png']"
+41,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+42,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+43,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+44,['Data\\Signs\\A.png']
+45,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+46,['Data\\Signs\\A.png']
+47,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+48,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+49,['Data\\Signs\\A.png']
+50,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+51,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+52,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+53,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png']"
+54,['Data\\Signs\\B.png']
+55,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+56,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+57,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+58,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png']"
+59,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+60,['Data\\Signs\\A.png']
+61,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+62,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+63,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+64,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+65,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+66,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png', 'Data\\Signs\\C.png']"
+67,['Data\\Signs\\B.png']
+68,['Data\\Signs\\C.png']
+69,['Data\\Signs\\A.png']
+70,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+71,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png', 'Data\\Signs\\C.png']"
+72,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+73,['Data\\Signs\\C.png']
+74,['Data\\Signs\\C.png']
+75,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+76,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+77,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+78,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+79,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+80,['Data\\Signs\\F.png']
+81,"['Data\\Signs\\C.png', 'Data\\Signs\\E.png']"
+82,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png', 'Data\\Signs\\E.png']"
+83,"['Data\\Signs\\C.png', 'Data\\Signs\\D.png']"
+84,"['Data\\Signs\\A.png', 'Data\\Signs\\E.png']"
+85,['Data\\Signs\\E.png']
+86,"['Data\\Signs\\D.png', 'Data\\Signs\\F.png', 'Data\\Signs\\B.png']"
+87,"['Data\\Signs\\A.png', 'Data\\Signs\\D.png']"
+88,"['Data\\Signs\\E.png', 'Data\\Signs\\C.png']"
+89,"['Data\\Signs\\E.png', 'Data\\Signs\\B.png']"
+90,"['Data\\Signs\\D.png', 'Data\\Signs\\E.png', 'Data\\Signs\\F.png']"
+91,['Data\\Signs\\B.png']
+92,['Data\\Signs\\A.png']
+93,"['Data\\Signs\\A.png', 'Data\\Signs\\C.png', 'Data\\Signs\\D.png']"
+94,['Data\\Signs\\D.png']
+95,['Data\\Signs\\E.png']
+96,['Data\\Signs\\B.png']
+97,"['Data\\Signs\\E.png', 'Data\\Signs\\A.png']"
+98,"['Data\\Signs\\F.png', 'Data\\Signs\\E.png', 'Data\\Signs\\B.png']"
+99,"['Data\\Signs\\D.png', 'Data\\Signs\\F.png']"
+100,['Data\\Signs\\B.png']
+101,"['Data\\Signs\\B.png', 'Data\\Signs\\D.png', 'Data\\Signs\\C.png']"
+102,['Data\\Signs\\D.png']
+103,"['Data\\Signs\\A.png', 'Data\\Signs\\F.png', 'Data\\Signs\\B.png']"
+104,"['Data\\Signs\\D.png', 'Data\\Signs\\A.png', 'Data\\Signs\\C.png']"
+105,['Data\\Signs\\D.png']
+106,"['Data\\Signs\\E.png', 'Data\\Signs\\B.png']"
+107,"['Data\\Signs\\E.png', 'Data\\Signs\\B.png']"
+108,"['Data\\Signs\\D.png', 'Data\\Signs\\B.png', 'Data\\Signs\\F.png']"
+109,"['Data\\Signs\\C.png', 'Data\\Signs\\E.png', 'Data\\Signs\\F.png']"
+110,"['Data\\Signs\\B.png', 'Data\\Signs\\E.png']"
+111,['Data\\Signs\\C.png']
+112,"['Data\\Signs\\F.png', 'Data\\Signs\\D.png']"
+113,['Data\\Signs\\F.png']
+114,"['Data\\Signs\\B.png', 'Data\\Signs\\F.png', 'Data\\Signs\\E.png']"
+115,"['Data\\Signs\\C.png', 'Data\\Signs\\D.png']"
+116,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png', 'Data\\Signs\\E.png']"
+117,"['Data\\Signs\\A.png', 'Data\\Signs\\D.png', 'Data\\Signs\\C.png']"
+118,['Data\\Signs\\C.png']
+119,"['Data\\Signs\\B.png', 'Data\\Signs\\F.png']"
+120,"['Data\\Signs\\C.png', 'Data\\Signs\\E.png', 'Data\\Signs\\A.png']"
+121,"['Data\\Signs\\F.png', 'Data\\Signs\\B.png', 'Data\\Signs\\E.png']"
+122,['Data\\Signs\\F.png']
+123,"['Data\\Signs\\D.png', 'Data\\Signs\\E.png', 'Data\\Signs\\C.png']"
+124,['Data\\Signs\\B.png']
+125,"['Data\\Signs\\D.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+126,"['Data\\Signs\\B.png', 'Data\\Signs\\D.png']"
+127,"['Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+128,['Data\\Signs\\D.png']
+129,['Data\\Signs\\C.png']
+130,"['Data\\Signs\\A.png', 'Data\\Signs\\E.png']"
+131,"['Data\\Signs\\F.png', 'Data\\Signs\\E.png']"
+132,"['Data\\Signs\\C.png', 'Data\\Signs\\F.png', 'Data\\Signs\\E.png']"
+133,"['Data\\Signs\\B.png', 'Data\\Signs\\E.png', 'Data\\Signs\\D.png']"
+134,['Data\\Signs\\B.png']
+135,"['Data\\Signs\\E.png', 'Data\\Signs\\B.png', 'Data\\Signs\\F.png']"
+136,['Data\\Signs\\A.png']
+137,['Data\\Signs\\E.png']
+138,"['Data\\Signs\\A.png', 'Data\\Signs\\F.png', 'Data\\Signs\\D.png']"
+139,"['Data\\Signs\\D.png', 'Data\\Signs\\F.png', 'Data\\Signs\\C.png']"
+140,"['Data\\Signs\\F.png', 'Data\\Signs\\A.png']"
+141,"['Data\\Signs\\C.png', 'Data\\Signs\\D.png', 'Data\\Signs\\E.png']"
+142,['Data\\Signs\\E.png']
+143,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+144,['Data\\Signs\\E.png']
+145,['Data\\Signs\\F.png']
+146,['Data\\Signs\\B.png']
+147,['Data\\Signs\\B.png']
+148,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+149,"['Data\\Signs\\E.png', 'Data\\Signs\\C.png']"
+150,['Data\\Signs\\D.png']
+151,['Data\\Signs\\D.png']
+152,['Data\\Signs\\A.png']
+153,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png', 'Data\\Signs\\D.png']"
+154,['Data\\Signs\\F.png']
+155,"['Data\\Signs\\F.png', 'Data\\Signs\\A.png', 'Data\\Signs\\D.png']"
+156,['Data\\Signs\\D.png']
+157,"['Data\\Signs\\E.png', 'Data\\Signs\\D.png', 'Data\\Signs\\B.png']"
+158,"['Data\\Signs\\B.png', 'Data\\Signs\\F.png']"
+159,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+160,"['Data\\Signs\\D.png', 'Data\\Signs\\E.png']"
+161,['Data\\Signs\\I.png']
+162,['Data\\Signs\\C.png']
+163,"['Data\\Signs\\E.png', 'Data\\Signs\\D.png']"
+164,"['Data\\Signs\\D.png', 'Data\\Signs\\G.png', 'Data\\Signs\\A.png']"
+165,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\H.png']"
+166,"['Data\\Signs\\I.png', 'Data\\Signs\\D.png']"
+167,['Data\\Signs\\E.png']
+168,['Data\\Signs\\F.png']
+169,"['Data\\Signs\\B.png', 'Data\\Signs\\I.png', 'Data\\Signs\\C.png']"
+170,['Data\\Signs\\G.png']
+171,['Data\\Signs\\G.png']
+172,['Data\\Signs\\C.png']
+173,"['Data\\Signs\\C.png', 'Data\\Signs\\D.png']"
+174,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+175,['Data\\Signs\\B.png']
+176,"['Data\\Signs\\H.png', 'Data\\Signs\\E.png', 'Data\\Signs\\G.png']"
+177,"['Data\\Signs\\G.png', 'Data\\Signs\\H.png', 'Data\\Signs\\B.png']"
+178,"['Data\\Signs\\H.png', 'Data\\Signs\\I.png']"
+179,"['Data\\Signs\\D.png', 'Data\\Signs\\H.png']"
+180,"['Data\\Signs\\C.png', 'Data\\Signs\\D.png']"
+181,['Data\\Signs\\F.png']
+182,"['Data\\Signs\\G.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+183,"['Data\\Signs\\G.png', 'Data\\Signs\\A.png', 'Data\\Signs\\H.png']"
+184,['Data\\Signs\\G.png']
+185,['Data\\Signs\\F.png']
+186,['Data\\Signs\\G.png']
+187,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png', 'Data\\Signs\\E.png']"
+188,"['Data\\Signs\\C.png', 'Data\\Signs\\E.png', 'Data\\Signs\\G.png']"
+189,['Data\\Signs\\I.png']
+190,['Data\\Signs\\D.png']
+191,"['Data\\Signs\\G.png', 'Data\\Signs\\I.png', 'Data\\Signs\\A.png']"
+192,"['Data\\Signs\\I.png', 'Data\\Signs\\H.png']"
+193,"['Data\\Signs\\D.png', 'Data\\Signs\\A.png']"
+194,['Data\\Signs\\G.png']
+195,"['Data\\Signs\\E.png', 'Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+196,"['Data\\Signs\\C.png', 'Data\\Signs\\G.png']"
+197,"['Data\\Signs\\B.png', 'Data\\Signs\\H.png', 'Data\\Signs\\F.png']"
+198,"['Data\\Signs\\D.png', 'Data\\Signs\\F.png']"
+199,"['Data\\Signs\\D.png', 'Data\\Signs\\A.png']"
+200,['Data\\Signs\\G.png']
+201,"['Data\\Signs\\A.png', 'Data\\Signs\\F.png']"
+202,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png']"
+203,['Data\\Signs\\I.png']
+204,"['Data\\Signs\\B.png', 'Data\\Signs\\I.png', 'Data\\Signs\\H.png']"
+205,"['Data\\Signs\\H.png', 'Data\\Signs\\G.png']"
+206,"['Data\\Signs\\F.png', 'Data\\Signs\\E.png', 'Data\\Signs\\C.png']"
+207,['Data\\Signs\\H.png']
+208,['Data\\Signs\\C.png']
+209,['Data\\Signs\\H.png']
+210,"['Data\\Signs\\H.png', 'Data\\Signs\\F.png']"
+211,"['Data\\Signs\\D.png', 'Data\\Signs\\G.png', 'Data\\Signs\\F.png']"
+212,"['Data\\Signs\\B.png', 'Data\\Signs\\I.png']"
+213,"['Data\\Signs\\E.png', 'Data\\Signs\\I.png']"
+214,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png']"
+215,['Data\\Signs\\H.png']
+216,['Data\\Signs\\F.png']
+217,"['Data\\Signs\\B.png', 'Data\\Signs\\I.png']"
+218,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+219,"['Data\\Signs\\I.png', 'Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+220,"['Data\\Signs\\B.png', 'Data\\Signs\\F.png', 'Data\\Signs\\H.png']"
+221,"['Data\\Signs\\G.png', 'Data\\Signs\\I.png']"
+222,['Data\\Signs\\F.png']
+223,"['Data\\Signs\\C.png', 'Data\\Signs\\A.png', 'Data\\Signs\\D.png']"
+224,"['Data\\Signs\\H.png', 'Data\\Signs\\I.png', 'Data\\Signs\\B.png']"
+225,"['Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+226,"['Data\\Signs\\E.png', 'Data\\Signs\\F.png', 'Data\\Signs\\I.png']"
+227,"['Data\\Signs\\D.png', 'Data\\Signs\\G.png', 'Data\\Signs\\C.png']"
+228,"['Data\\Signs\\B.png', 'Data\\Signs\\H.png', 'Data\\Signs\\I.png']"
+229,"['Data\\Signs\\E.png', 'Data\\Signs\\G.png', 'Data\\Signs\\D.png']"
+230,"['Data\\Signs\\E.png', 'Data\\Signs\\H.png']"
+231,"['Data\\Signs\\G.png', 'Data\\Signs\\C.png']"
+232,"['Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+233,['Data\\Signs\\D.png']
+234,"['Data\\Signs\\E.png', 'Data\\Signs\\I.png', 'Data\\Signs\\F.png']"
+235,"['Data\\Signs\\E.png', 'Data\\Signs\\I.png', 'Data\\Signs\\A.png']"
+236,"['Data\\Signs\\E.png', 'Data\\Signs\\C.png']"
+237,"['Data\\Signs\\H.png', 'Data\\Signs\\D.png', 'Data\\Signs\\E.png']"
+238,['Data\\Signs\\C.png']
+239,"['Data\\Signs\\I.png', 'Data\\Signs\\H.png', 'Data\\Signs\\G.png']"
+240,"['Data\\Signs\\B.png', 'Data\\Signs\\E.png', 'Data\\Signs\\F.png']"
+241,"['Data\\Signs\\L.png', 'Data\\Signs\\I.png']"
+242,['Data\\Signs\\I.png']
+243,"['Data\\Signs\\A.png', 'Data\\Signs\\D.png', 'Data\\Signs\\J.png']"
+244,['Data\\Signs\\D.png']
+245,"['Data\\Signs\\J.png', 'Data\\Signs\\F.png']"
+246,['Data\\Signs\\G.png']
+247,"['Data\\Signs\\L.png', 'Data\\Signs\\B.png']"
+248,['Data\\Signs\\J.png']
+249,"['Data\\Signs\\H.png', 'Data\\Signs\\D.png', 'Data\\Signs\\G.png']"
+250,['Data\\Signs\\C.png']
+251,"['Data\\Signs\\B.png', 'Data\\Signs\\H.png', 'Data\\Signs\\D.png']"
+252,"['Data\\Signs\\B.png', 'Data\\Signs\\H.png']"
+253,"['Data\\Signs\\K.png', 'Data\\Signs\\G.png']"
+254,"['Data\\Signs\\F.png', 'Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+255,['Data\\Signs\\C.png']
+256,"['Data\\Signs\\G.png', 'Data\\Signs\\J.png']"
+257,['Data\\Signs\\J.png']
+258,"['Data\\Signs\\B.png', 'Data\\Signs\\H.png']"
+259,"['Data\\Signs\\D.png', 'Data\\Signs\\E.png']"
+260,"['Data\\Signs\\G.png', 'Data\\Signs\\E.png']"
+261,"['Data\\Signs\\G.png', 'Data\\Signs\\C.png']"
+262,['Data\\Signs\\B.png']
+263,"['Data\\Signs\\G.png', 'Data\\Signs\\K.png', 'Data\\Signs\\H.png']"
+264,"['Data\\Signs\\D.png', 'Data\\Signs\\I.png']"
+265,"['Data\\Signs\\H.png', 'Data\\Signs\\J.png']"
+266,"['Data\\Signs\\E.png', 'Data\\Signs\\G.png']"
+267,"['Data\\Signs\\E.png', 'Data\\Signs\\K.png']"
+268,"['Data\\Signs\\H.png', 'Data\\Signs\\I.png']"
+269,"['Data\\Signs\\I.png', 'Data\\Signs\\B.png']"
+270,"['Data\\Signs\\F.png', 'Data\\Signs\\E.png']"
+271,"['Data\\Signs\\H.png', 'Data\\Signs\\A.png']"
+272,['Data\\Signs\\J.png']
+273,"['Data\\Signs\\L.png', 'Data\\Signs\\F.png']"
+274,"['Data\\Signs\\I.png', 'Data\\Signs\\A.png']"
+275,"['Data\\Signs\\K.png', 'Data\\Signs\\L.png']"
+276,['Data\\Signs\\D.png']
+277,['Data\\Signs\\E.png']
+278,['Data\\Signs\\C.png']
+279,['Data\\Signs\\G.png']
+280,['Data\\Signs\\H.png']
+281,"['Data\\Signs\\J.png', 'Data\\Signs\\H.png', 'Data\\Signs\\E.png']"
+282,"['Data\\Signs\\D.png', 'Data\\Signs\\H.png']"
+283,['Data\\Signs\\D.png']
+284,['Data\\Signs\\I.png']
+285,"['Data\\Signs\\K.png', 'Data\\Signs\\C.png', 'Data\\Signs\\B.png']"
+286,"['Data\\Signs\\H.png', 'Data\\Signs\\G.png']"
+287,"['Data\\Signs\\F.png', 'Data\\Signs\\B.png', 'Data\\Signs\\H.png']"
+288,"['Data\\Signs\\I.png', 'Data\\Signs\\E.png']"
+289,"['Data\\Signs\\C.png', 'Data\\Signs\\G.png', 'Data\\Signs\\L.png']"
+290,"['Data\\Signs\\G.png', 'Data\\Signs\\H.png']"
+291,"['Data\\Signs\\D.png', 'Data\\Signs\\H.png', 'Data\\Signs\\C.png']"
+292,"['Data\\Signs\\C.png', 'Data\\Signs\\K.png']"
+293,"['Data\\Signs\\B.png', 'Data\\Signs\\F.png']"
+294,"['Data\\Signs\\K.png', 'Data\\Signs\\L.png', 'Data\\Signs\\J.png']"
+295,['Data\\Signs\\J.png']
+296,"['Data\\Signs\\I.png', 'Data\\Signs\\K.png']"
+297,['Data\\Signs\\A.png']
+298,"['Data\\Signs\\D.png', 'Data\\Signs\\I.png', 'Data\\Signs\\E.png']"
+299,"['Data\\Signs\\D.png', 'Data\\Signs\\F.png', 'Data\\Signs\\G.png']"
+300,"['Data\\Signs\\L.png', 'Data\\Signs\\B.png', 'Data\\Signs\\H.png']"
+301,['Data\\Signs\\A.png']
+302,"['Data\\Signs\\I.png', 'Data\\Signs\\E.png']"
+303,['Data\\Signs\\E.png']
+304,"['Data\\Signs\\D.png', 'Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+305,"['Data\\Signs\\A.png', 'Data\\Signs\\K.png']"
+306,"['Data\\Signs\\G.png', 'Data\\Signs\\L.png']"
+307,"['Data\\Signs\\K.png', 'Data\\Signs\\L.png']"
+308,"['Data\\Signs\\D.png', 'Data\\Signs\\G.png', 'Data\\Signs\\E.png']"
+309,"['Data\\Signs\\H.png', 'Data\\Signs\\F.png', 'Data\\Signs\\C.png']"
+310,"['Data\\Signs\\H.png', 'Data\\Signs\\D.png', 'Data\\Signs\\F.png']"
+311,"['Data\\Signs\\D.png', 'Data\\Signs\\G.png']"
+312,['Data\\Signs\\B.png']
+313,"['Data\\Signs\\D.png', 'Data\\Signs\\I.png', 'Data\\Signs\\G.png']"
+314,"['Data\\Signs\\B.png', 'Data\\Signs\\A.png', 'Data\\Signs\\F.png']"
+315,"['Data\\Signs\\B.png', 'Data\\Signs\\K.png']"
+316,"['Data\\Signs\\B.png', 'Data\\Signs\\J.png', 'Data\\Signs\\F.png']"
+317,"['Data\\Signs\\G.png', 'Data\\Signs\\D.png']"
+318,"['Data\\Signs\\J.png', 'Data\\Signs\\D.png', 'Data\\Signs\\K.png']"
+319,"['Data\\Signs\\D.png', 'Data\\Signs\\J.png', 'Data\\Signs\\E.png']"
+320,"['Data\\Signs\\G.png', 'Data\\Signs\\O.png', 'Data\\Signs\\B.png']"
+321,"['Data\\Signs\\D.png', 'Data\\Signs\\A.png']"
+322,"['Data\\Signs\\D.png', 'Data\\Signs\\E.png', 'Data\\Signs\\L.png']"
+323,['Data\\Signs\\B.png']
+324,"['Data\\Signs\\F.png', 'Data\\Signs\\B.png']"
+325,"['Data\\Signs\\B.png', 'Data\\Signs\\H.png']"
+326,['Data\\Signs\\J.png']
+327,"['Data\\Signs\\F.png', 'Data\\Signs\\D.png', 'Data\\Signs\\O.png']"
+328,['Data\\Signs\\J.png']
+329,"['Data\\Signs\\O.png', 'Data\\Signs\\B.png']"
+330,['Data\\Signs\\N.png']
+331,"['Data\\Signs\\B.png', 'Data\\Signs\\K.png', 'Data\\Signs\\I.png']"
+332,"['Data\\Signs\\C.png', 'Data\\Signs\\G.png']"
+333,"['Data\\Signs\\K.png', 'Data\\Signs\\G.png', 'Data\\Signs\\N.png']"
+334,['Data\\Signs\\M.png']
+335,['Data\\Signs\\F.png']
+336,"['Data\\Signs\\J.png', 'Data\\Signs\\L.png']"
+337,['Data\\Signs\\F.png']
+338,['Data\\Signs\\O.png']
+339,"['Data\\Signs\\F.png', 'Data\\Signs\\H.png']"
+340,['Data\\Signs\\D.png']
+341,"['Data\\Signs\\K.png', 'Data\\Signs\\F.png']"
+342,['Data\\Signs\\L.png']
+343,"['Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+344,"['Data\\Signs\\F.png', 'Data\\Signs\\K.png', 'Data\\Signs\\G.png']"
+345,['Data\\Signs\\K.png']
+346,"['Data\\Signs\\O.png', 'Data\\Signs\\F.png']"
+347,"['Data\\Signs\\K.png', 'Data\\Signs\\G.png', 'Data\\Signs\\D.png']"
+348,"['Data\\Signs\\A.png', 'Data\\Signs\\G.png']"
+349,"['Data\\Signs\\K.png', 'Data\\Signs\\I.png', 'Data\\Signs\\G.png']"
+350,"['Data\\Signs\\L.png', 'Data\\Signs\\N.png', 'Data\\Signs\\I.png']"
+351,"['Data\\Signs\\F.png', 'Data\\Signs\\H.png']"
+352,"['Data\\Signs\\I.png', 'Data\\Signs\\D.png', 'Data\\Signs\\G.png']"
+353,['Data\\Signs\\H.png']
+354,['Data\\Signs\\A.png']
+355,['Data\\Signs\\B.png']
+356,"['Data\\Signs\\K.png', 'Data\\Signs\\M.png', 'Data\\Signs\\J.png']"
+357,"['Data\\Signs\\I.png', 'Data\\Signs\\O.png', 'Data\\Signs\\L.png']"
+358,"['Data\\Signs\\C.png', 'Data\\Signs\\E.png', 'Data\\Signs\\N.png']"
+359,"['Data\\Signs\\L.png', 'Data\\Signs\\E.png', 'Data\\Signs\\N.png']"
+360,['Data\\Signs\\M.png']
+361,"['Data\\Signs\\B.png', 'Data\\Signs\\F.png', 'Data\\Signs\\N.png']"
+362,"['Data\\Signs\\F.png', 'Data\\Signs\\E.png', 'Data\\Signs\\H.png']"
+363,"['Data\\Signs\\A.png', 'Data\\Signs\\G.png']"
+364,"['Data\\Signs\\I.png', 'Data\\Signs\\O.png']"
+365,"['Data\\Signs\\I.png', 'Data\\Signs\\C.png']"
+366,['Data\\Signs\\B.png']
+367,"['Data\\Signs\\F.png', 'Data\\Signs\\L.png', 'Data\\Signs\\G.png']"
+368,"['Data\\Signs\\F.png', 'Data\\Signs\\N.png', 'Data\\Signs\\B.png']"
+369,"['Data\\Signs\\F.png', 'Data\\Signs\\H.png', 'Data\\Signs\\C.png']"
+370,['Data\\Signs\\J.png']
+371,"['Data\\Signs\\F.png', 'Data\\Signs\\N.png']"
+372,"['Data\\Signs\\G.png', 'Data\\Signs\\K.png']"
+373,['Data\\Signs\\L.png']
+374,['Data\\Signs\\F.png']
+375,['Data\\Signs\\J.png']
+376,['Data\\Signs\\I.png']
+377,"['Data\\Signs\\J.png', 'Data\\Signs\\H.png']"
+378,['Data\\Signs\\J.png']
+379,['Data\\Signs\\J.png']
+380,['Data\\Signs\\H.png']
+381,['Data\\Signs\\H.png']
+382,['Data\\Signs\\K.png']
+383,"['Data\\Signs\\N.png', 'Data\\Signs\\C.png', 'Data\\Signs\\E.png']"
+384,['Data\\Signs\\K.png']
+385,"['Data\\Signs\\G.png', 'Data\\Signs\\H.png']"
+386,"['Data\\Signs\\K.png', 'Data\\Signs\\E.png', 'Data\\Signs\\G.png']"
+387,"['Data\\Signs\\C.png', 'Data\\Signs\\H.png', 'Data\\Signs\\N.png']"
+388,"['Data\\Signs\\H.png', 'Data\\Signs\\L.png']"
+389,['Data\\Signs\\I.png']
+390,"['Data\\Signs\\J.png', 'Data\\Signs\\A.png']"
+391,"['Data\\Signs\\F.png', 'Data\\Signs\\M.png']"
+392,"['Data\\Signs\\C.png', 'Data\\Signs\\J.png', 'Data\\Signs\\A.png']"
+393,['Data\\Signs\\B.png']
+394,"['Data\\Signs\\F.png', 'Data\\Signs\\D.png', 'Data\\Signs\\M.png']"
+395,['Data\\Signs\\M.png']
+396,"['Data\\Signs\\B.png', 'Data\\Signs\\N.png', 'Data\\Signs\\J.png']"
+397,"['Data\\Signs\\H.png', 'Data\\Signs\\K.png']"
+398,"['Data\\Signs\\E.png', 'Data\\Signs\\O.png', 'Data\\Signs\\D.png']"
+399,"['Data\\Signs\\A.png', 'Data\\Signs\\G.png', 'Data\\Signs\\H.png']"
+400,"['Data\\Signs\\K.png', 'Data\\Signs\\N.png']"
+401,"['Data\\Signs\\F.png', 'Data\\Signs\\B.png']"
+402,['Data\\Signs\\E.png']
+403,"['Data\\Signs\\A.png', 'Data\\Signs\\M.png']"
+404,['Data\\Signs\\L.png']
+405,"['Data\\Signs\\G.png', 'Data\\Signs\\M.png', 'Data\\Signs\\B.png']"
+406,"['Data\\Signs\\Q.png', 'Data\\Signs\\H.png']"
+407,['Data\\Signs\\M.png']
+408,['Data\\Signs\\E.png']
+409,"['Data\\Signs\\E.png', 'Data\\Signs\\Q.png']"
+410,['Data\\Signs\\B.png']
+411,"['Data\\Signs\\B.png', 'Data\\Signs\\N.png', 'Data\\Signs\\F.png']"
+412,"['Data\\Signs\\A.png', 'Data\\Signs\\D.png']"
+413,"['Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+414,"['Data\\Signs\\M.png', 'Data\\Signs\\B.png', 'Data\\Signs\\O.png']"
+415,"['Data\\Signs\\L.png', 'Data\\Signs\\P.png']"
+416,['Data\\Signs\\R.png']
+417,"['Data\\Signs\\G.png', 'Data\\Signs\\C.png']"
+418,"['Data\\Signs\\Q.png', 'Data\\Signs\\E.png', 'Data\\Signs\\R.png']"
+419,"['Data\\Signs\\F.png', 'Data\\Signs\\G.png']"
+420,['Data\\Signs\\Q.png']
+421,['Data\\Signs\\M.png']
+422,"['Data\\Signs\\M.png', 'Data\\Signs\\Q.png', 'Data\\Signs\\J.png']"
+423,['Data\\Signs\\R.png']
+424,['Data\\Signs\\F.png']
+425,"['Data\\Signs\\J.png', 'Data\\Signs\\D.png', 'Data\\Signs\\P.png']"
+426,"['Data\\Signs\\R.png', 'Data\\Signs\\C.png', 'Data\\Signs\\O.png']"
+427,"['Data\\Signs\\H.png', 'Data\\Signs\\A.png', 'Data\\Signs\\C.png']"
+428,"['Data\\Signs\\K.png', 'Data\\Signs\\H.png']"
+429,"['Data\\Signs\\E.png', 'Data\\Signs\\Q.png', 'Data\\Signs\\R.png']"
+430,"['Data\\Signs\\H.png', 'Data\\Signs\\A.png']"
+431,['Data\\Signs\\H.png']
+432,"['Data\\Signs\\F.png', 'Data\\Signs\\N.png', 'Data\\Signs\\D.png']"
+433,"['Data\\Signs\\B.png', 'Data\\Signs\\O.png']"
+434,"['Data\\Signs\\B.png', 'Data\\Signs\\D.png']"
+435,['Data\\Signs\\E.png']
+436,"['Data\\Signs\\P.png', 'Data\\Signs\\N.png']"
+437,"['Data\\Signs\\N.png', 'Data\\Signs\\Q.png']"
+438,"['Data\\Signs\\Q.png', 'Data\\Signs\\D.png']"
+439,"['Data\\Signs\\Q.png', 'Data\\Signs\\J.png']"
+440,['Data\\Signs\\R.png']
+441,['Data\\Signs\\M.png']
+442,"['Data\\Signs\\K.png', 'Data\\Signs\\P.png']"
+443,"['Data\\Signs\\N.png', 'Data\\Signs\\L.png', 'Data\\Signs\\D.png']"
+444,['Data\\Signs\\M.png']
+445,"['Data\\Signs\\R.png', 'Data\\Signs\\K.png']"
+446,"['Data\\Signs\\G.png', 'Data\\Signs\\D.png']"
+447,"['Data\\Signs\\M.png', 'Data\\Signs\\K.png', 'Data\\Signs\\P.png']"
+448,"['Data\\Signs\\B.png', 'Data\\Signs\\N.png']"
+449,"['Data\\Signs\\E.png', 'Data\\Signs\\I.png']"
+450,"['Data\\Signs\\C.png', 'Data\\Signs\\D.png']"
+451,"['Data\\Signs\\D.png', 'Data\\Signs\\C.png', 'Data\\Signs\\R.png']"
+452,"['Data\\Signs\\P.png', 'Data\\Signs\\D.png', 'Data\\Signs\\O.png']"
+453,"['Data\\Signs\\D.png', 'Data\\Signs\\I.png', 'Data\\Signs\\F.png']"
+454,['Data\\Signs\\I.png']
+455,"['Data\\Signs\\E.png', 'Data\\Signs\\F.png']"
+456,"['Data\\Signs\\P.png', 'Data\\Signs\\N.png']"
+457,"['Data\\Signs\\C.png', 'Data\\Signs\\G.png', 'Data\\Signs\\D.png']"
+458,['Data\\Signs\\F.png']
+459,"['Data\\Signs\\R.png', 'Data\\Signs\\F.png']"
+460,"['Data\\Signs\\N.png', 'Data\\Signs\\Q.png', 'Data\\Signs\\J.png']"
+461,['Data\\Signs\\P.png']
+462,"['Data\\Signs\\L.png', 'Data\\Signs\\B.png']"
+463,"['Data\\Signs\\E.png', 'Data\\Signs\\F.png', 'Data\\Signs\\G.png']"
+464,['Data\\Signs\\K.png']
+465,"['Data\\Signs\\A.png', 'Data\\Signs\\D.png', 'Data\\Signs\\L.png']"
+466,['Data\\Signs\\J.png']
+467,"['Data\\Signs\\L.png', 'Data\\Signs\\K.png', 'Data\\Signs\\E.png']"
+468,"['Data\\Signs\\A.png', 'Data\\Signs\\E.png', 'Data\\Signs\\O.png']"
+469,['Data\\Signs\\R.png']
+470,['Data\\Signs\\I.png']
+471,"['Data\\Signs\\E.png', 'Data\\Signs\\M.png', 'Data\\Signs\\K.png']"
+472,"['Data\\Signs\\C.png', 'Data\\Signs\\J.png', 'Data\\Signs\\K.png']"
+473,"['Data\\Signs\\L.png', 'Data\\Signs\\P.png']"
+474,"['Data\\Signs\\L.png', 'Data\\Signs\\C.png', 'Data\\Signs\\P.png']"
+475,['Data\\Signs\\J.png']
+476,"['Data\\Signs\\M.png', 'Data\\Signs\\K.png']"
+477,"['Data\\Signs\\D.png', 'Data\\Signs\\O.png', 'Data\\Signs\\E.png']"
+478,['Data\\Signs\\A.png']
+479,['Data\\Signs\\K.png']
+480,"['Data\\Signs\\M.png', 'Data\\Signs\\S.png']"
+481,['Data\\Signs\\D.png']
+482,"['Data\\Signs\\R.png', 'Data\\Signs\\H.png', 'Data\\Signs\\K.png']"
+483,['Data\\Signs\\K.png']
+484,['Data\\Signs\\K.png']
+485,['Data\\Signs\\H.png']
+486,"['Data\\Signs\\J.png', 'Data\\Signs\\H.png', 'Data\\Signs\\C.png']"
+487,"['Data\\Signs\\M.png', 'Data\\Signs\\R.png', 'Data\\Signs\\K.png']"
+488,"['Data\\Signs\\P.png', 'Data\\Signs\\J.png']"
+489,['Data\\Signs\\S.png']
+490,"['Data\\Signs\\N.png', 'Data\\Signs\\T.png', 'Data\\Signs\\D.png']"
+491,['Data\\Signs\\I.png']
+492,['Data\\Signs\\B.png']
+493,['Data\\Signs\\R.png']
+494,['Data\\Signs\\S.png']
+495,"['Data\\Signs\\C.png', 'Data\\Signs\\N.png', 'Data\\Signs\\J.png']"
+496,"['Data\\Signs\\I.png', 'Data\\Signs\\L.png']"
+497,"['Data\\Signs\\A.png', 'Data\\Signs\\T.png']"
+498,"['Data\\Signs\\K.png', 'Data\\Signs\\B.png']"
+499,['Data\\Signs\\T.png']
+500,['Data\\Signs\\C.png']
+501,"['Data\\Signs\\Q.png', 'Data\\Signs\\O.png']"
+502,['Data\\Signs\\T.png']
+503,['Data\\Signs\\M.png']
+504,"['Data\\Signs\\G.png', 'Data\\Signs\\D.png', 'Data\\Signs\\L.png']"
+505,"['Data\\Signs\\R.png', 'Data\\Signs\\U.png']"
+506,"['Data\\Signs\\T.png', 'Data\\Signs\\H.png']"
+507,['Data\\Signs\\O.png']
+508,['Data\\Signs\\R.png']
+509,"['Data\\Signs\\F.png', 'Data\\Signs\\P.png']"
+510,"['Data\\Signs\\S.png', 'Data\\Signs\\O.png', 'Data\\Signs\\I.png']"
+511,['Data\\Signs\\N.png']
+512,"['Data\\Signs\\C.png', 'Data\\Signs\\B.png', 'Data\\Signs\\E.png']"
+513,"['Data\\Signs\\J.png', 'Data\\Signs\\D.png']"
+514,['Data\\Signs\\Q.png']
+515,"['Data\\Signs\\C.png', 'Data\\Signs\\K.png']"
+516,"['Data\\Signs\\C.png', 'Data\\Signs\\F.png', 'Data\\Signs\\H.png']"
+517,"['Data\\Signs\\F.png', 'Data\\Signs\\M.png', 'Data\\Signs\\L.png']"
+518,['Data\\Signs\\Q.png']
+519,"['Data\\Signs\\A.png', 'Data\\Signs\\H.png']"
+520,"['Data\\Signs\\D.png', 'Data\\Signs\\O.png']"
+521,"['Data\\Signs\\J.png', 'Data\\Signs\\R.png']"
+522,['Data\\Signs\\L.png']
+523,"['Data\\Signs\\H.png', 'Data\\Signs\\U.png']"
+524,['Data\\Signs\\P.png']
+525,['Data\\Signs\\F.png']
+526,['Data\\Signs\\G.png']
+527,"['Data\\Signs\\C.png', 'Data\\Signs\\I.png']"
+528,['Data\\Signs\\A.png']
+529,"['Data\\Signs\\M.png', 'Data\\Signs\\I.png']"
+530,"['Data\\Signs\\H.png', 'Data\\Signs\\R.png', 'Data\\Signs\\N.png']"
+531,['Data\\Signs\\E.png']
+532,"['Data\\Signs\\F.png', 'Data\\Signs\\K.png']"
+533,"['Data\\Signs\\M.png', 'Data\\Signs\\G.png', 'Data\\Signs\\I.png']"
+534,"['Data\\Signs\\N.png', 'Data\\Signs\\G.png', 'Data\\Signs\\C.png']"
+535,"['Data\\Signs\\P.png', 'Data\\Signs\\E.png', 'Data\\Signs\\F.png']"
+536,['Data\\Signs\\A.png']
+537,['Data\\Signs\\U.png']
+538,"['Data\\Signs\\U.png', 'Data\\Signs\\S.png']"
+539,['Data\\Signs\\T.png']
+540,"['Data\\Signs\\U.png', 'Data\\Signs\\S.png']"
+541,['Data\\Signs\\C.png']
+542,['Data\\Signs\\T.png']
+543,"['Data\\Signs\\I.png', 'Data\\Signs\\L.png', 'Data\\Signs\\J.png']"
+544,"['Data\\Signs\\A.png', 'Data\\Signs\\R.png']"
+545,['Data\\Signs\\B.png']
+546,['Data\\Signs\\H.png']
+547,"['Data\\Signs\\E.png', 'Data\\Signs\\S.png', 'Data\\Signs\\N.png']"
+548,"['Data\\Signs\\F.png', 'Data\\Signs\\A.png']"
+549,"['Data\\Signs\\M.png', 'Data\\Signs\\K.png', 'Data\\Signs\\J.png']"
+550,"['Data\\Signs\\H.png', 'Data\\Signs\\G.png', 'Data\\Signs\\B.png']"
+551,"['Data\\Signs\\F.png', 'Data\\Signs\\A.png', 'Data\\Signs\\K.png']"
+552,"['Data\\Signs\\O.png', 'Data\\Signs\\G.png', 'Data\\Signs\\A.png']"
+553,"['Data\\Signs\\I.png', 'Data\\Signs\\G.png']"
+554,"['Data\\Signs\\L.png', 'Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+555,"['Data\\Signs\\F.png', 'Data\\Signs\\B.png']"
+556,['Data\\Signs\\D.png']
+557,"['Data\\Signs\\U.png', 'Data\\Signs\\L.png', 'Data\\Signs\\T.png']"
+558,['Data\\Signs\\O.png']
+559,"['Data\\Signs\\E.png', 'Data\\Signs\\N.png', 'Data\\Signs\\U.png']"
+560,['Data\\Signs\\F.png']
+561,"['Data\\Signs\\G.png', 'Data\\Signs\\M.png']"
+562,"['Data\\Signs\\F.png', 'Data\\Signs\\W.png', 'Data\\Signs\\N.png']"
+563,"['Data\\Signs\\M.png', 'Data\\Signs\\Q.png', 'Data\\Signs\\P.png']"
+564,['Data\\Signs\\C.png']
+565,"['Data\\Signs\\B.png', 'Data\\Signs\\H.png', 'Data\\Signs\\V.png']"
+566,['Data\\Signs\\W.png']
+567,"['Data\\Signs\\O.png', 'Data\\Signs\\D.png', 'Data\\Signs\\Q.png']"
+568,"['Data\\Signs\\X.png', 'Data\\Signs\\J.png']"
+569,"['Data\\Signs\\H.png', 'Data\\Signs\\C.png']"
+570,"['Data\\Signs\\U.png', 'Data\\Signs\\C.png']"
+571,['Data\\Signs\\N.png']
+572,"['Data\\Signs\\V.png', 'Data\\Signs\\F.png', 'Data\\Signs\\Q.png']"
+573,"['Data\\Signs\\T.png', 'Data\\Signs\\C.png']"
+574,['Data\\Signs\\U.png']
+575,['Data\\Signs\\N.png']
+576,"['Data\\Signs\\U.png', 'Data\\Signs\\F.png', 'Data\\Signs\\Q.png']"
+577,"['Data\\Signs\\T.png', 'Data\\Signs\\C.png']"
+578,['Data\\Signs\\L.png']
+579,['Data\\Signs\\P.png']
+580,"['Data\\Signs\\U.png', 'Data\\Signs\\T.png', 'Data\\Signs\\F.png']"
+581,"['Data\\Signs\\F.png', 'Data\\Signs\\S.png']"
+582,['Data\\Signs\\P.png']
+583,['Data\\Signs\\V.png']
+584,['Data\\Signs\\M.png']
+585,['Data\\Signs\\M.png']
+586,['Data\\Signs\\R.png']
+587,['Data\\Signs\\Q.png']
+588,"['Data\\Signs\\E.png', 'Data\\Signs\\L.png']"
+589,['Data\\Signs\\G.png']
+590,"['Data\\Signs\\U.png', 'Data\\Signs\\I.png']"
+591,"['Data\\Signs\\D.png', 'Data\\Signs\\V.png']"
+592,['Data\\Signs\\S.png']
+593,"['Data\\Signs\\D.png', 'Data\\Signs\\N.png']"
+594,"['Data\\Signs\\M.png', 'Data\\Signs\\R.png']"
+595,['Data\\Signs\\C.png']
+596,"['Data\\Signs\\T.png', 'Data\\Signs\\X.png']"
+597,['Data\\Signs\\L.png']
+598,"['Data\\Signs\\G.png', 'Data\\Signs\\H.png', 'Data\\Signs\\W.png']"
+599,"['Data\\Signs\\M.png', 'Data\\Signs\\Q.png', 'Data\\Signs\\R.png']"
+600,['Data\\Signs\\B.png']
+601,"['Data\\Signs\\U.png', 'Data\\Signs\\I.png']"
+602,"['Data\\Signs\\X.png', 'Data\\Signs\\K.png']"
+603,"['Data\\Signs\\H.png', 'Data\\Signs\\I.png', 'Data\\Signs\\V.png']"
+604,"['Data\\Signs\\V.png', 'Data\\Signs\\P.png']"
+605,"['Data\\Signs\\K.png', 'Data\\Signs\\G.png']"
+606,['Data\\Signs\\J.png']
+607,"['Data\\Signs\\I.png', 'Data\\Signs\\G.png', 'Data\\Signs\\A.png']"
+608,"['Data\\Signs\\L.png', 'Data\\Signs\\A.png']"
+609,"['Data\\Signs\\V.png', 'Data\\Signs\\D.png']"
+610,"['Data\\Signs\\V.png', 'Data\\Signs\\I.png', 'Data\\Signs\\K.png']"
+611,"['Data\\Signs\\J.png', 'Data\\Signs\\E.png', 'Data\\Signs\\P.png']"
+612,"['Data\\Signs\\T.png', 'Data\\Signs\\U.png']"
+613,"['Data\\Signs\\X.png', 'Data\\Signs\\R.png', 'Data\\Signs\\J.png']"
+614,"['Data\\Signs\\G.png', 'Data\\Signs\\W.png', 'Data\\Signs\\X.png']"
+615,['Data\\Signs\\L.png']
+616,"['Data\\Signs\\A.png', 'Data\\Signs\\P.png']"
+617,"['Data\\Signs\\W.png', 'Data\\Signs\\E.png', 'Data\\Signs\\U.png']"
+618,"['Data\\Signs\\E.png', 'Data\\Signs\\J.png', 'Data\\Signs\\B.png']"
+619,"['Data\\Signs\\J.png', 'Data\\Signs\\V.png']"
+620,"['Data\\Signs\\C.png', 'Data\\Signs\\T.png']"
+621,['Data\\Signs\\P.png']
+622,"['Data\\Signs\\P.png', 'Data\\Signs\\K.png']"
+623,['Data\\Signs\\O.png']
+624,"['Data\\Signs\\G.png', 'Data\\Signs\\W.png', 'Data\\Signs\\U.png']"
+625,['Data\\Signs\\K.png']
+626,"['Data\\Signs\\D.png', 'Data\\Signs\\O.png']"
+627,"['Data\\Signs\\E.png', 'Data\\Signs\\O.png', 'Data\\Signs\\V.png']"
+628,['Data\\Signs\\A.png']
+629,"['Data\\Signs\\M.png', 'Data\\Signs\\U.png', 'Data\\Signs\\V.png']"
+630,"['Data\\Signs\\U.png', 'Data\\Signs\\D.png']"
+631,"['Data\\Signs\\U.png', 'Data\\Signs\\D.png', 'Data\\Signs\\R.png']"
+632,"['Data\\Signs\\D.png', 'Data\\Signs\\K.png', 'Data\\Signs\\W.png']"
+633,"['Data\\Signs\\U.png', 'Data\\Signs\\X.png']"
+634,"['Data\\Signs\\J.png', 'Data\\Signs\\H.png', 'Data\\Signs\\X.png']"
+635,"['Data\\Signs\\T.png', 'Data\\Signs\\J.png']"
+636,"['Data\\Signs\\Q.png', 'Data\\Signs\\I.png', 'Data\\Signs\\W.png']"
+637,"['Data\\Signs\\W.png', 'Data\\Signs\\B.png', 'Data\\Signs\\C.png']"
+638,"['Data\\Signs\\X.png', 'Data\\Signs\\K.png', 'Data\\Signs\\O.png']"
+639,"['Data\\Signs\\N.png', 'Data\\Signs\\J.png']"
+640,['Data\\Signs\\S.png']
+641,"['Data\\Signs\\V.png', 'Data\\Signs\\A.png', 'Data\\Signs\\B.png']"
+642,"['Data\\Signs\\D.png', 'Data\\Signs\\T.png', 'Data\\Signs\\L.png']"
+643,"['Data\\Signs\\F.png', 'Data\\Signs\\Z.png']"
+644,"['Data\\Signs\\C.png', 'Data\\Signs\\Y.png']"
+645,"['Data\\Signs\\G.png', 'Data\\Signs\\Z.png']"
+646,['Data\\Signs\\V.png']
+647,"['Data\\Signs\\N.png', 'Data\\Signs\\D.png']"
+648,['Data\\Signs\\D.png']
+649,['Data\\Signs\\Z.png']
+650,"['Data\\Signs\\N.png', 'Data\\Signs\\J.png', 'Data\\Signs\\M.png']"
+651,"['Data\\Signs\\K.png', 'Data\\Signs\\I.png', 'Data\\Signs\\B.png']"
+652,"['Data\\Signs\\U.png', 'Data\\Signs\\S.png']"
+653,['Data\\Signs\\F.png']
+654,"['Data\\Signs\\S.png', 'Data\\Signs\\D.png', 'Data\\Signs\\G.png']"
+655,"['Data\\Signs\\Q.png', 'Data\\Signs\\I.png']"
+656,"['Data\\Signs\\X.png', 'Data\\Signs\\Y.png', 'Data\\Signs\\J.png']"
+657,"['Data\\Signs\\Y.png', 'Data\\Signs\\R.png', 'Data\\Signs\\M.png']"
+658,['Data\\Signs\\B.png']
+659,['Data\\Signs\\T.png']
+660,"['Data\\Signs\\R.png', 'Data\\Signs\\T.png', 'Data\\Signs\\S.png']"
+661,['Data\\Signs\\D.png']
+662,"['Data\\Signs\\L.png', 'Data\\Signs\\U.png']"
+663,"['Data\\Signs\\B.png', 'Data\\Signs\\F.png']"
+664,"['Data\\Signs\\X.png', 'Data\\Signs\\P.png']"
+665,['Data\\Signs\\V.png']
+666,"['Data\\Signs\\D.png', 'Data\\Signs\\H.png']"
+667,"['Data\\Signs\\U.png', 'Data\\Signs\\P.png']"
+668,"['Data\\Signs\\G.png', 'Data\\Signs\\U.png', 'Data\\Signs\\K.png']"
+669,"['Data\\Signs\\T.png', 'Data\\Signs\\A.png', 'Data\\Signs\\H.png']"
+670,"['Data\\Signs\\K.png', 'Data\\Signs\\Q.png']"
+671,"['Data\\Signs\\K.png', 'Data\\Signs\\O.png', 'Data\\Signs\\V.png']"
+672,"['Data\\Signs\\G.png', 'Data\\Signs\\E.png', 'Data\\Signs\\B.png']"
+673,"['Data\\Signs\\R.png', 'Data\\Signs\\A.png', 'Data\\Signs\\K.png']"
+674,['Data\\Signs\\F.png']
+675,"['Data\\Signs\\K.png', 'Data\\Signs\\S.png']"
+676,['Data\\Signs\\F.png']
+677,"['Data\\Signs\\E.png', 'Data\\Signs\\X.png', 'Data\\Signs\\O.png']"
+678,"['Data\\Signs\\M.png', 'Data\\Signs\\R.png']"
+679,['Data\\Signs\\K.png']
+680,"['Data\\Signs\\U.png', 'Data\\Signs\\T.png', 'Data\\Signs\\B.png']"
+681,"['Data\\Signs\\H.png', 'Data\\Signs\\R.png', 'Data\\Signs\\N.png']"
+682,"['Data\\Signs\\M.png', 'Data\\Signs\\E.png', 'Data\\Signs\\U.png']"
+683,['Data\\Signs\\S.png']
+684,"['Data\\Signs\\M.png', 'Data\\Signs\\X.png']"
+685,"['Data\\Signs\\W.png', 'Data\\Signs\\N.png']"
+686,"['Data\\Signs\\W.png', 'Data\\Signs\\C.png', 'Data\\Signs\\V.png']"
+687,"['Data\\Signs\\I.png', 'Data\\Signs\\J.png', 'Data\\Signs\\B.png']"
+688,['Data\\Signs\\G.png']
+689,"['Data\\Signs\\F.png', 'Data\\Signs\\G.png']"
+690,"['Data\\Signs\\C.png', 'Data\\Signs\\H.png']"
+691,['Data\\Signs\\I.png']
+692,"['Data\\Signs\\A.png', 'Data\\Signs\\N.png']"
+693,['Data\\Signs\\D.png']
+694,"['Data\\Signs\\X.png', 'Data\\Signs\\B.png']"
+695,"['Data\\Signs\\G.png', 'Data\\Signs\\A.png', 'Data\\Signs\\P.png']"
+696,"['Data\\Signs\\M.png', 'Data\\Signs\\K.png']"
+697,['Data\\Signs\\H.png']
+698,"['Data\\Signs\\C.png', 'Data\\Signs\\S.png', 'Data\\Signs\\X.png']"
+699,"['Data\\Signs\\Z.png', 'Data\\Signs\\S.png', 'Data\\Signs\\U.png']"
+700,['Data\\Signs\\D.png']
+701,"['Data\\Signs\\D.png', 'Data\\Signs\\U.png', 'Data\\Signs\\N.png']"
+702,['Data\\Signs\\I.png']
+703,['Data\\Signs\\P.png']
+704,['Data\\Signs\\D.png']
+705,"['Data\\Signs\\X.png', 'Data\\Signs\\L.png', 'Data\\Signs\\I.png']"
+706,"['Data\\Signs\\J.png', 'Data\\Signs\\D.png', 'Data\\Signs\\G.png']"
+707,['Data\\Signs\\E.png']
+708,"['Data\\Signs\\Y.png', 'Data\\Signs\\P.png']"
+709,['Data\\Signs\\V.png']
+710,"['Data\\Signs\\I.png', 'Data\\Signs\\Y.png']"
+711,"['Data\\Signs\\I.png', 'Data\\Signs\\A.png', 'Data\\Signs\\U.png']"
+712,"['Data\\Signs\\P.png', 'Data\\Signs\\W.png']"
+713,"['Data\\Signs\\V.png', 'Data\\Signs\\A.png', 'Data\\Signs\\S.png']"
+714,['Data\\Signs\\M.png']
+715,"['Data\\Signs\\I.png', 'Data\\Signs\\B.png', 'Data\\Signs\\G.png']"
+716,"['Data\\Signs\\V.png', 'Data\\Signs\\A.png']"
+717,"['Data\\Signs\\S.png', 'Data\\Signs\\Q.png', 'Data\\Signs\\A.png']"
+718,"['Data\\Signs\\R.png', 'Data\\Signs\\S.png']"
+719,"['Data\\Signs\\A.png', 'Data\\Signs\\M.png']"
