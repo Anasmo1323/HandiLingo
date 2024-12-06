@@ -1,8 +1,9 @@
 import  { useState } from 'react';
 import Navbar_ from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import Lessons from '../components/Lessons';
+import LessonsList from '../components/LessonsList';
 import Footer from '../components/Footer';
+import { useNavigate } from 'react-router-dom';
 
 const levelList = [
     {
@@ -38,6 +39,13 @@ const programList = [
 const Dashboard = () => {
 
     const [selectedLevel, setSelectedLevel] = useState('Beginner');
+
+    const navigate = useNavigate();
+
+    const handleRestartLesson = (lessonName) => {
+        console.log(`Navigating to lesson: ${lessonName}`);
+        navigate(`/lessons`, { state: { lessonName } });
+    };
 
     const renderLevelList = () => {
         return levelList.map((level, index) => {
@@ -89,7 +97,7 @@ const Dashboard = () => {
                             </Sidebar>
                         </div>
                         <div className='basis-2/3'>
-                            <Lessons selectedLevel={selectedLevel} />
+                        <LessonsList selectedLevel={selectedLevel} onRestartLesson={handleRestartLesson} />
                         </div>
                     </div>
                 </div>

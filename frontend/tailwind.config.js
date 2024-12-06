@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['./index.html',"./src/**/*.{js,ts,tsx,jsx,html}"],
+import tailwindScrollbar from 'tailwind-scrollbar';
+
+export default {
+  content: ['./index.html', "./src/**/*.{js,ts,tsx,jsx,html}"],
   theme: {
     container: {
       center: true,
@@ -20,8 +22,14 @@ module.exports = {
         '70/30': '70% 28%',
       }
 
-    },
-    
+    },scrollbar: {
+      hideArrows: {
+        '&::-webkit-scrollbar-button': {
+          display: 'none',
+        },
+      },
+    }
+
   },
-  plugins: [],
+  plugins: [tailwindScrollbar],
 }
