@@ -41,8 +41,8 @@ const Navbar_ = () => {
                             </div>
                             <div>
                                 <h2 className="text-white font-semibold text-lg">Old Growth (5/5)</h2>
-                                <div className="w-full bg-gray-200 rounded-full h-3 mt-2 w-[500px]">
-                                    <div className="bg-yellow-500 h-3 rounded-full" style={{ width: '100%' }}></div>
+                                <div className=" bg-gray-200 rounded-full h-3 mt-2 w-[500px]">
+                                    <div className="bg-yellow-500 h-3 rounded-full" style={{ width: '70%' }}></div>
                                 </div>
                             </div>
                         </div>

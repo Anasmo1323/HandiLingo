@@ -1,8 +1,9 @@
 import  { useState } from 'react';
 import Navbar_ from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import Lessons from '../components/Lessons';
+import LessonsList from '../components/LessonsList';
 import Footer from '../components/Footer';
+import { useNavigate } from 'react-router-dom';
 
 const levelList = [
     {
@@ -39,6 +40,13 @@ const Dashboard = () => {
 
     const [selectedLevel, setSelectedLevel] = useState('Beginner');
 
+    const navigate = useNavigate();
+
+    const handleRestartLesson = (lessonName) => {
+        console.log(`Navigating to lesson: ${lessonName}`);
+        navigate(`/lessons`, { state: { lessonName } });
+    };
+
     const renderLevelList = () => {
         return levelList.map((level, index) => {
             return (
@@ -55,7 +63,7 @@ const Dashboard = () => {
     const renderProgramList = () => {
         return programList.map((program, index) => {
             return (
-                <li className='bg-white rounded-md cursor-pointer hover:bg-slate-200' key={index} onClick={() => console.log(program.name)}>
+                <li className='bg-white rounded-md cursor-pointer hover:bg-slate-200' key={index} >
                     <div className='flex flex-col p-4'>
                         <span className='text-[20px]' style={{ fontWeight: 600 }}>{program.name}</span>
                         <span className='text-xs text-slate-400'>Progress</span>
@@ -89,7 +97,7 @@ const Dashboard = () => {
                             </Sidebar>
                         </div>
                         <div className='basis-2/3'>
-                            <Lessons selectedLevel={selectedLevel} />
+                        <LessonsList selectedLevel={selectedLevel} onRestartLesson={handleRestartLesson} />
                         </div>
                     </div>
                 </div>
