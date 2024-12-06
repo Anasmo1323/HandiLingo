@@ -1,5 +1,6 @@
 import { FaRedo } from 'react-icons/fa';
 
+
 const lessons = [
     {
         name: "a-d",
@@ -22,6 +23,9 @@ const lessons = [
 ];
 
 const LessonsList = ({ selectedLevel, onRestartLesson }) => {
+
+    console.log(selectedLevel);
+
     return lessons.map((lesson, index) => {
         return (
             <div

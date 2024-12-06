@@ -63,7 +63,7 @@ const Dashboard = () => {
     const renderProgramList = () => {
         return programList.map((program, index) => {
             return (
-                <li className='bg-white rounded-md cursor-pointer hover:bg-slate-200' key={index} onClick={() => console.log(program.name)}>
+                <li className='bg-white rounded-md cursor-pointer hover:bg-slate-200' key={index} >
                     <div className='flex flex-col p-4'>
                         <span className='text-[20px]' style={{ fontWeight: 600 }}>{program.name}</span>
                         <span className='text-xs text-slate-400'>Progress</span>

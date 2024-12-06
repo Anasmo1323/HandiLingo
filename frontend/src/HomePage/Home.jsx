@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import httpClient from "./httpClient";
-import Footer from "./Footer";
+import httpClient from "../components/httpClient";
+import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 
 

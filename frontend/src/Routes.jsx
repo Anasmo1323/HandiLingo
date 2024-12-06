@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
+import Home from "./HomePage/Home.jsx";
 import NotFound from "./components/NotFound.jsx";
 import Dashboard from "./dashBoardPage/Dashboard.jsx";
 import Login from "./loginpage/Login.jsx";
 import Register from "./loginpage/Register.jsx";
-import Lesson from "./Lessons/Lesson.jsx";
+import Lesson from "./LessonsPage/Lesson.jsx";
 
 
 const Router = () => {
