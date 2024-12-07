@@ -56,7 +56,7 @@ const Register = () => {
             <div className='500 h-[100vh] flex justify-end ' style={{ backgroundColor: "rgb(78 ,172, 109)" }}>
                 <div>
                     <div className='text-5xl font-bold text-white mt-12 ml-10 flex items-center'>
-                        <p className='ml-2'> Handilingo</p>
+                    <p className='ml-2 cursor-pointer' onClick={()=>{navigate('/')}} > Handilingo</p>
                     </div>
                 </div>
                 <div className='bg-white h-[90vh] w-[70vw] flex justify-center items-center mr-10 mt-10 rounded-lg mx-auto'>
