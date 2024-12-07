@@ -42,7 +42,7 @@ const lessonContent = {
                 text: 'c'
             },
             {
-                img: 'https://www.pinterest.com/pin/11822017763996632/',
+                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
                 text: 'd'
             },
         ]
@@ -62,7 +62,7 @@ const lessonContent = {
                 text: 'g'
             },
             {
-                img: 'https://www.pinterest.com/pin/11822017763996632/',
+                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
                 text: 'h'
             },
         ]
@@ -82,12 +82,54 @@ const lessonContent = {
                 text: 'k'
             },
             {
-                img: 'https://www.pinterest.com/pin/11822017763996632/',
+                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
                 text: 'l'
             },
         ]
     }
 };
+
+
+const quizes = [
+    {
+        name: "a-d",
+        questions: [
+            {
+                question: {
+                    text: "What is the rigth sequence ?",
+                    images: [
+                        {"a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg'}, 
+                        {"b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg'}, 
+                        {"c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg"}, 
+                        {"d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg"}
+                    ]
+                },
+                options: { "a": 'abcd', 
+                    "b": 'bcad', 
+                    "c": "cadb", 
+                    "d": "dacb" },
+                answer: "a",
+            },
+            {
+                question: {
+                    text: "What is the rigth sequence ?",
+                    images: [
+                        {"b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg'}, 
+                        {"c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg"}, 
+                        {"d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg"},
+                        {"a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg'}
+                    ],
+                },
+                options: { "a": 'abcd', 
+                    "b": 'bcda', 
+                    "c": "cadb", 
+                    "d": "dacb" },
+                answer: "b",
+            },
+            
+        ],
+    }
+]
 
 const Lesson = () => {
 
@@ -102,29 +144,55 @@ const Lesson = () => {
     const currentLesson = lessons[currentLessonIndex];
     const lessonData = lessonContent[currentLesson.name];
 
+    const [isQuizMode, setIsQuizMode] = useState(false);
+
     const handleNextSlide = () => {
         const currentLessonImages = lessonContent[currentLesson.name].images;
 
-        if (currentSlideIndex < currentLessonImages.length - 1) {
-            setCurrentSlideIndex(currentSlideIndex + 1);
-        } else if (currentLessonIndex < lessons.length - 1) {
-            setCurrentLessonIndex(currentLessonIndex + 1);
-            setCurrentSlideIndex(0);
+        if (!isQuizMode) {
+            // Handle lesson slides
+            if (currentSlideIndex < currentLessonImages.length - 1) {
+                setCurrentSlideIndex(currentSlideIndex + 1);
+            } else {
+                // Switch to quiz mode when the last slide of a lesson is completed
+                setIsQuizMode(true);
+                setCurrentSlideIndex(0);
+            }
         } else {
-            console.log("You have completed all lessons!");
+            // Handle quiz slides
+            const currentQuiz = quizes[currentLessonIndex];
+            if (currentSlideIndex < currentQuiz.questions.length - 1) {
+                setCurrentSlideIndex(currentSlideIndex + 1);
+            } else if (currentLessonIndex < lessons.length - 1) {
+                // Move to the next lesson group after completing the quiz
+                setCurrentLessonIndex(currentLessonIndex + 1);
+                setIsQuizMode(false);
+                setCurrentSlideIndex(0);
+            } else {
+                console.log("You have completed all lessons and quizzes!");
+            }
         }
     };
 
     const handlePrevSlide = () => {
-
-
-        if (currentSlideIndex > 0) {
-            setCurrentSlideIndex(currentSlideIndex - 1);
-        } else if (currentLessonIndex > 0) {
-            setCurrentLessonIndex(currentLessonIndex - 1);
-            setCurrentSlideIndex(lessonContent[lessons[currentLessonIndex - 1].name].images.length - 1);
+        if (isQuizMode) {
+            if (currentSlideIndex > 0) {
+                setCurrentSlideIndex(currentSlideIndex - 1);
+            } else {
+                // Go back to the last lesson slide when moving out of quiz mode
+                setIsQuizMode(false);
+                setCurrentSlideIndex(lessonContent[currentLesson.name].images.length - 1);
+            }
         } else {
-            console.log("You are at the beginning of the lessons!");
+            if (currentSlideIndex > 0) {
+                setCurrentSlideIndex(currentSlideIndex - 1);
+            } else if (currentLessonIndex > 0) {
+                setCurrentLessonIndex(currentLessonIndex - 1);
+                setIsQuizMode(true);
+                setCurrentSlideIndex(quizes[currentLessonIndex - 1].questions.length - 1);
+            } else {
+                console.log("You are at the beginning of the lessons!");
+            }
         }
     };
 
@@ -163,6 +231,47 @@ const Lesson = () => {
         ));
     };
 
+
+    const renderQuizContent = () => {
+        const currentQuiz = quizes[currentLessonIndex];
+        const currentQuestion = currentQuiz.questions[currentSlideIndex];
+    
+        return (
+            <div className="text-center">
+                {/* Display the question text */}
+                <p className="text-[30px] font-semibold mt-4">{currentQuestion.question.text}</p>
+                
+                {/* Display the sequence of images */}
+                <div className="flex justify-center gap-4 mt-4">
+                    {currentQuestion.question.images.map((imageObj, index) => {
+                        const [key, url] = Object.entries(imageObj)[0]; // Extract key and URL
+                        return (
+                            <div key={index} className="flex flex-col items-center">
+                                <img
+                                    src={url}
+                                    alt={key}
+                                    className="w-[100px] h-[100px] rounded-md shadow-md"
+                                />
+                                <p className="mt-2 font-semibold">{key}</p>
+                            </div>
+                        );
+                    })}
+                </div>
+                
+                {/* Display the options as buttons */}
+                <div className="flex justify-center gap-4 mt-6">
+                    {Object.entries(currentQuestion.options).map(([key, value]) => (
+                        <button
+                            key={key}
+                            className="bg-white text-green-500 font-bold w-[100px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
+                        >
+                            {value}
+                        </button>
+                    ))}
+                </div>
+            </div>
+        );
+    };
     return (
         <>
             <Navbar_ />
@@ -181,7 +290,9 @@ const Lesson = () => {
                         </div>
 
                         <div className="basis-3/4">
-                            <div className="bg-white w-full rounded-md p-5">{renderLessonContent()}</div>
+                            <div className="bg-white w-full rounded-md p-5">
+                                {isQuizMode ? renderQuizContent() : renderLessonContent()}
+                            </div>
                             <div className="mt-4 flex justify-between">
                                 <button
                                     onClick={handlePrevSlide}
