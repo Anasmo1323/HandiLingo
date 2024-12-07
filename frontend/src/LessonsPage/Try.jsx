@@ -304,28 +304,33 @@ const Try = () => {
 
     const handleNextSlide = () => {
         if (!isQuizMode) {
+            // Handling lesson slides
             const currentLessonImages = lessonContent[currentLesson.name].images;
 
             if (currentSlideIndex < currentLessonImages.length - 1) {
                 setCurrentSlideIndex(currentSlideIndex + 1);
                 console.log(`Moved to next lesson slide: ${currentSlideIndex + 1}`);
             } else {
+                // Move to quiz mode when all lesson slides are completed
                 setIsQuizMode(true);
                 setCurrentSlideIndex(0);
                 console.log(`Completed lesson slides for ${currentLesson.name}, moving to quizzes`);
             }
         } else {
+            // Handling quiz slides
             const currentQuiz = quizes[currentLessonIndex];
 
             if (currentSlideIndex < currentQuiz.questions.length - 1) {
                 setCurrentSlideIndex(currentSlideIndex + 1);
                 console.log(`Moved to next quiz slide: ${currentSlideIndex + 1}`);
             } else if (currentLessonIndex < lessons.length - 1) {
+                // Move to the next lesson when the quiz is completed
                 setCurrentLessonIndex(currentLessonIndex + 1);
                 setIsQuizMode(false);
                 setCurrentSlideIndex(0);
                 console.log(`Completed quizzes for ${currentLesson.name}, moving to next lesson`);
             } else if (currentLessonIndex === lessons.length - 1) {
+                // Stay in quiz mode for the last lesson
                 console.log("You have completed all lessons and quizzes!");
             }
         }
@@ -333,16 +338,20 @@ const Try = () => {
 
     const handlePrevSlide = () => {
         if (isQuizMode) {
+            // Handling quiz slides
             if (currentSlideIndex > 0) {
                 setCurrentSlideIndex(currentSlideIndex - 1);
             } else {
+                // Switch back to the lesson slides for the same group
                 setIsQuizMode(false);
                 setCurrentSlideIndex(lessonContent[currentLesson.name].images.length - 1);
             }
         } else {
+            // Handling lesson slides
             if (currentSlideIndex > 0) {
                 setCurrentSlideIndex(currentSlideIndex - 1);
             } else if (currentLessonIndex > 0) {
+                // Move to the quiz of the previous lesson group
                 setCurrentLessonIndex(currentLessonIndex - 1);
                 setIsQuizMode(true);
                 setCurrentSlideIndex(quizes[currentLessonIndex - 1].questions.length - 1);
@@ -394,17 +403,19 @@ const Try = () => {
 
         return (
             <div className="text-center">
+                {/* Display the question text */}
                 <p className="text-[30px] font-semibold mt-4">{currentQuestion.question.text}</p>
 
+                {/* Display the sequence of images */}
                 <div className="flex justify-center gap-4 mt-4">
                     {currentQuestion.question.images.map((imageObj, index) => {
-                        const [key, url] = Object.entries(imageObj)[0];
+                        const [key, url] = Object.entries(imageObj)[0]; // Extract key and URL
                         return (
                             <div key={index} className="flex flex-col items-center">
                                 <img
                                     src={url}
                                     alt={key}
-                                    className="w-[200px] h-[200px] rounded-md shadow-md"
+                                    className="w-[100px] h-[100px] rounded-md shadow-md"
                                 />
                                 <p className="mt-2 font-semibold">{key}</p>
                             </div>
@@ -412,17 +423,15 @@ const Try = () => {
                     })}
                 </div>
 
-                <div className="flex flex-col justify-center items-start mt-6">
+                {/* Display the options as buttons */}
+                <div className="flex justify-center gap-4 mt-6">
                     {Object.entries(currentQuestion.options).map(([key, value]) => (
-                        <div key={key} className='flex justify-center items-center p-5'>
-                            <p className='font-bold mr-4'>{`${key.toUpperCase()} )`}</p>
-                            <button
-                                
-                                className="bg-white text-green-500 font-bold w-[100px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
-                            >
-                                {value}
-                            </button>
-                        </div>
+                        <button
+                            key={key}
+                            className="bg-white text-green-500 font-bold w-[100px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
+                        >
+                            {value}
+                        </button>
                     ))}
                 </div>
             </div>
