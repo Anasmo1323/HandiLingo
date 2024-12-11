@@ -6,7 +6,7 @@ db = SQLAlchemy()
 
 class User(db.Model):
     __tablename__ = "Users"
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True, default=1000)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String, nullable=False)
     age = db.Column(db.Integer, nullable=False)
     time = db.Column(db.String, default=datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'))
