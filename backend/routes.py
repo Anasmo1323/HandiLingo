@@ -1,7 +1,7 @@
 # backend/routes.py
 from flask import Blueprint, request, jsonify, render_template
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity
-from models import db, User
+from models import db, User, Question
 from config import LoginForm
 
 routes = Blueprint('routes', __name__)
@@ -35,3 +35,13 @@ def signup():
 def protected():
     current_user = get_jwt_identity()
     return jsonify(logged_in_as=current_user), 200
+
+@routes.route('/get_questions_by_stage', methods=['GET'])
+# check if the user is logged in
+@jwt_required()
+def get_questions_by_stage():
+    current_user = get_jwt_identity()
+    user = User.query.filter_by(username=current_user).first()
+    stage = user.stage
+    questions = Question.query.filter_by(Q_stage=stage).all()
+    return jsonify(questions=[q.serialize() for q in questions]), 200
