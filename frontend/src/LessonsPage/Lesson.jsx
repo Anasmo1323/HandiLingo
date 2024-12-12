@@ -37,7 +37,7 @@ const lessonContent = {
         images: [
             {
                 img: 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg',
-                text: 'a'
+                text: 'A'
             },
             {
                 img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
