@@ -12,7 +12,7 @@ app.config.from_object(ApplicationConfig)
 app.config.update(
     SESSION_COOKIE_HTTPONLY=True,
     SESSION_COOKIE_SAMESITE="None",  # Required for cross-origin requests
-    SESSION_COOKIE_SECURE=True,     # Required for HTTPS; set to False for local development
+    SESSION_COOKIE_SECURE=True,  # Required for HTTPS; set to False for local development
 )
 if not app.config.get('SESSION_TYPE'):
     app.config['SESSION_TYPE'] = 'filesystem'
@@ -75,6 +75,7 @@ def login_user():
         "id": user.id,
         "email": user.email
     })
+
 
 @app.route("/@me")
 def get_current_user():
