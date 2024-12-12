@@ -3,12 +3,12 @@ from config import ApplicationConfig
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+from queries import query_questions
 
 db_url = ApplicationConfig.SQLALCHEMY_DATABASE_URI
 
 engine = create_engine(db_url)
 
-query_questions = 'SELECT * FROM "Questions"'
 
 Questions = pd.read_sql(query_questions, engine)
 
