@@ -6,6 +6,7 @@ from config import LoginForm
 
 routes = Blueprint('routes', __name__)
 
+
 @routes.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
@@ -19,6 +20,7 @@ def login():
         return jsonify({"msg": "Bad username or password"}), 401
     return render_template('login.html', form=form)
 
+
 @routes.route('/signup', methods=['POST'])
 def signup():
     username = request.json.get('username')
@@ -29,6 +31,7 @@ def signup():
     db.session.add(new_user)
     db.session.commit()
     return jsonify({"msg": "User created successfully"}), 201
+
 
 @routes.route('/protected', methods=['GET'])
 @jwt_required()

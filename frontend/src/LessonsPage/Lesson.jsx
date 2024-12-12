@@ -122,7 +122,7 @@ const quizes = [
         questions: [
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
@@ -140,7 +140,7 @@ const quizes = [
             },
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
                         { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
@@ -164,7 +164,7 @@ const quizes = [
         questions: [
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
@@ -182,7 +182,7 @@ const quizes = [
             },
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
                         { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
@@ -206,7 +206,7 @@ const quizes = [
         questions: [
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
@@ -224,7 +224,7 @@ const quizes = [
             },
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
                         { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
@@ -248,7 +248,7 @@ const quizes = [
         questions: [
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
@@ -266,7 +266,7 @@ const quizes = [
             },
             {
                 question: {
-                    text: "What is the rigth sequence ?",
+                    text: "What is the right sequence ?",
                     images: [
                         { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
                         { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
