@@ -1,7 +1,7 @@
 import Footer from '../components/Footer'
 import Navbar_ from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 
 const lessons = [
@@ -287,10 +287,15 @@ const quizes = [
     }
 ]
 
-const Try = () => {
+const Lesson = () => {
 
     const location = useLocation();
     const lessonNameFromState = location.state?.lessonName;
+    const languageTypeState = location.state?.languageType;
+
+
+    
+
     console.log(`Received lesson name: ${lessonNameFromState}`);
     const initialLessonIndex = lessonNameFromState ? lessons.findIndex(lesson => lesson.name === lessonNameFromState) : 0;
 
@@ -417,7 +422,7 @@ const Try = () => {
                         <div key={key} className='flex justify-center items-center p-5'>
                             <p className='font-bold mr-4'>{`${key.toUpperCase()} )`}</p>
                             <button
-                                
+
                                 className="bg-white text-green-500 font-bold w-[100px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
                             >
                                 {value}
@@ -478,4 +483,4 @@ const Try = () => {
     );
 };
 
-export default Try;
+export default Lesson;

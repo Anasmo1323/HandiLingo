@@ -16,7 +16,7 @@ const Router = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/lessons" element={<Lesson/>} />
+        <Route path="/lessons" element={<Lesson languageType="sign" />} />
       </Routes>
     </BrowserRouter>
   );

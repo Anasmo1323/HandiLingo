@@ -1,5 +1,5 @@
 
-const Sidebar = ({children }) => {
+const Sidebar = ({children}) => {
 
     
 
