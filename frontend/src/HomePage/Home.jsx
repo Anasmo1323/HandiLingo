@@ -51,6 +51,7 @@ const features = [
 function Home() {
 
   const navigate = useNavigate();
+  
   const [user, setUser] = useState(null);
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
 
@@ -61,7 +62,7 @@ function Home() {
   };
 
   const handleLessonClick = (languageType) => {
-    navigate('/lessons', { state: { languageType } }); // Pass lessonName as state
+    navigate('/dashboard', { state: { languageType } }); // Pass lessonName as state
   };
 
   useEffect(() => {
