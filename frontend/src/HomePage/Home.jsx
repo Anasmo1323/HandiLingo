@@ -60,6 +60,10 @@ function Home() {
     window.location.href = "/"; // Redirect to homepage after logout
   };
 
+  const handleLessonClick = (languageType) => {
+    navigate('/dashboard', { state: { languageType } }); // Pass lessonName as state
+  };
+
   useEffect(() => {
     (async () => {
       try {
@@ -139,20 +143,32 @@ function Home() {
         <p className="text-xl text-gray-700">
           Join thousands of users to improve your Knowlage skills with personalized lessons.
         </p>
-        {!user ? (
+
           <div className="mt-6 flex justify-center gap-4">
-            <a href="/register">
-              <button className="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600">
-                Get Started
+            <button className="bg-green-500 text-white px-6 py-5 text-2xl  rounded-lg font-semibold hover:bg-green-600"
+              onClick={() => handleLessonClick('sign')}
+            >
+              <img
+                className="w-[150px] h-[150px] bg-white m-2 mb-5 rounded-lg"
+                src="https://media.istockphoto.com/id/1311595752/vector/sign-language-interpreting-vector-icon-us-sing-language-hand-symbol-isolated-on-white.jpg?s=612x612&w=0&k=20&c=NxRdHaySIEOpXIQC3se_QJTJR65fCPP8BCMGTUcEkUU="
+                alt="sign" />
+              <span>Sign Language</span>
+
               </button>
-            </a>
-            <a href="/login">
-              <button className="bg-white text-green-500 border-2 border-green-500 px-6 py-3 rounded-lg font-semibold hover:bg-green-100">
-                Login
+            <button className=" bg-green-500 text-white px-6 py-5 text-2xl rounded-lg font-semibold hover:bg-green-600"
+              onClick={() => handleLessonClick('braille')}
+              >
+              <div className="flex flex-col items-center ">
+                <img
+                  className="w-[150px] h-[150px] bg-white m-2 mb-5 rounded-lg"
+                  src="https://printfiles.ultracoloringpages.com/bfd10eb9496a5b756eba49a058606d45.png"
+                  alt="braille" />
+                <span>Braille Language</span>
+              </div>
               </button>
-            </a>
+
           </div>
-        ): navigate('/lessons')}
+
         </div>
 
       </div>

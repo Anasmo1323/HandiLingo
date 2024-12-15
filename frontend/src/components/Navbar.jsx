@@ -1,5 +1,17 @@
+import { useState } from "react"
 
 const Navbar_ = () => {
+
+    // here get fetch request to get user score and store it at state
+    // eslint-disable-next-line no-unused-vars
+    const [score, setScore] = useState(101)
+    const badges = {
+        100: "Beginner",
+        200: "Intermediate",
+        300: "Advanced",
+        400: "Expert"
+    }
+
     return (
         <div >
             <div className='container'>
@@ -40,19 +52,14 @@ const Navbar_ = () => {
                                 />
                             </div>
                             <div>
-                                <h2 className="text-white font-semibold text-lg">Old Growth (5/5)</h2>
-                                <div className=" bg-gray-200 rounded-full h-3 mt-2 w-[500px]">
-                                    <div className="bg-yellow-500 h-3 rounded-full" style={{ width: '70%' }}></div>
-                                </div>
+                                <h2 className="text-white font-semibold text-2xl">Score : <span className="text-cyan-300">{score} xp</span> </h2>
+                                <div className=" text-yellow-400  text-xl font-bold  ">
+                                    {
+                                        // here map any score value to one of the badges to this values [100,200,300,400]
+                                        badges[Math.min(400, Math.ceil(score / 100) * 100)]
+                                    }
                             </div>
                         </div>
-
-                        <div className="flex  items-center">
-                            <div className="w-24 h-24 bg-white rounded-full flex flex-col items-center justify-center shadow-md">
-                                <span className="text-green-500 font-bold text-2xl">00:00</span>
-                                <p className="text-xs">Daily Goal</p>
-
-                            </div>
                         </div>
                     </div>
                 </div>
