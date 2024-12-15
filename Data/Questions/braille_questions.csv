@@ -1,0 +1,1501 @@
+﻿Q_text,Q_Braille_Symbol,Q_answer,Q_A1,Q_A2,Q_A3,Q_A4,Q_difficulty,Q_ID,Q_stage
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A1,1,a,b,c,1,1,1
+Which set of letters corresponds to these signs: ⠃?,⠃,Q_A3,a,1,b,c,1,2,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A3,b,a,1,c,1,3,1
+Which set of letters corresponds to these signs: ⠁?,⠁,Q_A2,c,a,1,b,1,4,1
+Which set of letters corresponds to these signs: ⠁?,⠁,Q_A2,c,a,1,b,1,5,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A3,b,a,1,c,1,6,1
+Which set of letters corresponds to these signs: ⠉?,⠉,Q_A4,b,a,1,c,1,7,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A4,b,c,a,1,1,8,1
+Which set of letters corresponds to these signs: ⠃?,⠃,Q_A4,c,a,1,b,1,9,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A4,c,a,b,1,1,10,1
+Which set of letters corresponds to these signs: ⠉?,⠉,Q_A1,c,b,1,a,1,11,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A4,b,c,a,1,1,12,1
+Which set of letters corresponds to these signs: ⠃?,⠃,Q_A1,b,1,c,a,1,13,1
+Which set of letters corresponds to these signs: ⠁?,⠁,Q_A2,c,a,1,b,1,14,1
+Which set of letters corresponds to these signs: ⠁?,⠁,Q_A2,c,a,b,1,1,15,1
+Which set of letters corresponds to these signs: ⠃?,⠃,Q_A2,1,b,c,a,1,16,1
+Which set of letters corresponds to these signs: ⠉?,⠉,Q_A3,1,b,c,a,1,17,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A3,b,a,1,c,1,18,1
+Which set of letters corresponds to these signs: ⠁?,⠁,Q_A1,a,b,c,1,1,19,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A2,a,1,c,b,1,20,1
+Which set of letters corresponds to these signs: ⠉?,⠉,Q_A2,a,c,1,b,1,21,1
+Which set of letters corresponds to these signs: ⠁?,⠁,Q_A1,a,1,b,c,1,22,1
+Which set of letters corresponds to these signs: ⠃?,⠃,Q_A3,a,1,b,c,1,23,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A2,a,1,b,c,1,24,1
+Which set of letters corresponds to these signs: ⠼⠁?,⠼⠁,Q_A1,1,a,c,b,1,25,1
+Which set of letters corresponds to these signs: ⠃⠉?,⠃⠉,Q_A1,bc,cb,a1,c1,2,26,1
+Which set of letters corresponds to these signs: ⠁⠃?,⠁⠃,Q_A4,ca,ac,a1,ab,2,27,1
+Which set of letters corresponds to these signs: ⠼⠁⠉?,⠼⠁⠉,Q_A1,1c,c1,ca,cb,2,28,1
+Which set of letters corresponds to these signs: ⠉⠼⠁?,⠉⠼⠁,Q_A4,ba,ca,cb,c1,2,29,1
+Which set of letters corresponds to these signs: ⠉⠼⠁?,⠉⠼⠁,Q_A4,a1,ac,1a,c1,2,30,1
+Which set of letters corresponds to these signs: ⠼⠁⠉?,⠼⠁⠉,Q_A4,bc,ac,ca,1c,2,31,1
+Which set of letters corresponds to these signs: ⠃⠼⠁?,⠃⠼⠁,Q_A4,1b,ab,ca,b1,2,32,1
+Which set of letters corresponds to these signs: ⠼⠁⠁?,⠼⠁⠁,Q_A4,1c,ac,ca,1a,2,33,1
+Which set of letters corresponds to these signs: ⠼⠁⠉?,⠼⠁⠉,Q_A4,1b,cb,1a,1c,2,34,1
+Which set of letters corresponds to these signs: ⠃⠼⠁?,⠃⠼⠁,Q_A3,cb,ca,b1,1a,2,35,1
+Which set of letters corresponds to these signs: ⠼⠁⠃?,⠼⠁⠃,Q_A1,1b,cb,bc,1c,2,36,1
+Which set of letters corresponds to these signs: ⠃⠼⠁?,⠃⠼⠁,Q_A3,a1,1c,b1,ab,2,37,1
+Which set of letters corresponds to these signs: ⠉⠃?,⠉⠃,Q_A3,bc,ac,cb,ba,2,38,1
+Which set of letters corresponds to these signs: ⠼⠁⠃?,⠼⠁⠃,Q_A1,1b,b1,ca,a1,2,39,1
+Which set of letters corresponds to these signs: ⠁⠼⠁?,⠁⠼⠁,Q_A2,bc,a1,ab,ba,2,40,1
+Which set of letters corresponds to these signs: ⠼⠁⠁⠉?,⠼⠁⠁⠉,Q_A1,1ac,1ab,cb1,ca1,3,41,1
+Which set of letters corresponds to these signs: ⠁⠉⠃?,⠁⠉⠃,Q_A1,acb,cb1,bc1,1ca,3,42,1
+Which set of letters corresponds to these signs: ⠁⠉⠃?,⠁⠉⠃,Q_A3,1ab,b1a,acb,1ca,3,43,1
+Which set of letters corresponds to these signs: ⠃⠼⠁⠁?,⠃⠼⠁⠁,Q_A2,1cb,b1a,a1c,1ca,3,44,1
+Which set of letters corresponds to these signs: ⠁⠉⠃?,⠁⠉⠃,Q_A4,cb1,bca,c1a,acb,3,45,1
+Which set of letters corresponds to these signs: ⠉⠼⠁⠁?,⠉⠼⠁⠁,Q_A2,1ca,c1a,ba1,a1b,3,46,1
+Which set of letters corresponds to these signs: ⠉⠃⠁?,⠉⠃⠁,Q_A4,a1c,c1a,cab,cba,3,47,1
+Which set of letters corresponds to these signs: ⠃⠼⠁⠁?,⠃⠼⠁⠁,Q_A2,cb1,b1a,c1b,1bc,3,48,1
+Which set of letters corresponds to these signs: ⠼⠁⠁⠉?,⠼⠁⠁⠉,Q_A4,ba1,b1a,1bc,1ac,3,49,1
+Which set of letters corresponds to these signs: ⠃⠁⠼⠁?,⠃⠁⠼⠁,Q_A1,ba1,1ba,b1a,ca1,3,50,1
+Which set of letters corresponds to these signs: ⠼⠃?,⠼⠃,Q_A3,f,d,2,e,1,51,2
+Which set of letters corresponds to these signs: ⠙?,⠙,Q_A1,d,f,2,e,1,52,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A2,2,e,d,f,1,53,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A4,f,2,d,e,1,54,2
+Which set of letters corresponds to these signs: ⠋?,⠋,Q_A3,e,d,f,2,1,55,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A3,d,f,e,2,1,56,2
+Which set of letters corresponds to these signs: ⠙?,⠙,Q_A4,e,f,2,d,1,57,2
+Which set of letters corresponds to these signs: ⠙?,⠙,Q_A1,d,f,e,2,1,58,2
+Which set of letters corresponds to these signs: ⠙?,⠙,Q_A4,2,e,f,d,1,59,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A4,f,2,d,e,1,60,2
+Which set of letters corresponds to these signs: ⠋?,⠋,Q_A2,d,f,2,e,1,61,2
+Which set of letters corresponds to these signs: ⠼⠃?,⠼⠃,Q_A2,d,2,e,f,1,62,2
+Which set of letters corresponds to these signs: ⠙?,⠙,Q_A2,e,d,f,2,1,63,2
+Which set of letters corresponds to these signs: ⠼⠃?,⠼⠃,Q_A1,2,e,f,d,1,64,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A4,2,d,f,e,1,65,2
+Which set of letters corresponds to these signs: ⠋?,⠋,Q_A1,f,e,d,2,1,66,2
+Which set of letters corresponds to these signs: ⠙?,⠙,Q_A2,2,d,e,f,1,67,2
+Which set of letters corresponds to these signs: ⠋?,⠋,Q_A1,f,2,e,d,1,68,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A4,d,f,2,e,1,69,2
+Which set of letters corresponds to these signs: ⠙?,⠙,Q_A2,2,d,f,e,1,70,2
+Which set of letters corresponds to these signs: ⠋?,⠋,Q_A1,f,e,2,d,1,71,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A4,2,f,d,e,1,72,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A4,d,2,f,e,1,73,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A3,2,f,e,d,1,74,2
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A1,e,f,d,2,1,75,2
+Which set of letters corresponds to these signs: ⠙⠼⠃?,⠙⠼⠃,Q_A2,2f,d2,ef,2e,2,76,2
+Which set of letters corresponds to these signs: ⠼⠃⠙?,⠼⠃⠙,Q_A1,2d,ed,df,fe,2,77,2
+Which set of letters corresponds to these signs: ⠙⠋?,⠙⠋,Q_A1,df,ef,e2,2f,2,78,2
+Which set of letters corresponds to these signs: ⠼⠃⠙?,⠼⠃⠙,Q_A2,2f,2d,fd,de,2,79,2
+Which set of letters corresponds to these signs: ⠑⠋?,⠑⠋,Q_A3,df,fe,ef,f2,2,80,2
+Which set of letters corresponds to these signs: ⠼⠃⠙?,⠼⠃⠙,Q_A4,2f,f2,e2,2d,2,81,2
+Which set of letters corresponds to these signs: ⠙⠋?,⠙⠋,Q_A3,e2,fd,df,2d,2,82,2
+Which set of letters corresponds to these signs: ⠙⠋?,⠙⠋,Q_A4,de,ef,2f,df,2,83,2
+Which set of letters corresponds to these signs: ⠑⠙?,⠑⠙,Q_A1,ed,2e,d2,e2,2,84,2
+Which set of letters corresponds to these signs: ⠋⠙?,⠋⠙,Q_A1,fd,fe,ef,2d,2,85,2
+Which set of letters corresponds to these signs: ⠋⠙?,⠋⠙,Q_A1,fd,2e,ed,de,2,86,2
+Which set of letters corresponds to these signs: ⠋⠼⠃?,⠋⠼⠃,Q_A3,ef,2f,f2,fe,2,87,2
+Which set of letters corresponds to these signs: ⠋⠑?,⠋⠑,Q_A2,2f,fe,fd,de,2,88,2
+Which set of letters corresponds to these signs: ⠋⠑?,⠋⠑,Q_A1,fe,ed,df,de,2,89,2
+Which set of letters corresponds to these signs: ⠑⠼⠃?,⠑⠼⠃,Q_A1,e2,df,ed,2d,2,90,2
+Which set of letters corresponds to these signs: ⠼⠃⠑⠋?,⠼⠃⠑⠋,Q_A1,2ef,fd2,2fd,def,3,91,2
+Which set of letters corresponds to these signs: ⠼⠃⠋⠑?,⠼⠃⠋⠑,Q_A1,2fe,d2e,ed2,2fd,3,92,2
+Which set of letters corresponds to these signs: ⠼⠃⠋⠙?,⠼⠃⠋⠙,Q_A3,2df,edf,2fd,d2f,3,93,2
+Which set of letters corresponds to these signs: ⠼⠃⠙⠑?,⠼⠃⠙⠑,Q_A4,fed,d2f,e2d,2de,3,94,2
+Which set of letters corresponds to these signs: ⠼⠃⠋⠑?,⠼⠃⠋⠑,Q_A3,de2,d2f,2fe,2df,3,95,2
+Which set of letters corresponds to these signs: ⠑⠼⠃⠋?,⠑⠼⠃⠋,Q_A3,f2d,fe2,e2f,ed2,3,96,2
+Which set of letters corresponds to these signs: ⠼⠃⠋⠙?,⠼⠃⠋⠙,Q_A4,d2f,df2,dfe,2fd,3,97,2
+Which set of letters corresponds to these signs: ⠙⠋⠼⠃?,⠙⠋⠼⠃,Q_A3,f2d,2fd,df2,d2f,3,98,2
+Which set of letters corresponds to these signs: ⠑⠼⠃⠙?,⠑⠼⠃⠙,Q_A4,fd2,2ef,fed,e2d,3,99,2
+Which set of letters corresponds to these signs: ⠙⠋⠑?,⠙⠋⠑,Q_A1,dfe,d2e,2fd,def,3,100,2
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A1,h,g,3,i,1,101,3
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A2,i,h,3,g,1,102,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A4,i,3,h,g,1,103,3
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A3,i,3,h,g,1,104,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A4,3,i,h,g,1,105,3
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A1,i,3,h,g,1,106,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A4,i,h,3,g,1,107,3
+Which set of letters corresponds to these signs: ⠼⠉?,⠼⠉,Q_A4,i,h,g,3,1,108,3
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A4,g,i,3,h,1,109,3
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A4,g,h,3,i,1,110,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A4,3,i,h,g,1,111,3
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A1,h,i,3,g,1,112,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A2,i,g,3,h,1,113,3
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A4,g,i,3,h,1,114,3
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A4,3,g,h,i,1,115,3
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A4,3,g,i,h,1,116,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A3,3,h,g,i,1,117,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A3,h,i,g,3,1,118,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A1,g,h,3,i,1,119,3
+Which set of letters corresponds to these signs: ⠓?,⠓,Q_A1,h,i,3,g,1,120,3
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A4,3,h,g,i,1,121,3
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A4,i,h,3,g,1,122,3
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A2,h,i,g,3,1,123,3
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A3,g,3,i,h,1,124,3
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A1,i,3,g,h,1,125,3
+Which set of letters corresponds to these signs: ⠓⠼⠉?,⠓⠼⠉,Q_A1,h3,hg,3h,3i,2,126,3
+Which set of letters corresponds to these signs: ⠓⠛?,⠓⠛,Q_A2,i3,hg,ig,h3,2,127,3
+Which set of letters corresponds to these signs: ⠛⠓?,⠛⠓,Q_A1,gh,ih,h3,g3,2,128,3
+Which set of letters corresponds to these signs: ⠓⠼⠉?,⠓⠼⠉,Q_A2,hg,h3,3i,3g,2,129,3
+Which set of letters corresponds to these signs: ⠓⠛?,⠓⠛,Q_A3,h3,hi,hg,gi,2,130,3
+Which set of letters corresponds to these signs: ⠊⠼⠉?,⠊⠼⠉,Q_A3,h3,g3,i3,3h,2,131,3
+Which set of letters corresponds to these signs: ⠊⠛?,⠊⠛,Q_A4,g3,gi,hg,ig,2,132,3
+Which set of letters corresponds to these signs: ⠛⠊?,⠛⠊,Q_A1,gi,3i,i3,g3,2,133,3
+Which set of letters corresponds to these signs: ⠛⠼⠉?,⠛⠼⠉,Q_A3,h3,3i,g3,3g,2,134,3
+Which set of letters corresponds to these signs: ⠊⠓?,⠊⠓,Q_A4,g3,3i,3g,ih,2,135,3
+Which set of letters corresponds to these signs: ⠊⠓?,⠊⠓,Q_A1,ih,h3,3h,gh,2,136,3
+Which set of letters corresponds to these signs: ⠼⠉⠓?,⠼⠉⠓,Q_A3,gh,hg,3h,3g,2,137,3
+Which set of letters corresponds to these signs: ⠛⠼⠉?,⠛⠼⠉,Q_A4,hi,gi,h3,g3,2,138,3
+Which set of letters corresponds to these signs: ⠛⠊?,⠛⠊,Q_A2,hg,gi,3i,ih,2,139,3
+Which set of letters corresponds to these signs: ⠼⠉⠊?,⠼⠉⠊,Q_A2,hg,3i,gi,3g,2,140,3
+Which set of letters corresponds to these signs: ⠼⠉⠛⠓?,⠼⠉⠛⠓,Q_A1,3gh,gh3,hg3,3hg,3,141,3
+Which set of letters corresponds to these signs: ⠓⠊⠛?,⠓⠊⠛,Q_A3,gi3,g3i,hig,i3g,3,142,3
+Which set of letters corresponds to these signs: ⠼⠉⠓⠛?,⠼⠉⠓⠛,Q_A3,gih,gi3,3hg,i3h,3,143,3
+Which set of letters corresponds to these signs: ⠛⠼⠉⠓?,⠛⠼⠉⠓,Q_A1,g3h,gi3,3hg,h3i,3,144,3
+Which set of letters corresponds to these signs: ⠊⠛⠼⠉?,⠊⠛⠼⠉,Q_A2,ih3,ig3,3hi,gh3,3,145,3
+Which set of letters corresponds to these signs: ⠓⠛⠊?,⠓⠛⠊,Q_A3,ghi,ihg,hgi,gih,3,146,3
+Which set of letters corresponds to these signs: ⠼⠉⠛⠊?,⠼⠉⠛⠊,Q_A4,gih,3ig,ghi,3gi,3,147,3
+Which set of letters corresponds to these signs: ⠓⠊⠛?,⠓⠊⠛,Q_A2,3gi,hig,3ih,h3g,3,148,3
+Which set of letters corresponds to these signs: ⠓⠊⠼⠉?,⠓⠊⠼⠉,Q_A2,gh3,hi3,i3g,3hi,3,149,3
+Which set of letters corresponds to these signs: ⠓⠛⠊?,⠓⠛⠊,Q_A4,ghi,gh3,i3h,hgi,3,150,3
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A1,j,k,4,l,1,151,4
+Which set of letters corresponds to these signs: ⠅?,⠅,Q_A4,4,l,j,k,1,152,4
+Which set of letters corresponds to these signs: ⠅?,⠅,Q_A2,j,k,4,l,1,153,4
+Which set of letters corresponds to these signs: ⠅?,⠅,Q_A3,4,l,k,j,1,154,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A1,l,j,4,k,1,155,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A4,j,k,4,l,1,156,4
+Which set of letters corresponds to these signs: ⠼⠙?,⠼⠙,Q_A4,j,k,l,4,1,157,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A4,j,4,k,l,1,158,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A4,j,k,4,l,1,159,4
+Which set of letters corresponds to these signs: ⠅?,⠅,Q_A2,l,k,4,j,1,160,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A1,l,k,j,4,1,161,4
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A4,l,k,4,j,1,162,4
+Which set of letters corresponds to these signs: ⠼⠙?,⠼⠙,Q_A1,4,j,l,k,1,163,4
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A1,j,4,l,k,1,164,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A2,j,l,4,k,1,165,4
+Which set of letters corresponds to these signs: ⠼⠙?,⠼⠙,Q_A3,j,k,4,l,1,166,4
+Which set of letters corresponds to these signs: ⠼⠙?,⠼⠙,Q_A1,4,k,j,l,1,167,4
+Which set of letters corresponds to these signs: ⠼⠙?,⠼⠙,Q_A1,4,l,k,j,1,168,4
+Which set of letters corresponds to these signs: ⠼⠙?,⠼⠙,Q_A4,l,j,k,4,1,169,4
+Which set of letters corresponds to these signs: ⠅?,⠅,Q_A1,k,l,j,4,1,170,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A1,l,k,4,j,1,171,4
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A3,4,l,j,k,1,172,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A2,k,l,4,j,1,173,4
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A4,k,4,j,l,1,174,4
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A3,k,4,j,l,1,175,4
+Which set of letters corresponds to these signs: ⠚⠇?,⠚⠇,Q_A2,4j,jl,kl,4l,2,176,4
+Which set of letters corresponds to these signs: ⠼⠙⠇?,⠼⠙⠇,Q_A4,4k,kl,4j,4l,2,177,4
+Which set of letters corresponds to these signs: ⠅⠇?,⠅⠇,Q_A4,lj,lk,4l,kl,2,178,4
+Which set of letters corresponds to these signs: ⠇⠅?,⠇⠅,Q_A3,k4,4l,lk,jk,2,179,4
+Which set of letters corresponds to these signs: ⠅⠇?,⠅⠇,Q_A1,kl,4j,lj,4l,2,180,4
+Which set of letters corresponds to these signs: ⠼⠙⠅?,⠼⠙⠅,Q_A1,4k,l4,k4,lk,2,181,4
+Which set of letters corresponds to these signs: ⠅⠚?,⠅⠚,Q_A1,kj,lk,4k,lj,2,182,4
+Which set of letters corresponds to these signs: ⠅⠚?,⠅⠚,Q_A4,jl,lj,k4,kj,2,183,4
+Which set of letters corresponds to these signs: ⠼⠙⠅?,⠼⠙⠅,Q_A4,jl,kl,k4,4k,2,184,4
+Which set of letters corresponds to these signs: ⠅⠚?,⠅⠚,Q_A4,4j,j4,kl,kj,2,185,4
+Which set of letters corresponds to these signs: ⠚⠅?,⠚⠅,Q_A3,4j,jl,jk,k4,2,186,4
+Which set of letters corresponds to these signs: ⠅⠇?,⠅⠇,Q_A3,l4,4j,kl,4l,2,187,4
+Which set of letters corresponds to these signs: ⠚⠼⠙?,⠚⠼⠙,Q_A1,j4,4j,jl,4l,2,188,4
+Which set of letters corresponds to these signs: ⠅⠼⠙?,⠅⠼⠙,Q_A2,jl,k4,jk,lj,2,189,4
+Which set of letters corresponds to these signs: ⠇⠼⠙?,⠇⠼⠙,Q_A3,kl,jl,l4,k4,2,190,4
+Which set of letters corresponds to these signs: ⠅⠚⠇?,⠅⠚⠇,Q_A1,kjl,jl4,4kj,4lj,3,191,4
+Which set of letters corresponds to these signs: ⠅⠇⠚?,⠅⠇⠚,Q_A2,4kj,klj,l4k,j4k,3,192,4
+Which set of letters corresponds to these signs: ⠇⠼⠙⠅?,⠇⠼⠙⠅,Q_A2,kjl,l4k,jkl,j4l,3,193,4
+Which set of letters corresponds to these signs: ⠅⠚⠇?,⠅⠚⠇,Q_A1,kjl,j4k,lkj,lk4,3,194,4
+Which set of letters corresponds to these signs: ⠅⠇⠼⠙?,⠅⠇⠼⠙,Q_A4,4jk,ljk,lk4,kl4,3,195,4
+Which set of letters corresponds to these signs: ⠇⠅⠼⠙?,⠇⠅⠼⠙,Q_A1,lk4,kj4,j4l,klj,3,196,4
+Which set of letters corresponds to these signs: ⠇⠼⠙⠅?,⠇⠼⠙⠅,Q_A3,jkl,4jl,l4k,lk4,3,197,4
+Which set of letters corresponds to these signs: ⠅⠇⠚?,⠅⠇⠚,Q_A3,lj4,jl4,klj,j4k,3,198,4
+Which set of letters corresponds to these signs: ⠼⠙⠇⠅?,⠼⠙⠇⠅,Q_A1,4lk,jk4,lk4,4lj,3,199,4
+Which set of letters corresponds to these signs: ⠚⠼⠙⠇?,⠚⠼⠙⠇,Q_A1,j4l,lkj,kj4,ljk,3,200,4
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A2,5,m,n,o,1,201,5
+Which set of letters corresponds to these signs: ⠕?,⠕,Q_A2,5,o,n,m,1,202,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A2,5,m,n,o,1,203,5
+Which set of letters corresponds to these signs: ⠼⠑?,⠼⠑,Q_A1,5,m,o,n,1,204,5
+Which set of letters corresponds to these signs: ⠼⠑?,⠼⠑,Q_A2,m,5,o,n,1,205,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A1,m,n,5,o,1,206,5
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A3,5,m,n,o,1,207,5
+Which set of letters corresponds to these signs: ⠼⠑?,⠼⠑,Q_A2,m,5,n,o,1,208,5
+Which set of letters corresponds to these signs: ⠕?,⠕,Q_A1,o,5,n,m,1,209,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A3,5,o,m,n,1,210,5
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A3,o,m,n,5,1,211,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A2,n,m,5,o,1,212,5
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A3,m,o,n,5,1,213,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A3,n,5,m,o,1,214,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A4,5,o,n,m,1,215,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A2,5,m,o,n,1,216,5
+Which set of letters corresponds to these signs: ⠼⠑?,⠼⠑,Q_A4,m,o,n,5,1,217,5
+Which set of letters corresponds to these signs: ⠕?,⠕,Q_A2,5,o,n,m,1,218,5
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A1,n,m,5,o,1,219,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A1,m,5,n,o,1,220,5
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A2,5,n,o,m,1,221,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A3,o,5,m,n,1,222,5
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A4,m,o,5,n,1,223,5
+Which set of letters corresponds to these signs: ⠼⠑?,⠼⠑,Q_A2,m,5,n,o,1,224,5
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A1,m,o,n,5,1,225,5
+Which set of letters corresponds to these signs: ⠼⠑⠝?,⠼⠑⠝,Q_A4,mo,n5,nm,5n,2,226,5
+Which set of letters corresponds to these signs: ⠼⠑⠝?,⠼⠑⠝,Q_A1,5n,mo,no,nm,2,227,5
+Which set of letters corresponds to these signs: ⠍⠝?,⠍⠝,Q_A1,mn,5m,o5,m5,2,228,5
+Which set of letters corresponds to these signs: ⠼⠑⠕?,⠼⠑⠕,Q_A4,m5,n5,om,5o,2,229,5
+Which set of letters corresponds to these signs: ⠼⠑⠍?,⠼⠑⠍,Q_A3,mo,mn,5m,nm,2,230,5
+Which set of letters corresponds to these signs: ⠝⠕?,⠝⠕,Q_A1,no,nm,5n,mo,2,231,5
+Which set of letters corresponds to these signs: ⠼⠑⠕?,⠼⠑⠕,Q_A2,mn,5o,mo,on,2,232,5
+Which set of letters corresponds to these signs: ⠍⠝?,⠍⠝,Q_A2,m5,mn,5n,om,2,233,5
+Which set of letters corresponds to these signs: ⠝⠕?,⠝⠕,Q_A1,no,m5,mn,5n,2,234,5
+Which set of letters corresponds to these signs: ⠝⠕?,⠝⠕,Q_A3,on,5n,no,mn,2,235,5
+Which set of letters corresponds to these signs: ⠍⠼⠑?,⠍⠼⠑,Q_A3,no,o5,m5,5m,2,236,5
+Which set of letters corresponds to these signs: ⠝⠕?,⠝⠕,Q_A1,no,n5,mo,nm,2,237,5
+Which set of letters corresponds to these signs: ⠝⠕?,⠝⠕,Q_A2,mn,no,nm,on,2,238,5
+Which set of letters corresponds to these signs: ⠍⠼⠑?,⠍⠼⠑,Q_A3,mo,o5,m5,5n,2,239,5
+Which set of letters corresponds to these signs: ⠝⠍?,⠝⠍,Q_A1,nm,5o,no,om,2,240,5
+Which set of letters corresponds to these signs: ⠕⠍⠼⠑?,⠕⠍⠼⠑,Q_A2,5om,om5,5mo,nmo,3,241,5
+Which set of letters corresponds to these signs: ⠕⠼⠑⠍?,⠕⠼⠑⠍,Q_A4,5mn,mno,n5m,o5m,3,242,5
+Which set of letters corresponds to these signs: ⠼⠑⠍⠕?,⠼⠑⠍⠕,Q_A2,o5n,5mo,n5m,nm5,3,243,5
+Which set of letters corresponds to these signs: ⠼⠑⠍⠝?,⠼⠑⠍⠝,Q_A1,5mn,mno,nmo,omn,3,244,5
+Which set of letters corresponds to these signs: ⠼⠑⠝⠕?,⠼⠑⠝⠕,Q_A4,mon,mno,5nm,5no,3,245,5
+Which set of letters corresponds to these signs: ⠕⠝⠼⠑?,⠕⠝⠼⠑,Q_A4,onm,m5o,mn5,on5,3,246,5
+Which set of letters corresponds to these signs: ⠕⠼⠑⠍?,⠕⠼⠑⠍,Q_A3,no5,n5o,o5m,on5,3,247,5
+Which set of letters corresponds to these signs: ⠼⠑⠍⠕?,⠼⠑⠍⠕,Q_A1,5mo,5nm,n5o,5mn,3,248,5
+Which set of letters corresponds to these signs: ⠼⠑⠍⠝?,⠼⠑⠍⠝,Q_A1,5mn,m5o,onm,on5,3,249,5
+Which set of letters corresponds to these signs: ⠕⠼⠑⠝?,⠕⠼⠑⠝,Q_A3,onm,nm5,o5n,o5m,3,250,5
+Which set of letters corresponds to these signs: ⠏?,⠏,Q_A3,q,r,p,6,1,251,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A2,6,r,p,q,1,252,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A1,r,p,q,6,1,253,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A1,r,p,6,q,1,254,6
+Which set of letters corresponds to these signs: ⠼⠋?,⠼⠋,Q_A2,q,6,r,p,1,255,6
+Which set of letters corresponds to these signs: ⠼⠋?,⠼⠋,Q_A4,r,q,p,6,1,256,6
+Which set of letters corresponds to these signs: ⠼⠋?,⠼⠋,Q_A4,q,r,p,6,1,257,6
+Which set of letters corresponds to these signs: ⠼⠋?,⠼⠋,Q_A4,p,r,q,6,1,258,6
+Which set of letters corresponds to these signs: ⠼⠋?,⠼⠋,Q_A1,6,r,q,p,1,259,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A3,6,q,r,p,1,260,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A2,6,r,q,p,1,261,6
+Which set of letters corresponds to these signs: ⠏?,⠏,Q_A1,p,r,6,q,1,262,6
+Which set of letters corresponds to these signs: ⠟?,⠟,Q_A1,q,6,r,p,1,263,6
+Which set of letters corresponds to these signs: ⠼⠋?,⠼⠋,Q_A3,p,r,6,q,1,264,6
+Which set of letters corresponds to these signs: ⠏?,⠏,Q_A3,6,q,p,r,1,265,6
+Which set of letters corresponds to these signs: ⠼⠋?,⠼⠋,Q_A3,r,q,6,p,1,266,6
+Which set of letters corresponds to these signs: ⠏?,⠏,Q_A1,p,r,q,6,1,267,6
+Which set of letters corresponds to these signs: ⠟?,⠟,Q_A2,p,q,6,r,1,268,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A3,q,p,r,6,1,269,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A4,p,q,6,r,1,270,6
+Which set of letters corresponds to these signs: ⠏?,⠏,Q_A2,r,p,q,6,1,271,6
+Which set of letters corresponds to these signs: ⠏?,⠏,Q_A1,p,6,q,r,1,272,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A3,6,q,r,p,1,273,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A3,p,q,r,6,1,274,6
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A1,r,6,p,q,1,275,6
+Which set of letters corresponds to these signs: ⠼⠋⠟?,⠼⠋⠟,Q_A4,q6,r6,6p,6q,2,276,6
+Which set of letters corresponds to these signs: ⠏⠗?,⠏⠗,Q_A3,6r,6q,pr,r6,2,277,6
+Which set of letters corresponds to these signs: ⠟⠼⠋?,⠟⠼⠋,Q_A3,rq,r6,q6,p6,2,278,6
+Which set of letters corresponds to these signs: ⠟⠗?,⠟⠗,Q_A1,qr,6q,rp,pq,2,279,6
+Which set of letters corresponds to these signs: ⠏⠗?,⠏⠗,Q_A1,pr,rp,rq,6q,2,280,6
+Which set of letters corresponds to these signs: ⠗⠼⠋?,⠗⠼⠋,Q_A4,rq,p6,pr,r6,2,281,6
+Which set of letters corresponds to these signs: ⠏⠟?,⠏⠟,Q_A1,pq,q6,p6,rp,2,282,6
+Which set of letters corresponds to these signs: ⠗⠟?,⠗⠟,Q_A3,r6,6q,rq,qr,2,283,6
+Which set of letters corresponds to these signs: ⠼⠋⠏?,⠼⠋⠏,Q_A4,pr,rp,6q,6p,2,284,6
+Which set of letters corresponds to these signs: ⠏⠼⠋?,⠏⠼⠋,Q_A1,p6,pq,qp,6q,2,285,6
+Which set of letters corresponds to these signs: ⠼⠋⠗?,⠼⠋⠗,Q_A2,qr,6r,rq,r6,2,286,6
+Which set of letters corresponds to these signs: ⠏⠼⠋?,⠏⠼⠋,Q_A1,p6,6p,q6,qp,2,287,6
+Which set of letters corresponds to these signs: ⠏⠼⠋?,⠏⠼⠋,Q_A4,rp,qr,rq,p6,2,288,6
+Which set of letters corresponds to these signs: ⠼⠋⠏?,⠼⠋⠏,Q_A3,pr,rp,6p,q6,2,289,6
+Which set of letters corresponds to these signs: ⠗⠏?,⠗⠏,Q_A3,pq,r6,rp,q6,2,290,6
+Which set of letters corresponds to these signs: ⠼⠋⠗⠟?,⠼⠋⠗⠟,Q_A1,6rq,qr6,rp6,qrp,3,291,6
+Which set of letters corresponds to these signs: ⠏⠟⠗?,⠏⠟⠗,Q_A3,r6p,qr6,pqr,6pq,3,292,6
+Which set of letters corresponds to these signs: ⠗⠼⠋⠏?,⠗⠼⠋⠏,Q_A4,pr6,pqr,6pq,r6p,3,293,6
+Which set of letters corresponds to these signs: ⠗⠟⠏?,⠗⠟⠏,Q_A1,rqp,qr6,r6q,qp6,3,294,6
+Which set of letters corresponds to these signs: ⠟⠼⠋⠗?,⠟⠼⠋⠗,Q_A2,qpr,q6r,r6p,6rp,3,295,6
+Which set of letters corresponds to these signs: ⠼⠋⠗⠟?,⠼⠋⠗⠟,Q_A4,pr6,qp6,rp6,6rq,3,296,6
+Which set of letters corresponds to these signs: ⠗⠏⠼⠋?,⠗⠏⠼⠋,Q_A2,rq6,rp6,6rq,r6q,3,297,6
+Which set of letters corresponds to these signs: ⠟⠏⠗?,⠟⠏⠗,Q_A3,prq,rpq,qpr,6rq,3,298,6
+Which set of letters corresponds to these signs: ⠗⠼⠋⠏?,⠗⠼⠋⠏,Q_A1,r6p,qr6,6rp,p6q,3,299,6
+Which set of letters corresponds to these signs: ⠗⠏⠼⠋?,⠗⠏⠼⠋,Q_A1,rp6,p6r,rpq,6qr,3,300,6
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A3,t,7,s,u,1,301,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A2,u,s,7,t,1,302,7
+Which set of letters corresponds to these signs: ⠼⠛?,⠼⠛,Q_A3,t,u,7,s,1,303,7
+Which set of letters corresponds to these signs: ⠼⠛?,⠼⠛,Q_A2,u,7,s,t,1,304,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A1,s,u,7,t,1,305,7
+Which set of letters corresponds to these signs: ⠥?,⠥,Q_A1,u,7,s,t,1,306,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A4,t,u,7,s,1,307,7
+Which set of letters corresponds to these signs: ⠥?,⠥,Q_A1,u,s,t,7,1,308,7
+Which set of letters corresponds to these signs: ⠞?,⠞,Q_A2,s,t,7,u,1,309,7
+Which set of letters corresponds to these signs: ⠞?,⠞,Q_A2,7,t,u,s,1,310,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A1,s,u,7,t,1,311,7
+Which set of letters corresponds to these signs: ⠥?,⠥,Q_A4,s,7,t,u,1,312,7
+Which set of letters corresponds to these signs: ⠥?,⠥,Q_A2,s,u,7,t,1,313,7
+Which set of letters corresponds to these signs: ⠥?,⠥,Q_A3,s,7,u,t,1,314,7
+Which set of letters corresponds to these signs: ⠼⠛?,⠼⠛,Q_A1,7,s,t,u,1,315,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A1,s,7,t,u,1,316,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A4,7,u,t,s,1,317,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A2,u,s,t,7,1,318,7
+Which set of letters corresponds to these signs: ⠥?,⠥,Q_A2,s,u,7,t,1,319,7
+Which set of letters corresponds to these signs: ⠼⠛?,⠼⠛,Q_A1,7,u,t,s,1,320,7
+Which set of letters corresponds to these signs: ⠼⠛?,⠼⠛,Q_A1,7,t,s,u,1,321,7
+Which set of letters corresponds to these signs: ⠎?,⠎,Q_A2,u,s,t,7,1,322,7
+Which set of letters corresponds to these signs: ⠥?,⠥,Q_A3,t,7,u,s,1,323,7
+Which set of letters corresponds to these signs: ⠼⠛?,⠼⠛,Q_A1,7,s,t,u,1,324,7
+Which set of letters corresponds to these signs: ⠼⠛?,⠼⠛,Q_A1,7,u,t,s,1,325,7
+Which set of letters corresponds to these signs: ⠼⠛⠞?,⠼⠛⠞,Q_A4,u7,7u,s7,7t,2,326,7
+Which set of letters corresponds to these signs: ⠼⠛⠞?,⠼⠛⠞,Q_A2,ut,7t,su,us,2,327,7
+Which set of letters corresponds to these signs: ⠞⠥?,⠞⠥,Q_A3,ut,ts,tu,t7,2,328,7
+Which set of letters corresponds to these signs: ⠎⠼⠛?,⠎⠼⠛,Q_A3,7s,ut,s7,t7,2,329,7
+Which set of letters corresponds to these signs: ⠼⠛⠥?,⠼⠛⠥,Q_A2,u7,7u,su,st,2,330,7
+Which set of letters corresponds to these signs: ⠼⠛⠞?,⠼⠛⠞,Q_A2,su,7t,7u,ut,2,331,7
+Which set of letters corresponds to these signs: ⠞⠼⠛?,⠞⠼⠛,Q_A2,ut,t7,7t,7u,2,332,7
+Which set of letters corresponds to these signs: ⠞⠥?,⠞⠥,Q_A3,t7,ut,tu,us,2,333,7
+Which set of letters corresponds to these signs: ⠎⠞?,⠎⠞,Q_A3,us,tu,st,7t,2,334,7
+Which set of letters corresponds to these signs: ⠼⠛⠎?,⠼⠛⠎,Q_A3,ts,tu,7s,su,2,335,7
+Which set of letters corresponds to these signs: ⠼⠛⠞?,⠼⠛⠞,Q_A2,7u,7t,u7,st,2,336,7
+Which set of letters corresponds to these signs: ⠞⠼⠛?,⠞⠼⠛,Q_A4,su,us,tu,t7,2,337,7
+Which set of letters corresponds to these signs: ⠞⠥?,⠞⠥,Q_A2,u7,tu,7t,t7,2,338,7
+Which set of letters corresponds to these signs: ⠞⠼⠛?,⠞⠼⠛,Q_A4,ts,ut,7u,t7,2,339,7
+Which set of letters corresponds to these signs: ⠎⠞?,⠎⠞,Q_A3,ts,ut,st,t7,2,340,7
+Which set of letters corresponds to these signs: ⠞⠥⠼⠛?,⠞⠥⠼⠛,Q_A4,stu,us7,ut7,tu7,3,341,7
+Which set of letters corresponds to these signs: ⠞⠼⠛⠥?,⠞⠼⠛⠥,Q_A3,s7t,t7s,t7u,us7,3,342,7
+Which set of letters corresponds to these signs: ⠥⠎⠞?,⠥⠎⠞,Q_A2,us7,ust,sut,tsu,3,343,7
+Which set of letters corresponds to these signs: ⠼⠛⠎⠞?,⠼⠛⠎⠞,Q_A3,su7,7ts,7st,7ut,3,344,7
+Which set of letters corresponds to these signs: ⠼⠛⠞⠎?,⠼⠛⠞⠎,Q_A4,t7u,st7,7us,7ts,3,345,7
+Which set of letters corresponds to these signs: ⠥⠞⠼⠛?,⠥⠞⠼⠛,Q_A2,7tu,ut7,su7,u7t,3,346,7
+Which set of letters corresponds to these signs: ⠥⠞⠎?,⠥⠞⠎,Q_A3,t7u,7us,uts,u7t,3,347,7
+Which set of letters corresponds to these signs: ⠥⠼⠛⠎?,⠥⠼⠛⠎,Q_A2,tsu,u7s,7ut,ut7,3,348,7
+Which set of letters corresponds to these signs: ⠼⠛⠎⠥?,⠼⠛⠎⠥,Q_A3,7tu,t7s,7su,tus,3,349,7
+Which set of letters corresponds to these signs: ⠞⠼⠛⠥?,⠞⠼⠛⠥,Q_A3,us7,ut7,t7u,ts7,3,350,7
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A3,w,x,v,8,1,351,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A1,v,8,x,w,1,352,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A4,8,x,w,v,1,353,8
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A3,8,v,x,w,1,354,8
+Which set of letters corresponds to these signs: ⠺?,⠺,Q_A1,w,v,x,8,1,355,8
+Which set of letters corresponds to these signs: ⠼⠓?,⠼⠓,Q_A4,w,x,v,8,1,356,8
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A3,v,8,x,w,1,357,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A1,v,x,8,w,1,358,8
+Which set of letters corresponds to these signs: ⠼⠓?,⠼⠓,Q_A1,8,x,w,v,1,359,8
+Which set of letters corresponds to these signs: ⠼⠓?,⠼⠓,Q_A4,w,x,v,8,1,360,8
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A4,8,w,v,x,1,361,8
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A3,w,v,x,8,1,362,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A2,w,v,8,x,1,363,8
+Which set of letters corresponds to these signs: ⠺?,⠺,Q_A2,8,w,v,x,1,364,8
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A4,8,w,v,x,1,365,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A1,v,w,x,8,1,366,8
+Which set of letters corresponds to these signs: ⠼⠓?,⠼⠓,Q_A2,w,8,v,x,1,367,8
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A3,w,8,x,v,1,368,8
+Which set of letters corresponds to these signs: ⠺?,⠺,Q_A2,v,w,8,x,1,369,8
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A3,w,v,x,8,1,370,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A2,8,v,w,x,1,371,8
+Which set of letters corresponds to these signs: ⠺?,⠺,Q_A4,x,v,8,w,1,372,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A2,x,v,w,8,1,373,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A2,w,v,x,8,1,374,8
+Which set of letters corresponds to these signs: ⠧?,⠧,Q_A2,x,v,w,8,1,375,8
+Which set of letters corresponds to these signs: ⠼⠓⠭?,⠼⠓⠭,Q_A1,8x,w8,wv,v8,2,376,8
+Which set of letters corresponds to these signs: ⠺⠭?,⠺⠭,Q_A2,xv,wx,w8,wv,2,377,8
+Which set of letters corresponds to these signs: ⠼⠓⠺?,⠼⠓⠺,Q_A2,xv,8w,vx,w8,2,378,8
+Which set of letters corresponds to these signs: ⠺⠼⠓?,⠺⠼⠓,Q_A1,w8,wv,xv,vx,2,379,8
+Which set of letters corresponds to these signs: ⠺⠼⠓?,⠺⠼⠓,Q_A1,w8,8v,8x,8w,2,380,8
+Which set of letters corresponds to these signs: ⠧⠭?,⠧⠭,Q_A2,v8,vx,xw,8v,2,381,8
+Which set of letters corresponds to these signs: ⠼⠓⠭?,⠼⠓⠭,Q_A1,8x,8w,xv,wx,2,382,8
+Which set of letters corresponds to these signs: ⠼⠓⠺?,⠼⠓⠺,Q_A1,8w,xv,wx,wv,2,383,8
+Which set of letters corresponds to these signs: ⠧⠭?,⠧⠭,Q_A1,vx,wx,8x,8w,2,384,8
+Which set of letters corresponds to these signs: ⠺⠭?,⠺⠭,Q_A1,wx,x8,8x,wv,2,385,8
+Which set of letters corresponds to these signs: ⠼⠓⠧?,⠼⠓⠧,Q_A4,wx,xv,vw,8v,2,386,8
+Which set of letters corresponds to these signs: ⠧⠼⠓?,⠧⠼⠓,Q_A1,v8,xw,wv,vx,2,387,8
+Which set of letters corresponds to these signs: ⠼⠓⠧?,⠼⠓⠧,Q_A3,vx,wv,8v,8x,2,388,8
+Which set of letters corresponds to these signs: ⠭⠧?,⠭⠧,Q_A1,xv,wv,8x,8v,2,389,8
+Which set of letters corresponds to these signs: ⠺⠼⠓?,⠺⠼⠓,Q_A3,wx,8x,w8,x8,2,390,8
+Which set of letters corresponds to these signs: ⠺⠭⠼⠓?,⠺⠭⠼⠓,Q_A2,8xw,wx8,x8v,v8x,3,391,8
+Which set of letters corresponds to these signs: ⠺⠭⠧?,⠺⠭⠧,Q_A3,8vx,xwv,wxv,v8x,3,392,8
+Which set of letters corresponds to these signs: ⠺⠭⠼⠓?,⠺⠭⠼⠓,Q_A2,wv8,wx8,w8v,v8x,3,393,8
+Which set of letters corresponds to these signs: ⠺⠼⠓⠧?,⠺⠼⠓⠧,Q_A1,w8v,xv8,vwx,w8x,3,394,8
+Which set of letters corresponds to these signs: ⠧⠺⠼⠓?,⠧⠺⠼⠓,Q_A1,vw8,vx8,x8w,vwx,3,395,8
+Which set of letters corresponds to these signs: ⠺⠼⠓⠭?,⠺⠼⠓⠭,Q_A4,8vw,wvx,xw8,w8x,3,396,8
+Which set of letters corresponds to these signs: ⠼⠓⠧⠺?,⠼⠓⠧⠺,Q_A2,8wx,8vw,v8x,w8x,3,397,8
+Which set of letters corresponds to these signs: ⠧⠺⠭?,⠧⠺⠭,Q_A2,8xw,vwx,8wx,8wv,3,398,8
+Which set of letters corresponds to these signs: ⠺⠭⠼⠓?,⠺⠭⠼⠓,Q_A3,xv8,xvw,wx8,x8v,3,399,8
+Which set of letters corresponds to these signs: ⠼⠓⠭⠺?,⠼⠓⠭⠺,Q_A1,8xw,8vw,vxw,8wv,3,400,8
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A1,9,0,y,z,1,401,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A3,z,0,9,y,1,402,9
+Which set of letters corresponds to these signs: ⠵?,⠵,Q_A2,9,z,0,y,1,403,9
+Which set of letters corresponds to these signs: ⠵?,⠵,Q_A2,9,z,0,y,1,404,9
+Which set of letters corresponds to these signs: ⠵?,⠵,Q_A4,9,y,0,z,1,405,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A1,9,y,z,0,1,406,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A2,z,9,y,0,1,407,9
+Which set of letters corresponds to these signs: ⠽?,⠽,Q_A1,y,z,0,9,1,408,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A4,y,z,0,9,1,409,9
+Which set of letters corresponds to these signs: ⠼⠚?,⠼⠚,Q_A2,z,0,9,y,1,410,9
+Which set of letters corresponds to these signs: ⠵?,⠵,Q_A4,y,0,9,z,1,411,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A3,z,0,9,y,1,412,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A1,9,z,y,0,1,413,9
+Which set of letters corresponds to these signs: ⠼⠚?,⠼⠚,Q_A3,y,9,0,z,1,414,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A4,0,y,z,9,1,415,9
+Which set of letters corresponds to these signs: ⠽?,⠽,Q_A4,9,0,z,y,1,416,9
+Which set of letters corresponds to these signs: ⠽?,⠽,Q_A1,y,z,9,0,1,417,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A2,z,9,y,0,1,418,9
+Which set of letters corresponds to these signs: ⠼⠊?,⠼⠊,Q_A3,0,z,9,y,1,419,9
+Which set of letters corresponds to these signs: ⠵?,⠵,Q_A4,y,9,0,z,1,420,9
+Which set of letters corresponds to these signs: ⠼⠚?,⠼⠚,Q_A1,0,z,y,9,1,421,9
+Which set of letters corresponds to these signs: ⠼⠚?,⠼⠚,Q_A1,0,9,z,y,1,422,9
+Which set of letters corresponds to these signs: ⠼⠚?,⠼⠚,Q_A1,0,z,9,y,1,423,9
+Which set of letters corresponds to these signs: ⠵?,⠵,Q_A1,z,9,0,y,1,424,9
+Which set of letters corresponds to these signs: ⠽?,⠽,Q_A1,y,9,z,0,1,425,9
+Which set of letters corresponds to these signs: ⠼⠚⠽?,⠼⠚⠽,Q_A2,zy,0y,9z,90,2,426,9
+Which set of letters corresponds to these signs: ⠵⠼⠚?,⠵⠼⠚,Q_A4,0y,9y,9,z0,2,427,9
+Which set of letters corresponds to these signs: ⠽⠵?,⠽⠵,Q_A3,y0,90,yz,y9,2,428,9
+Which set of letters corresponds to these signs: ⠼⠊⠽?,⠼⠊⠽,Q_A3,z9,y0,9y,yz,2,429,9
+Which set of letters corresponds to these signs: ⠵⠼⠚?,⠵⠼⠚,Q_A4,z9,9y,y0,z0,2,430,9
+Which set of letters corresponds to these signs: ⠼⠚⠽?,⠼⠚⠽,Q_A3,z9,zy,0y,y9,2,431,9
+Which set of letters corresponds to these signs: ⠼⠊⠵?,⠼⠊⠵,Q_A3,0z,y9,9z,zy,2,432,9
+Which set of letters corresponds to these signs: ⠽⠼⠊?,⠽⠼⠊,Q_A4,9y,90,0y,y9,2,433,9
+Which set of letters corresponds to these signs: ⠼⠚⠵?,⠼⠚⠵,Q_A1,0z,z0,9,z9,2,434,9
+Which set of letters corresponds to these signs: ⠵⠽?,⠵⠽,Q_A4,0y,yz,9z,zy,2,435,9
+Which set of letters corresponds to these signs: ⠵⠼⠚?,⠵⠼⠚,Q_A2,yz,z0,y0,y9,2,436,9
+Which set of letters corresponds to these signs: ⠵⠽?,⠵⠽,Q_A3,9,z0,zy,z9,2,437,9
+Which set of letters corresponds to these signs: ⠵⠼⠚?,⠵⠼⠚,Q_A2,z9,z0,9,y0,2,438,9
+Which set of letters corresponds to these signs: ⠼⠊⠵?,⠼⠊⠵,Q_A2,y9,9z,zy,yz,2,439,9
+Which set of letters corresponds to these signs: ⠵⠼⠚?,⠵⠼⠚,Q_A3,y0,y9,z0,z9,2,440,9
+Which set of letters corresponds to these signs: ⠼⠊⠽⠼⠚?,⠼⠊⠽⠼⠚,Q_A1,9y0,9z0,yz0,09y,3,441,9
+Which set of letters corresponds to these signs: ⠼⠊⠽⠼⠚?,⠼⠊⠽⠼⠚,Q_A1,9y0,9z0,y09,9yz,3,442,9
+Which set of letters corresponds to these signs: ⠵⠽⠼⠊?,⠵⠽⠼⠊,Q_A1,zy9,9y0,y90,0z9,3,443,9
+Which set of letters corresponds to these signs: ⠼⠚⠽⠼⠊?,⠼⠚⠽⠼⠊,Q_A2,yz9,0y9,y90,90y,3,444,9
+Which set of letters corresponds to these signs: ⠵⠽⠼⠚?,⠵⠽⠼⠚,Q_A3,9zy,9y0,zy0,0yz,3,445,9
+Which set of letters corresponds to these signs: ⠽⠼⠊⠵?,⠽⠼⠊⠵,Q_A4,y0z,yz9,z09,y9z,3,446,9
+Which set of letters corresponds to these signs: ⠼⠚⠵⠽?,⠼⠚⠵⠽,Q_A4,z9y,9zy,9y0,0zy,3,447,9
+Which set of letters corresponds to these signs: ⠼⠚⠽⠵?,⠼⠚⠽⠵,Q_A2,0zy,0yz,zy0,y0z,3,448,9
+Which set of letters corresponds to these signs: ⠼⠚⠽⠵?,⠼⠚⠽⠵,Q_A4,zy0,zy9,9zy,0yz,3,449,9
+Which set of letters corresponds to these signs: ⠼⠚⠼⠊⠽?,⠼⠚⠼⠊⠽,Q_A4,y09,0z9,90y,09y,3,450,9
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A2,g,l,c,e,1,451,10
+Which set of letters corresponds to these signs: ⠞?,⠞,Q_A4,p,w,v,t,1,452,10
+Which set of letters corresponds to these signs: ⠊?,⠊,Q_A4,d,g,o,i,1,453,10
+Which set of letters corresponds to these signs: ⠛?,⠛,Q_A4,t,z,o,g,1,454,10
+Which set of letters corresponds to these signs: ⠽?,⠽,Q_A3,e,s,y,f,1,455,10
+Which set of letters corresponds to these signs: ⠉?,⠉,Q_A3,r,v,c,m,1,456,10
+Which set of letters corresponds to these signs: ⠏?,⠏,Q_A4,c,g,m,p,1,457,10
+Which set of letters corresponds to these signs: ⠕?,⠕,Q_A2,m,o,x,e,1,458,10
+Which set of letters corresponds to these signs: ⠑?,⠑,Q_A4,p,a,v,e,1,459,10
+Which set of letters corresponds to these signs: ⠺?,⠺,Q_A4,o,l,x,w,1,460,10
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A2,b,n,q,t,1,461,10
+Which set of letters corresponds to these signs: ⠭?,⠭,Q_A1,x,c,w,h,1,462,10
+Which set of letters corresponds to these signs: ⠉?,⠉,Q_A1,c,e,b,t,1,463,10
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A1,j,z,k,n,1,464,10
+Which set of letters corresponds to these signs: ⠽?,⠽,Q_A4,w,x,j,y,1,465,10
+Which set of letters corresponds to these signs: ⠗?,⠗,Q_A1,r,g,j,b,1,466,10
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A1,j,v,f,b,1,467,10
+Which set of letters corresponds to these signs: ⠍?,⠍,Q_A2,l,m,u,r,1,468,10
+Which set of letters corresponds to these signs: ⠉?,⠉,Q_A1,c,w,j,f,1,469,10
+Which set of letters corresponds to these signs: ⠝?,⠝,Q_A4,q,z,s,n,1,470,10
+Which set of letters corresponds to these signs: ⠅?,⠅,Q_A2,r,k,u,c,1,471,10
+Which set of letters corresponds to these signs: ⠇?,⠇,Q_A3,t,z,l,f,1,472,10
+Which set of letters corresponds to these signs: ⠵?,⠵,Q_A4,m,g,t,z,1,473,10
+Which set of letters corresponds to these signs: ⠟?,⠟,Q_A2,z,q,g,c,1,474,10
+Which set of letters corresponds to these signs: ⠚?,⠚,Q_A3,h,z,j,a,1,475,10
+Which set of letters corresponds to these signs: ⠍⠓?,⠍⠓,Q_A1,mh,yb,is,sy,2,476,10
+Which set of letters corresponds to these signs: ⠉⠚?,⠉⠚,Q_A4,av,lr,xy,cj,2,477,10
+Which set of letters corresponds to these signs: ⠝⠏?,⠝⠏,Q_A2,ql,np,ax,oi,2,478,10
+Which set of letters corresponds to these signs: ⠽⠁?,⠽⠁,Q_A2,wx,ya,rb,bq,2,479,10
+Which set of letters corresponds to these signs: ⠚⠅?,⠚⠅,Q_A1,jk,bf,yf,if,2,480,10
+Which set of letters corresponds to these signs: ⠭⠓?,⠭⠓,Q_A1,xh,lq,nt,nr,2,481,10
+Which set of letters corresponds to these signs: ⠋⠧?,⠋⠧,Q_A4,lw,hs,pm,fv,2,482,10
+Which set of letters corresponds to these signs: ⠊⠟?,⠊⠟,Q_A4,pz,hg,ek,iq,2,483,10
+Which set of letters corresponds to these signs: ⠧⠚?,⠧⠚,Q_A2,ka,vj,cb,tb,2,484,10
+Which set of letters corresponds to these signs: ⠺⠃?,⠺⠃,Q_A1,wb,uz,yj,xy,2,485,10
+Which set of letters corresponds to these signs: ⠊⠵?,⠊⠵,Q_A4,ai,fb,vl,iz,2,486,10
+Which set of letters corresponds to these signs: ⠃⠊?,⠃⠊,Q_A4,fn,cb,dq,bi,2,487,10
+Which set of letters corresponds to these signs: ⠛⠑?,⠛⠑,Q_A2,mv,ge,si,mr,2,488,10
+Which set of letters corresponds to these signs: ⠏⠥?,⠏⠥,Q_A2,gc,pu,mg,lh,2,489,10
+Which set of letters corresponds to these signs: ⠗⠙?,⠗⠙,Q_A4,cz,pc,lg,rd,2,490,10
+Which set of letters corresponds to these signs: ⠃⠛⠞?,⠃⠛⠞,Q_A4,hbs,jal,ced,bgt,3,491,10
+Which set of letters corresponds to these signs: ⠏⠚⠝?,⠏⠚⠝,Q_A3,ges,mzg,pjn,jql,3,492,10
+Which set of letters corresponds to these signs: ⠃⠗⠍?,⠃⠗⠍,Q_A2,lhs,brm,tmq,yvr,3,493,10
+Which set of letters corresponds to these signs: ⠧⠥⠊?,⠧⠥⠊,Q_A1,vui,wrc,ghu,jxf,3,494,10
+Which set of letters corresponds to these signs: ⠚⠭⠞?,⠚⠭⠞,Q_A2,tim,jxt,clv,eho,3,495,10
+Which set of letters corresponds to these signs: ⠵⠛⠏?,⠵⠛⠏,Q_A2,tiz,zgp,pby,bud,3,496,10
+Which set of letters corresponds to these signs: ⠊⠽⠝?,⠊⠽⠝,Q_A4,dpw,yve,aez,iyn,3,497,10
+Which set of letters corresponds to these signs: ⠑⠥⠉?,⠑⠥⠉,Q_A4,hud,yse,pdb,euc,3,498,10
+Which set of letters corresponds to these signs: ⠭⠇⠚?,⠭⠇⠚,Q_A1,xlj,kvi,usb,ler,3,499,10
+Which set of letters corresponds to these signs: ⠇⠺⠚?,⠇⠺⠚,Q_A3,uhw,zpg,lwj,boy,3,500,10
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,we,N/A,you,me,1,501,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,N/A,we,me,you,1,502,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,N/A,me,you,we,1,503,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,N/A,we,me,you,1,504,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,you,me,N/A,1,505,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,N/A,you,me,we,1,506,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,N/A,we,me,you,1,507,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,me,we,N/A,1,508,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,we,N/A,you,me,1,509,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,N/A,me,we,you,1,510,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,you,we,me,N/A,1,511,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,me,you,N/A,we,1,512,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,you,me,N/A,we,1,513,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,we,you,N/A,me,1,514,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,N/A,we,you,me,1,515,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,you,we,me,N/A,1,516,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,me,N/A,you,we,1,517,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,you,me,we,N/A,1,518,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,we,me,N/A,you,1,519,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,we,N/A,me,you,1,520,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,me,we,you,N/A,1,521,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,me,you,we,N/A,1,522,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,N/A,you,me,we,1,523,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,N/A,me,we,you,1,524,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A2,N/A,you,me,we,1,525,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,you,we,N/A,me,1,526,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,N/A,we,you,me,1,527,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,we,me,N/A,1,528,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,me,we,N/A,you,1,529,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,N/A,me,we,you,1,530,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,me,you,we,N/A,1,531,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,you,N/A,we,me,1,532,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,you,N/A,we,1,533,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,we,me,N/A,1,534,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,me,we,you,N/A,1,535,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,N/A,we,me,1,536,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,you,N/A,me,we,1,537,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,N/A,me,we,1,538,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,we,N/A,me,you,1,539,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,N/A,we,you,me,1,540,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,you,we,me,N/A,1,541,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,N/A,you,we,1,542,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,you,N/A,me,we,1,543,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,we,me,N/A,you,1,544,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,we,N/A,you,me,1,545,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,you,we,me,N/A,1,546,11
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,N/A,you,we,1,547,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,me,N/A,we,you,1,548,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,N/A,we,me,you,1,549,11
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,you,we,me,N/A,1,550,11
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,we,please,you,hello,1,551,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,me,goodbye,please,hello,1,552,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,hello,goodbye,me,please,1,553,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,please,we,goodbye,hello,1,554,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,me,hello,goodbye,1,555,12
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,me,please,goodbye,hello,1,556,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,please,me,you,goodbye,1,557,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,me,we,you,goodbye,1,558,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,hello,me,goodbye,you,1,559,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,we,goodbye,please,me,1,560,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,we,goodbye,please,1,561,12
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,you,me,hello,we,1,562,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,me,goodbye,we,1,563,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,goodbye,me,hello,1,564,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,hello,goodbye,we,please,1,565,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,me,we,hello,you,1,566,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,we,please,me,hello,1,567,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,we,please,goodbye,1,568,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,please,we,goodbye,hello,1,569,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,hello,me,we,you,1,570,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,goodbye,we,hello,you,1,571,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,me,goodbye,hello,we,1,572,12
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,goodbye,please,you,hello,1,573,12
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,goodbye,please,we,me,1,574,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,you,please,we,hello,1,575,12
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,goodbye,hello,please,me,1,576,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,me,please,goodbye,you,1,577,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,goodbye,hello,please,we,1,578,12
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,goodbye,please,we,1,579,12
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,please,goodbye,we,1,580,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,we,hello,please,you,1,581,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,me,goodbye,please,1,582,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,you,me,we,hello,1,583,12
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,we,goodbye,please,1,584,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,me,hello,please,1,585,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,we,you,hello,please,1,586,12
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,please,me,goodbye,hello,1,587,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,hello,me,you,goodbye,1,588,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,you,we,me,please,1,589,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,me,hello,we,goodbye,1,590,12
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A1,please,hello,me,goodbye,1,591,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,we,hello,please,goodbye,1,592,12
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,hello,goodbye,we,1,593,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,please,we,me,you,1,594,12
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,me,goodbye,we,1,595,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A1,goodbye,me,we,please,1,596,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,you,please,me,goodbye,1,597,12
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,we,you,goodbye,hello,1,598,12
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A2,we,hello,goodbye,me,1,599,12
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,me,please,goodbye,we,1,600,12
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,bad,please,hello,we,1,601,13
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A3,please,goodbye,bad,hello,1,602,13
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A1,close,please,goodbye,bad,1,603,13
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,deaf,me,close,bad,1,604,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,bad,please,me,we,1,605,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A1,goodbye,hello,you,we,1,606,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A1,goodbye,me,please,you,1,607,13
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,deaf,close,me,hello,1,608,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,we,please,hello,1,609,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,we,close,goodbye,me,1,610,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,close,me,deaf,goodbye,1,611,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,please,me,we,you,1,612,13
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,me,goodbye,deaf,you,1,613,13
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,deaf,we,goodbye,bad,1,614,13
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A3,bad,me,please,goodbye,1,615,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,deaf,close,hello,1,616,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,you,deaf,bad,goodbye,1,617,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,we,hello,deaf,goodbye,1,618,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A1,goodbye,hello,me,deaf,1,619,13
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,goodbye,bad,hello,we,1,620,13
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A1,deaf,close,me,you,1,621,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,deaf,hello,please,me,1,622,13
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A3,close,hello,deaf,we,1,623,13
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,me,deaf,you,bad,1,624,13
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,goodbye,we,hello,deaf,1,625,13
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A2,bad,you,deaf,goodbye,1,626,13
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,hello,me,we,close,1,627,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,bad,hello,me,you,1,628,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,hello,me,please,deaf,1,629,13
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,close,me,please,1,630,13
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A3,me,close,deaf,you,1,631,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,we,goodbye,hello,deaf,1,632,13
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A1,please,we,deaf,hello,1,633,13
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A2,we,close,deaf,please,1,634,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,me,goodbye,hello,you,1,635,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,hello,close,goodbye,me,1,636,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,bad,goodbye,me,we,1,637,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,you,deaf,close,1,638,13
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,me,close,you,we,1,639,13
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,we,you,goodbye,please,1,640,13
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,close,you,bad,deaf,1,641,13
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A3,we,please,close,you,1,642,13
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A4,bad,hello,we,close,1,643,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,you,we,deaf,1,644,13
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,goodbye,deaf,you,bad,1,645,13
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,deaf,hello,please,1,646,13
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A2,goodbye,hello,close,please,1,647,13
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,please,goodbye,me,bad,1,648,13
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,please,me,we,close,1,649,13
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,we,deaf,me,please,1,650,13
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,go,eat,deaf,1,651,14
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,goodbye,we,me,deaf,1,652,14
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,hello,we,goodbye,drink,1,653,14
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A4,eat,you,go,drink,1,654,14
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A2,you,eat,goodbye,please,1,655,14
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,me,goodbye,eat,hello,1,656,14
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A1,eat,close,goodbye,bad,1,657,14
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,me,please,go,eat,1,658,14
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A2,me,hello,goodbye,deaf,1,659,14
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,we,drink,close,me,1,660,14
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A3,goodbye,please,deaf,me,1,661,14
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,you,hello,we,please,1,662,14
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,goodbye,you,hello,1,663,14
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,close,please,you,go,1,664,14
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A2,we,hello,you,go,1,665,14
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,hello,please,you,go,1,666,14
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,please,me,bad,hello,1,667,14
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,bad,go,we,1,668,14
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,please,goodbye,drink,1,669,14
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,bad,we,goodbye,me,1,670,14
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,me,please,eat,we,1,671,14
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A2,eat,drink,go,please,1,672,14
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A2,we,hello,eat,bad,1,673,14
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,deaf,you,bad,1,674,14
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A4,you,drink,please,eat,1,675,14
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A3,please,close,go,hello,1,676,14
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,bad,we,goodbye,please,1,677,14
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,deaf,me,we,you,1,678,14
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,drink,deaf,eat,bad,1,679,14
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,go,bad,goodbye,close,1,680,14
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A1,deaf,you,drink,goodbye,1,681,14
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,please,eat,close,1,682,14
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,me,deaf,hello,1,683,14
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,drink,we,please,1,684,14
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A1,bad,hello,please,close,1,685,14
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A4,please,drink,we,eat,1,686,14
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A1,please,close,me,eat,1,687,14
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,drink,eat,deaf,bad,1,688,14
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,go,bad,you,me,1,689,14
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,hello,goodbye,drink,1,690,14
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,go,we,goodbye,hello,1,691,14
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A2,drink,deaf,hello,me,1,692,14
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A4,goodbye,you,we,eat,1,693,14
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A4,hello,we,deaf,eat,1,694,14
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,please,we,goodbye,deaf,1,695,14
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,please,deaf,bad,goodbye,1,696,14
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A4,drink,hello,you,close,1,697,14
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A4,you,eat,goodbye,go,1,698,14
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A3,deaf,drink,go,we,1,699,14
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A2,me,close,bad,eat,1,700,14
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A1,deaf,bad,hurt,good,1,701,15
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A2,please,deaf,close,bad,1,702,15
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,deaf,please,you,good,1,703,15
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A1,eat,you,hurt,good,1,704,15
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,goodbye,love,hurt,bad,1,705,15
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A2,me,drink,we,close,1,706,15
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,good,we,you,drink,1,707,15
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,you,goodbye,me,hello,1,708,15
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A1,love,good,we,go,1,709,15
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A1,go,we,deaf,you,1,710,15
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A4,close,me,go,love,1,711,15
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A2,eat,bad,love,goodbye,1,712,15
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,drink,love,close,1,713,15
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A1,bad,love,drink,goodbye,1,714,15
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A1,close,drink,me,bad,1,715,15
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,you,drink,eat,hello,1,716,15
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,drink,we,hello,close,1,717,15
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A1,drink,me,go,love,1,718,15
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A4,eat,good,deaf,hurt,1,719,15
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,bad,hello,good,deaf,1,720,15
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A3,me,we,close,eat,1,721,15
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A3,hurt,eat,love,bad,1,722,15
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A1,bad,hurt,good,eat,1,723,15
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,good,please,eat,you,1,724,15
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,eat,good,hello,goodbye,1,725,15
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A3,me,hello,eat,hurt,1,726,15
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A4,drink,love,me,please,1,727,15
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A3,eat,hello,drink,goodbye,1,728,15
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,drink,hurt,we,bad,1,729,15
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,hurt,me,goodbye,1,730,15
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A4,hurt,me,go,love,1,731,15
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,we,drink,close,goodbye,1,732,15
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A3,you,me,bad,please,1,733,15
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A3,love,we,bad,close,1,734,15
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A1,drink,we,bad,good,1,735,15
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,hurt,close,hello,you,1,736,15
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,go,goodbye,good,hurt,1,737,15
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A3,eat,deaf,go,hurt,1,738,15
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,goodbye,we,eat,you,1,739,15
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,bad,close,please,me,1,740,15
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A1,you,hurt,go,love,1,741,15
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A2,hello,good,eat,me,1,742,15
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A1,good,please,you,close,1,743,15
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A3,hello,close,eat,love,1,744,15
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,goodbye,you,hello,drink,1,745,15
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,love,hurt,hello,we,1,746,15
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A1,love,eat,deaf,bad,1,747,15
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A2,we,good,go,hello,1,748,15
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A1,good,you,close,bad,1,749,15
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,close,good,go,1,750,15
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A3,deaf,me,go,hello,1,751,16
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A1,love,drink,open,eat,1,752,16
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A2,deaf,no,you,open,1,753,16
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,you,goodbye,drink,deaf,1,754,16
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A1,good,goodbye,me,close,1,755,16
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,goodbye,deaf,hurt,you,1,756,16
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,good,open,please,deaf,1,757,16
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A3,me,open,deaf,good,1,758,16
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A3,hurt,close,love,open,1,759,16
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,no,drink,we,open,1,760,16
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A2,please,deaf,good,hello,1,761,16
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A3,me,bad,close,hello,1,762,16
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A1,love,you,me,we,1,763,16
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A1,good,drink,goodbye,eat,1,764,16
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A4,please,hurt,drink,good,1,765,16
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A3,we,no,drink,bad,1,766,16
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,no,love,bad,we,1,767,16
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,goodbye,hurt,hello,bad,1,768,16
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,no,close,hurt,bad,1,769,16
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A1,need,me,we,goodbye,1,770,16
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A1,hello,we,deaf,please,1,771,16
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A2,go,no,open,hello,1,772,16
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,go,you,goodbye,deaf,1,773,16
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A3,hello,open,please,close,1,774,16
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A3,me,good,love,hurt,1,775,16
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A1,please,goodbye,deaf,no,1,776,16
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A4,open,you,bad,close,1,777,16
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A3,open,bad,need,eat,1,778,16
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A4,please,goodbye,drink,hurt,1,779,16
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A2,love,bad,we,deaf,1,780,16
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,need,we,good,bad,1,781,16
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A2,deaf,need,please,drink,1,782,16
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A3,drink,love,need,open,1,783,16
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A3,deaf,go,drink,hello,1,784,16
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A3,eat,we,love,me,1,785,16
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A4,go,you,hurt,drink,1,786,16
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A2,drink,deaf,bad,hurt,1,787,16
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,you,me,need,hurt,1,788,16
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A4,need,good,drink,go,1,789,16
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A3,goodbye,need,good,we,1,790,16
+What word does this Braille pattern represent: '⠕⠏⠑⠝'?,⠕⠏⠑⠝,Q_A2,goodbye,open,love,no,1,791,16
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,drink,deaf,goodbye,bad,1,792,16
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A1,no,open,goodbye,please,1,793,16
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,go,open,you,bad,1,794,16
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A1,please,you,bad,goodbye,1,795,16
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A3,we,bad,love,open,1,796,16
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A3,bad,hurt,deaf,drink,1,797,16
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,need,open,hurt,deaf,1,798,16
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A3,go,need,please,close,1,799,16
+What word does this Braille pattern represent: '⠕⠏⠑⠝'?,⠕⠏⠑⠝,Q_A4,deaf,no,close,open,1,800,16
+What word does this Braille pattern represent: '⠏⠇⠁⠽'?,⠏⠇⠁⠽,Q_A2,sorry,play,bad,you,1,801,17
+What word does this Braille pattern represent: '⠕⠏⠑⠝'?,⠕⠏⠑⠝,Q_A4,close,stop,hurt,open,1,802,17
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,hurt,we,go,you,1,803,17
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A1,need,play,close,we,1,804,17
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A4,go,deaf,need,close,1,805,17
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A1,eat,stop,sorry,we,1,806,17
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A2,we,hurt,open,bad,1,807,17
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,you,close,hello,1,808,17
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A2,good,hello,we,please,1,809,17
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A1,hello,no,eat,drink,1,810,17
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A2,me,love,sorry,you,1,811,17
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A3,please,drink,deaf,open,1,812,17
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A2,eat,need,we,hello,1,813,17
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A3,need,no,bad,you,1,814,17
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A3,open,good,please,eat,1,815,17
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A4,good,open,bad,need,1,816,17
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A4,deaf,goodbye,sorry,eat,1,817,17
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A4,bad,please,close,no,1,818,17
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A3,me,love,hurt,sorry,1,819,17
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A2,me,hurt,open,no,1,820,17
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,eat,stop,hello,we,1,821,17
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A4,play,sorry,hurt,no,1,822,17
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,hello,goodbye,sorry,deaf,1,823,17
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A3,please,hurt,good,close,1,824,17
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A4,deaf,please,open,need,1,825,17
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A4,goodbye,we,drink,close,1,826,17
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A3,good,love,eat,close,1,827,17
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A2,eat,please,stop,you,1,828,17
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A3,you,need,eat,go,1,829,17
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A2,deaf,love,play,need,1,830,17
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A4,good,hello,love,please,1,831,17
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A2,me,need,eat,bad,1,832,17
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,bad,hurt,no,hello,1,833,17
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A1,please,play,deaf,hurt,1,834,17
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A4,me,close,play,love,1,835,17
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A4,we,goodbye,stop,go,1,836,17
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,drink,good,need,bad,1,837,17
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A1,need,eat,please,no,1,838,17
+What word does this Braille pattern represent: '⠏⠇⠁⠽'?,⠏⠇⠁⠽,Q_A1,play,me,close,sorry,1,839,17
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A2,open,no,sorry,stop,1,840,17
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A2,go,no,good,drink,1,841,17
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A2,hurt,deaf,you,go,1,842,17
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A2,good,stop,me,hello,1,843,17
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A4,goodbye,drink,please,good,1,844,17
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A1,me,need,love,open,1,845,17
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A1,bad,deaf,stop,please,1,846,17
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,stop,close,love,bad,1,847,17
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A2,deaf,eat,please,open,1,848,17
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A3,bad,need,me,stop,1,849,17
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A2,close,goodbye,stop,need,1,850,17
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A1,no,go,good,bad,1,851,18
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,sorry,need,thank,we,1,852,18
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A1,eat,hurt,no,love,1,853,18
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A3,bad,stop,good,drink,1,854,18
+What word does this Braille pattern represent: '⠏⠇⠁⠽'?,⠏⠇⠁⠽,Q_A3,me,eat,play,need,1,855,18
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A4,goodbye,deaf,drink,hello,1,856,18
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A1,stop,drink,hurt,goodbye,1,857,18
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,sorry,hurt,goodbye,eat,1,858,18
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A4,stop,good,love,need,1,859,18
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A4,drink,you,go,no,1,860,18
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A1,love,good,when,thank,1,861,18
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A2,open,good,love,you,1,862,18
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,me,play,we,good,1,863,18
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A2,open,need,sorry,hello,1,864,18
+What word does this Braille pattern represent: '⠎⠕⠗⠗⠽'?,⠎⠕⠗⠗⠽,Q_A4,hurt,go,when,sorry,1,865,18
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A3,thank,deaf,please,love,1,866,18
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,no,eat,good,you,1,867,18
+What word does this Braille pattern represent: '⠏⠇⠁⠽'?,⠏⠇⠁⠽,Q_A1,play,eat,stop,hello,1,868,18
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A2,no,good,eat,sorry,1,869,18
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,play,drink,you,1,870,18
+What word does this Braille pattern represent: '⠓⠑⠇⠇⠕'?,⠓⠑⠇⠇⠕,Q_A3,we,love,hello,goodbye,1,871,18
+What word does this Braille pattern represent: '⠎⠕⠗⠗⠽'?,⠎⠕⠗⠗⠽,Q_A4,eat,hurt,good,sorry,1,872,18
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A2,please,drink,deaf,love,1,873,18
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A1,bad,stop,go,thank,1,874,18
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A4,thank,please,go,drink,1,875,18
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A3,eat,you,please,good,1,876,18
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A4,goodbye,sorry,want,we,1,877,18
+What word does this Braille pattern represent: '⠺⠓⠑⠝'?,⠺⠓⠑⠝,Q_A1,when,me,close,bad,1,878,18
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A4,play,go,no,good,1,879,18
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,go,need,hello,deaf,1,880,18
+What word does this Braille pattern represent: '⠺⠁⠝⠞'?,⠺⠁⠝⠞,Q_A4,stop,need,goodbye,want,1,881,18
+What word does this Braille pattern represent: '⠎⠕⠗⠗⠽'?,⠎⠕⠗⠗⠽,Q_A2,hello,sorry,me,deaf,1,882,18
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,close,goodbye,play,deaf,1,883,18
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A2,open,need,close,no,1,884,18
+What word does this Braille pattern represent: '⠺⠓⠑⠝'?,⠺⠓⠑⠝,Q_A4,love,bad,thank,when,1,885,18
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A3,please,deaf,no,when,1,886,18
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A1,bad,goodbye,drink,love,1,887,18
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A3,hurt,thank,stop,please,1,888,18
+What word does this Braille pattern represent: '⠎⠕⠗⠗⠽'?,⠎⠕⠗⠗⠽,Q_A1,sorry,deaf,eat,want,1,889,18
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A3,hurt,please,close,eat,1,890,18
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A1,go,eat,we,when,1,891,18
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A1,hurt,need,open,stop,1,892,18
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A4,eat,goodbye,bad,no,1,893,18
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A3,me,love,good,no,1,894,18
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A2,we,eat,hello,stop,1,895,18
+What word does this Braille pattern represent: '⠏⠇⠁⠽'?,⠏⠇⠁⠽,Q_A1,play,when,hello,good,1,896,18
+What word does this Braille pattern represent: '⠞⠓⠁⠝⠅'?,⠞⠓⠁⠝⠅,Q_A1,thank,goodbye,go,stop,1,897,18
+What word does this Braille pattern represent: '⠺⠓⠑⠝'?,⠺⠓⠑⠝,Q_A1,when,want,close,hello,1,898,18
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,deaf,want,love,goodbye,1,899,18
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A3,me,stop,we,sorry,1,900,18
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A1,we,hello,please,close,1,901,19
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A4,sorry,love,deaf,please,1,902,19
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,you,me,no,goodbye,1,903,19
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,play,deaf,me,you,1,904,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A3,hello,thank,good,hurt,1,905,19
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A4,please,when,no,bad,1,906,19
+What word does this Braille pattern represent: '⠞⠓⠊⠝⠅'?,⠞⠓⠊⠝⠅,Q_A2,sorry,think,open,me,1,907,19
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A4,eat,have,need,stop,1,908,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A4,love,good,feel,goodbye,1,909,19
+What word does this Braille pattern represent: '⠺⠓⠑⠝'?,⠺⠓⠑⠝,Q_A1,when,goodbye,go,bad,1,910,19
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A1,hurt,sorry,no,please,1,911,19
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A3,drink,sorry,close,you,1,912,19
+What word does this Braille pattern represent: '⠺⠁⠝⠞'?,⠺⠁⠝⠞,Q_A1,want,go,play,goodbye,1,913,19
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A1,stop,we,when,love,1,914,19
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A1,deaf,go,good,open,1,915,19
+What word does this Braille pattern represent: '⠞⠓⠊⠝⠅'?,⠞⠓⠊⠝⠅,Q_A2,deaf,think,no,have,1,916,19
+What word does this Braille pattern represent: '⠺⠑'?,⠺⠑,Q_A2,please,we,want,stop,1,917,19
+What word does this Braille pattern represent: '⠙⠗⠊⠝⠅'?,⠙⠗⠊⠝⠅,Q_A2,when,drink,me,we,1,918,19
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A4,good,need,please,hurt,1,919,19
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A3,stop,go,bad,thank,1,920,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A3,goodbye,feel,good,deaf,1,921,19
+What word does this Braille pattern represent: '⠞⠓⠁⠝⠅'?,⠞⠓⠁⠝⠅,Q_A3,when,sorry,thank,have,1,922,19
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A4,you,good,deaf,stop,1,923,19
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A1,need,hurt,love,eat,1,924,19
+What word does this Braille pattern represent: '⠃⠁⠙'?,⠃⠁⠙,Q_A1,bad,close,have,deaf,1,925,19
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A1,deaf,drink,have,close,1,926,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,you,bad,goodbye,good,1,927,19
+What word does this Braille pattern represent: '⠞⠓⠊⠝⠅'?,⠞⠓⠊⠝⠅,Q_A2,eat,think,go,love,1,928,19
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,good,stop,you,me,1,929,19
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A3,deaf,hello,go,play,1,930,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A1,goodbye,hello,have,feel,1,931,19
+What word does this Braille pattern represent: '⠞⠓⠊⠝⠅'?,⠞⠓⠊⠝⠅,Q_A3,deaf,sorry,think,thank,1,932,19
+What word does this Braille pattern represent: '⠎⠕⠗⠗⠽'?,⠎⠕⠗⠗⠽,Q_A2,good,sorry,goodbye,think,1,933,19
+What word does this Braille pattern represent: '⠞⠓⠁⠝⠅'?,⠞⠓⠁⠝⠅,Q_A1,thank,goodbye,have,good,1,934,19
+What word does this Braille pattern represent: '⠺⠓⠑⠝'?,⠺⠓⠑⠝,Q_A4,open,deaf,we,when,1,935,19
+What word does this Braille pattern represent: '⠝⠕'?,⠝⠕,Q_A4,play,bad,stop,no,1,936,19
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A2,we,need,think,hello,1,937,19
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A1,deaf,need,me,we,1,938,19
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A2,drink,you,think,please,1,939,19
+What word does this Braille pattern represent: '⠞⠓⠊⠝⠅'?,⠞⠓⠊⠝⠅,Q_A1,think,need,go,want,1,940,19
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A1,close,want,need,have,1,941,19
+What word does this Braille pattern represent: '⠺⠁⠝⠞'?,⠺⠁⠝⠞,Q_A3,goodbye,when,want,stop,1,942,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A3,stop,think,good,please,1,943,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A3,have,deaf,goodbye,love,1,944,19
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A1,good,we,love,need,1,945,19
+What word does this Braille pattern represent: '⠺⠓⠑⠝'?,⠺⠓⠑⠝,Q_A2,stop,when,eat,please,1,946,19
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A2,want,me,you,go,1,947,19
+What word does this Braille pattern represent: '⠓⠁⠧⠑'?,⠓⠁⠧⠑,Q_A1,have,open,want,think,1,948,19
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A3,need,goodbye,hurt,stop,1,949,19
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A4,goodbye,bad,need,stop,1,950,19
+What word does this Braille pattern represent: '⠎⠇⠑⠑⠏'?,⠎⠇⠑⠑⠏,Q_A4,hello,yes,close,sleep,1,951,20
+What word does this Braille pattern represent: '⠺⠓⠕'?,⠺⠓⠕,Q_A3,no,you,who,play,1,952,20
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A2,goodbye,you,bad,please,1,953,20
+What word does this Braille pattern represent: '⠎⠇⠑⠑⠏'?,⠎⠇⠑⠑⠏,Q_A3,goodbye,open,sleep,thank,1,954,20
+What word does this Braille pattern represent: '⠺⠁⠝⠞'?,⠺⠁⠝⠞,Q_A3,me,think,want,please,1,955,20
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A2,need,you,we,no,1,956,20
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A2,me,close,hello,love,1,957,20
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A1,hurt,close,stop,bad,1,958,20
+What word does this Braille pattern represent: '⠎⠕⠗⠗⠽'?,⠎⠕⠗⠗⠽,Q_A3,you,sleep,sorry,please,1,959,20
+What word does this Braille pattern represent: '⠺⠁⠝⠞'?,⠺⠁⠝⠞,Q_A2,thank,want,we,think,1,960,20
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A4,no,love,drink,stop,1,961,20
+What word does this Braille pattern represent: '⠋⠑⠑⠇'?,⠋⠑⠑⠇,Q_A3,sleep,thank,feel,please,1,962,20
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A2,close,hurt,feel,please,1,963,20
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A1,eat,drink,have,hurt,1,964,20
+What word does this Braille pattern represent: '⠇⠕⠧⠑'?,⠇⠕⠧⠑,Q_A4,stop,drink,hello,love,1,965,20
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A3,good,stop,you,bad,1,966,20
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A1,need,stop,want,feel,1,967,20
+What word does this Braille pattern represent: '⠽⠕⠥'?,⠽⠕⠥,Q_A4,go,me,deaf,you,1,968,20
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A1,good,close,bad,drink,1,969,20
+What word does this Braille pattern represent: '⠞⠓⠁⠝⠅'?,⠞⠓⠁⠝⠅,Q_A3,go,no,thank,need,1,970,20
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A1,eat,love,deaf,feel,1,971,20
+What word does this Braille pattern represent: '⠕⠏⠑⠝'?,⠕⠏⠑⠝,Q_A2,we,open,goodbye,drink,1,972,20
+What word does this Braille pattern represent: '⠎⠕⠗⠗⠽'?,⠎⠕⠗⠗⠽,Q_A2,bad,sorry,have,go,1,973,20
+What word does this Braille pattern represent: '⠽⠑⠎'?,⠽⠑⠎,Q_A4,good,think,please,yes,1,974,20
+What word does this Braille pattern represent: '⠝⠑⠑⠙'?,⠝⠑⠑⠙,Q_A3,think,go,need,bad,1,975,20
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A4,feel,have,hurt,eat,1,976,20
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A1,please,yes,think,have,1,977,20
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A3,open,no,stop,bad,1,978,20
+What word does this Braille pattern represent: '⠺⠓⠑⠝'?,⠺⠓⠑⠝,Q_A1,when,no,stop,hello,1,979,20
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A1,go,think,yes,when,1,980,20
+What word does this Braille pattern represent: '⠽⠑⠎'?,⠽⠑⠎,Q_A1,yes,have,when,close,1,981,20
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A3,yes,feel,eat,goodbye,1,982,20
+What word does this Braille pattern represent: '⠛⠕'?,⠛⠕,Q_A1,go,eat,hurt,have,1,983,20
+What word does this Braille pattern represent: '⠓⠁⠧⠑'?,⠓⠁⠧⠑,Q_A1,have,when,we,yes,1,984,20
+What word does this Braille pattern represent: '⠞⠓⠁⠝⠅'?,⠞⠓⠁⠝⠅,Q_A2,think,thank,me,hello,1,985,20
+What word does this Braille pattern represent: '⠉⠇⠕⠎⠑'?,⠉⠇⠕⠎⠑,Q_A4,no,when,deaf,close,1,986,20
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A4,hello,please,hurt,good,1,987,20
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A1,deaf,have,need,no,1,988,20
+What word does this Braille pattern represent: '⠎⠞⠕⠏'?,⠎⠞⠕⠏,Q_A2,need,stop,hello,think,1,989,20
+What word does this Braille pattern represent: '⠞⠓⠊⠝⠅'?,⠞⠓⠊⠝⠅,Q_A4,eat,go,close,think,1,990,20
+What word does this Braille pattern represent: '⠛⠕⠕⠙'?,⠛⠕⠕⠙,Q_A4,eat,feel,me,good,1,991,20
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A4,have,no,sorry,deaf,1,992,20
+What word does this Braille pattern represent: '⠏⠇⠑⠁⠎⠑'?,⠏⠇⠑⠁⠎⠑,Q_A4,deaf,feel,need,please,1,993,20
+What word does this Braille pattern represent: '⠛⠕⠕⠙⠃⠽⠑'?,⠛⠕⠕⠙⠃⠽⠑,Q_A1,goodbye,love,sorry,feel,1,994,20
+What word does this Braille pattern represent: '⠑⠁⠞'?,⠑⠁⠞,Q_A4,open,me,hurt,eat,1,995,20
+What word does this Braille pattern represent: '⠓⠥⠗⠞'?,⠓⠥⠗⠞,Q_A2,good,hurt,no,close,1,996,20
+What word does this Braille pattern represent: '⠏⠇⠁⠽'?,⠏⠇⠁⠽,Q_A3,please,we,play,when,1,997,20
+What word does this Braille pattern represent: '⠙⠑⠁⠋'?,⠙⠑⠁⠋,Q_A3,want,good,deaf,we,1,998,20
+What word does this Braille pattern represent: '⠍⠑'?,⠍⠑,Q_A4,drink,when,we,me,1,999,20
+What word does this Braille pattern represent: '⠞⠓⠊⠝⠅'?,⠞⠓⠊⠝⠅,Q_A4,goodbye,sleep,me,think,1,1000,20
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A4,I stop now,We play well,They drink water,We want food,1,1001,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A1,We want food,They drink water,You need help,We play well,1,1002,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A1,I love you,They drink water,I stop now,You need help,1,1003,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇?,⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇,Q_A4,They drink water,You need help,I stop now,We play well,1,1004,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,They drink water,We want food,I stop now,We play well,1,1005,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A3,We want food,You need help,I stop now,They drink water,1,1006,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A4,We play well,I love you,I stop now,We want food,1,1007,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A2,They drink water,We want food,You need help,I stop now,1,1008,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A4,You need help,We want food,We play well,I stop now,1,1009,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A2,They drink water,I love you,We want food,We play well,1,1010,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A2,We want food,They drink water,You need help,We play well,1,1011,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A4,I stop now,We play well,I love you,We want food,1,1012,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A3,We play well,You need help,They drink water,We want food,1,1013,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,They drink water,We play well,You need help,I love you,1,1014,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A4,We play well,I stop now,You need help,I love you,1,1015,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,They drink water,We play well,I love you,We want food,1,1016,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A4,You need help,We want food,They drink water,I love you,1,1017,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A4,They drink water,You need help,I love you,We want food,1,1018,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A1,I stop now,You need help,We play well,I love you,1,1019,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A4,They drink water,You need help,We want food,I love you,1,1020,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A4,I stop now,They drink water,We want food,I love you,1,1021,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A4,We play well,You need help,I love you,They drink water,1,1022,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A1,I stop now,I love you,We want food,They drink water,1,1023,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A4,I love you,You need help,They drink water,We want food,1,1024,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A2,They drink water,I stop now,We want food,You need help,1,1025,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A1,We want food,You need help,We play well,I stop now,1,1026,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A4,You need help,I love you,They drink water,We want food,1,1027,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇?,⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇,Q_A2,I stop now,We play well,We want food,I love you,1,1028,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A2,We play well,I stop now,We want food,I love you,1,1029,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,They drink water,We play well,I love you,I stop now,1,1030,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A3,We want food,You need help,They drink water,We play well,1,1031,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A4,You need help,We want food,We play well,They drink water,1,1032,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A1,I stop now,I love you,They drink water,We play well,1,1033,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A1,I stop now,They drink water,I love you,We play well,1,1034,21
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏?,⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏,Q_A3,They drink water,I love you,You need help,I stop now,1,1035,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A4,You need help,I stop now,They drink water,I love you,1,1036,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠎⠞⠕⠏ ⠝⠕⠺?,⠊ ⠎⠞⠕⠏ ⠝⠕⠺,Q_A2,We play well,I stop now,We want food,You need help,1,1037,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,They drink water,We play well,You need help,I love you,1,1038,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,They drink water,I stop now,I love you,We want food,1,1039,21
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏?,⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏,Q_A1,You need help,I stop now,We want food,They drink water,1,1040,21
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏?,⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏,Q_A3,I love you,I stop now,You need help,We want food,1,1041,21
+Which sentence corresponds to this Braille pattern: ⠊ ⠇⠕⠧⠑ ⠽⠕⠥?,⠊ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A3,I stop now,They drink water,I love you,You need help,1,1042,21
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏?,⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏,Q_A1,You need help,I love you,I stop now,We want food,1,1043,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇?,⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇,Q_A1,We play well,We want food,You need help,I love you,1,1044,21
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠞⠓⠑⠽ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A2,I love you,They drink water,We play well,We want food,1,1045,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇?,⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇,Q_A2,I stop now,We play well,I love you,We want food,1,1046,21
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏?,⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏,Q_A1,You need help,We play well,They drink water,I love you,1,1047,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇?,⠺⠑ ⠏⠇⠁⠽ ⠺⠑⠇⠇,Q_A1,We play well,I stop now,They drink water,You need help,1,1048,21
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏?,⠽⠕⠥ ⠝⠑⠑⠙ ⠓⠑⠇⠏,Q_A3,I love you,I stop now,You need help,They drink water,1,1049,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙?,⠺⠑ ⠺⠁⠝⠞ ⠋⠕⠕⠙,Q_A1,We want food,We play well,I love you,I stop now,1,1050,21
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A1,We go there,Please open the drink,I thank you,I hurt myself,1,1051,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋?,⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋,Q_A3,I thank you,We go there,I hurt myself,We need water,1,1052,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A4,They eat food,Please open the drink,I hurt myself,We need water,1,1053,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A1,They eat food,We need water,I hurt myself,We go there,1,1054,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A4,I hurt myself,They eat food,I thank you,Please open the drink,1,1055,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A2,I hurt myself,We go there,Please open the drink,We need water,1,1056,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋?,⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋,Q_A2,Please open the drink,I hurt myself,We need water,They eat food,1,1057,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A4,I hurt myself,I thank you,They eat food,We need water,1,1058,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A4,I thank you,I hurt myself,We need water,They eat food,1,1059,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋?,⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋,Q_A1,I hurt myself,We go there,They eat food,Please open the drink,1,1060,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A1,They eat food,We need water,I thank you,We go there,1,1061,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋?,⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋,Q_A2,I thank you,I hurt myself,We go there,Please open the drink,1,1062,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋?,⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋,Q_A1,I hurt myself,They eat food,We go there,I thank you,1,1063,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A3,They eat food,I thank you,Please open the drink,We go there,1,1064,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A4,They eat food,Please open the drink,We go there,We need water,1,1065,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A3,We need water,I thank you,They eat food,We go there,1,1066,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A2,I thank you,We need water,We go there,I hurt myself,1,1067,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥?,⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥,Q_A2,We go there,I thank you,I hurt myself,Please open the drink,1,1068,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A2,I thank you,Please open the drink,I hurt myself,We need water,1,1069,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A1,We go there,Please open the drink,I thank you,They eat food,1,1070,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A1,We need water,I thank you,Please open the drink,We go there,1,1071,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A4,We need water,Please open the drink,I hurt myself,They eat food,1,1072,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A1,We go there,We need water,Please open the drink,They eat food,1,1073,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A1,They eat food,I hurt myself,I thank you,We need water,1,1074,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A4,I hurt myself,We need water,They eat food,Please open the drink,1,1075,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋?,⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋,Q_A3,We go there,We need water,I hurt myself,They eat food,1,1076,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A3,I hurt myself,They eat food,We go there,We need water,1,1077,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A3,We go there,They eat food,We need water,I hurt myself,1,1078,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A1,They eat food,We need water,I thank you,Please open the drink,1,1079,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A4,I thank you,I hurt myself,We go there,Please open the drink,1,1080,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A3,They eat food,We need water,Please open the drink,We go there,1,1081,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A4,Please open the drink,I thank you,They eat food,We need water,1,1082,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A3,They eat food,I hurt myself,Please open the drink,I thank you,1,1083,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A2,I hurt myself,We go there,They eat food,Please open the drink,1,1084,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A1,We go there,They eat food,We need water,I hurt myself,1,1085,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋?,⠊ ⠓⠥⠗⠞ ⠍⠽⠎⠑⠇⠋,Q_A3,Please open the drink,I thank you,I hurt myself,We need water,1,1086,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A2,I thank you,Please open the drink,We need water,I hurt myself,1,1087,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A1,We go there,Please open the drink,We need water,I thank you,1,1088,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥?,⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥,Q_A1,I thank you,We need water,I hurt myself,We go there,1,1089,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A2,We go there,They eat food,I thank you,Please open the drink,1,1090,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥?,⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥,Q_A3,We go there,Please open the drink,I thank you,They eat food,1,1091,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A3,We need water,I thank you,We go there,They eat food,1,1092,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A3,I thank you,They eat food,We go there,I hurt myself,1,1093,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A4,We go there,We need water,I thank you,They eat food,1,1094,22
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠏⠇⠑⠁⠎⠑ ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A4,They eat food,I hurt myself,We need water,Please open the drink,1,1095,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥?,⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥,Q_A2,Please open the drink,I thank you,They eat food,I hurt myself,1,1096,22
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥?,⠊ ⠞⠓⠁⠝⠅ ⠽⠕⠥,Q_A4,We need water,I hurt myself,We go there,I thank you,1,1097,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑?,⠺⠑ ⠛⠕ ⠞⠓⠑⠗⠑,Q_A2,We need water,We go there,I hurt myself,They eat food,1,1098,22
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗?,⠺⠑ ⠝⠑⠑⠙ ⠺⠁⠞⠑⠗,Q_A3,I thank you,They eat food,We need water,Please open the drink,1,1099,22
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠑⠁⠞ ⠋⠕⠕⠙,Q_A4,Please open the drink,I thank you,We go there,They eat food,1,1100,22
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A3,You eat now,They want love,You play badly,They stop playing,1,1101,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A4,We love you,You play badly,They want love,They stop playing,1,1102,23
+Which sentence corresponds to this Braille pattern: ⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑?,⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑,Q_A2,We love you,I need love,You play badly,They want love,1,1103,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A1,You play badly,I need love,They stop playing,They want love,1,1104,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A1,You play badly,They want love,I need love,We love you,1,1105,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A1,They stop playing,You eat now,We love you,They want love,1,1106,23
+Which sentence corresponds to this Braille pattern: ⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑?,⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑,Q_A3,They want love,They stop playing,I need love,We love you,1,1107,23
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥?,⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A3,You play badly,They stop playing,We love you,They want love,1,1108,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑,Q_A1,They want love,You eat now,I need love,They stop playing,1,1109,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑,Q_A4,They stop playing,I need love,You play badly,They want love,1,1110,23
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥?,⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A2,You eat now,We love you,They stop playing,They want love,1,1111,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A2,We love you,You eat now,They want love,I need love,1,1112,23
+Which sentence corresponds to this Braille pattern: ⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑?,⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑,Q_A1,I need love,They stop playing,They want love,You eat now,1,1113,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑,Q_A2,We love you,They want love,You play badly,I need love,1,1114,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A1,They stop playing,We love you,You play badly,I need love,1,1115,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A3,We love you,They want love,You eat now,You play badly,1,1116,23
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥?,⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A4,They stop playing,They want love,I need love,We love you,1,1117,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A3,They want love,I need love,You eat now,They stop playing,1,1118,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑,Q_A4,I need love,They stop playing,You eat now,They want love,1,1119,23
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥?,⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A2,You play badly,We love you,You eat now,I need love,1,1120,23
+Which sentence corresponds to this Braille pattern: ⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑?,⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑,Q_A4,You eat now,They want love,We love you,I need love,1,1121,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A3,They want love,You eat now,You play badly,We love you,1,1122,23
+Which sentence corresponds to this Braille pattern: ⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑?,⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑,Q_A3,They want love,We love you,I need love,You play badly,1,1123,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A4,We love you,They want love,I need love,They stop playing,1,1124,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A4,You eat now,I need love,We love you,You play badly,1,1125,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑,Q_A2,We love you,They want love,You eat now,I need love,1,1126,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A1,They stop playing,We love you,You eat now,They want love,1,1127,23
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥?,⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A1,We love you,They want love,They stop playing,You eat now,1,1128,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A1,You play badly,You eat now,They want love,They stop playing,1,1129,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑,Q_A4,I need love,You play badly,They stop playing,They want love,1,1130,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A1,You eat now,I need love,You play badly,They want love,1,1131,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A3,They want love,We love you,They stop playing,You eat now,1,1132,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A2,I need love,They stop playing,You play badly,We love you,1,1133,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A2,I need love,You eat now,You play badly,They stop playing,1,1134,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A4,They want love,We love you,They stop playing,You play badly,1,1135,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A4,You play badly,They want love,We love you,You eat now,1,1136,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A4,I need love,We love you,They want love,They stop playing,1,1137,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A1,You eat now,We love you,They want love,You play badly,1,1138,23
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥?,⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A1,We love you,They stop playing,I need love,You play badly,1,1139,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A3,They want love,We love you,You eat now,You play badly,1,1140,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A2,We love you,You eat now,They want love,I need love,1,1141,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠇⠕⠧⠑,Q_A4,You eat now,They stop playing,I need love,They want love,1,1142,23
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛?,⠞⠓⠑⠽ ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛,Q_A3,You play badly,They want love,They stop playing,We love you,1,1143,23
+Which sentence corresponds to this Braille pattern: ⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥?,⠺⠑ ⠇⠕⠧⠑ ⠽⠕⠥,Q_A4,They stop playing,They want love,You play badly,We love you,1,1144,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A1,You play badly,I need love,They want love,We love you,1,1145,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A4,I need love,They want love,They stop playing,You eat now,1,1146,23
+Which sentence corresponds to this Braille pattern: ⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑?,⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑,Q_A2,You play badly,I need love,They stop playing,You eat now,1,1147,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺?,⠽⠕⠥ ⠑⠁⠞ ⠝⠕⠺,Q_A4,I need love,We love you,They stop playing,You eat now,1,1148,23
+Which sentence corresponds to this Braille pattern: ⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑?,⠊ ⠝⠑⠑⠙ ⠇⠕⠧⠑,Q_A4,They stop playing,We love you,You eat now,I need love,1,1149,23
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽?,⠽⠕⠥ ⠏⠇⠁⠽ ⠃⠁⠙⠇⠽,Q_A2,You eat now,You play badly,They want love,We love you,1,1150,23
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A4,Who loves you?,What do you want?,They want help,Who drinks water?,1,1151,24
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A2,Who drinks water?,You drink water,They want help,When do you play?,1,1152,24
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,You drink water,Who drinks water?,What do you want?,They want help,1,1153,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,When do you play?,They want help,Who drinks water?,Who loves you?,1,1154,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥??,⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥?,Q_A4,You drink water,They want help,When do you play?,Who loves you?,1,1155,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥??,⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥?,Q_A4,You drink water,Who drinks water?,They want help,Who loves you?,1,1156,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A1,They want help,Who drinks water?,When do you play?,What do you want?,1,1157,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A4,When do you play?,Who loves you?,You drink water,What do you want?,1,1158,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A4,When do you play?,What do you want?,Who loves you?,Who drinks water?,1,1159,24
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A1,You drink water,Who loves you?,Who drinks water?,They want help,1,1160,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A3,Who drinks water?,When do you play?,They want help,You drink water,1,1161,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A3,You drink water,Who drinks water?,What do you want?,When do you play?,1,1162,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A2,What do you want?,Who drinks water?,You drink water,Who loves you?,1,1163,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A4,They want help,Who drinks water?,You drink water,When do you play?,1,1164,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A4,They want help,Who drinks water?,When do you play?,What do you want?,1,1165,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥??,⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥?,Q_A4,Who drinks water?,What do you want?,When do you play?,Who loves you?,1,1166,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A1,Who drinks water?,Who loves you?,When do you play?,They want help,1,1167,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A4,You drink water,Who loves you?,When do you play?,Who drinks water?,1,1168,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A4,You drink water,What do you want?,Who loves you?,Who drinks water?,1,1169,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A4,They want help,Who drinks water?,You drink water,What do you want?,1,1170,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A3,They want help,You drink water,What do you want?,Who drinks water?,1,1171,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥??,⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥?,Q_A4,What do you want?,Who drinks water?,When do you play?,Who loves you?,1,1172,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥??,⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥?,Q_A3,What do you want?,Who drinks water?,Who loves you?,You drink water,1,1173,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥??,⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥?,Q_A4,They want help,Who drinks water?,When do you play?,Who loves you?,1,1174,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A1,They want help,Who drinks water?,Who loves you?,When do you play?,1,1175,24
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A2,They want help,You drink water,What do you want?,Who loves you?,1,1176,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A3,They want help,You drink water,What do you want?,Who loves you?,1,1177,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥??,⠺⠓⠕ ⠇⠕⠧⠑⠎ ⠽⠕⠥?,Q_A1,Who loves you?,What do you want?,Who drinks water?,You drink water,1,1178,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A1,They want help,When do you play?,What do you want?,Who drinks water?,1,1179,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,When do you play?,You drink water,What do you want?,They want help,1,1180,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A4,They want help,When do you play?,Who loves you?,What do you want?,1,1181,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A3,You drink water,When do you play?,Who drinks water?,They want help,1,1182,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A2,They want help,What do you want?,You drink water,When do you play?,1,1183,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A3,Who drinks water?,Who loves you?,They want help,What do you want?,1,1184,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A1,What do you want?,Who drinks water?,Who loves you?,You drink water,1,1185,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A2,What do you want?,They want help,Who drinks water?,When do you play?,1,1186,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A2,Who loves you?,They want help,What do you want?,When do you play?,1,1187,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A1,They want help,When do you play?,Who drinks water?,You drink water,1,1188,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A2,They want help,Who drinks water?,You drink water,What do you want?,1,1189,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A4,Who drinks water?,They want help,When do you play?,What do you want?,1,1190,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A4,They want help,You drink water,Who loves you?,When do you play?,1,1191,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A2,What do you want?,Who drinks water?,When do you play?,You drink water,1,1192,24
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A3,They want help,When do you play?,You drink water,Who loves you?,1,1193,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠝ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,When do you play?,You drink water,Who loves you?,They want help,1,1194,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A3,Who loves you?,What do you want?,Who drinks water?,They want help,1,1195,24
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A4,They want help,What do you want?,When do you play?,You drink water,1,1196,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗??,⠺⠓⠕ ⠙⠗⠊⠝⠅⠎ ⠺⠁⠞⠑⠗?,Q_A2,What do you want?,Who drinks water?,You drink water,Who loves you?,1,1197,24
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏?,⠞⠓⠑⠽ ⠺⠁⠝⠞ ⠓⠑⠇⠏,Q_A4,When do you play?,Who drinks water?,Who loves you?,They want help,1,1198,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞??,⠺⠓⠁⠞ ⠙⠕ ⠽⠕⠥ ⠺⠁⠝⠞?,Q_A2,Who drinks water?,What do you want?,You drink water,When do you play?,1,1199,24
+Which sentence corresponds to this Braille pattern: ⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗?,⠽⠕⠥ ⠙⠗⠊⠝⠅ ⠺⠁⠞⠑⠗,Q_A2,They want help,You drink water,Who drinks water?,What do you want?,1,1200,24
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A4,Who needs help?,Why do you love?,Why stop now?,Where is the food?,1,1201,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A2,Where are we going?,When do we stop?,Why stop now?,Where is the food?,1,1202,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏??,⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏?,Q_A4,Why stop now?,Where is the food?,Where are we going?,Who needs help?,1,1203,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛??,⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛?,Q_A1,Where are we going?,Why do you love?,When do we stop?,Why stop now?,1,1204,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A1,Where is the food?,Why do you love?,Who needs help?,When do we stop?,1,1205,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A2,Why stop now?,Where is the food?,When do we stop?,Where are we going?,1,1206,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A2,Where is the food?,Why do you love?,Why stop now?,Where are we going?,1,1207,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A3,Why do you love?,Where is the food?,When do we stop?,Who needs help?,1,1208,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A4,Where are we going?,Who needs help?,Why do you love?,Why stop now?,1,1209,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A4,Who needs help?,Where is the food?,When do we stop?,Why stop now?,1,1210,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A1,Where is the food?,Why do you love?,Who needs help?,When do we stop?,1,1211,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A4,Where is the food?,Who needs help?,Where are we going?,Why do you love?,1,1212,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏??,⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏?,Q_A1,Who needs help?,Where are we going?,When do we stop?,Why stop now?,1,1213,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛??,⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛?,Q_A2,Why stop now?,Where are we going?,Where is the food?,Who needs help?,1,1214,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A4,Where is the food?,When do we stop?,Who needs help?,Why stop now?,1,1215,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏??,⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏?,Q_A2,Why do you love?,Who needs help?,When do we stop?,Where are we going?,1,1216,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A4,When do we stop?,Why do you love?,Where is the food?,Why stop now?,1,1217,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A3,Who needs help?,Where are we going?,When do we stop?,Where is the food?,1,1218,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A1,When do we stop?,Who needs help?,Where are we going?,Why stop now?,1,1219,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏??,⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏?,Q_A1,Who needs help?,Where are we going?,When do we stop?,Where is the food?,1,1220,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏??,⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏?,Q_A3,Where are we going?,Why do you love?,Who needs help?,Why stop now?,1,1221,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A2,When do we stop?,Why stop now?,Where are we going?,Where is the food?,1,1222,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛??,⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛?,Q_A3,Who needs help?,Why stop now?,Where are we going?,Why do you love?,1,1223,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A2,Where is the food?,Why stop now?,Who needs help?,When do we stop?,1,1224,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A1,Why stop now?,Where are we going?,Where is the food?,Why do you love?,1,1225,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A2,Where are we going?,Why do you love?,When do we stop?,Where is the food?,1,1226,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A4,Where is the food?,Why do you love?,Who needs help?,When do we stop?,1,1227,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A2,Where are we going?,Why stop now?,Where is the food?,When do we stop?,1,1228,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A4,Why do you love?,When do we stop?,Where are we going?,Where is the food?,1,1229,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A3,When do we stop?,Where are we going?,Why do you love?,Where is the food?,1,1230,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A2,Why stop now?,Why do you love?,Where are we going?,Who needs help?,1,1231,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A4,Why do you love?,Where is the food?,Who needs help?,Why stop now?,1,1232,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A1,Why do you love?,Why stop now?,Who needs help?,Where is the food?,1,1233,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A3,Why stop now?,When do we stop?,Why do you love?,Where are we going?,1,1234,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A3,Who needs help?,Why do you love?,Where is the food?,Where are we going?,1,1235,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A1,When do we stop?,Where is the food?,Where are we going?,Why stop now?,1,1236,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A2,Who needs help?,Why stop now?,Where is the food?,Where are we going?,1,1237,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A3,Who needs help?,Why stop now?,Where is the food?,Why do you love?,1,1238,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A3,Where are we going?,Why do you love?,When do we stop?,Why stop now?,1,1239,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A1,When do we stop?,Why stop now?,Why do you love?,Who needs help?,1,1240,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A1,Where is the food?,When do we stop?,Why do you love?,Who needs help?,1,1241,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A2,When do we stop?,Why do you love?,Who needs help?,Why stop now?,1,1242,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛??,⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛?,Q_A3,Where is the food?,Who needs help?,Where are we going?,When do we stop?,1,1243,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A1,Where is the food?,When do we stop?,Why do you love?,Who needs help?,1,1244,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺??,⠺⠓⠽ ⠎⠞⠕⠏ ⠝⠕⠺?,Q_A1,Why stop now?,When do we stop?,Why do you love?,Who needs help?,1,1245,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛??,⠺⠓⠑⠗⠑ ⠁⠗⠑ ⠺⠑ ⠛⠕⠊⠝⠛?,Q_A1,Where are we going?,Why do you love?,Where is the food?,Why stop now?,1,1246,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙??,⠺⠓⠑⠗⠑ ⠊⠎ ⠞⠓⠑ ⠋⠕⠕⠙?,Q_A2,Who needs help?,Where is the food?,Why do you love?,When do we stop?,1,1247,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑??,⠺⠓⠽ ⠙⠕ ⠽⠕⠥ ⠇⠕⠧⠑?,Q_A1,Why do you love?,Why stop now?,Who needs help?,Where is the food?,1,1248,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏??,⠺⠓⠑⠝ ⠙⠕ ⠺⠑ ⠎⠞⠕⠏?,Q_A3,Why stop now?,Who needs help?,When do we stop?,Where are we going?,1,1249,25
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏??,⠺⠓⠕ ⠝⠑⠑⠙⠎ ⠓⠑⠇⠏?,Q_A1,Who needs help?,Why stop now?,Where is the food?,When do we stop?,1,1250,25
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A4,Close the door,Open the drink,Stop playing now,Eat your food,1,1251,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A2,Close the door,Drink the water,Please help me,Eat your food,1,1252,26
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A1,Eat your food,Close the door,Open the drink,Please help me,1,1253,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A1,Stop playing now,Please help me,Open the drink,Close the door,1,1254,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A1,Drink the water,Open the drink,Eat your food,Please help me,1,1255,26
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑,Q_A2,Stop playing now,Please help me,Eat your food,Drink the water,1,1256,26
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑,Q_A1,Please help me,Open the drink,Close the door,Stop playing now,1,1257,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A3,Close the door,Eat your food,Stop playing now,Please help me,1,1258,26
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A3,Please help me,Close the door,Eat your food,Open the drink,1,1259,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A2,Eat your food,Drink the water,Close the door,Open the drink,1,1260,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A1,Open the drink,Stop playing now,Eat your food,Close the door,1,1261,26
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗?,⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A2,Open the drink,Close the door,Stop playing now,Drink the water,1,1262,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A4,Drink the water,Stop playing now,Close the door,Open the drink,1,1263,26
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑,Q_A2,Eat your food,Please help me,Stop playing now,Open the drink,1,1264,26
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗?,⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A3,Open the drink,Stop playing now,Close the door,Please help me,1,1265,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A3,Please help me,Drink the water,Stop playing now,Eat your food,1,1266,26
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑,Q_A4,Stop playing now,Eat your food,Drink the water,Please help me,1,1267,26
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A1,Eat your food,Drink the water,Please help me,Stop playing now,1,1268,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A4,Eat your food,Close the door,Stop playing now,Open the drink,1,1269,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A3,Please help me,Close the door,Stop playing now,Drink the water,1,1270,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A4,Drink the water,Close the door,Stop playing now,Open the drink,1,1271,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A4,Eat your food,Please help me,Close the door,Stop playing now,1,1272,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A3,Open the drink,Please help me,Stop playing now,Close the door,1,1273,26
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A3,Open the drink,Stop playing now,Eat your food,Close the door,1,1274,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A2,Eat your food,Drink the water,Stop playing now,Open the drink,1,1275,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A3,Eat your food,Drink the water,Stop playing now,Close the door,1,1276,26
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A2,Open the drink,Eat your food,Drink the water,Please help me,1,1277,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A4,Open the drink,Close the door,Drink the water,Stop playing now,1,1278,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A2,Eat your food,Open the drink,Stop playing now,Drink the water,1,1279,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A1,Drink the water,Stop playing now,Close the door,Open the drink,1,1280,26
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗?,⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A4,Please help me,Eat your food,Open the drink,Close the door,1,1281,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A4,Close the door,Open the drink,Eat your food,Stop playing now,1,1282,26
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗?,⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A1,Close the door,Eat your food,Stop playing now,Please help me,1,1283,26
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗?,⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A3,Please help me,Open the drink,Close the door,Stop playing now,1,1284,26
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠏⠇⠁⠽⠊⠝⠛ ⠝⠕⠺,Q_A3,Drink the water,Eat your food,Stop playing now,Close the door,1,1285,26
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑,Q_A1,Please help me,Drink the water,Stop playing now,Eat your food,1,1286,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A2,Eat your food,Open the drink,Please help me,Close the door,1,1287,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A2,Please help me,Drink the water,Open the drink,Stop playing now,1,1288,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A3,Please help me,Stop playing now,Drink the water,Eat your food,1,1289,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A2,Please help me,Drink the water,Stop playing now,Close the door,1,1290,26
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A4,Stop playing now,Drink the water,Open the drink,Eat your food,1,1291,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A3,Eat your food,Open the drink,Drink the water,Stop playing now,1,1292,26
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑,Q_A1,Please help me,Open the drink,Drink the water,Close the door,1,1293,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A4,Open the drink,Please help me,Eat your food,Drink the water,1,1294,26
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗?,⠉⠇⠕⠎⠑ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A3,Open the drink,Please help me,Close the door,Drink the water,1,1295,26
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙?,⠑⠁⠞ ⠽⠕⠥⠗ ⠋⠕⠕⠙,Q_A3,Drink the water,Open the drink,Eat your food,Please help me,1,1296,26
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗?,⠙⠗⠊⠝⠅ ⠞⠓⠑ ⠺⠁⠞⠑⠗,Q_A2,Close the door,Drink the water,Please help me,Open the drink,1,1297,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A1,Open the drink,Please help me,Eat your food,Close the door,1,1298,26
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠗⠊⠝⠅,Q_A1,Open the drink,Please help me,Stop playing now,Close the door,1,1299,26
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠓⠑⠇⠏ ⠍⠑,Q_A1,Please help me,Close the door,Open the drink,Stop playing now,1,1300,26
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A2,Help yourself now,Thank me later,Stop eating now,Love yourself more,1,1301,27
+Which sentence corresponds to this Braille pattern: ⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑?,⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑,Q_A1,Love yourself more,Help yourself now,Please love me,Stop eating now,1,1302,27
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑,Q_A2,Help yourself now,Please love me,Love yourself more,Stop eating now,1,1303,27
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑,Q_A2,Go there now,Please love me,Thank me later,Stop eating now,1,1304,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A2,Love yourself more,Go there now,Thank me later,Stop eating now,1,1305,27
+Which sentence corresponds to this Braille pattern: ⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺?,⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺,Q_A1,Help yourself now,Thank me later,Go there now,Please love me,1,1306,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A3,Stop eating now,Thank me later,Go there now,Love yourself more,1,1307,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A2,Thank me later,Go there now,Love yourself more,Help yourself now,1,1308,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A2,Please love me,Go there now,Thank me later,Stop eating now,1,1309,27
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺,Q_A1,Stop eating now,Help yourself now,Please love me,Love yourself more,1,1310,27
+Which sentence corresponds to this Braille pattern: ⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑?,⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑,Q_A3,Stop eating now,Help yourself now,Love yourself more,Thank me later,1,1311,27
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺,Q_A3,Love yourself more,Thank me later,Stop eating now,Go there now,1,1312,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A4,Help yourself now,Please love me,Love yourself more,Thank me later,1,1313,27
+Which sentence corresponds to this Braille pattern: ⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑?,⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑,Q_A4,Stop eating now,Thank me later,Go there now,Love yourself more,1,1314,27
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺,Q_A1,Stop eating now,Help yourself now,Thank me later,Please love me,1,1315,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A1,Go there now,Love yourself more,Thank me later,Please love me,1,1316,27
+Which sentence corresponds to this Braille pattern: ⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑?,⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑,Q_A3,Go there now,Please love me,Love yourself more,Stop eating now,1,1317,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A1,Go there now,Love yourself more,Stop eating now,Help yourself now,1,1318,27
+Which sentence corresponds to this Braille pattern: ⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺?,⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺,Q_A4,Go there now,Love yourself more,Please love me,Help yourself now,1,1319,27
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑,Q_A2,Love yourself more,Please love me,Stop eating now,Help yourself now,1,1320,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A2,Please love me,Go there now,Thank me later,Help yourself now,1,1321,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A2,Stop eating now,Thank me later,Please love me,Help yourself now,1,1322,27
+Which sentence corresponds to this Braille pattern: ⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺?,⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺,Q_A4,Please love me,Go there now,Love yourself more,Help yourself now,1,1323,27
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑,Q_A1,Please love me,Stop eating now,Help yourself now,Go there now,1,1324,27
+Which sentence corresponds to this Braille pattern: ⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑?,⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑,Q_A4,Go there now,Stop eating now,Help yourself now,Love yourself more,1,1325,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A1,Go there now,Please love me,Thank me later,Stop eating now,1,1326,27
+Which sentence corresponds to this Braille pattern: ⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑?,⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑,Q_A4,Please love me,Stop eating now,Help yourself now,Love yourself more,1,1327,27
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺,Q_A2,Love yourself more,Stop eating now,Thank me later,Please love me,1,1328,27
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺,Q_A4,Love yourself more,Help yourself now,Go there now,Stop eating now,1,1329,27
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑,Q_A2,Go there now,Please love me,Love yourself more,Stop eating now,1,1330,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A3,Stop eating now,Help yourself now,Go there now,Please love me,1,1331,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A2,Help yourself now,Go there now,Love yourself more,Thank me later,1,1332,27
+Which sentence corresponds to this Braille pattern: ⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺?,⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺,Q_A3,Go there now,Love yourself more,Help yourself now,Please love me,1,1333,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A3,Please love me,Go there now,Thank me later,Love yourself more,1,1334,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A1,Thank me later,Stop eating now,Help yourself now,Go there now,1,1335,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A3,Please love me,Love yourself more,Go there now,Help yourself now,1,1336,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A1,Go there now,Stop eating now,Thank me later,Help yourself now,1,1337,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A3,Help yourself now,Go there now,Thank me later,Love yourself more,1,1338,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A3,Stop eating now,Love yourself more,Go there now,Please love me,1,1339,27
+Which sentence corresponds to this Braille pattern: ⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺?,⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺,Q_A4,Thank me later,Please love me,Go there now,Help yourself now,1,1340,27
+Which sentence corresponds to this Braille pattern: ⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑?,⠇⠕⠧⠑ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠍⠕⠗⠑,Q_A2,Please love me,Love yourself more,Help yourself now,Stop eating now,1,1341,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A2,Go there now,Thank me later,Please love me,Love yourself more,1,1342,27
+Which sentence corresponds to this Braille pattern: ⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺?,⠛⠕ ⠞⠓⠑⠗⠑ ⠝⠕⠺,Q_A1,Go there now,Please love me,Thank me later,Love yourself more,1,1343,27
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺,Q_A1,Stop eating now,Go there now,Please love me,Help yourself now,1,1344,27
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑?,⠏⠇⠑⠁⠎⠑ ⠇⠕⠧⠑ ⠍⠑,Q_A3,Love yourself more,Stop eating now,Please love me,Go there now,1,1345,27
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺?,⠎⠞⠕⠏ ⠑⠁⠞⠊⠝⠛ ⠝⠕⠺,Q_A4,Thank me later,Love yourself more,Please love me,Stop eating now,1,1346,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A2,Stop eating now,Thank me later,Love yourself more,Help yourself now,1,1347,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A3,Stop eating now,Help yourself now,Thank me later,Go there now,1,1348,27
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗?,⠞⠓⠁⠝⠅ ⠍⠑ ⠇⠁⠞⠑⠗,Q_A3,Help yourself now,Please love me,Thank me later,Stop eating now,1,1349,27
+Which sentence corresponds to this Braille pattern: ⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺?,⠓⠑⠇⠏ ⠽⠕⠥⠗⠎⠑⠇⠋ ⠝⠕⠺,Q_A2,Thank me later,Help yourself now,Love yourself more,Please love me,1,1350,27
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A2,Stop loving them,Open the door,Please go away,Thank them now,1,1351,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A3,Open the door,Please go away,Stop loving them,Thank them now,1,1352,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A3,Drink this please,Stop loving them,Close it now,Please go away,1,1353,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A2,Please go away,Stop loving them,Thank them now,Close it now,1,1354,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A4,Drink this please,Please go away,Thank them now,Close it now,1,1355,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽?,⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽,Q_A3,Stop loving them,Open the door,Please go away,Thank them now,1,1356,28
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺?,⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺,Q_A4,Stop loving them,Close it now,Drink this please,Thank them now,1,1357,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A4,Please go away,Drink this please,Thank them now,Stop loving them,1,1358,28
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺?,⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺,Q_A1,Thank them now,Stop loving them,Open the door,Drink this please,1,1359,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A2,Close it now,Open the door,Stop loving them,Please go away,1,1360,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽?,⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽,Q_A4,Stop loving them,Drink this please,Open the door,Please go away,1,1361,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A3,Open the door,Thank them now,Close it now,Please go away,1,1362,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A4,Drink this please,Please go away,Open the door,Stop loving them,1,1363,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A4,Thank them now,Open the door,Close it now,Stop loving them,1,1364,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A1,Open the door,Thank them now,Stop loving them,Drink this please,1,1365,28
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺?,⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺,Q_A2,Stop loving them,Thank them now,Please go away,Open the door,1,1366,28
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺?,⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺,Q_A4,Open the door,Stop loving them,Please go away,Thank them now,1,1367,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A2,Close it now,Stop loving them,Please go away,Open the door,1,1368,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A2,Please go away,Stop loving them,Open the door,Close it now,1,1369,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A3,Thank them now,Open the door,Close it now,Drink this please,1,1370,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A2,Thank them now,Open the door,Please go away,Drink this please,1,1371,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A2,Thank them now,Stop loving them,Close it now,Drink this please,1,1372,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A2,Open the door,Close it now,Drink this please,Please go away,1,1373,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A4,Please go away,Open the door,Close it now,Stop loving them,1,1374,28
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑?,⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑,Q_A4,Open the door,Close it now,Thank them now,Drink this please,1,1375,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A1,Open the door,Close it now,Thank them now,Stop loving them,1,1376,28
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺?,⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺,Q_A2,Stop loving them,Thank them now,Close it now,Open the door,1,1377,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A4,Thank them now,Open the door,Stop loving them,Close it now,1,1378,28
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑?,⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑,Q_A1,Drink this please,Thank them now,Stop loving them,Close it now,1,1379,28
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺?,⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺,Q_A2,Drink this please,Thank them now,Open the door,Please go away,1,1380,28
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑?,⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑,Q_A4,Please go away,Close it now,Open the door,Drink this please,1,1381,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽?,⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽,Q_A1,Please go away,Stop loving them,Close it now,Open the door,1,1382,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A2,Open the door,Close it now,Thank them now,Drink this please,1,1383,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽?,⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽,Q_A2,Thank them now,Please go away,Drink this please,Stop loving them,1,1384,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A1,Open the door,Drink this please,Please go away,Close it now,1,1385,28
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑?,⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑,Q_A4,Please go away,Close it now,Thank them now,Drink this please,1,1386,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽?,⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽,Q_A4,Drink this please,Open the door,Close it now,Please go away,1,1387,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A2,Please go away,Open the door,Stop loving them,Close it now,1,1388,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A3,Drink this please,Please go away,Stop loving them,Thank them now,1,1389,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A1,Close it now,Drink this please,Thank them now,Please go away,1,1390,28
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑?,⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑,Q_A3,Close it now,Open the door,Drink this please,Please go away,1,1391,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A2,Thank them now,Open the door,Please go away,Drink this please,1,1392,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A1,Stop loving them,Open the door,Close it now,Thank them now,1,1393,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽?,⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽,Q_A3,Thank them now,Open the door,Please go away,Drink this please,1,1394,28
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗?,⠕⠏⠑⠝ ⠞⠓⠑ ⠙⠕⠕⠗,Q_A2,Thank them now,Open the door,Please go away,Close it now,1,1395,28
+Which sentence corresponds to this Braille pattern: ⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑?,⠙⠗⠊⠝⠅ ⠞⠓⠊⠎ ⠏⠇⠑⠁⠎⠑,Q_A4,Stop loving them,Close it now,Thank them now,Drink this please,1,1396,28
+Which sentence corresponds to this Braille pattern: ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺?,⠞⠓⠁⠝⠅ ⠞⠓⠑⠍ ⠝⠕⠺,Q_A1,Thank them now,Close it now,Drink this please,Stop loving them,1,1397,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽?,⠏⠇⠑⠁⠎⠑ ⠛⠕ ⠁⠺⠁⠽,Q_A1,Please go away,Drink this please,Thank them now,Stop loving them,1,1398,28
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍?,⠎⠞⠕⠏ ⠇⠕⠧⠊⠝⠛ ⠞⠓⠑⠍,Q_A3,Close it now,Drink this please,Stop loving them,Please go away,1,1399,28
+Which sentence corresponds to this Braille pattern: ⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺?,⠉⠇⠕⠎⠑ ⠊⠞ ⠝⠕⠺,Q_A1,Close it now,Open the door,Drink this please,Please go away,1,1400,28
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A1,Play with them,Please stop there,They love food,Who goes there?,1,1401,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑?,⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑,Q_A4,They love food,Play with them,Who goes there?,Please stop there,1,1402,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A3,I thank them,They love food,Eat food now,Play with them,1,1403,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑?,⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑,Q_A3,Play with them,Eat food now,Please stop there,I thank them,1,1404,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A2,I thank them,Eat food now,Who goes there?,Play with them,1,1405,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A4,I thank them,Play with them,Please stop there,Eat food now,1,1406,29
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍?,⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍,Q_A2,Eat food now,I thank them,Please stop there,Who goes there?,1,1407,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A4,Please stop there,Eat food now,I thank them,Who goes there?,1,1408,29
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍?,⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍,Q_A2,Eat food now,I thank them,Play with them,Please stop there,1,1409,29
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍?,⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍,Q_A2,Eat food now,I thank them,Please stop there,They love food,1,1410,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A1,Play with them,Please stop there,I thank them,Who goes there?,1,1411,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A2,Please stop there,Who goes there?,Play with them,Eat food now,1,1412,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A2,Who goes there?,Eat food now,Play with them,They love food,1,1413,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A3,I thank them,They love food,Eat food now,Who goes there?,1,1414,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑?,⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑,Q_A4,They love food,I thank them,Who goes there?,Please stop there,1,1415,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A3,Please stop there,Eat food now,Who goes there?,I thank them,1,1416,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A4,I thank them,Please stop there,They love food,Play with them,1,1417,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A3,They love food,Play with them,Eat food now,Please stop there,1,1418,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑?,⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑,Q_A3,I thank them,Eat food now,Please stop there,Play with them,1,1419,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A4,Play with them,I thank them,Please stop there,Who goes there?,1,1420,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A3,I thank them,Who goes there?,Play with them,They love food,1,1421,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A1,Eat food now,Please stop there,They love food,I thank them,1,1422,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A4,Please stop there,I thank them,They love food,Eat food now,1,1423,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑?,⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑,Q_A2,Who goes there?,Please stop there,Eat food now,I thank them,1,1424,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A1,Play with them,Eat food now,Who goes there?,They love food,1,1425,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A1,Who goes there?,Please stop there,I thank them,They love food,1,1426,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A4,Eat food now,I thank them,Play with them,Who goes there?,1,1427,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A4,Please stop there,I thank them,They love food,Who goes there?,1,1428,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A4,They love food,Eat food now,Please stop there,Play with them,1,1429,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A4,I thank them,Please stop there,Eat food now,Play with them,1,1430,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A1,They love food,Please stop there,Play with them,I thank them,1,1431,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A2,Please stop there,Who goes there?,Eat food now,Play with them,1,1432,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A4,Eat food now,Please stop there,I thank them,Who goes there?,1,1433,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A1,They love food,Please stop there,Eat food now,Who goes there?,1,1434,29
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍?,⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍,Q_A2,They love food,I thank them,Please stop there,Play with them,1,1435,29
+Which sentence corresponds to this Braille pattern: ⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍?,⠊ ⠞⠓⠁⠝⠅ ⠞⠓⠑⠍,Q_A2,Play with them,I thank them,They love food,Who goes there?,1,1436,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A1,They love food,Who goes there?,Eat food now,Play with them,1,1437,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A1,They love food,Please stop there,I thank them,Who goes there?,1,1438,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A3,Please stop there,Who goes there?,They love food,Eat food now,1,1439,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑?,⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑,Q_A1,Please stop there,Play with them,Who goes there?,They love food,1,1440,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A3,I thank them,Eat food now,Play with them,Please stop there,1,1441,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A3,Play with them,Please stop there,They love food,Who goes there?,1,1442,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A3,Play with them,Please stop there,Eat food now,Who goes there?,1,1443,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A3,Please stop there,Who goes there?,Eat food now,I thank them,1,1444,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A4,Who goes there?,Play with them,Please stop there,They love food,1,1445,29
+Which sentence corresponds to this Braille pattern: ⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺?,⠑⠁⠞ ⠋⠕⠕⠙ ⠝⠕⠺,Q_A4,Play with them,Who goes there?,I thank them,Eat food now,1,1446,29
+Which sentence corresponds to this Braille pattern: ⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑??,⠺⠓⠕ ⠛⠕⠑⠎ ⠞⠓⠑⠗⠑?,Q_A2,Please stop there,Who goes there?,Eat food now,I thank them,1,1447,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍?,⠏⠇⠁⠽ ⠺⠊⠞⠓ ⠞⠓⠑⠍,Q_A3,Please stop there,I thank them,Play with them,They love food,1,1448,29
+Which sentence corresponds to this Braille pattern: ⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙?,⠞⠓⠑⠽ ⠇⠕⠧⠑ ⠋⠕⠕⠙,Q_A3,Please stop there,Who goes there?,They love food,Play with them,1,1449,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑?,⠏⠇⠑⠁⠎⠑ ⠎⠞⠕⠏ ⠞⠓⠑⠗⠑,Q_A4,Play with them,Eat food now,I thank them,Please stop there,1,1450,29
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺?,⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺,Q_A4,Stop helping me,Where do you play?,Why do we eat?,Please play now,1,1451,30
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑?,⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑,Q_A3,Where do you play?,What do we need?,Stop helping me,Why do we eat?,1,1452,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,Where do you play?,Stop helping me,Please play now,Why do we eat?,1,1453,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A1,Why do we eat?,Open the food,Stop helping me,Please play now,1,1454,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A3,Where do you play?,Stop helping me,Open the food,Why do we eat?,1,1455,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A2,Where do you play?,Open the food,What do we need?,Why do we eat?,1,1456,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A1,Open the food,Stop helping me,Why do we eat?,Please play now,1,1457,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A4,What do we need?,Stop helping me,Please play now,Why do we eat?,1,1458,30
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺?,⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺,Q_A4,Where do you play?,Why do we eat?,Open the food,Please play now,1,1459,30
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑?,⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑,Q_A4,Please play now,What do we need?,Open the food,Stop helping me,1,1460,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,Where do you play?,Please play now,Why do we eat?,Stop helping me,1,1461,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙??,⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙?,Q_A1,What do we need?,Why do we eat?,Stop helping me,Where do you play?,1,1462,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A4,Stop helping me,Open the food,Please play now,Why do we eat?,1,1463,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A4,Stop helping me,Where do you play?,What do we need?,Why do we eat?,1,1464,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A2,Stop helping me,Why do we eat?,Where do you play?,Please play now,1,1465,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,Where do you play?,What do we need?,Please play now,Open the food,1,1466,30
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑?,⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑,Q_A1,Stop helping me,Open the food,Please play now,What do we need?,1,1467,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,Where do you play?,What do we need?,Open the food,Stop helping me,1,1468,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A4,Where do you play?,Stop helping me,Why do we eat?,Open the food,1,1469,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙??,⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙?,Q_A2,Why do we eat?,What do we need?,Where do you play?,Open the food,1,1470,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙??,⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙?,Q_A4,Stop helping me,Please play now,Why do we eat?,What do we need?,1,1471,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,Where do you play?,Stop helping me,Open the food,What do we need?,1,1472,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A3,Where do you play?,What do we need?,Why do we eat?,Please play now,1,1473,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A2,Please play now,Where do you play?,Stop helping me,Open the food,1,1474,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A3,Please play now,Where do you play?,Open the food,Why do we eat?,1,1475,30
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑?,⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑,Q_A4,Please play now,Why do we eat?,Open the food,Stop helping me,1,1476,30
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺?,⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺,Q_A3,What do we need?,Open the food,Please play now,Stop helping me,1,1477,30
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺?,⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺,Q_A3,Where do you play?,Why do we eat?,Please play now,Open the food,1,1478,30
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑?,⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑,Q_A3,Please play now,Open the food,Stop helping me,What do we need?,1,1479,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A2,Stop helping me,Why do we eat?,Open the food,Where do you play?,1,1480,30
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺?,⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺,Q_A2,Open the food,Please play now,Stop helping me,Where do you play?,1,1481,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A2,Please play now,Why do we eat?,Stop helping me,Open the food,1,1482,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A4,Stop helping me,Please play now,Why do we eat?,Where do you play?,1,1483,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A2,Stop helping me,Open the food,What do we need?,Please play now,1,1484,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A2,Why do we eat?,Open the food,Where do you play?,Stop helping me,1,1485,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A3,Please play now,Where do you play?,Why do we eat?,What do we need?,1,1486,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A4,What do we need?,Where do you play?,Please play now,Open the food,1,1487,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A2,Please play now,Where do you play?,Stop helping me,Why do we eat?,1,1488,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A3,Where do you play?,Please play now,Why do we eat?,What do we need?,1,1489,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A3,What do we need?,Why do we eat?,Where do you play?,Please play now,1,1490,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙??,⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙?,Q_A4,Open the food,Stop helping me,Where do you play?,What do we need?,1,1491,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,Where do you play?,Please play now,Why do we eat?,Stop helping me,1,1492,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A4,Open the food,Where do you play?,Please play now,Why do we eat?,1,1493,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙??,⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙?,Q_A3,Please play now,Stop helping me,What do we need?,Where do you play?,1,1494,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽??,⠺⠓⠑⠗⠑ ⠙⠕ ⠽⠕⠥ ⠏⠇⠁⠽?,Q_A1,Where do you play?,Why do we eat?,What do we need?,Please play now,1,1495,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞??,⠺⠓⠽ ⠙⠕ ⠺⠑ ⠑⠁⠞?,Q_A2,Please play now,Why do we eat?,What do we need?,Open the food,1,1496,30
+Which sentence corresponds to this Braille pattern: ⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙?,⠕⠏⠑⠝ ⠞⠓⠑ ⠋⠕⠕⠙,Q_A4,Please play now,Stop helping me,Where do you play?,Open the food,1,1497,30
+Which sentence corresponds to this Braille pattern: ⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙??,⠺⠓⠁⠞ ⠙⠕ ⠺⠑ ⠝⠑⠑⠙?,Q_A3,Stop helping me,Why do we eat?,What do we need?,Open the food,1,1498,30
+Which sentence corresponds to this Braille pattern: ⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺?,⠏⠇⠑⠁⠎⠑ ⠏⠇⠁⠽ ⠝⠕⠺,Q_A1,Please play now,Open the food,Why do we eat?,Where do you play?,1,1499,30
+Which sentence corresponds to this Braille pattern: ⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑?,⠎⠞⠕⠏ ⠓⠑⠇⠏⠊⠝⠛ ⠍⠑,Q_A2,Please play now,Stop helping me,Why do we eat?,Where do you play?,1,1500,30
