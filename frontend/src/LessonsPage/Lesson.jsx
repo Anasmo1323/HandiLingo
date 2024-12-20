@@ -1,7 +1,7 @@
 import Footer from '../components/Footer'
 import Navbar_ from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 import httpClient from "../components/httpClient.jsx";
 
@@ -11,11 +11,7 @@ import httpClient from "../components/httpClient.jsx";
 //! Note (2) handling right anwser is dependent on the structure of the dummy data
 //! you need to make it suit to fetched data when make fetch requests
 
-//! Note (1) at the dummy data i signed name with four letter (e.g. a-d) we work now with three letters (e.g. a-c)
-//! so we need to change the dummy data to match the new data
 
-//! Note (2) handling right anwser is dependent on the structure of the dummy data 
-//! you need to make it suit to fetched data when make fetch requests
 
 const lessons = [
     {
@@ -302,7 +298,7 @@ const quizes = [
 
 const Lesson = () => {
     const location = useLocation();
-    const lessonNameFromState = location.state?.lessonName;
+    const lessonNumberFromState = location.state?.lessonNumber;
 
 
 
@@ -325,88 +321,89 @@ const Lesson = () => {
     //use this function to get the data from the database and list the lessons like you did with the dummy data
 
     const [lessons1, setLessons] = useState([]);
-   useEffect(() => {
-        const fetchLessonData = async () => {
-            try {
-                const response = await httpClient.get("/lessons");
-                const fetchedLessons = response.data.map(lesson => ({
-                    name: lesson.L_text,
-                    lessonsNum: lesson.L_no,
-                    finished: lesson.L_isFinished,
-                    level: lesson.L_level,
-                    signs: lesson.L_image,
 
-                }));
-                setLessons(fetchedLessons);
-            } catch (error) {
-                console.error("Error fetching lessons data:", error);
-            }
-        };
+    const fetchLessonData = async () => {
+        try {
+            const response = await httpClient.get("/lessons");
+            const fetchedLessons = response.data.map(lesson => ({
+                name: lesson.L_text,
+                lessonsNum: lesson.L_no,
+                finished: lesson.L_isFinished,
+                level: lesson.L_level,
+                signs: lesson.L_image,
+
+            }));
+            const filteredLessons = fetchedLessons.filter(lesson => lesson.lessonsNum === lessonNumberFromState  );
+            setLessons(filteredLessons);
+        } catch (error) {
+            console.error("Error fetching lessons data:", error);
+        }
+    };
+
+    
+
+    useEffect(() => {
         fetchLessonData();
     }, []);
 
-   const [user, setLessonScore] = useState(0);
-   useEffect(() => {
+    const [user, setLessonScore] = useState(0);
+    useEffect(() => {
         const fetchLessonScore = async () => {
             try {
                 const response = await httpClient.get("/@me");
                 const FetchedLessonScore = response.data
                 setLessonScore(FetchedLessonScore);
             }
-             catch (error) {
+            catch (error) {
                 console.error("Error fetching lesson score:", error);
             }
         };
         fetchLessonScore(); //use this to get it: user.lesson_score
     }, []);
 
-
-
-
-
-
     const handleCardClick = () => {
         setFlipped(!flipped);
     };
 
-    const handleAnswer = (selectedKey) => {
-        // Check if the answer for the current index is already stored
-        if (currentSlideIndex in correctAnswerNumber) {
-            console.log("Answer for index", currentSlideIndex, "is already stored.");
-            return;
-        }
+    // const handleAnswer = (selectedKey) => {
+    //     // Check if the answer for the current index is already stored
+    //     if (currentSlideIndex in correctAnswerNumber) {
+    //         console.log("Answer for index", currentSlideIndex, "is already stored.");
+    //         return;
+    //     }
 
-        const currentQuestion = quizes[currentLessonIndex].questions[currentSlideIndex];
-        const correctKey = currentQuestion.answer;
+    //     const currentQuestion = quizes[currentLessonIndex].questions[currentSlideIndex];
+    //     const correctKey = currentQuestion.answer;
 
-        const isCorrect = selectedKey === correctKey;
+    //     const isCorrect = selectedKey === correctKey;
 
-        console.log("Selected Key:", selectedKey);
-        console.log("Correct Key:", correctKey);
-        console.log("Is Correct:", isCorrect);
+    //     console.log("Selected Key:", selectedKey);
+    //     console.log("Correct Key:", correctKey);
+    //     console.log("Is Correct:", isCorrect);
 
-        setCorrectAnswerNumber((prev) => ({
-            ...prev,
-            [currentSlideIndex]: isCorrect,
-        }));
-        console.log("Stored answer for index:", currentSlideIndex, "isCorrect:", isCorrect);
+    //     setCorrectAnswerNumber((prev) => ({
+    //         ...prev,
+    //         [currentSlideIndex]: isCorrect,
+    //     }));
+    //     console.log("Stored answer for index:", currentSlideIndex, "isCorrect:", isCorrect);
 
-        setIsCorrect(isCorrect);
-        setSelectedAnswer(selectedKey); // Set the selected answer
+    //     setIsCorrect(isCorrect);
+    //     setSelectedAnswer(selectedKey); // Set the selected answer
 
-        return isCorrect;
-    };
+    //     return isCorrect;
+    // };
 
-    console.log(`Received lesson name: ${lessonNameFromState}`);
-    const initialLessonIndex = lessonNameFromState ? lessons.findIndex(lesson => lesson.name === lessonNameFromState) : 0;
+    console.log(`Received lesson name: ${lessonNumberFromState}`);
+    const initialLessonIndex = lessonNumberFromState ? lessons1.findIndex(lesson => lesson.L_on === lessonNumberFromState) : 0;
 
     const [currentLessonIndex, setCurrentLessonIndex] = useState(initialLessonIndex);
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
-    const currentLesson = lessons[currentLessonIndex];
-    const lessonData = lessonContent[currentLesson.name];
+    const currentLesson = lessons1[currentLessonIndex];
+    // const lessonData = lessonContent[currentLesson.name];
+    // const lessonData = lessons1[currentLessonIndex].L_text;
 
-    const [isQuizMode, setIsQuizMode] = useState(false);
+    // const [isQuizMode, setIsQuizMode] = useState(false);
 
     const handleNextSlide = () => {
         setIsCorrect(null); // Reset isCorrect state when moving to the next slide
@@ -416,78 +413,88 @@ const Lesson = () => {
             setShowResults(false);
             setCurrentLessonIndex(currentLessonIndex + 1);
             setCurrentSlideIndex(0);
-            setIsQuizMode(false);
+            // setIsQuizMode(false);
             setCorrectAnswerNumber({});
             return;
         }
 
-        if (!isQuizMode) {
-            const currentLessonImages = lessonContent[currentLesson.name].images;
+        // if (!isQuizMode) {
+            // const currentLessonImages = lessonContent[currentLesson.name].images;
+            const currentLessonImagesNames = lessons1[currentLessonIndex].signs.split(',').map(sign => sign.trim());;
+            
 
-            if (currentSlideIndex < currentLessonImages.length - 1) {
+            if (currentSlideIndex < currentLessonImagesNames.length - 1) {
                 setCurrentSlideIndex(currentSlideIndex + 1);
                 console.log(`Moved to next lesson slide: ${currentSlideIndex + 1}`);
             } else {
-                setIsQuizMode(true);
+                // setIsQuizMode(true);
                 setCurrentSlideIndex(0);
                 console.log(`Completed lesson slides for ${currentLesson.name}, moving to quizzes`);
             }
-        } else {
-            const currentQuiz = quizes[currentLessonIndex];
+        // } else 
+        // {
+        //     const currentQuiz = quizes[currentLessonIndex];
 
-            if (currentSlideIndex < currentQuiz.questions.length - 1) {
-                setCurrentSlideIndex(currentSlideIndex + 1);
-                console.log(`Moved to next quiz slide: ${currentSlideIndex + 1}`);
-            } else {
-                // Store the results of the current quiz batch
-                setReportSlides((prev) => ({
-                    ...prev,
-                    [currentLesson.name]: correctAnswerNumber,
-                }));
-                console.log(`Stored results for ${currentLesson.name}:`, correctAnswerNumber);
+        //     if (currentSlideIndex < currentQuiz.questions.length - 1) {
+        //         setCurrentSlideIndex(currentSlideIndex + 1);
+        //         console.log(`Moved to next quiz slide: ${currentSlideIndex + 1}`);
+        //     } else {
+        //         // Store the results of the current quiz batch
+        //         setReportSlides((prev) => ({
+        //             ...prev,
+        //             [currentLesson.name]: correctAnswerNumber,
+        //         }));
+        //         console.log(`Stored results for ${currentLesson.name}:`, correctAnswerNumber);
 
-                setShowResults(true);
-                console.log("Showing results slide");
-            }
-        }
+        //         setShowResults(true);
+        //         console.log("Showing results slide");
+        //     }
+        // }
     };
 
     const handlePrevSlide = () => {
-        setIsCorrect(null); // Reset isCorrect state when moving to the previous slide
-        setSelectedAnswer(null); // Reset selectedAnswer state when moving to the previous slide
+        // setIsCorrect(null); // Reset isCorrect state when moving to the previous slide
+        // setSelectedAnswer(null); // Reset selectedAnswer state when moving to the previous slide
 
-        if (showResults) {
-            setShowResults(false);
-            setIsQuizMode(true);
-            setCurrentSlideIndex(quizes[currentLessonIndex].questions.length - 1);
-            return;
-        }
+        // if (showResults) {
+        //     setShowResults(false);
+            // setIsQuizMode(true);
+        //     setCurrentSlideIndex(quizes[currentLessonIndex].questions.length - 1);
+        //     return;
+        // }
 
-        if (isQuizMode) {
-            if (currentSlideIndex > 0) {
-                setCurrentSlideIndex(currentSlideIndex - 1);
-            } else {
-                setIsQuizMode(false);
-                setCurrentSlideIndex(lessonContent[currentLesson.name].images.length - 1);
-            }
-        } else {
+        // if (isQuizMode) {
+        //     if (currentSlideIndex > 0) {
+        //         setCurrentSlideIndex(currentSlideIndex - 1);
+        //     } else {
+        //         setIsQuizMode(false);
+        //         setCurrentSlideIndex(lessonContent[currentLesson.name].images.length - 1);
+        //     }
+        // } else {
             if (currentSlideIndex > 0) {
                 setCurrentSlideIndex(currentSlideIndex - 1);
             } else if (currentLessonIndex > 0) {
                 setCurrentLessonIndex(currentLessonIndex - 1);
-                setIsQuizMode(true);
-                setCurrentSlideIndex(quizes[currentLessonIndex - 1].questions.length - 1);
+                // setIsQuizMode(true);
+                // setCurrentSlideIndex(quizes[currentLessonIndex - 1].questions.length - 1);
                 // Restore the results of the previous quiz batch
-                setCorrectAnswerNumber(reportSlides[lessons[currentLessonIndex - 1].name] || {});
-                setShowResults(true); // Show the results slide when navigating back
+                // setCorrectAnswerNumber(reportSlides[lessons[currentLessonIndex - 1].name] || {});
+                // setShowResults(true); // Show the results slide when navigating back
             } else {
                 console.log("You are at the beginning of the lessons!");
             }
-        }
+        // }
     };
 
     const renderLessonContent = () => {
-        const currentImage = lessonData.images[currentSlideIndex];
+        // const currentImage = lessonData.images[currentSlideIndex];
+        const currentLessonImagesNames = lessons1[currentLessonIndex].signs.split(',').map(sign => sign.trim());
+        const currentLessonImagesText=currentLessonImagesNames.split('_').slice(1);
+        const currentImage = currentLessonImagesText[currentSlideIndex];
+        const currentLessonText=currentLessonImagesText.split('_').slice(1);
+
+        // here put your call your fetch image function 
+        
         return (
             <div
                 className="flip-card-container flex justify-center items-center "
@@ -496,15 +503,15 @@ const Lesson = () => {
                 <div className={` cursor-pointer flip-card ${flipped ? 'flipped' : ''}`}>
                     {/* Front of the card - Image */}
                     <div className="flip-card-front">
-                <img
-                    src={currentImage.img}
-                    alt={currentImage.text}
-                    className="w-[500px] h-[500px] mx-auto rounded-lg shadow-md"
-                />
-            </div>
+                        <img
+                            src={currentImage}
+                            alt={currentLessonText}
+                            className="w-[500px] h-[500px] mx-auto rounded-lg shadow-md"
+                        />
+                    </div>
                     {/* Back of the card - Text */}
                     <div className="flip-card-back  border-[30px] border-[#4eac6d] rounded-lg shadow-md p-5">
-                        <p className="text-[100px] font-semibold mt-4">{currentImage.text.toUpperCase()}</p>
+                        <p className="text-[100px] font-semibold mt-4">{currentLessonText}</p>
                     </div>
                 </div>
             </div>
@@ -512,7 +519,8 @@ const Lesson = () => {
     };
 
     const renderLessons = () => {
-        return lessons.map((level, index) => (
+        return lessons1.map((lesson, index) => (
+            
             <li
                 className={`bg-white rounded-md cursor-pointer hover:bg-slate-200 p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''
                     }`}
@@ -524,7 +532,7 @@ const Lesson = () => {
             >
                 <div className="flex flex-col">
                     <span className="text-[20px]" style={{ fontWeight: 600 }}>
-                        {level.name}
+                        {lesson.name.splite(' ').slice(1).join('-')}
                     </span>
                     <span className="text-xs text-slate-400">Progress</span>
                 </div>
@@ -532,76 +540,76 @@ const Lesson = () => {
         ));
     };
 
-    const renderQuizContent = () => {
-        const currentQuiz = quizes[currentLessonIndex];
-        const currentQuestion = currentQuiz.questions[currentSlideIndex];
+    // const renderQuizContent = () => {
+    //     const currentQuiz = quizes[currentLessonIndex];
+    //     const currentQuestion = currentQuiz.questions[currentSlideIndex];
 
-        return (
-            <div className="text-center">
-                <p className="text-[30px] font-semibold mt-4">{currentQuestion.question.text}</p>
+    //     return (
+    //         <div className="text-center">
+    //             <p className="text-[30px] font-semibold mt-4">{currentQuestion.question.text}</p>
 
-                <div className="flex justify-center gap-4 mt-4">
-                    {currentQuestion.question.images.map((imageObj, index) => {
-                        const [key, url] = Object.entries(imageObj)[0];
-                        return (
-                            <div key={index} className="flex flex-col items-center">
-                                <img
-                                    src={url}
-                                    alt={key}
-                                    className="w-[200px] h-[200px] rounded-md shadow-md"
-                                />
-                            </div>
-                        );
-                    })}
-                </div>
+    //             <div className="flex justify-center gap-4 mt-4">
+    //                 {currentQuestion.question.images.map((imageObj, index) => {
+    //                     const [key, url] = Object.entries(imageObj)[0];
+    //                     return (
+    //                         <div key={index} className="flex flex-col items-center">
+    //                             <img
+    //                                 src={url}
+    //                                 alt={key}
+    //                                 className="w-[200px] h-[200px] rounded-md shadow-md"
+    //                             />
+    //                         </div>
+    //                     );
+    //                 })}
+    //             </div>
 
-                <div className="flex flex-col justify-center items-start mt-6">
-                    {Object.entries(currentQuestion.options).map(([key, value]) => (
-                        <div
-                            key={key}
-                            className="flex justify-center items-center p-5"
-                            onClick={() => handleAnswer(key)}
-                        >
-                            <p className="font-bold mr-4">{`${key.toUpperCase()} )`}</p>
-                            <button
-                                className={`bg-white text-green-500 font-bold w-[100px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200 ${selectedAnswer === key ? (isCorrect ? 'border-2 border-green-500' : 'border-2 border-red-500') : ''}`}
-                            >
-                                {value}
-                            </button>
-                            {selectedAnswer === key && isCorrect && (
-                                <span className="ml-4 text-green-500 font-bold">Correct!</span>
-                            )}
-                            {selectedAnswer === key && !isCorrect && (
-                                <span className="ml-4 text-red-500 font-bold">Incorrect!</span>
-                            )}
-                        </div>
-                    ))}
-                </div>
-            </div>
-        );
-    };
+    //             <div className="flex flex-col justify-center items-start mt-6">
+    //                 {Object.entries(currentQuestion.options).map(([key, value]) => (
+    //                     <div
+    //                         key={key}
+    //                         className="flex justify-center items-center p-5"
+    //                         onClick={() => handleAnswer(key)}
+    //                     >
+    //                         <p className="font-bold mr-4">{`${key.toUpperCase()} )`}</p>
+    //                         <button
+    //                             className={`bg-white text-green-500 font-bold w-[100px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200 ${selectedAnswer === key ? (isCorrect ? 'border-2 border-green-500' : 'border-2 border-red-500') : ''}`}
+    //                         >
+    //                             {value}
+    //                         </button>
+    //                         {selectedAnswer === key && isCorrect && (
+    //                             <span className="ml-4 text-green-500 font-bold">Correct!</span>
+    //                         )}
+    //                         {selectedAnswer === key && !isCorrect && (
+    //                             <span className="ml-4 text-red-500 font-bold">Incorrect!</span>
+    //                         )}
+    //                     </div>
+    //                 ))}
+    //             </div>
+    //         </div>
+    //     );
+    // };
 
-    const renderQuizResults = () => {
-        const results = reportSlides[currentLesson.name] || {};
-        const correctAnswers = Object.values(results).filter(isCorrect => isCorrect).length;
-        const incorrectAnswers = Object.values(results).filter(isCorrect => !isCorrect).length;
-        return (
-            <div className="flex flex-col justify-center items-center mt-6">
-                <h2 className="text-[30px] font-semibold">Quiz Results</h2>
-                <div className='w-full text-lg p-5 flex justify-between items-center'>
-                    <span>Correct Answers Number: {correctAnswers}</span>
-                    <span>Incorrect Answers Number: {incorrectAnswers}</span>
-                </div>
-                <ul className="mt-4">
-                    {Object.entries(results).map(([index, isCorrect], idx) => (
-                        <li key={idx} className="text-[20px]">
-                            Question {parseInt(index) + 1}: {isCorrect ? 'Correct' : 'Incorrect'}
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        );
-    };
+    // const renderQuizResults = () => {
+    //     const results = reportSlides[currentLesson.name] || {};
+    //     const correctAnswers = Object.values(results).filter(isCorrect => isCorrect).length;
+    //     const incorrectAnswers = Object.values(results).filter(isCorrect => !isCorrect).length;
+    //     return (
+    //         <div className="flex flex-col justify-center items-center mt-6">
+    //             <h2 className="text-[30px] font-semibold">Quiz Results</h2>
+    //             <div className='w-full text-lg p-5 flex justify-between items-center'>
+    //                 <span>Correct Answers Number: {correctAnswers}</span>
+    //                 <span>Incorrect Answers Number: {incorrectAnswers}</span>
+    //             </div>
+    //             <ul className="mt-4">
+    //                 {Object.entries(results).map(([index, isCorrect], idx) => (
+    //                     <li key={idx} className="text-[20px]">
+    //                         Question {parseInt(index) + 1}: {isCorrect ? 'Correct' : 'Incorrect'}
+    //                     </li>
+    //                 ))}
+    //             </ul>
+    //         </div>
+    //     );
+    // };
 
     return (
         <>
@@ -622,12 +630,14 @@ const Lesson = () => {
 
                         <div className="basis-3/4">
                             <div className="bg-white w-full rounded-md p-5">
-                                {showResults ? renderQuizResults() : (isQuizMode ? renderQuizContent() : renderLessonContent())}
+                                {/* {showResults ? renderQuizResults() : (isQuizMode ? renderQuizContent() : renderLessonContent())} */}
+                                { renderLessonContent()}
                             </div>
                             <div className="mt-4 flex justify-between">
                                 <button
                                     onClick={handlePrevSlide}
-                                    disabled={currentLessonIndex === 0 && currentSlideIndex === 0 && !isQuizMode}
+                                    // disabled={currentLessonIndex === 0 && currentSlideIndex === 0 && !isQuizMode}
+                                    disabled={currentLessonIndex === 0 && currentSlideIndex === 0}
                                     className="bg-white text-green-500 font-bold w-[200px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
                                 >
                                     Previous
@@ -636,7 +646,8 @@ const Lesson = () => {
                                     onClick={handleNextSlide}
                                     disabled={
                                         currentLessonIndex === lessons.length - 1 &&
-                                        currentSlideIndex === (isQuizMode ? quizes[currentLessonIndex].questions.length - 1 : lessonData.images.length - 1)
+                                        // currentSlideIndex === (isQuizMode ? quizes[currentLessonIndex].questions.length - 1 : lessonData.images.length - 1)
+                                        currentSlideIndex === ( lessons1[currentLessonIndex].signs.split(',').map(sign => sign.trim()).length - 1)
                                     }
                                     className="bg-white text-green-500 font-bold w-[200px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
                                 >
