@@ -36,7 +36,6 @@ const programContents = {
 const Dashboard = () => {
 
     const location = useLocation();
-    
     // here fetch the program list name and content from the server
     const [programName, setProgramName] = useState('Letters');
     const [programContent, setProgramContent] = useState(programContents[programName]);
@@ -71,7 +70,7 @@ const Dashboard = () => {
             const isDisabled = (score < 200 && program.name === 'Words') || (score < 400 && program.name === 'Sentences');
             return (
                 <li
-                    className={`bg-white rounded-md ${isDisabled ? 'cursor-not-allowed bg-gray-300' : 'cursor-pointer hover:bg-slate-200'}`}
+                    className={`bg-white rounded-md ${isDisabled ? ' bg-slate-300' : 'cursor-pointer hover:bg-slate-200'}`}
                     key={index}
                     onClick={() => !isDisabled && handleClick(program.name)}
                 >

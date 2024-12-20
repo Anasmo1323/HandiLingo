@@ -138,12 +138,12 @@ function Home() {
       <div className="text-center p-10 bg-green-100 h-[70vh]">
         <div className="w-full h-full flex flex-col justify-center items-center">
 
-          <h1 className="text-4xl font-bold text-green-700 mb-4">
-            Learn Sign Language and Others handicapped Languages
-          </h1>
-          <p className="text-xl text-gray-700">
-            Join thousands of users to improve your Knowlage skills with personalized lessons.
-          </p>
+        <h1 className="text-4xl font-bold text-green-700 mb-4">
+          Learn Sign Language and Others handicapped Languages
+        </h1>
+        <p className="text-xl text-gray-700">
+          Join thousands of users to improve your Knowlage skills with personalized lessons.
+        </p>
 
           <div className="mt-6 flex justify-center gap-4">
             <button className="bg-green-500 text-white px-6 py-5 text-2xl  rounded-lg font-semibold hover:bg-green-600"
@@ -155,7 +155,7 @@ function Home() {
                 alt="sign" />
               <span>Sign Language</span>
 
-            </button>
+              </button>
             <button className=" bg-green-500 text-white px-6 py-5 text-2xl rounded-lg font-semibold hover:bg-green-600"
               onClick={() => handleLessonClick('braille')}
               >
@@ -166,7 +166,7 @@ function Home() {
                   alt="braille" />
                 <span>Braille Language</span>
               </div>
-            </button>
+              </button>
 
           </div>
 
