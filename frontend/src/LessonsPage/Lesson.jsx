@@ -305,10 +305,10 @@ const Lesson = () => {
 
 
     const [flipped, setFlipped] = useState(false);
-    const [isCorrect, setIsCorrect] = useState(null);
-    const [selectedAnswer, setSelectedAnswer] = useState(null);
-    const [correctAnswerNumber, setCorrectAnswerNumber] = useState({});
-    const [reportSlides, setReportSlides] = useState({});
+    // const [isCorrect, setIsCorrect] = useState(null);
+    // const [selectedAnswer, setSelectedAnswer] = useState(null);
+    // const [correctAnswerNumber, setCorrectAnswerNumber] = useState({});
+    // const [reportSlides, setReportSlides] = useState({});
     const [showResults, setShowResults] = useState(false);
 
 
@@ -334,18 +334,18 @@ const Lesson = () => {
                 signs: lesson.L_image,
 
             }));
+            console.log("fetchedLessons",fetchedLessons);
+            
             const filteredLessons = fetchedLessons.filter(lesson => lesson.lessonsNum === lessonNumberFromState  );
             console.log("filteredLessons",filteredLessons);
+
             setLessons(filteredLessons);
-            console.log("lesson ",lessons1);
-            
-
-
         } catch (error) {
             console.error("Error fetching lessons data:", error);
         }
     };
 
+    
     fetchLessonData();
 
     useEffect(() => {
@@ -415,17 +415,17 @@ const Lesson = () => {
     // const [isQuizMode, setIsQuizMode] = useState(false);
 
     const handleNextSlide = () => {
-        setIsCorrect(null); // Reset isCorrect state when moving to the next slide
-        setSelectedAnswer(null); // Reset selectedAnswer state when moving to the next slide
+        // setIsCorrect(null); // Reset isCorrect state when moving to the next slide
+        // setSelectedAnswer(null); // Reset selectedAnswer state when moving to the next slide
 
-        if (showResults) {
-            setShowResults(false);
+        // if (showResults) {
+            // setShowResults(false);
             setCurrentLessonIndex(currentLessonIndex + 1);
-            setCurrentSlideIndex(0);
+            // setCurrentSlideIndex(0);
             // setIsQuizMode(false);
-            setCorrectAnswerNumber({});
-            return;
-        }
+            // setCorrectAnswerNumber({});
+            // return;
+        // }
 
         // if (!isQuizMode) {
             // const currentLessonImages = lessonContent[currentLesson.name].images;
