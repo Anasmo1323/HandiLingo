@@ -1,24 +1,20 @@
-import logging
-from models import db, Questions_signs
-from backend.app import app  # Import the app instance directly
+import os
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Path to the folder containing the images
+folder_path = r"C:\Users\Anas Mohamed\Desktop\HandiLingo\Data\Signs"
 
+# Iterate through all files in the folder
+for filename in os.listdir(folder_path):
+    # Create the full path for the file
+    old_file_path = os.path.join(folder_path, filename)
 
-def get_sign_questions_with_difficulty_1():
-    try:
-        # Query the database using SQLAlchemy
-        results = Questions_signs.query.filter_by(Q_difficulty=1).all()
-        return results
-    except Exception as e:
-        logger.error(f"Error fetching sign questions with difficulty 1: {e}", exc_info=True)
-        return []
+    # Skip directories, process files only
+    if os.path.isfile(old_file_path):
+        # New filename with "Sign_" prefix
+        new_filename = "Sign_" + filename
+        new_file_path = os.path.join(folder_path, new_filename)
 
+        # Rename the file
+        os.rename(old_file_path, new_file_path)
 
-if __name__ == "__main__":
-    with app.app_context():  # Push the application context
-        questions = get_sign_questions_with_difficulty_1()
-        for question in questions:
-            print(f"ID: {question.Q_ID}, Text: {question.Q_text}, Difficulty: {question.Q_difficulty}")
+print("All files have been renamed successfully!")
