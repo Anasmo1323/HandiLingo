@@ -2,6 +2,7 @@ import httpClient from "./httpClient";
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 
+
 function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

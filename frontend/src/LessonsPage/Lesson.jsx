@@ -1,133 +1,15 @@
 import Footer from '../components/Footer'
+import httpClient from '../components/httpClient';
 import Navbar_ from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
-import httpClient from "../components/httpClient.jsx";
 
-//! Note (1) at the dummy data i signed name with four letter (e.g. a-d) we work now with three letters (e.g. a-c)
-//! so we need to change the dummy data to match the new data
-
-//! Note (2) handling right anwser is dependent on the structure of the dummy data
-//! you need to make it suit to fetched data when make fetch requests
-
-
-
-const lessons = [
-    {
-        name: "a-c",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    },
-    {
-        name: "e-h",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    },
-    {
-        name: "i-l",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    },
-    {
-        name: "m-p",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    }
-
-];
-
-const lessonContent = {
-    'a-c': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg',
-                text: 'A'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'b'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'c'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'd'
-            },
-        ]
-    },
-    'e-h': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'e'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'f'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'g'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'h'
-            },
-        ]
-    },
-    'i-l': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'i'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'g'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'k'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'l'
-            },
-        ]
-    },
-    'm-p': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'i'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'g'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'k'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'l'
-            },
-        ]
-    }
-};
 
 
 const quizes = [
     {
-        name: "a-d",
+        name: "A-B-C",
         questions: [
             {
                 question: {
@@ -169,7 +51,7 @@ const quizes = [
         ],
     },
     {
-        name: "e-h",
+        name: "E-F-G",
         questions: [
             {
                 question: {
@@ -298,10 +180,7 @@ const quizes = [
 
 const Lesson = () => {
     const location = useLocation();
-    const lessonNameFromState = location.state?.lessonName;
-
-
-
+    const lessonNameFromState = location.state?.lessonNumber;
 
     const [flipped, setFlipped] = useState(false);
     const [isCorrect, setIsCorrect] = useState(null);
@@ -310,61 +189,88 @@ const Lesson = () => {
     const [reportSlides, setReportSlides] = useState({});
     const [showResults, setShowResults] = useState(false);
 
+    console.log(`Received lesson name: ${lessonNameFromState}`);
+    const initialLessonIndex = lessonNameFromState ? lessonNameFromState - 1 : 0;
 
-    //How to use:
-    //lessons1[0].name is the first row in the table of lessons in the database and lessons1[1].name is the second row and so on
-    //.name is the name of the lesson in your dummy data = a-c, e-h, i-l, m-p
-    // .lessonsNum is the index of the lesson 1-9 is letters 10-20 is words and sentences have no lessons
-    // .finished is boolean 0 or 1 if the lesson is finished or not to lock the next lesson if the current lesson is not finished
-    //.level 1: for letters and 2 for words
-    // .signs is string carrying the signs file name that is used in the lesson
-    //use this function to get the data from the database and list the lessons like you did with the dummy data
+    const [currentLessonIndex, setCurrentLessonIndex] = useState(initialLessonIndex);
+    const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
-const [lessons1, setLessons] = useState([]);
-const fetchLessonData = async () => {
-    try {
-        const response = await httpClient.get("/lessons");
-        const fetchedLessons = response.data.map(lesson => ({
-            name: lesson.L_text,
-            lessonsNum: lesson.L_no,
-            finished: lesson.L_isFinished,
-            level: lesson.L_level,
-            signs: lesson.L_image,
+    const [lessons, setLessons] = useState([]);
+    const [lessonsCopy, setLessonsCopy] = useState([]);
+    const [lessonContentCopy, setLessonContentCopy] = useState({});
 
-        }));
+    const currentLesson = lessonsCopy[currentLessonIndex];
+    const lessonData = lessonContentCopy[currentLesson?.name];
 
-        console.log("fetchedLessons",fetchedLessons);
+    const [isQuizMode, setIsQuizMode] = useState(false);
 
-        const filteredLessons = fetchedLessons.filter(lesson => lesson.lessonsNum === lessonNumberFromState  );
-        console.log("filteredLessons",filteredLessons);
+    const fetchLessonData = async () => {
+        try {
+            const response = await httpClient.get("/lessons");
+            const fetchedLessons = response.data.map(lesson => ({
+                name: lesson.L_text.split(' ').slice(1).join('-'),
+                lessonsNum: lesson.L_no,
+                finished: lesson.L_isFinished,
+                level: lesson.L_level,
+                signs: lesson.L_image.split(',').map(sign => sign.trim()),
+            }));
 
-        setLessons(fetchedLessons);
-    } catch (error) {
-        console.error("Error fetching lessons data:", error);
-    }
-};
+            console.log("fetchedLessons", fetchedLessons);
+            setLessons(fetchedLessons);
 
-useEffect(() => {
-    console.log("fetched here");
-    fetchLessonData();
-}, []);
+            // Prepare data for lessonsCopy and lessonContentCopy
+            const lessonsCopyData = fetchedLessons.map(lesson => ({
+                name: lesson.name,
+                lessonsNum: lesson.lessonsNum,
+                finished: lesson.finished,
+                time: 12, // Assuming a default time value
+            }));
 
-   const [user, setLessonScore] = useState(0);
-   useEffect(() => {
+            const lessonContentCopyData = fetchedLessons.reduce((acc, lesson) => {
+                acc[lesson.name] = {
+                    images: lesson.signs.map(sign => ({
+                        img: `path/to/images/${sign}.jpg`, // Assuming a path format for images
+                        text: sign.split('_').slice(1).join(' '), // Assuming text format from sign name
+                    })),
+                };
+                return acc;
+            }, {});
+
+            setLessonsCopy(lessonsCopyData);
+            setLessonContentCopy(lessonContentCopyData);
+
+        } catch (error) {
+            console.error("Error fetching lessons data:", error);
+        }
+    };
+
+    useEffect(() => {
+        console.log("fetched here");
+        fetchLessonData();
+        console.log("lessons", lessons);
+    }, []);
+
+    useEffect(() => {
+        console.log("Updated lessons:", lessons);
+        console.log("Updated lessonsCopy:", lessonsCopy);
+        console.log("Updated lessonContentCopy:", lessonContentCopy);
+    }, [lessons]);
+
+    const [user, setLessonScore] = useState(0);
+    useEffect(() => {
         const fetchLessonScore = async () => {
             try {
                 const response = await httpClient.get("/@me");
                 const FetchedLessonScore = response.data
                 setLessonScore(FetchedLessonScore);
             }
-             catch (error) {
+            catch (error) {
                 console.error("Error fetching lesson score:", error);
             }
         };
         fetchLessonScore(); //use this to get it: user.lesson_score
     }, []);
 
-   //A function that fetches the next question sign from the database
     const getNextQuestionSign = async () => {
         try {
             const response = await httpClient.get("/next_question_sign");
@@ -377,7 +283,6 @@ useEffect(() => {
             console.error("Error fetching the next question:", error);
         }
     };
-   //A function that takes the updated lesson score and the user id and updates the lesson score in the database
 
     const updateLessonScore = async (userId, newLessonScore) => {
         try {
@@ -395,15 +300,11 @@ useEffect(() => {
         }
     };
 
-
-
-
     const handleCardClick = () => {
         setFlipped(!flipped);
     };
 
     const handleAnswer = (selectedKey) => {
-        // Check if the answer for the current index is already stored
         if (currentSlideIndex in correctAnswerNumber) {
             console.log("Answer for index", currentSlideIndex, "is already stored.");
             return;
@@ -425,25 +326,14 @@ useEffect(() => {
         console.log("Stored answer for index:", currentSlideIndex, "isCorrect:", isCorrect);
 
         setIsCorrect(isCorrect);
-        setSelectedAnswer(selectedKey); // Set the selected answer
+        setSelectedAnswer(selectedKey);
 
         return isCorrect;
     };
 
-    console.log(`Received lesson name: ${lessonNameFromState}`);
-    const initialLessonIndex = lessonNameFromState ? lessons.findIndex(lesson => lesson.name === lessonNameFromState) : 0;
-
-    const [currentLessonIndex, setCurrentLessonIndex] = useState(initialLessonIndex);
-    const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
-
-    const currentLesson = lessons[currentLessonIndex];
-    const lessonData = lessonContent[currentLesson.name];
-
-    const [isQuizMode, setIsQuizMode] = useState(false);
-
     const handleNextSlide = () => {
-        setIsCorrect(null); // Reset isCorrect state when moving to the next slide
-        setSelectedAnswer(null); // Reset selectedAnswer state when moving to the next slide
+        setIsCorrect(null);
+        setSelectedAnswer(null);
 
         if (showResults) {
             setShowResults(false);
@@ -455,7 +345,7 @@ useEffect(() => {
         }
 
         if (!isQuizMode) {
-            const currentLessonImages = lessonContent[currentLesson.name].images;
+            const currentLessonImages = lessonData?.images;
 
             if (currentSlideIndex < currentLessonImages.length - 1) {
                 setCurrentSlideIndex(currentSlideIndex + 1);
@@ -472,7 +362,6 @@ useEffect(() => {
                 setCurrentSlideIndex(currentSlideIndex + 1);
                 console.log(`Moved to next quiz slide: ${currentSlideIndex + 1}`);
             } else {
-                // Store the results of the current quiz batch
                 setReportSlides((prev) => ({
                     ...prev,
                     [currentLesson.name]: correctAnswerNumber,
@@ -486,8 +375,8 @@ useEffect(() => {
     };
 
     const handlePrevSlide = () => {
-        setIsCorrect(null); // Reset isCorrect state when moving to the previous slide
-        setSelectedAnswer(null); // Reset selectedAnswer state when moving to the previous slide
+        setIsCorrect(null);
+        setSelectedAnswer(null);
 
         if (showResults) {
             setShowResults(false);
@@ -501,7 +390,7 @@ useEffect(() => {
                 setCurrentSlideIndex(currentSlideIndex - 1);
             } else {
                 setIsQuizMode(false);
-                setCurrentSlideIndex(lessonContent[currentLesson.name].images.length - 1);
+                setCurrentSlideIndex(lessonData?.images.length - 1);
             }
         } else {
             if (currentSlideIndex > 0) {
@@ -510,9 +399,8 @@ useEffect(() => {
                 setCurrentLessonIndex(currentLessonIndex - 1);
                 setIsQuizMode(true);
                 setCurrentSlideIndex(quizes[currentLessonIndex - 1].questions.length - 1);
-                // Restore the results of the previous quiz batch
-                setCorrectAnswerNumber(reportSlides[lessons[currentLessonIndex - 1].name] || {});
-                setShowResults(true); // Show the results slide when navigating back
+                setCorrectAnswerNumber(reportSlides[lessonsCopy[currentLessonIndex - 1].name] || {});
+                setShowResults(true);
             } else {
                 console.log("You are at the beginning of the lessons!");
             }
@@ -520,6 +408,10 @@ useEffect(() => {
     };
 
     const renderLessonContent = () => {
+        if (!lessonData) {
+            return <div>Loading...</div>;
+        }
+
         const currentImage = lessonData.images[currentSlideIndex];
         return (
             <div
@@ -527,15 +419,13 @@ useEffect(() => {
                 onClick={handleCardClick}
             >
                 <div className={` cursor-pointer flip-card ${flipped ? 'flipped' : ''}`}>
-                    {/* Front of the card - Image */}
                     <div className="flip-card-front">
-                <img
-                    src={currentImage.img}
-                    alt={currentImage.text}
-                    className="w-[500px] h-[500px] mx-auto rounded-lg shadow-md"
-                />
-            </div>
-                    {/* Back of the card - Text */}
+                        <img
+                            src={currentImage.img}
+                            alt={currentImage.text}
+                            className="w-[500px] h-[500px] mx-auto rounded-lg shadow-md"
+                        />
+                    </div>
                     <div className="flip-card-back  border-[30px] border-[#4eac6d] rounded-lg shadow-md p-5">
                         <p className="text-[100px] font-semibold mt-4">{currentImage.text.toUpperCase()}</p>
                     </div>
@@ -545,7 +435,7 @@ useEffect(() => {
     };
 
     const renderLessons = () => {
-        return lessons.map((level, index) => (
+        return lessonsCopy.map((level, index) => (
             <li
                 className={`bg-white rounded-md cursor-pointer hover:bg-slate-200 p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''
                     }`}
@@ -564,7 +454,6 @@ useEffect(() => {
             </li>
         ));
     };
-
 
     const renderQuizContent = () => {
         const currentQuiz = quizes[currentLessonIndex];
@@ -670,8 +559,8 @@ useEffect(() => {
                                 <button
                                     onClick={handleNextSlide}
                                     disabled={
-                                        currentLessonIndex === lessons.length - 1 &&
-                                        currentSlideIndex === (isQuizMode ? quizes[currentLessonIndex].questions.length - 1 : lessonData.images.length - 1)
+                                        currentLessonIndex === lessonsCopy.length - 1 &&
+                                        currentSlideIndex === (isQuizMode ? quizes[currentLessonIndex].questions.length - 1 : lessonData?.images.length - 1)
                                     }
                                     className="bg-white text-green-500 font-bold w-[200px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
                                 >
