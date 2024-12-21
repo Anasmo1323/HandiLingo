@@ -135,6 +135,27 @@ def get_next_question_braille():
         return jsonify({"error": str(e)}), 500
 
 
+@bp.route("/update_avatar", methods=["POST"])
+@login_required
+def update_avatar():
+    data = request.json
+    avatar = data.get("avatar")
+
+    if not avatar:
+        return jsonify({"error": "Avatar is required"}), 400
+
+    # List of valid avatars
+    valid_avatars = [f"avatar_{i}.png" for i in range(10)]  # Example: avatar_0.png to avatar_9.png
+    if avatar not in valid_avatars:
+        return jsonify({"error": "Invalid avatar"}), 400
+
+    # Update the avatar for the current user
+    current_user.avatar = avatar
+    db.session.commit()
+
+    return jsonify({"message": "Avatar updated successfully", "avatar": current_user.avatar}), 200
+
+
 @bp.route('/next_question_sign', methods=['GET'])
 @login_required
 def get_next_question_sign():
