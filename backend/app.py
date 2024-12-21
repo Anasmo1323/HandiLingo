@@ -2,8 +2,9 @@ from flask import Flask
 from flask_bcrypt import Bcrypt
 from flask_session import Session
 from flask_cors import CORS
+from flask_login import LoginManager
 from config import ApplicationConfig
-from models import db
+from models import db, Users
 from routes import bp
 
 app = Flask(__name__)
@@ -21,12 +22,17 @@ Session(app)
 
 db.init_app(app)
 
-app.register_blueprint(bp)
+login_manager = LoginManager()
+login_manager.init_app(app)
 
+@login_manager.user_loader
+def load_user(user_id):
+    return Users.query.get(int(user_id))
+
+app.register_blueprint(bp)
 
 with app.app_context():
     db.create_all()
-
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)

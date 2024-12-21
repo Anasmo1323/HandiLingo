@@ -4,7 +4,6 @@ import httpClient from "../components/httpClient";
 import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 
-
 const testimonials = [
   {
     text: "I love this typing app! It has transformed the way I work and made me more efficient.",
@@ -47,10 +46,8 @@ const features = [
   }
 ];
 
-
 function Home() {
-
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   const [user, setUser] = useState(null);
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
 
@@ -60,22 +57,21 @@ function Home() {
     window.location.href = "/"; // Redirect to homepage after logout
   };
 
-  const handleLessonClick = (languageType) => {
-    navigate('/dashboard', { state: { languageType } }); // Pass lessonName as state
-  };
+const handleLessonClick = (languageType) => {
+navigate('/dashboard', { state: { languageType } });
+};
 
-  useEffect(() => {
-    (async () => {
-      try {
-        const resp = await httpClient.get("/@me");
-        setUser(resp.data); // Set user data if authenticated
-      } catch (error) {
-        setUser(null); // Set user to null if not authenticated
-        console.log("Not authenticated", error);
-      }
-    })();
-  }, []); // This effect runs once on component mount
-
+useEffect(() => {
+  (async () => {
+    try {
+      const resp = await httpClient.get("/@me");
+      setUser(resp.data); // Set user data if authenticated
+    } catch (error) {
+      setUser(null); // Simply set `user` to null if not authenticated, don't redirect
+      console.log("User not authenticated", error);
+    }
+  })();
+}, []);
 
   const handlePrevClick = () => {
     setCurrentTestimonialIndex((prevIndex) =>
@@ -101,7 +97,6 @@ function Home() {
       );
     });
   }
-
 
   return (
     <div className="bg-green-50 min-h-screen">
@@ -136,15 +131,14 @@ function Home() {
       {/* Hero Section */}
       <div className="text-center p-10 bg-green-100 h-[70vh]">
         <div className="w-full h-full flex flex-col justify-center items-center">
-
-        <h1 className="text-4xl font-bold text-green-700 mb-4">
-          Learn Sign Language and Others handicapped Languages
-        </h1>
-        <p className="text-xl text-gray-700">
-          Join thousands of users to improve your Knowlage skills with personalized lessons.
-        </p>
-
+          <h1 className="text-4xl font-bold text-green-700 mb-4">
+            Learn Sign Language and Others handicapped Languages
+          </h1>
+          <p className="text-xl text-gray-700">
+            Join thousands of users to improve your Knowlage skills with personalized lessons.
+          </p>
           <div className="mt-6 flex justify-center gap-4">
+
             <button className="bg-green-500 text-white px-6 py-5 text-2xl  rounded-lg font-semibold hover:bg-green-600"
               onClick={() => handleLessonClick('sign')}
             >
@@ -153,11 +147,11 @@ function Home() {
                 src="https://media.istockphoto.com/id/1311595752/vector/sign-language-interpreting-vector-icon-us-sing-language-hand-symbol-isolated-on-white.jpg?s=612x612&w=0&k=20&c=NxRdHaySIEOpXIQC3se_QJTJR65fCPP8BCMGTUcEkUU="
                 alt="sign" />
               <span>Sign Language</span>
+            </button>
 
-              </button>
             <button className=" bg-green-500 text-white px-6 py-5 text-2xl rounded-lg font-semibold hover:bg-green-600"
               onClick={() => handleLessonClick('braille')}
-              >
+            >
               <div className="flex flex-col items-center ">
                 <img
                   className="w-[150px] h-[150px] bg-white m-2 mb-5 rounded-lg"
@@ -165,12 +159,11 @@ function Home() {
                   alt="braille" />
                 <span>Braille Language</span>
               </div>
-              </button>
+            </button>
+
 
           </div>
-
         </div>
-
       </div>
 
       {/* Features Section */}

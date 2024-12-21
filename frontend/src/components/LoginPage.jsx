@@ -1,10 +1,11 @@
 import httpClient from "./httpClient";
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
+  const navigate = useNavigate();
   const logInUser = async () => {
     try {
       const resp = await httpClient.post("/login", {
@@ -12,10 +13,11 @@ function LoginPage() {
         password,
       });
 
-      // Store session data or trigger session update
-      window.location.href = "/"; // Redirect to the homepage
+      alert("Logged in successfully1");
+      navigate('/');
+      alert("Logged in successfully2");
     } catch (error) {
-      if (error.response.status === 401) {
+      if (error.response.status === 440) {
         alert("Invalid credentials");
       }
     }

@@ -1,17 +1,24 @@
-import pandas as pd
-from sqlalchemy import create_engine
+import logging
+from models import db, Questions_signs
+from backend.app import app  # Import the app instance directly
 
-# Define your database connection
-engine = create_engine("postgresql://neondb_owner:u2eRIxH1ynbJ@ep-cool-tooth-a5q0m1rt.us-east-2.aws.neon.tech/neondb?sslmode=require")
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# Load the CSV file
-words_df = pd.read_csv(r"C:\Users\Anas Mohamed\Desktop\HandiLingo\Data\Questions\Lesson_data.csv")
 
-# Drop the L_no column to let PostgreSQL generate it starting from 1
-if 'L_no' in words_df.columns:
-    words_df = words_df.drop(columns=['L_no'])
+def get_sign_questions_with_difficulty_1():
+    try:
+        # Query the database using SQLAlchemy
+        results = Questions_signs.query.filter_by(Q_difficulty=1).all()
+        return results
+    except Exception as e:
+        logger.error(f"Error fetching sign questions with difficulty 1: {e}", exc_info=True)
+        return []
 
-# Insert the data into the Lessons table
-words_df.to_sql("Lessons", engine, if_exists="append", index=False)
 
-print("Data imported successfully!")
+if __name__ == "__main__":
+    with app.app_context():  # Push the application context
+        questions = get_sign_questions_with_difficulty_1()
+        for question in questions:
+            print(f"ID: {question.Q_ID}, Text: {question.Q_text}, Difficulty: {question.Q_difficulty}")
