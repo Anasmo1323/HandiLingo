@@ -299,6 +299,7 @@ const quizes = [
 const Lesson = () => {
     const location = useLocation();
     const lessonNumberFromState = location.state?.lessonNumber;
+    
 
 
 
@@ -334,32 +335,37 @@ const Lesson = () => {
 
             }));
             const filteredLessons = fetchedLessons.filter(lesson => lesson.lessonsNum === lessonNumberFromState  );
+            console.log("filteredLessons",filteredLessons);
             setLessons(filteredLessons);
+            console.log("lesson ",lessons1);
+            
+
+
         } catch (error) {
             console.error("Error fetching lessons data:", error);
         }
     };
 
-    
+    fetchLessonData();
 
     useEffect(() => {
         fetchLessonData();
     }, []);
 
-    const [user, setLessonScore] = useState(0);
-    useEffect(() => {
-        const fetchLessonScore = async () => {
-            try {
-                const response = await httpClient.get("/@me");
-                const FetchedLessonScore = response.data
-                setLessonScore(FetchedLessonScore);
-            }
-            catch (error) {
-                console.error("Error fetching lesson score:", error);
-            }
-        };
-        fetchLessonScore(); //use this to get it: user.lesson_score
-    }, []);
+    // const [user, setLessonScore] = useState(0);
+    // useEffect(() => {
+    //     const fetchLessonScore = async () => {
+    //         try {
+    //             const response = await httpClient.get("/@me");
+    //             const FetchedLessonScore = response.data
+    //             setLessonScore(FetchedLessonScore);
+    //         }
+    //         catch (error) {
+    //             console.error("Error fetching lesson score:", error);
+    //         }
+    //     };
+    //     fetchLessonScore(); //use this to get it: user.lesson_score
+    // }, []);
 
     const handleCardClick = () => {
         setFlipped(!flipped);
@@ -393,9 +399,12 @@ const Lesson = () => {
     //     return isCorrect;
     // };
 
-    console.log(`Received lesson name: ${lessonNumberFromState}`);
-    const initialLessonIndex = lessonNumberFromState ? lessons1.findIndex(lesson => lesson.L_on === lessonNumberFromState) : 0;
-
+    console.log(`Received lesson number: ${lessonNumberFromState}`);
+    console.log("Lessons:", lessons1);
+    
+    const initialLessonIndex = lessonNumberFromState ? lessons1.findIndex(lesson => lesson.lessonsNum === lessonNumberFromState) : 0;
+    console.log(`Initial lesson index: ${initialLessonIndex}`);
+    
     const [currentLessonIndex, setCurrentLessonIndex] = useState(initialLessonIndex);
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
@@ -488,6 +497,7 @@ const Lesson = () => {
 
     const renderLessonContent = () => {
         // const currentImage = lessonData.images[currentSlideIndex];
+        
         const currentLessonImagesNames = lessons1[currentLessonIndex].signs.split(',').map(sign => sign.trim());
         const currentLessonImagesText=currentLessonImagesNames.split('_').slice(1);
         const currentImage = currentLessonImagesText[currentSlideIndex];

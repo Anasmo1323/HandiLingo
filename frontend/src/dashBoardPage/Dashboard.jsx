@@ -3,7 +3,7 @@ import Navbar_ from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import LessonsList from '../components/LessonsList';
 import Footer from '../components/Footer';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { FaLock } from 'react-icons/fa';
 import httpClient from "../components/httpClient";
 
@@ -39,7 +39,7 @@ const Dashboard = () => {
     const location = useLocation();
     // here fetch the program list name and content from the server
     const [programInfo, setProgramInfo] = useState({name:'Letters',program_number:1});
-    const [programContent, setProgramContent] = useState(programContents[programInfo.name]);
+    const [programContent, setProgramContent] = useState([]);
 
     // here you can use this variable to render the lesson of sign or braille language
     // eslint-disable-next-line no-unused-vars
@@ -48,8 +48,8 @@ const Dashboard = () => {
 
     // eslint-disable-next-line no-unused-vars
     const [score, setScore] = useState(199)
+    const [lessons1, setLessons] = useState([]);
 
-    const navigate = useNavigate();
 
     
 
@@ -58,10 +58,9 @@ const Dashboard = () => {
             name,
             program_number:number
         });
-        setProgramContent(programContents[name] || []);
+        setProgramContent(lessons1);
     }
 
-    const [lessons1, setLessons] = useState([]);
     const fetchLessonData = async () => {
         try {
             const response = await httpClient.get("/lessons");
@@ -72,7 +71,9 @@ const Dashboard = () => {
                 level: lesson.L_level,
                 signs: lesson.L_image,
             }));
+            console.log("lessons",fetchedLessons);
             const filteredLessons = fetchedLessons.filter(lesson => lesson.level === programInfo.program_number  );
+            console.log("lessons",filteredLessons);
             setLessons(filteredLessons);
         } catch (error) {
             console.error("Error fetching lessons data:", error);
@@ -83,6 +84,8 @@ const Dashboard = () => {
     useEffect(() => {
         fetchLessonData();
     }, []);
+
+    
 
 
     // here change the content
