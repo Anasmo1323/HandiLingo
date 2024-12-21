@@ -55,22 +55,23 @@ const Dashboard = () => {
         }
     };
 
-const [user, setLessonScore] = useState(0);
-   useEffect(() => {
+    const [user, setLessonScore] = useState(0);
+    
+    useEffect(() => {
         const fetchLessonScore = async () => {
             try {
                 const response = await httpClient.get("/@me");
                 const FetchedLessonScore = response.data
                 setLessonScore(FetchedLessonScore);
             }
-             catch (error) {
+            catch (error) {
                 console.error("Error fetching lesson score:", error);
             }
         };
         fetchLessonScore(); //use this to get it: user.lesson_score
     }, []);
 
-   //A function that fetches the next question sign from the database
+    //A function that fetches the next question sign from the database
     const getNextQuestionSign = async () => {
         try {
             const response = await httpClient.get("/next_question_sign");
@@ -83,7 +84,7 @@ const [user, setLessonScore] = useState(0);
             console.error("Error fetching the next question:", error);
         }
     };
-   //A function that takes the updated lesson score and the user id and updates the lesson score in the database
+    //A function that takes the updated lesson score and the user id and updates the lesson score in the database
 
     const updateLessonScore = async (userId, newLessonScore) => {
         try {
