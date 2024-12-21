@@ -215,7 +215,7 @@ const Lesson = () => {
                 console.error("Error fetching user data:", error);
             }
         };
-
+//userData.lesson_score
         fetchUserData();
     }, []);
 
@@ -247,7 +247,7 @@ const Lesson = () => {
                 acc[lesson.name] = {
                     images: lesson.signs.map(sign => ({
                         img: `./Data/Signs/${sign}.png`, // Assuming a path format for images
-                        text: sign, // Assuming text format from sign name
+                        text: sign.split('_').slice(1).join(' '), // Assuming text format from sign name
                     })),
                 };
                 return acc;
@@ -281,49 +281,9 @@ const Lesson = () => {
         console.log("users:", userData);
     }, [userData]);
 
-    const [user, setLessonScore] = useState(0);
-    useEffect(() => {
-        const fetchLessonScore = async () => {
-            try {
-                const response = await httpClient.get("/@me");
-                const FetchedLessonScore = response.data
-                setLessonScore(FetchedLessonScore);
-            }
-            catch (error) {
-                console.error("Error fetching lesson score:", error);
-            }
-        };
-        fetchLessonScore(); //use this to get it: user.lesson_score
-    }, []);
 
-    const getNextQuestionSign = async () => {
-        try {
-            const response = await httpClient.get("/next_question_sign");
-            if (response.status === 200) {
-                console.log(response.data);//replace with actual logic
-            } else {
-                console.error("Failed to fetch the next question");
-            }
-        } catch (error) {
-            console.error("Error fetching the next question:", error);
-        }
-    };
 
-    const updateLessonScore = async (userId, newLessonScore) => {
-        try {
-            const response = await httpClient.post("/update_lesson_score", {
-                user_id: userId,
-                lesson_score: newLessonScore
-            });
-            if (response.status === 207) {
-                console.log("Lesson score updated successfully");
-            } else {
-                console.error("Failed to update lesson score");
-            }
-        } catch (error) {
-            console.error("Error updating lesson score:", error);
-        }
-    };
+
 
     const handleCardClick = () => {
         setFlipped(!flipped);

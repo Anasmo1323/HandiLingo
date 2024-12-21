@@ -55,8 +55,10 @@ const Dashboard = () => {
         }
     };
 
+
     useEffect(() => {
         fetchLessonData();
+
     }, []);
 
     useEffect(() => {
