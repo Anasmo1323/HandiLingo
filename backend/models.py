@@ -1,10 +1,11 @@
+from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
 db = SQLAlchemy()
 
 
-class Users(db.Model):
+class Users(db.Model, UserMixin):
     __tablename__ = "Users"
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String, nullable=False)
@@ -16,11 +17,11 @@ class Users(db.Model):
     stage = db.Column(db.Integer, nullable=False, default=1)
     level = db.Column(db.Integer, nullable=False, default=1)
     lesson_score = db.Column(db.Integer, nullable=False, default=0)
-    avatar = db.Column(db.String)
+    avatar = db.Column(db.String, default="avatar.png")
 
 
-class Question_signs(db.Model):
-    __tablename__ = "Question_signs"
+class Questions_signs(db.Model):
+    __tablename__ = "Questions_signs"
     Q_ID = db.Column(db.Integer, primary_key=True, autoincrement=True)
     Q_image = db.Column(db.String)
     Q_answer = db.Column(db.String)
@@ -34,8 +35,8 @@ class Question_signs(db.Model):
     Q_level = db.Column(db.Integer)
 
 
-class Question_braille(db.Model):
-    __tablename__ = "Question_braille"
+class Questions_braille(db.Model):
+    __tablename__ = "Questions_braille"
     Q_ID = db.Column(db.Integer, primary_key=True, autoincrement=True)
     Q_Braille_Symbol = db.Column(db.String)
     Q_answer = db.Column(db.String)

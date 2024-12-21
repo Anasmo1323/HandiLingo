@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import {useEffect, useState} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import httpClient from "../components/httpClient";
 
@@ -6,7 +6,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-
+  const [user, setUser] = useState(null);
   const handleOnChange = (e) => {
     const { name, value } = e.target;
     if (name === "email") {
@@ -21,24 +21,37 @@ const Login = () => {
     await logInUser();
   };
 
-  const logInUser = async () => {
-    try {
-      const resp = await httpClient.post("/login", {
-        email,
-        password,
-      });
 
-      // Store session data or trigger session update
+const logInUser = async () => {
+  try {
+    const resp = await httpClient.post("/login", {
+      email,
+      password,
+    });
+
+      console.log("before navigation");
       navigate("/dashboard"); // Redirect to the dashboard
-    } catch (error) {
-      if (error.response && error.response.status === 401) {
-        alert("Invalid credentials");
-      } else {
+    console.log("after navigation");
+  } catch (error) {
+    if (error.response && error.response.status === 401) {
+      alert("Invalid credentials");
+    } else {
         console.error("Login error:", error);
-      }
     }
-  };
-
+  }
+};
+// useEffect(() => {
+//   (async () => {
+//     try {
+//       const resp = await httpClient.get("/@me");
+//       setUser(resp.data); // Set user data if authenticated
+//
+//     } catch (error) {
+//       setUser(null); // Simply set `user` to null if not authenticated, don't redirect
+//       console.log("User not authenticated", error);
+//     }
+//   })();
+// }, []);
   return (
     <>
       <img src="/auth-img.9302755e73810f6c27d2.png" alt="myImage" className="absolute w-[800px] bottom-0" />

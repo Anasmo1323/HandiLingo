@@ -1,13 +1,82 @@
-import random
-from flask import Blueprint, request, jsonify, session
+from flask import Blueprint, request, jsonify
 from flask_bcrypt import Bcrypt
-from models import db, Users, Sign, Question_signs, Question_braille, Lessons
+from flask_login import login_user, logout_user, current_user, login_required
+from models import db, Users, Sign, Questions_signs, Questions_braille, Lessons
 
 bp = Blueprint('auth', __name__, url_prefix='')
 bcrypt = Bcrypt()
 
 
-def get_next_question(model, lesson_score):
+@bp.route("/register", methods=["POST"])
+def register_user():
+    data = request.json
+    name = data.get('name')
+    age = data.get('age')
+    password = data.get('password')
+    email = data.get('email')
+
+    if not all([name, age, password, email]):
+        return jsonify({"error": "All fields (name, age, time, password, email) are required"}), 400
+
+    user_exists = Users.query.filter_by(email=email).first() is not None
+    if user_exists:
+        return jsonify({"error": "User already exists"}), 409
+
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+
+    new_user = Users(name=name, age=age, email=email, password=hashed_password)
+
+    db.session.add(new_user)
+    db.session.commit()
+
+    login_user(new_user)
+
+    return jsonify({
+        "id": new_user.id,
+        "name": new_user.name,
+        "age": new_user.age,
+        "email": new_user.email
+    }), 201
+
+
+@bp.route("/login", methods=["POST"])
+def login_user_route():
+    email = request.json["email"]
+    password = request.json["password"]
+
+    user = Users.query.filter_by(email=email).first()
+
+    if user is None or not bcrypt.check_password_hash(user.password, password):
+        return jsonify({"error": "Unauthorized"}), 401
+
+    login_user(user)
+    return jsonify({"id": user.id, "email": user.email})
+
+
+@bp.route("/@me")
+@login_required
+def get_current_user():
+    return jsonify({
+        "id": current_user.id,
+        "name": current_user.name,
+        "age": current_user.age,
+        "email": current_user.email,
+        "lesson_score": current_user.lesson_score,
+        "stage": current_user.stage,
+        "level": current_user.level,
+        "total_score": current_user.total_score,
+        "avatar": current_user.avatar
+    })
+
+
+@bp.route("/logout", methods=["POST"])
+@login_required
+def logout_user_route():
+    logout_user()
+    return "200"
+
+
+def get_next_question(model, lesson_score, stage):
     if lesson_score <= 200:
         difficulty = 1
     elif lesson_score <= 600:
@@ -17,39 +86,48 @@ def get_next_question(model, lesson_score):
     else:
         difficulty = 3
 
-    question = model.query.filter_by(Q_difficulty=difficulty).first()
+    question = model.query.filter_by(Q_difficulty=difficulty, Q_stage=stage).order_by(db.func.random()).first()
 
     if question:
-        return {
-            "Q_ID": question.Q_ID,
-            "Q_Braille_Symbol": question.Q_Braille_Symbol,
-            "Q_answer": question.Q_answer,
-            "Q_A1": question.Q_A1,
-            "Q_A2": question.Q_A2,
-            "Q_A3": question.Q_A3,
-            "Q_A4": question.Q_A4,
-            "Q_text": question.Q_text,
-            "Q_stage": question.Q_stage,
-            "Q_difficulty": question.Q_difficulty,
-            "Q_level": question.Q_level
-        }
+        if model == Questions_signs:
+            return {
+                "Q_ID": question.Q_ID,
+                "Q_image": question.Q_image,
+                "Q_answer": question.Q_answer,
+                "Q_A1": question.Q_A1,
+                "Q_A2": question.Q_A2,
+                "Q_A3": question.Q_A3,
+                "Q_A4": question.Q_A4,
+                "Q_text": question.Q_text,
+                "Q_stage": question.Q_stage,
+                "Q_difficulty": question.Q_difficulty,
+                "Q_level": question.Q_level
+            }
+        else:
+            return {
+                "Q_ID": question.Q_ID,
+                "Q_Braille_Symbol": question.Q_Braille_Symbol,
+                "Q_answer": question.Q_answer,
+                "Q_A1": question.Q_A1,
+                "Q_A2": question.Q_A2,
+                "Q_A3": question.Q_A3,
+                "Q_A4": question.Q_A4,
+                "Q_text": question.Q_text,
+                "Q_stage": question.Q_stage,
+                "Q_difficulty": question.Q_difficulty,
+                "Q_level": question.Q_level
+            }
     else:
         return {"error": "No more questions available"}
 
 
 @bp.route('/next_question_braille', methods=['GET'])
+@login_required
 def get_next_question_braille():
     try:
-        user_id = session.get("user_id")
-        if not user_id:
-            return jsonify({"error": "Unauthorized"}), 401
-
-        user = Users.query.filter_by(id=user_id).first()
-        if not user:
-            return jsonify({"error": "User not found"}), 404
-
-        lesson_score = user.lesson_score
-        question = get_next_question(Question_braille, lesson_score)
+        lesson_score = current_user.lesson_score
+        stage = current_user.stage
+        question = get_next_question(Questions_braille, lesson_score, stage)
 
         return jsonify(question)
 
@@ -58,18 +136,12 @@ def get_next_question_braille():
 
 
 @bp.route('/next_question_sign', methods=['GET'])
+@login_required
 def get_next_question_sign():
     try:
-        user_id = session.get("user_id")
-        if not user_id:
-            return jsonify({"error": "Unauthorized"}), 401
-
-        user = Users.query.filter_by(id=user_id).first()
-        if not user:
-            return jsonify({"error": "User not found"}), 404
-
-        lesson_score = user.lesson_score
-        question = get_next_question(Question_signs, lesson_score)
+        lesson_score = current_user.lesson_score
+        stage = current_user.stage
+        question = get_next_question(Questions_signs, lesson_score, stage)
         return jsonify(question)
 
     except Exception as e:
@@ -105,85 +177,20 @@ def get_lessons():
     return jsonify(lessons_list)
 
 
-@bp.route("/register", methods=["POST"])
-def register_user():
-    data = request.json
-    name = data.get('name')
-    age = data.get('age')
-    password = data.get('password')
-    email = data.get('email')
+@bp.route("/update_lesson_score", methods=["POST"])
+@login_required
+def update_lesson_score():
+    try:
+        data = request.json
+        new_lesson_score = data.get("lesson_score")
 
-    if not all([name, age, password, email]):
-        return jsonify({"error": "All fields (name, age, time, password, email) are required"}), 400
+        if new_lesson_score is None:
+            return jsonify({"error": "Lesson score is required"}), 400
 
-    user_exists = Users.query.filter_by(email=email).first() is not None
-    if user_exists:
-        return jsonify({"error": "User already exists"}), 409
+        current_user.lesson_score = new_lesson_score
+        db.session.commit()
 
-    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+        return jsonify({"message": "Lesson score updated successfully"}), 207
 
-    new_user = Users(name=name, age=age, email=email, password=hashed_password)
-
-    db.session.add(new_user)
-    db.session.commit()
-
-    session["user_id"] = new_user.id
-
-    return jsonify({
-        "id": new_user.id,
-        "name": new_user.name,
-        "age": new_user.age,
-        "time": new_user.time,
-        "email": new_user.email
-    }), 201
-
-
-@bp.route("/login", methods=["POST"])
-def login_user():
-    email = request.json["email"]
-    password = request.json["password"]
-
-    user = Users.query.filter_by(email=email).first()
-
-    if user is None:
-        return jsonify({"error": "Unauthorized"}), 401
-
-    if not bcrypt.check_password_hash(user.password, password):
-        return jsonify({"error": "Unauthorized"}), 401
-
-    session["user_id"] = user.id
-    print(f"Logged in user_id: {session['user_id']}")  # Debug log
-
-    return jsonify({
-        "id": user.id,
-        "email": user.email
-    })
-
-
-@bp.route("/@me")
-def get_current_user():
-    user_id = session.get("user_id")
-    if not user_id:
-        return jsonify({"error": "Unauthorized"}), 401
-
-    user = Users.query.filter_by(id=user_id).first()
-    return jsonify({
-        "id": user.id,
-        "name": user.name,
-        "age": user.age,
-        "time": user.time,
-        "password": user.password,
-        "email": user.email,
-        "total_score": user.total_score,
-        "stage": user.stage,
-        "level": user.level,
-        "lesson_score": user.lesson_score,
-        "avatar": user.avatar
-    })
-
-
-@bp.route("/logout", methods=["POST"])
-def logout_user():
-    session.pop("user_id")
-    return "200"
-
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
