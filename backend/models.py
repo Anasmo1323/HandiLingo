@@ -17,7 +17,7 @@ class Users(db.Model, UserMixin):
     stage = db.Column(db.Integer, nullable=False, default=1)
     level = db.Column(db.Integer, nullable=False, default=1)
     lesson_score = db.Column(db.Integer, nullable=False, default=0)
-    avatar = db.Column(db.String, default="avatar.png")
+    avatar = db.Column(db.String, default="avatar_0.png")
 
 
 class Questions_signs(db.Model):
