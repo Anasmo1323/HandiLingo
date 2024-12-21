@@ -5,178 +5,6 @@ import Sidebar from '../components/Sidebar'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 
-const quizes = [
-    {
-        name: "A-B-C",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    },
-    {
-        name: "e-h",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    },
-    {
-        name: "i-l",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    },
-    {
-        name: "m-p",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    }
-]
-
-
 const Lesson = () => {
     const location = useLocation();
     const lessonNumberFromState = location.state?.lessonNumber;
@@ -190,32 +18,33 @@ const Lesson = () => {
     const [showResults, setShowResults] = useState(false);
     const [showModal, setShowModal] = useState(false); // State variable for modal visibility
 
-    console.log(`Received lesson number: ${lessonNumberFromState}, level: ${lessonLevelFromState}`);
-    const initialLessonIndex = lessonNumberFromState ? lessonNumberFromState - 1 : 0;
-
-    const [currentLessonIndex, setCurrentLessonIndex] = useState(initialLessonIndex);
+    const [currentLessonIndex, setCurrentLessonIndex] = useState(lessonNumberFromState ? lessonNumberFromState - 1 : 0);
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Track the current question index
 
     const [lessons, setLessons] = useState([]);
     const [lessonsCopy, setLessonsCopy] = useState([]);
     const [lessonContentCopy, setLessonContentCopy] = useState({});
+    const [currentQuestion, setCurrentQuestion] = useState(null); // Store the current question
 
     const currentLesson = lessonsCopy[currentLessonIndex];
     const lessonData = lessonContentCopy[currentLesson?.name];
 
     const [isQuizMode, setIsQuizMode] = useState(false);
     const [userData, setUserData] = useState({});
+    const [lessonScore, setLessonScore] = useState(0);
+    const [questions, setQuestions] = useState([]);
 
     useEffect(() => {
         const fetchUserData = async () => {
             try {
                 const response = await httpClient.get("/@me");
                 setUserData(response.data);
+                setLessonScore(response.data.lesson_score);
             } catch (error) {
                 console.error("Error fetching user data:", error);
             }
         };
-//userData.lesson_score
         fetchUserData();
     }, []);
 
@@ -230,24 +59,22 @@ const Lesson = () => {
                 signs: lesson.L_image.split(',').map(sign => sign.trim()),
             }));
 
-            console.log("fetchedLessons", fetchedLessons);
             const filteredLessons = fetchedLessons.filter(lesson => lesson.level === lessonLevelFromState);
 
             setLessons(fetchedLessons);
 
-            // Prepare data for lessonsCopy and lessonContentCopy
             const lessonsCopyData = filteredLessons.map(lesson => ({
                 name: lesson.name,
                 lessonsNum: lesson.lessonsNum,
                 finished: lesson.finished,
-                time: 12, // Assuming a default time value
+                time: 12,
             }));
 
             const lessonContentCopyData = filteredLessons.reduce((acc, lesson) => {
                 acc[lesson.name] = {
                     images: lesson.signs.map(sign => ({
-                        img: `./Data/Signs/${sign}.png`, // Assuming a path format for images
-                        text: sign.split('_').slice(1).join(' '), // Assuming text format from sign name
+                        img: `./Data/Signs/${sign}.png`,
+                        text: sign.split('_').slice(1).join(' '),
                     })),
                 };
                 return acc;
@@ -256,7 +83,6 @@ const Lesson = () => {
             setLessonsCopy(lessonsCopyData);
             setLessonContentCopy(lessonContentCopyData);
 
-            // Set the initial lesson index based on the lesson number
             const initialIndex = lessonsCopyData.findIndex(lesson => lesson.lessonsNum === lessonNumberFromState);
             setCurrentLessonIndex(initialIndex !== -1 ? initialIndex : 0);
 
@@ -266,9 +92,7 @@ const Lesson = () => {
     };
 
     useEffect(() => {
-        console.log("fetched here");
         fetchLessonData();
-        console.log("lessons", lessons);
     }, [lessonLevelFromState, lessonNumberFromState]);
 
     useEffect(() => {
@@ -281,45 +105,92 @@ const Lesson = () => {
         console.log("users:", userData);
     }, [userData]);
 
+    const getNextQuestionSign = async () => {
+        try {
+            const response = await httpClient.get("/next_question_sign");
+            if (response.status === 200) {
+                console.log("Fetched question:", response.data);
+                setCurrentQuestion(response.data);
+                setQuestions(prevQuestions => [...prevQuestions, response.data]);
+            } else {
+                console.error("Failed to fetch the next question");
+            }
+        } catch (error) {
+            console.error("Error fetching the next question:", error);
+        }
+    };
 
-
-
+    const updateLessonScore = async (userId, newLessonScore) => {
+        try {
+            const response = await httpClient.post("/update_lesson_score", {
+                user_id: userId,
+                lesson_score: newLessonScore
+            });
+            if (response.status === 207) {
+                console.log("Lesson score updated successfully");
+                setLessonScore(newLessonScore);
+            } else {
+                console.error("Failed to update lesson score");
+            }
+        } catch (error) {
+            console.error("Error updating lesson score:", error);
+        }
+    };
 
     const handleCardClick = () => {
         setFlipped(!flipped);
     };
 
-    const handleAnswer = (selectedKey) => {
-        if (currentSlideIndex in correctAnswerNumber) {
-            console.log("Answer for index", currentSlideIndex, "is already stored.");
+    const handleAnswer = async (selectedKey) => {
+        if (selectedAnswer !== null) {
+            console.log("Answer for this question is already stored.");
             return;
         }
-
-        const currentQuestion = quizes[currentLessonIndex].questions[currentSlideIndex];
-        const correctKey = currentQuestion.answer;
-
+    
+        const correctKey = `Q_${currentQuestion.Q_answer}`;
+    
+        console.log("Selected answer:", selectedKey);
+        console.log("Correct answer:", correctKey);
+    
         const isCorrect = selectedKey === correctKey;
-
-        console.log("Selected Key:", selectedKey);
-        console.log("Correct Key:", correctKey);
-        console.log("Is Correct:", isCorrect);
-
+    
         setCorrectAnswerNumber((prev) => ({
             ...prev,
-            [currentSlideIndex]: isCorrect,
+            [currentQuestionIndex]: isCorrect,
         }));
-        console.log("Stored answer for index:", currentSlideIndex, "isCorrect:", isCorrect);
-
+    
         setIsCorrect(isCorrect);
+    
+        console.log("Selected answer number:", selectedKey);
+        console.log("Correct answer number:", correctKey);
         setSelectedAnswer(selectedKey);
-
+    
+        // Store the result in reportSlides
+        setReportSlides((prev) => ({
+            ...prev,
+            [currentLesson.name]: {
+                ...prev[currentLesson.name],
+                [currentQuestionIndex]: isCorrect,
+            },
+        }));
+    
+        if (isCorrect) {
+            const newLessonScore = lessonScore + 10; // Assuming each correct answer gives 10 points
+            await updateLessonScore(userData.id, newLessonScore);
+        }
+    
         return isCorrect;
     };
 
-    const handleNextSlide = () => {
+    const handleNextSlide = async () => {
+        if (isQuizMode && selectedAnswer === null) {
+            console.log("Please answer the question before proceeding to the next one.");
+            return;
+        }
+    
         setIsCorrect(null);
         setSelectedAnswer(null);
-
+    
         if (showResults) {
             if (userData.total_score >= (lessonsCopy[currentLessonIndex + 1]?.lessonsNum * 100)) {
                 setShowResults(false);
@@ -327,38 +198,33 @@ const Lesson = () => {
                 setCurrentSlideIndex(0);
                 setIsQuizMode(false);
                 setCorrectAnswerNumber({});
+                setLessonScore(0); // Reset lesson score
+                await updateLessonScore(userData.id, 0); // Update lesson score to 0
             } else {
                 setShowModal(true); // Show modal if next lesson is locked
             }
             return;
         }
-
+    
         if (!isQuizMode) {
             const currentLessonImages = lessonData?.images;
-
+    
             if (currentSlideIndex < currentLessonImages.length - 1) {
                 setCurrentSlideIndex(currentSlideIndex + 1);
-                console.log(`Moved to next lesson slide: ${currentSlideIndex + 1}`);
             } else {
                 setIsQuizMode(true);
                 setCurrentSlideIndex(0);
-                console.log(`Completed lesson slides for ${currentLesson.name}, moving to quizzes`);
+                setCurrentQuestionIndex(0);
+                await getNextQuestionSign();
             }
         } else {
-            const currentQuiz = quizes[currentLessonIndex];
-
-            if (currentSlideIndex < currentQuiz.questions.length - 1) {
-                setCurrentSlideIndex(currentSlideIndex + 1);
-                console.log(`Moved to next quiz slide: ${currentSlideIndex + 1}`);
+            if (currentQuestionIndex < 9) { // 10 questions per lesson
+                setCurrentQuestionIndex(currentQuestionIndex + 1);
+                await getNextQuestionSign();
             } else {
-                setReportSlides((prev) => ({
-                    ...prev,
-                    [currentLesson.name]: correctAnswerNumber,
-                }));
-                console.log(`Stored results for ${currentLesson.name}:`, correctAnswerNumber);
-
                 setShowResults(true);
-                console.log("Showing results slide");
+                setLessonScore(0); // Reset lesson score
+                await updateLessonScore(userData.id, 0); // Update lesson score to 0
             }
         }
     };
@@ -366,17 +232,18 @@ const Lesson = () => {
     const handlePrevSlide = () => {
         setIsCorrect(null);
         setSelectedAnswer(null);
-
+    
         if (showResults) {
             setShowResults(false);
             setIsQuizMode(true);
             setCurrentSlideIndex(quizes[currentLessonIndex].questions.length - 1);
             return;
         }
-
+    
         if (isQuizMode) {
-            if (currentSlideIndex > 0) {
-                setCurrentSlideIndex(currentSlideIndex - 1);
+            if (currentQuestionIndex > 0) {
+                setCurrentQuestionIndex(currentQuestionIndex - 1);
+                setCurrentQuestion(questions[currentQuestionIndex - 1]);
             } else {
                 setIsQuizMode(false);
                 setCurrentSlideIndex(lessonData?.images.length - 1);
@@ -449,36 +316,45 @@ const Lesson = () => {
     };
 
     const renderQuizContent = () => {
-        const currentQuiz = quizes[currentLessonIndex];
-        const currentQuestion = currentQuiz.questions[currentSlideIndex];
-
+        if (!currentQuestion) {
+            return <div>Loading...</div>;
+        }
+    
+        const { Q_text, Q_image, Q_answer, ...rest } = currentQuestion;
+        const options = Object.keys(rest)
+            .filter(key => key.startsWith('Q_A'))
+            .reduce((obj, key) => {
+                obj[key] = rest[key];
+                return obj;
+            }, {});
+        const images = Q_image.split(',').map(img => img.trim());
+    
+        console.log("Current question:", currentQuestion);
+        console.log("Options:", options);
+    
         return (
             <div className="text-center">
-                <p className="text-[30px] font-semibold mt-4">{currentQuestion.question.text}</p>
-
+                <p className="text-[30px] font-semibold mt-4">{Q_text}</p>
+    
                 <div className="flex justify-center gap-4 mt-4">
-                    {currentQuestion.question.images.map((imageObj, index) => {
-                        const [key, url] = Object.entries(imageObj)[0];
-                        return (
-                            <div key={index} className="flex flex-col items-center">
-                                <img
-                                    src={url}
-                                    alt={key}
-                                    className="w-[200px] h-[200px] rounded-md shadow-md"
-                                />
-                            </div>
-                        );
-                    })}
+                    {images.map((img, index) => (
+                        <img
+                            key={index}
+                            src={`./Data/Signs/${img}.png`}
+                            alt={img}
+                            className="w-[200px] h-[200px] rounded-md shadow-md"
+                        />
+                    ))}
                 </div>
-
+    
                 <div className="flex flex-col justify-center items-start mt-6">
-                    {Object.entries(currentQuestion.options).map(([key, value]) => (
+                    {Object.entries(options).map(([key, value]) => (
                         <div
                             key={key}
                             className="flex justify-center items-center p-5"
                             onClick={() => handleAnswer(key)}
                         >
-                            <p className="font-bold mr-4">{`${key.toUpperCase()} )`}</p>
+                            <p className="font-bold mr-4">{`${key.slice(-1)} )`}</p>
                             <button
                                 className={`bg-white text-green-500 font-bold w-[100px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200 ${selectedAnswer === key ? (isCorrect ? 'border-2 border-green-500' : 'border-2 border-red-500') : ''}`}
                             >
@@ -496,7 +372,6 @@ const Lesson = () => {
             </div>
         );
     };
-
     const renderQuizResults = () => {
         const results = reportSlides[currentLesson.name] || {};
         const correctAnswers = Object.values(results).filter(isCorrect => isCorrect).length;
@@ -568,7 +443,7 @@ const Lesson = () => {
                                     onClick={handleNextSlide}
                                     disabled={
                                         currentLessonIndex === lessonsCopy.length - 1 &&
-                                        currentSlideIndex === (isQuizMode ? quizes[currentLessonIndex].questions.length - 1 : lessonData?.images.length - 1)
+                                        currentSlideIndex === (isQuizMode ? 9 : lessonData?.images.length - 1)
                                     }
                                     className="bg-white text-green-500 font-bold w-[200px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
                                 >
