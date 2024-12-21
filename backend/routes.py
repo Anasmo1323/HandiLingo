@@ -215,3 +215,41 @@ def update_lesson_score():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+@bp.route("/update_stage", methods=["POST"])
+@login_required
+def update_stage():
+    try:
+        data = request.json
+        new_stage = data.get("stage")
+
+        if new_stage is None:
+            return jsonify({"error": "Stage is required"}), 400
+
+        current_user.stage = new_stage
+        db.session.commit()
+
+        return jsonify({"message": "Stage updated successfully"}), 207
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@bp.route("/update_total_score", methods=["POST"])
+@login_required
+def update_total_score():
+    try:
+        data = request.json
+        new_total_score = data.get("total_score")
+
+        if new_total_score is None:
+            return jsonify({"error": "Total score is required"}), 400
+
+        current_user.total_score = new_total_score
+        db.session.commit()
+
+        return jsonify({"message": "Lesson score updated successfully"}), 207
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
