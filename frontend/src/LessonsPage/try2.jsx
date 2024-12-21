@@ -127,7 +127,7 @@ const lessonContent = {
 
 const quizes = [
     {
-        name: "a-d",
+        name: "A-B-C",
         questions: [
             {
                 question: {
