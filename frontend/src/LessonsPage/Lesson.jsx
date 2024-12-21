@@ -211,7 +211,7 @@ const Lesson = () => {
                 lessonsNum: lesson.L_no,
                 finished: lesson.L_isFinished,
                 level: lesson.L_level,
-                signs: lesson.L_image.split(',').map(sign => sign.trim())
+                signs: lesson.L_image.split(',').map(sign => sign.trim()),
             }));
 
             console.log("fetchedLessons", fetchedLessons);
@@ -230,7 +230,7 @@ const Lesson = () => {
             const lessonContentCopyData = filteredLessons.reduce((acc, lesson) => {
                 acc[lesson.name] = {
                     images: lesson.signs.map(sign => ({
-                        img: `./Data/Signs/${sign.split('_').slice(1).join(' ')}.png`, // Assuming a path format for images
+                        img: `./Data/Signs/${sign}.png`, // Assuming a path format for images
                         text: sign.split('_').slice(1).join(' '), // Assuming text format from sign name
                     })),
                 };
@@ -428,7 +428,7 @@ const Lesson = () => {
                         <img
                             src={currentImage.img}
                             alt={currentImage.text}
-                            className="w-[500px] h-[500px] mx-auto rounded-lg shadow-md"
+                            className="w-[350px] h-[500px] mx-auto rounded-lg shadow-md"
                         />
                     </div>
                     <div className="flip-card-back  border-[30px] border-[#4eac6d] rounded-lg shadow-md p-5">

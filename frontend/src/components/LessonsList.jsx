@@ -1,4 +1,4 @@
-import { FaRedo } from 'react-icons/fa';
+import {FaPlay, FaRedo} from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
 const LessonsList = ({ programContent }) => {
@@ -33,8 +33,8 @@ const LessonsList = ({ programContent }) => {
                     className="bg-white text-green-500 font-bold px-4 py-2 rounded-md shadow-md text-lg hover:bg-gray-200 flex items-center gap-2"
                     onClick={() => handleRestartLesson(content.lessonsNum, content.level)}
                 >
-                    <FaRedo />
-                    <span>Restart</span>
+                    <FaPlay />
+                    <span>Start</span>
                 </button>
             </div>
         );

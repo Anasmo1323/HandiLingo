@@ -516,7 +516,7 @@ const Lesson = () => {
                         <img
                             src={currentImage}
                             alt={currentLessonText}
-                            className="w-[500px] h-[500px] mx-auto rounded-lg shadow-md"
+                            className="w-[350px] h-[500px] mx-auto rounded-lg shadow-md"
                         />
                     </div>
                     {/* Back of the card - Text */}
