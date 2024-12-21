@@ -1,0 +1,21 @@
+L_no,L_text,L_image,L_isFinished,L_topic,L_level
+1,Letters A B C,"Sign_A, Sign_B, Sign_C",FALSE,,1
+2,Letters D E F,"Sign_D, Sign_E, Sign_F",FALSE,,1
+3,Letters G H I,"Sign_G, Sign_H, Sign_I",FALSE,,1
+4,Letters J K L,"Sign_J, Sign_K, Sign_L",FALSE,,1
+5,Letters M N O,"Sign_M, Sign_N, Sign_O",FALSE,,1
+6,Letters P Q R,"Sign_P, Sign_Q, Sign_R",FALSE,,1
+7,Letters S T U,"Sign_S, Sign_T, Sign_U",FALSE,,1
+8,Letters V W X,"Sign_V, Sign_W, Sign_X",FALSE,,1
+9,Letters Y Z,"Sign_Y, Sign_Z",FALSE,,1
+10,Words Me You We,"Sign_Me, Sign_You, Sign_We",,,2
+11,Words bad close deaf,"Sign_Bad, Sign_Close, Sign_Deaf",FALSE,,2
+12,Words drink eat go,"Sign_Drink, Sign_Eat, Sign_Go",FALSE,,2
+13,Words good hello help,"Sign_Good, Sign_Hello, Sign_Help",FALSE,,2
+14,Words hurt love me,"Sign_Hurt, Sign_Love, Sign_Me",FALSE,,2
+15,Words need no open,"Sign_Need, Sign_No, Sign_Open",FALSE,,2
+16,Words play please sorry,"Sign_Play, Sign_Please, Sign_Sorry",FALSE,,2
+17,Words stop thank want,"Sign_Stop, Sign_Thank, Sign_Want",FALSE,,2
+18,Words we when who,"Sign_We, Sign_When, Sign_Who",FALSE,,2
+19,Words yes you have,"Sign_Yes, Sign_You, Sign_Have",FALSE,,2
+20,Words feel think sleep,"Sign_Feel, Sign_Think, Sign_Sleep",FALSE,,2

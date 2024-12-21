@@ -9,7 +9,7 @@ class ApplicationConfig:
     SECRET_KEY = os.environ["SECRET_KEY"]
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ECHO = True
-    SQLALCHEMY_DATABASE_URI = r"postgresql://neondb_owner:u2eRIxH1ynbJ@ep-muddy-heart-a5tsgtj5.us-east-2.aws.neon.tech/neondb?sslmode=require"
+    SQLALCHEMY_DATABASE_URI = r"postgresql://neondb_owner:u2eRIxH1ynbJ@ep-cool-tooth-a5q0m1rt.us-east-2.aws.neon.tech/neondb?sslmode=require"
 
 
 #enable session config

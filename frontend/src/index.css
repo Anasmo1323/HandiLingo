@@ -3,68 +3,65 @@
 @tailwind utilities;
 
 .hide-scrollbar-arrows::-webkit-scrollbar-button {
-    display: none; /* Remove the arrows */
+  display: none; /* Remove the arrows */
 }
 
 .hide-scrollbar-arrows {
-    scrollbar-width: thin; /* For Firefox */
-    scrollbar-color: #4CAF50 #f2f2f2; /* Thumb and track color */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #4caf50 #f2f2f2; /* Thumb and track color */
 }
 
 /* Custom scrollbar styles */
 .hide-scrollbar-arrows::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 .hide-scrollbar-arrows::-webkit-scrollbar-thumb {
-    background-color: #4CAF50; /* Thumb color */
-    border-radius: 10px;
+  background-color: #4caf50; /* Thumb color */
+  border-radius: 10px;
 }
 
 .hide-scrollbar-arrows::-webkit-scrollbar-track {
-    background-color: #f2f2f2; /* Track color */
+  background-color: #f2f2f2; /* Track color */
 }
 
 /* Container to position the card */
 .flip-card-container {
-    perspective: 1000px; /* This gives depth to the flip effect */
-  }
-  
-  /* The card itself */
-  .flip-card {
-    width: 500px;
-    height: 500px;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.6s ease; /* Smooth transition */
-  }
-  
-  /* Front of the card */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; /* Hide the back when flipped */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    transition: transform 0.6s ease; /* Ensures smooth flip */
-  }
-  
-  /* Front - Image */
-  .flip-card-front {
-    background-color: #fff; /* Set background for front side */
-  }
-  
-  /* Back - Text */
-  .flip-card-back {
-    background-color: #f2f2f2; /* Set background for back side */
-    transform: rotateY(180deg); /* Flip the back side */
-  }
-  
-  /* When clicked, flip the card */
-  .flip-card.flipped {
-    transform: rotateY(180deg); /* Flip the card when 'flipped' class is added */
-  }
-  
+  perspective: 1000px; /* This gives depth to the flip effect */
+}
+/* The card itself */
+.flip-card {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease; /* Smooth transition */
+}
+/* Front of the card */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back when flipped */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: transform 0.6s ease; /* Ensures smooth flip */
+}
+/* Front - Image */
+.flip-card-front {
+  background-color: #fff; /* Set background for front side */
+}
+
+/* Back - Text */
+.flip-card-back {
+  background-color: #f2f2f2; /* Set background for back side */
+  transform: rotateY(180deg); /* Flip the back side */
+}
+
+/* When clicked, flip the card */
+.flip-card.flipped {
+  transform: rotateY(180deg); /* Flip the card when 'flipped' class is added */
+}

@@ -1,0 +1,101 @@
+Q_text,Q_image,Q_Answer,Q_A1,Q_A2,Q_A3,Q_A4,Q_difficulty,Q_stage
+What does this mean: Sign_You Sign_Want Sign_Love?,Sign_You Sign_Want Sign_Love,A2,They love you,You want love,I need water now,I play with you,1,21
+What does this mean: Sign_You Sign_Stop Sign_N Sign_O Sign_W?,Sign_You Sign_Stop Sign_N Sign_O Sign_W,A2,I feel sleepy,You stop now,We stop eating,We stop playing,1,21
+What does this mean: Sign_We Sign_Drink Sign_W Sign_A Sign_T Sign_E Sign_R?,Sign_We Sign_Drink Sign_W Sign_A Sign_T Sign_E Sign_R,A1,We drink water,We play outside,You love me,You go there,1,21
+What does this mean: Sign_We Sign_Stop Sign_N Sign_O Sign_W?,Sign_We Sign_Stop Sign_N Sign_O Sign_W,A1,We stop now,You want food,We help you,I feel bad now,1,21
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_T Sign_O Sign_Play?,Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_T Sign_O Sign_Play,A3,I hurt myself,We drink water,They want to play,They stop playing,1,21
+What does this mean: Sign_We Sign_Eat Sign_Eat?,Sign_We Sign_Eat Sign_Eat,A2,We play games,We eat food,You love food,I hurt myself,1,21
+What does this mean: Sign_I Sign_Feel Sign_Bad Sign_N Sign_O Sign_W?,Sign_I Sign_Feel Sign_Bad Sign_N Sign_O Sign_W,A3,They go play,They love you,I feel bad now,We need help,1,21
+What does this mean: Sign_You Sign_Play Sign_O Sign_U Sign_T Sign_S Sign_I Sign_D Sign_E?,Sign_You Sign_Play Sign_O Sign_U Sign_T Sign_S Sign_I Sign_D Sign_E,A3,They need love,I help you,You play outside,We help them,1,21
+What does this mean: Sign_I Sign_Stop Sign_N Sign_O Sign_W?,Sign_I Sign_Stop Sign_N Sign_O Sign_W,A4,I love you,You want love,We stop playing,I stop now,1,21
+What does this mean: Sign_I Sign_Hurt Sign_M Sign_Y Sign_S Sign_E Sign_L Sign_F?,Sign_I Sign_Hurt Sign_M Sign_Y Sign_S Sign_E Sign_L Sign_F,A2,Please help me,I hurt myself,They want food,You need sleep,1,21
+What does this mean: Sign_I Sign_Need Sign_Eat Sign_N Sign_O Sign_W?,Sign_I Sign_Need Sign_Eat Sign_N Sign_O Sign_W,A4,You go to play,You want love,You go there,I need food now,1,22
+What does this mean: Sign_I Sign_Feel Sign_Good?,Sign_I Sign_Feel Sign_Good,A1,I feel good,You go there,I want food,You help them,1,22
+What does this mean: Sign_You Sign_Need Sign_Love?,Sign_You Sign_Need Sign_Love,A3,I love playing,We go eat,You need love,I think its good,1,22
+What does this mean: Sign_You Sign_Stop Sign_Play?,Sign_You Sign_Stop Sign_Play,A4,You feel good,They need help,They want help,You stop playing,1,22
+What does this mean: Sign_I Sign_Feel Sign_Good Sign_N Sign_O Sign_W?,Sign_I Sign_Feel Sign_Good Sign_N Sign_O Sign_W,A3,I feel good,We help them,I feel good now,You want love,1,22
+What does this mean: Sign_I Sign_Want Sign_Love?,Sign_I Sign_Want Sign_Love,A3,I want to play,You need help,I want love,You need sleep,1,22
+What does this mean: Sign_I Sign_Love Sign_You?,Sign_I Sign_Love Sign_You,A4,You go to play,You want help now,They help me,I love you,1,22
+What does this mean: Sign_You Sign_Love Sign_Eat?,Sign_You Sign_Love Sign_Eat,A3,They stop playing,We stop helping,You love food,We help them,1,22
+What does this mean: Sign_We Sign_Need Sign_Eat?,Sign_We Sign_Need Sign_Eat,A3,They want help,We eat food,We need food,I need water,1,22
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Love?,Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Love,A1,They want love,They need food,I need love,You want love,1,22
+What does this mean: Sign_We Sign_Play Sign_G Sign_A Sign_M Sign_E Sign_S?,Sign_We Sign_Play Sign_G Sign_A Sign_M Sign_E Sign_S,A3,I think its bad,I play with you,We play games,We want help,1,23
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad?,Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad,A2,You help them now,They feel bad,We want help,You eat food,1,23
+What does this mean: Sign_We Sign_Feel Sign_Good?,Sign_We Sign_Feel Sign_Good,A2,We stop eating,We feel good,I need love,We play games,1,23
+What does this mean: Sign_I Sign_Need Sign_Eat?,Sign_I Sign_Need Sign_Eat,A4,You help them now,You help them,You need sleep,I need food,1,23
+What does this mean: Sign_You Sign_Want Sign_Love?,Sign_You Sign_Want Sign_Love,A3,You need sleep,You need food,You want love,I need love,1,23
+What does this mean: Sign_We Sign_Love Sign_Eat?,Sign_We Sign_Love Sign_Eat,A4,You eat food,I want love,We play games,We love food,1,23
+What does this mean: Sign_You Sign_Need Sign_W Sign_A Sign_T Sign_E Sign_R?,Sign_You Sign_Need Sign_W Sign_A Sign_T Sign_E Sign_R,A2,I need help,You need water,I feel bad,We stop helping,1,23
+What does this mean: Sign_You Sign_Help Sign_T Sign_H Sign_E Sign_M Sign_N Sign_O Sign_W?,Sign_You Sign_Help Sign_T Sign_H Sign_E Sign_M Sign_N Sign_O Sign_W,A4,I want water,You stop playing,I think its bad,You help them now,1,23
+What does this mean: Sign_You Sign_Want Sign_Love?,Sign_You Sign_Want Sign_Love,A3,I need water,They play well,You want love,I feel bad,1,23
+What does this mean: Sign_You Sign_Go Sign_N Sign_O Sign_W?,Sign_You Sign_Go Sign_N Sign_O Sign_W,A3,They play well,They need love,You go now,We play well,1,23
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad?,Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad,A1,They feel bad,We feel good,You stop now,You want help now,1,24
+What does this mean: Sign_I Sign_Feel Sign_S Sign_L Sign_E Sign_E Sign_P Sign_Y?,Sign_I Sign_Feel Sign_S Sign_L Sign_E Sign_E Sign_P Sign_Y,A2,You go to play,I feel sleepy,I play well,I feel good,1,24
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Play Sign_W Sign_E Sign_L Sign_L?,Sign_T Sign_H Sign_E Sign_Y Sign_Play Sign_W Sign_E Sign_L Sign_L,A3,We eat food,They help me,They play well,They play good,1,24
+What does this mean: Sign_We Sign_Love Sign_Eat?,Sign_We Sign_Love Sign_Eat,A4,We go eat,We help them,We thank you now,We love food,1,24
+What does this mean: Sign_I Sign_Love Sign_You?,Sign_I Sign_Love Sign_You,A4,We stop playing,We feel good,They want food,I love you,1,24
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Love Sign_Eat?,Sign_T Sign_H Sign_E Sign_Y Sign_Love Sign_Eat,A2,You stop now,They love food,I need water,I think its good,1,24
+What does this mean: Sign_We Sign_Want Sign_W Sign_A Sign_T Sign_E Sign_R?,Sign_We Sign_Want Sign_W Sign_A Sign_T Sign_E Sign_R,A4,I help you,I want to play,They love food,We want water,1,24
+What does this mean: Sign_I Sign_Need Sign_W Sign_A Sign_T Sign_E Sign_R?,Sign_I Sign_Need Sign_W Sign_A Sign_T Sign_E Sign_R,A1,I need water,They go play,They play well,You play well,1,24
+What does this mean: Sign_I Sign_Think Sign_I Sign_T Sign_S Sign_Bad?,Sign_I Sign_Think Sign_I Sign_T Sign_S Sign_Bad,A4,I feel better,I love playing,We stop eating,I think its bad,1,24
+What does this mean: Sign_I Sign_Play Sign_W Sign_I Sign_T Sign_H Sign_You?,Sign_I Sign_Play Sign_W Sign_I Sign_T Sign_H Sign_You,A4,I want food,We drink water,Please help me,I play with you,1,24
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Help?,Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Help,A3,You want help now,You eat food,They want help,We stop helping,1,25
+What does this mean: Sign_I Sign_Feel Sign_T Sign_I Sign_R Sign_E Sign_D?,Sign_I Sign_Feel Sign_T Sign_I Sign_R Sign_E Sign_D,A4,I play with you,They want love,You stop playing,I feel tired,1,25
+What does this mean: Sign_You Sign_Go Sign_T Sign_H Sign_E Sign_R Sign_E?,Sign_You Sign_Go Sign_T Sign_H Sign_E Sign_R Sign_E,A4,They want love,You love playing,You help them,You go there,1,25
+What does this mean: Sign_You Sign_Stop Sign_N Sign_O Sign_W?,Sign_You Sign_Stop Sign_N Sign_O Sign_W,A4,We thank you,I need food,I need help now,You stop now,1,25
+What does this mean: Sign_I Sign_Need Sign_Eat Sign_N Sign_O Sign_W?,Sign_I Sign_Need Sign_Eat Sign_N Sign_O Sign_W,A4,They love you,I think you,They stop helping,I need food now,1,25
+What does this mean: Sign_We Sign_Need Sign_Sleep?,Sign_We Sign_Need Sign_Sleep,A1,We need sleep,They love food,You love me,I feel bad now,1,25
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Need Sign_Love?,Sign_T Sign_H Sign_E Sign_Y Sign_Need Sign_Love,A3,We help them,You play outside,They need love,We play outside,1,25
+What does this mean: Sign_You Sign_Love Sign_Me?,Sign_You Sign_Love Sign_Me,A4,You love food,You want food now,We help you,You love me,1,25
+What does this mean: Sign_You Sign_Help Sign_T Sign_H Sign_E Sign_M?,Sign_You Sign_Help Sign_T Sign_H Sign_E Sign_M,A4,We play together,I want food,You thank me,You help them,1,25
+What does this mean: Sign_You Sign_Love Sign_Play?,Sign_You Sign_Love Sign_Play,A1,You love playing,You go now,We eat food,You need sleep,1,25
+What does this mean: Sign_I Sign_Need Sign_Help Sign_N Sign_O Sign_W?,Sign_I Sign_Need Sign_Help Sign_N Sign_O Sign_W,A4,We help you,You feel good,We stop helping,I need help now,1,26
+What does this mean: Sign_You Sign_Need Sign_Sleep?,Sign_You Sign_Need Sign_Sleep,A1,You need sleep,We play together,I stop now,I feel sleepy,1,26
+What does this mean: Sign_You Sign_Eat Sign_Eat?,Sign_You Sign_Eat Sign_Eat,A1,You eat food,You want help,They want food,They want to play,1,26
+What does this mean: Sign_You Sign_Want Sign_Eat Sign_N Sign_O Sign_W?,Sign_You Sign_Want Sign_Eat Sign_N Sign_O Sign_W,A2,They help me,You want food now,You help me,I feel sleepy,1,26
+What does this mean: Sign_You Sign_Eat Sign_Eat?,Sign_You Sign_Eat Sign_Eat,A4,They help me,You stop eating,We want food,You eat food,1,26
+What does this mean: Sign_I Sign_Want Sign_Love?,Sign_I Sign_Want Sign_Love,A2,I feel bad now,I want love,They feel bad,You help them,1,26
+What does this mean: Sign_You Sign_Thank_You Sign_T Sign_H Sign_E Sign_M?,Sign_You Sign_Thank_You Sign_T Sign_H Sign_E Sign_M,A4,I want to play,I need water now,I love food,You thank them,1,26
+What does this mean: Sign_We Sign_Love Sign_Eat?,Sign_We Sign_Love Sign_Eat,A3,You love food,We love playing,We love food,You go now,1,26
+What does this mean: Sign_We Sign_Play Sign_O Sign_U Sign_T Sign_S Sign_I Sign_D Sign_E?,Sign_We Sign_Play Sign_O Sign_U Sign_T Sign_S Sign_I Sign_D Sign_E,A1,We play outside,I play with you,They want love,You love playing,1,26
+What does this mean: Sign_We Sign_Go Sign_Eat?,Sign_We Sign_Go Sign_Eat,A1,We go eat,I feel tired,I play too much,You love food,1,26
+What does this mean: Sign_You Sign_Want Sign_Help Sign_N Sign_O Sign_W?,Sign_You Sign_Want Sign_Help Sign_N Sign_O Sign_W,A1,You want help now,You go now,We thank you now,You love food,1,27
+What does this mean: Sign_We Sign_Stop Sign_Eat?,Sign_We Sign_Stop Sign_Eat,A3,I feel bad now,I need sleep,We stop eating,I need food now,1,27
+What does this mean: Sign_You Sign_Go Sign_N Sign_O Sign_W?,Sign_You Sign_Go Sign_N Sign_O Sign_W,A4,You stop eating,We stop now,We want water,You go now,1,27
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Eat?,Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Eat,A3,They love you,I play well,They want food,They need love,1,27
+What does this mean: Sign_You Sign_Eat Sign_Eat?,Sign_You Sign_Eat Sign_Eat,A1,You eat food,We help you,I need help now,They want food,1,27
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad?,Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad,A2,I think its good,They feel bad,I need food,I stop playing,1,27
+What does this mean: Sign_I Sign_Need Sign_Help?,Sign_I Sign_Need Sign_Help,A4,You want help now,You feel good now,You love me,I need help,1,27
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad?,Sign_T Sign_H Sign_E Sign_Y Sign_Feel Sign_Bad,A2,We help them,They feel bad,They stop helping,We love playing,1,27
+What does this mean: Sign_I Sign_Stop Sign_N Sign_O Sign_W?,Sign_I Sign_Stop Sign_N Sign_O Sign_W,A2,We feel sleepy,I stop now,You need sleep,We play well,1,27
+What does this mean: Sign_I Sign_Need Sign_W Sign_A Sign_T Sign_E Sign_R?,Sign_I Sign_Need Sign_W Sign_A Sign_T Sign_E Sign_R,A4,You help them now,They play good,You help them,I need water,1,27
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Help Sign_Me?,Sign_T Sign_H Sign_E Sign_Y Sign_Help Sign_Me,A3,We love playing,I need love,They help me,I want to play,1,28
+What does this mean: Sign_I Sign_Think Sign_You?,Sign_I Sign_Think Sign_You,A3,We thank you,We stop now,I think you,I need help now,1,28
+What does this mean: Sign_I Sign_Stop Sign_N Sign_O Sign_W?,Sign_I Sign_Stop Sign_N Sign_O Sign_W,A4,You play outside,We eat food,We go eat,I stop now,1,28
+What does this mean: Sign_You Sign_Thank_You Sign_T Sign_H Sign_E Sign_M?,Sign_You Sign_Thank_You Sign_T Sign_H Sign_E Sign_M,A4,I help you,You want help,You feel sleepy,You thank them,1,28
+What does this mean: Sign_You Sign_Need Sign_Love?,Sign_You Sign_Need Sign_Love,A2,You feel good,You need love,You need water,You want help,1,28
+What does this mean: Sign_We Sign_Stop Sign_Eat?,Sign_We Sign_Stop Sign_Eat,A4,You want love,I want water,We thank you,We stop eating,1,28
+What does this mean: Sign_I Sign_Stop Sign_Play?,Sign_I Sign_Stop Sign_Play,A3,You love food,They want help,I stop playing,You need water,1,28
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Love?,Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Love,A2,They love you,They want love,We drink water,I love food,1,28
+What does this mean: Sign_You Sign_Thank_You Sign_Me?,Sign_You Sign_Thank_You Sign_Me,A4,I love food,We love food,They want to play,You thank me,1,28
+What does this mean: Sign_You Sign_Want Sign_Love?,Sign_You Sign_Want Sign_Love,A4,I think its bad,We want food,We eat food,You want love,1,28
+What does this mean: Sign_You Sign_Play Sign_W Sign_E Sign_L Sign_L?,Sign_You Sign_Play Sign_W Sign_E Sign_L Sign_L,A3,They feel bad,I love food,You play well,We play well,1,29
+What does this mean: Sign_We Sign_Play Sign_W Sign_E Sign_L Sign_L?,Sign_We Sign_Play Sign_W Sign_E Sign_L Sign_L,A2,I want water,We play well,I hurt myself,They stop helping,1,29
+What does this mean: Sign_You Sign_Want Sign_Help?,Sign_You Sign_Want Sign_Help,A2,I need sleep,You want help,You need water,I stop now,1,29
+What does this mean: Sign_I Sign_Play Sign_O Sign_U Sign_T Sign_S Sign_I Sign_D Sign_E?,Sign_I Sign_Play Sign_O Sign_U Sign_T Sign_S Sign_I Sign_D Sign_E,A1,I play outside,They need help,You want help,You need help,1,29
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Eat?,Sign_T Sign_H Sign_E Sign_Y Sign_Want Sign_Eat,A4,I love you,They need food,We stop eating,They want food,1,29
+What does this mean: Sign_I Sign_Love Sign_You?,Sign_I Sign_Love Sign_You,A2,You eat food,I love you,I play outside,I stop playing,1,29
+What does this mean: Sign_You Sign_Go Sign_N Sign_O Sign_W?,Sign_You Sign_Go Sign_N Sign_O Sign_W,A4,I need water,We thank you,You need food,You go now,1,29
+What does this mean: Sign_I Sign_Want Sign_Love?,Sign_I Sign_Want Sign_Love,A2,You love playing,I want love,We stop now,I stop now,1,29
+What does this mean: Sign_I Sign_Think Sign_A Sign_B Sign_O Sign_U Sign_T Sign_You?,Sign_I Sign_Think Sign_A Sign_B Sign_O Sign_U Sign_T Sign_You,A4,We drink water,I want to play,I feel bad now,I think about you,1,29
+What does this mean: Sign_We Sign_Go Sign_Eat?,Sign_We Sign_Go Sign_Eat,A3,I feel bad now,We want water,We go eat,You want love,1,29
+What does this mean: Sign_You Sign_Love Sign_Play?,Sign_You Sign_Love Sign_Play,A2,I play with you,You love playing,I love you,You need help,1,30
+What does this mean: Sign_You Sign_Want Sign_Eat Sign_N Sign_O Sign_W?,Sign_You Sign_Want Sign_Eat Sign_N Sign_O Sign_W,A2,We drink water,You want food now,You help me,You love playing,1,30
+What does this mean: Sign_You Sign_Stop Sign_Eat?,Sign_You Sign_Stop Sign_Eat,A1,You stop eating,We play outside,You want food now,I feel better,1,30
+What does this mean: Sign_T Sign_H Sign_E Sign_Y Sign_Need Sign_Eat?,Sign_T Sign_H Sign_E Sign_Y Sign_Need Sign_Eat,A1,They need food,They want food,You want love,You love me,1,30
+What does this mean: Sign_You Sign_Feel Sign_Good Sign_N Sign_O Sign_W?,Sign_You Sign_Feel Sign_Good Sign_N Sign_O Sign_W,A1,You feel good now,You want help now,You want help,You help them,1,30
+What does this mean: Sign_We Sign_Thank_You Sign_You?,Sign_We Sign_Thank_You Sign_You,A3,I think you,They play good,We thank you,We drink water,1,30
+What does this mean: Sign_You Sign_Feel Sign_Good Sign_N Sign_O Sign_W?,Sign_You Sign_Feel Sign_Good Sign_N Sign_O Sign_W,A3,We drink water,I think its good,You feel good now,You go to play,1,30
+What does this mean: Sign_We Sign_Need Sign_Sleep?,Sign_We Sign_Need Sign_Sleep,A4,I feel sleepy,Please help me,We love playing,We need sleep,1,30
+What does this mean: Sign_I Sign_Love Sign_You?,Sign_I Sign_Love Sign_You,A3,They want food,We stop eating,I love you,They need food,1,30
+What does this mean: Sign_You Sign_Want Sign_Eat Sign_N Sign_O Sign_W?,Sign_You Sign_Want Sign_Eat Sign_N Sign_O Sign_W,A1,You want food now,I think you,They play good,They want food,1,30
