@@ -12,20 +12,6 @@ const LessonsList = ({ programContent }) => {
     console.log("program content",programContent);
 
 
-<<<<<<< HEAD
-const LessonsList = ({ programContent }) => {
-
-    const navigate = useNavigate();
-
-    const handleRestartLesson = (lessonNumber) => {
-        console.log(`Navigating to lesson: ${lessonNumber}`);
-        navigate(`/lessons`, { state: { lessonNumber } });
-    };
-    console.log("program content",programContent);
-    
-
-=======
->>>>>>> upstream/lesson-fix
 
     return programContent.map((content, index) => {
         return (

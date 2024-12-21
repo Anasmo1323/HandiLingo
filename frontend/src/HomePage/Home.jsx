@@ -47,13 +47,7 @@ const features = [
 ];
 
 function Home() {
-<<<<<<< HEAD
-
   const navigate = useNavigate();
-  
-=======
-  const navigate = useNavigate();
->>>>>>> upstream/lesson-fix
   const [user, setUser] = useState(null);
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
 

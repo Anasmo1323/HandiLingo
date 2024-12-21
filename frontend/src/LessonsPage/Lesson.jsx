@@ -5,129 +5,11 @@ import Sidebar from '../components/Sidebar'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 
-//! Note (1) at the dummy data i signed name with four letter (e.g. a-d) we work now with three letters (e.g. a-c)
-//! so we need to change the dummy data to match the new data
-
-//! Note (2) handling right anwser is dependent on the structure of the dummy data 
-//! you need to make it suit to fetched data when make fetch requests
-
-
-
-const lessons = [
-    {
-        name: "a-c",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    },
-    {
-        name: "e-h",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    },
-    {
-        name: "i-l",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    },
-    {
-        name: "m-p",
-        lessonsNum: 4,
-        finished: 2,
-        time: 12,
-    }
-
-];
-
-const lessonContent = {
-    'a-c': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg',
-                text: 'A'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'b'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'c'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'd'
-            },
-        ]
-    },
-    'e-h': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'e'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'f'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'g'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'h'
-            },
-        ]
-    },
-    'i-l': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'i'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'g'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'k'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'l'
-            },
-        ]
-    },
-    'm-p': {
-        images: [
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'i'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg',
-                text: 'g'
-            },
-            {
-                img: 'https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg',
-                text: 'k'
-            },
-            {
-                img: 'https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg',
-                text: 'l'
-            },
-        ]
-    }
-};
 
 
 const quizes = [
     {
-        name: "a-d",
+        name: "A-B-C",
         questions: [
             {
                 question: {
@@ -169,7 +51,7 @@ const quizes = [
         ],
     },
     {
-        name: "e-h",
+        name: "E-F-G",
         questions: [
             {
                 question: {
@@ -298,7 +180,7 @@ const quizes = [
 
 const Lesson = () => {
     const location = useLocation();
-    const lessonNameFromState = location.state?.lessonName;
+    const lessonNameFromState = location.state?.lessonNumber;
 
     const [flipped, setFlipped] = useState(false);
     const [isCorrect, setIsCorrect] = useState(null);
@@ -307,41 +189,56 @@ const Lesson = () => {
     const [reportSlides, setReportSlides] = useState({});
     const [showResults, setShowResults] = useState(false);
 
-
     console.log(`Received lesson name: ${lessonNameFromState}`);
     const initialLessonIndex = lessonNameFromState ? lessonNameFromState - 1 : 0;
 
     const [currentLessonIndex, setCurrentLessonIndex] = useState(initialLessonIndex);
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
-    const currentLesson = lessons[currentLessonIndex];
-    const lessonData = lessonContent[currentLesson.name];
+    const [lessons, setLessons] = useState([]);
+    const [lessonsCopy, setLessonsCopy] = useState([]);
+    const [lessonContentCopy, setLessonContentCopy] = useState({});
+
+    const currentLesson = lessonsCopy[currentLessonIndex];
+    const lessonData = lessonContentCopy[currentLesson?.name];
 
     const [isQuizMode, setIsQuizMode] = useState(false);
 
-    const [lessonsTest, setLessonsTest] = useState([]);
-
-    // --------------------------------------- Fetches ---------------------------------------
-
-    const [lessons1, setLessons] = useState([]);
     const fetchLessonData = async () => {
         try {
             const response = await httpClient.get("/lessons");
             const fetchedLessons = response.data.map(lesson => ({
-                name: lesson.L_text,
+                name: lesson.L_text.split(' ').slice(1).join('-'),
                 lessonsNum: lesson.L_no,
                 finished: lesson.L_isFinished,
                 level: lesson.L_level,
-                signs: lesson.L_image,
-
+                signs: lesson.L_image.split(',').map(sign => sign.trim()),
             }));
 
             console.log("fetchedLessons", fetchedLessons);
-
-            const filteredLessons = fetchedLessons.filter(lesson => lesson.lessonsNum === lessonNumberFromState);
-            console.log("filteredLessons", filteredLessons);
-
             setLessons(fetchedLessons);
+
+            // Prepare data for lessonsCopy and lessonContentCopy
+            const lessonsCopyData = fetchedLessons.map(lesson => ({
+                name: lesson.name,
+                lessonsNum: lesson.lessonsNum,
+                finished: lesson.finished,
+                time: 12, // Assuming a default time value
+            }));
+
+            const lessonContentCopyData = fetchedLessons.reduce((acc, lesson) => {
+                acc[lesson.name] = {
+                    images: lesson.signs.map(sign => ({
+                        img: `path/to/images/${sign}.jpg`, // Assuming a path format for images
+                        text: sign.split('_').slice(1).join(' '), // Assuming text format from sign name
+                    })),
+                };
+                return acc;
+            }, {});
+
+            setLessonsCopy(lessonsCopyData);
+            setLessonContentCopy(lessonContentCopyData);
+
         } catch (error) {
             console.error("Error fetching lessons data:", error);
         }
@@ -350,7 +247,14 @@ const Lesson = () => {
     useEffect(() => {
         console.log("fetched here");
         fetchLessonData();
+        console.log("lessons", lessons);
     }, []);
+
+    useEffect(() => {
+        console.log("Updated lessons:", lessons);
+        console.log("Updated lessonsCopy:", lessonsCopy);
+        console.log("Updated lessonContentCopy:", lessonContentCopy);
+    }, [lessons]);
 
     const [user, setLessonScore] = useState(0);
     useEffect(() => {
@@ -367,7 +271,6 @@ const Lesson = () => {
         fetchLessonScore(); //use this to get it: user.lesson_score
     }, []);
 
-    //A function that fetches the next question sign from the database
     const getNextQuestionSign = async () => {
         try {
             const response = await httpClient.get("/next_question_sign");
@@ -380,7 +283,6 @@ const Lesson = () => {
             console.error("Error fetching the next question:", error);
         }
     };
-    //A function that takes the updated lesson score and the user id and updates the lesson score in the database
 
     const updateLessonScore = async (userId, newLessonScore) => {
         try {
@@ -398,17 +300,11 @@ const Lesson = () => {
         }
     };
 
-
-
-
-    // --------------------------------------- Handlers ---------------------------------------
-
     const handleCardClick = () => {
         setFlipped(!flipped);
     };
 
     const handleAnswer = (selectedKey) => {
-        // Check if the answer for the current index is already stored
         if (currentSlideIndex in correctAnswerNumber) {
             console.log("Answer for index", currentSlideIndex, "is already stored.");
             return;
@@ -430,14 +326,14 @@ const Lesson = () => {
         console.log("Stored answer for index:", currentSlideIndex, "isCorrect:", isCorrect);
 
         setIsCorrect(isCorrect);
-        setSelectedAnswer(selectedKey); // Set the selected answer
+        setSelectedAnswer(selectedKey);
 
         return isCorrect;
     };
 
     const handleNextSlide = () => {
-        setIsCorrect(null); // Reset isCorrect state when moving to the next slide
-        setSelectedAnswer(null); // Reset selectedAnswer state when moving to the next slide
+        setIsCorrect(null);
+        setSelectedAnswer(null);
 
         if (showResults) {
             setShowResults(false);
@@ -449,7 +345,7 @@ const Lesson = () => {
         }
 
         if (!isQuizMode) {
-            const currentLessonImages = lessonContent[currentLesson.name].images;
+            const currentLessonImages = lessonData?.images;
 
             if (currentSlideIndex < currentLessonImages.length - 1) {
                 setCurrentSlideIndex(currentSlideIndex + 1);
@@ -466,7 +362,6 @@ const Lesson = () => {
                 setCurrentSlideIndex(currentSlideIndex + 1);
                 console.log(`Moved to next quiz slide: ${currentSlideIndex + 1}`);
             } else {
-                // Store the results of the current quiz batch
                 setReportSlides((prev) => ({
                     ...prev,
                     [currentLesson.name]: correctAnswerNumber,
@@ -480,8 +375,8 @@ const Lesson = () => {
     };
 
     const handlePrevSlide = () => {
-        setIsCorrect(null); // Reset isCorrect state when moving to the previous slide
-        setSelectedAnswer(null); // Reset selectedAnswer state when moving to the previous slide
+        setIsCorrect(null);
+        setSelectedAnswer(null);
 
         if (showResults) {
             setShowResults(false);
@@ -495,7 +390,7 @@ const Lesson = () => {
                 setCurrentSlideIndex(currentSlideIndex - 1);
             } else {
                 setIsQuizMode(false);
-                setCurrentSlideIndex(lessonContent[currentLesson.name].images.length - 1);
+                setCurrentSlideIndex(lessonData?.images.length - 1);
             }
         } else {
             if (currentSlideIndex > 0) {
@@ -504,18 +399,19 @@ const Lesson = () => {
                 setCurrentLessonIndex(currentLessonIndex - 1);
                 setIsQuizMode(true);
                 setCurrentSlideIndex(quizes[currentLessonIndex - 1].questions.length - 1);
-                // Restore the results of the previous quiz batch
-                setCorrectAnswerNumber(reportSlides[lessons[currentLessonIndex - 1].name] || {});
-                setShowResults(true); // Show the results slide when navigating back
+                setCorrectAnswerNumber(reportSlides[lessonsCopy[currentLessonIndex - 1].name] || {});
+                setShowResults(true);
             } else {
                 console.log("You are at the beginning of the lessons!");
             }
         }
     };
 
-    // ------------------------------------ Rendering ------------------------------------
-
     const renderLessonContent = () => {
+        if (!lessonData) {
+            return <div>Loading...</div>;
+        }
+
         const currentImage = lessonData.images[currentSlideIndex];
         return (
             <div
@@ -523,7 +419,6 @@ const Lesson = () => {
                 onClick={handleCardClick}
             >
                 <div className={` cursor-pointer flip-card ${flipped ? 'flipped' : ''}`}>
-                    {/* Front of the card - Image */}
                     <div className="flip-card-front">
                         <img
                             src={currentImage.img}
@@ -531,7 +426,6 @@ const Lesson = () => {
                             className="w-[500px] h-[500px] mx-auto rounded-lg shadow-md"
                         />
                     </div>
-                    {/* Back of the card - Text */}
                     <div className="flip-card-back  border-[30px] border-[#4eac6d] rounded-lg shadow-md p-5">
                         <p className="text-[100px] font-semibold mt-4">{currentImage.text.toUpperCase()}</p>
                     </div>
@@ -541,7 +435,7 @@ const Lesson = () => {
     };
 
     const renderLessons = () => {
-        return lessons.map((level, index) => (
+        return lessonsCopy.map((level, index) => (
             <li
                 className={`bg-white rounded-md cursor-pointer hover:bg-slate-200 p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''
                     }`}
@@ -665,8 +559,8 @@ const Lesson = () => {
                                 <button
                                     onClick={handleNextSlide}
                                     disabled={
-                                        currentLessonIndex === lessons.length - 1 &&
-                                        currentSlideIndex === (isQuizMode ? quizes[currentLessonIndex].questions.length - 1 : lessonData.images.length - 1)
+                                        currentLessonIndex === lessonsCopy.length - 1 &&
+                                        currentSlideIndex === (isQuizMode ? quizes[currentLessonIndex].questions.length - 1 : lessonData?.images.length - 1)
                                     }
                                     className="bg-white text-green-500 font-bold w-[200px] py-3 rounded-md shadow-md text-lg hover:bg-gray-200"
                                 >
