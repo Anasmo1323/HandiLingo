@@ -37,18 +37,18 @@ const Router = () => {
         <Route
           path="/dashboard"
           element={
-            <ProtectedRoute user={user}>
+
               <Dashboard />
-            </ProtectedRoute>
+
           }
         />
 
         <Route
           path="/lessons"
           element={
-            <ProtectedRoute user={user}>
+
               <Lesson languageType="sign" />
-            </ProtectedRoute>
+
           }
         />
       </Routes>
