@@ -5,7 +5,6 @@ import Sidebar from '../components/Sidebar'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 
-
 const quizes = [
     {
         name: "A-B-C",
@@ -176,6 +175,8 @@ const quizes = [
         ],
     }
 ]
+
+
 const Lesson = () => {
     const location = useLocation();
     const lessonNumberFromState = location.state?.lessonNumber;
@@ -187,6 +188,7 @@ const Lesson = () => {
     const [correctAnswerNumber, setCorrectAnswerNumber] = useState({});
     const [reportSlides, setReportSlides] = useState({});
     const [showResults, setShowResults] = useState(false);
+    const [showModal, setShowModal] = useState(false); // State variable for modal visibility
 
     console.log(`Received lesson number: ${lessonNumberFromState}, level: ${lessonLevelFromState}`);
     const initialLessonIndex = lessonNumberFromState ? lessonNumberFromState - 1 : 0;
@@ -202,6 +204,20 @@ const Lesson = () => {
     const lessonData = lessonContentCopy[currentLesson?.name];
 
     const [isQuizMode, setIsQuizMode] = useState(false);
+    const [userData, setUserData] = useState({});
+
+    useEffect(() => {
+        const fetchUserData = async () => {
+            try {
+                const response = await httpClient.get("/@me");
+                setUserData(response.data);
+            } catch (error) {
+                console.error("Error fetching user data:", error);
+            }
+        };
+
+        fetchUserData();
+    }, []);
 
     const fetchLessonData = async () => {
         try {
@@ -231,7 +247,7 @@ const Lesson = () => {
                 acc[lesson.name] = {
                     images: lesson.signs.map(sign => ({
                         img: `./Data/Signs/${sign}.png`, // Assuming a path format for images
-                        text: sign.split('_').slice(1).join(' '), // Assuming text format from sign name
+                        text: sign, // Assuming text format from sign name
                     })),
                 };
                 return acc;
@@ -260,6 +276,10 @@ const Lesson = () => {
         console.log("Updated lessonsCopy:", lessonsCopy);
         console.log("Updated lessonContentCopy:", lessonContentCopy);
     }, [lessons]);
+
+    useEffect(() => {
+        console.log("users:", userData);
+    }, [userData]);
 
     const [user, setLessonScore] = useState(0);
     useEffect(() => {
@@ -341,11 +361,15 @@ const Lesson = () => {
         setSelectedAnswer(null);
 
         if (showResults) {
-            setShowResults(false);
-            setCurrentLessonIndex(currentLessonIndex + 1);
-            setCurrentSlideIndex(0);
-            setIsQuizMode(false);
-            setCorrectAnswerNumber({});
+            if (userData.total_score >= (lessonsCopy[currentLessonIndex + 1]?.lessonsNum * 100)) {
+                setShowResults(false);
+                setCurrentLessonIndex(currentLessonIndex + 1);
+                setCurrentSlideIndex(0);
+                setIsQuizMode(false);
+                setCorrectAnswerNumber({});
+            } else {
+                setShowModal(true); // Show modal if next lesson is locked
+            }
             return;
         }
 
@@ -440,24 +464,28 @@ const Lesson = () => {
     };
 
     const renderLessons = () => {
-        return lessonsCopy.map((level, index) => (
-            <li
-                className={`bg-white rounded-md cursor-pointer hover:bg-slate-200 p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''
-                    }`}
-                key={index}
-                onClick={() => {
-                    setCurrentLessonIndex(index);
-                    setCurrentSlideIndex(0);
-                }}
-            >
-                <div className="flex flex-col">
-                    <span className="text-[20px]" style={{ fontWeight: 600 }}>
-                        {level.name}
-                    </span>
-                    <span className="text-xs text-slate-400">Progress</span>
-                </div>
-            </li>
-        ));
+        return lessonsCopy.map((level, index) => {
+            const isDisabled = userData.total_score < level.lessonsNum * 100;
+            return (
+                <li
+                    className={`bg-white rounded-md ${isDisabled ? 'bg-slate-400 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
+                    key={index}
+                    onClick={() => {
+                        if (!isDisabled) {
+                            setCurrentLessonIndex(index);
+                            setCurrentSlideIndex(0);
+                        }
+                    }}
+                >
+                    <div className="flex flex-col">
+                        <span className="text-[20px]" style={{ fontWeight: 600 }}>
+                            {level.name}
+                        </span>
+                        <span className="text-xs text-slate-400">Progress</span>
+                    </div>
+                </li>
+            );
+        });
     };
 
     const renderQuizContent = () => {
@@ -532,6 +560,21 @@ const Lesson = () => {
         );
     };
 
+    const renderModal = () => (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div className="bg-white p-5 py-10 rounded-md shadow-md text-center">
+                <h2 className="text-2xl font-bold mb-4">Lesson Locked</h2>
+                <p className="mb-4">You need more points to unlock the next lesson.</p>
+                <button
+                    className="bg-green-500 text-white px-4 py-2 rounded-md"
+                    onClick={() => setShowModal(false)}
+                >
+                    Close
+                </button>
+            </div>
+        </div>
+    );
+
     return (
         <>
             <Navbar_ />
@@ -576,6 +619,8 @@ const Lesson = () => {
                     </div>
                 </div>
             </div>
+
+            {showModal && renderModal()}
 
             <Footer />
         </>
