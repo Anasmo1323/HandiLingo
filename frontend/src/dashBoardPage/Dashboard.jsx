@@ -7,7 +7,6 @@ import { useLocation } from 'react-router-dom';
 import { FaLock } from 'react-icons/fa';
 import httpClient from "../components/httpClient";
 
-
 const programList = [
     {
         name: 'Letters',
@@ -16,50 +15,25 @@ const programList = [
     {
         name: 'Words',
         program_number: 2,
-    },
-    {
-        name: 'Sentences',
-        program_number: 3,
     }
 ];
 
-const programContents = {
-    Letters: ['a-c', 'd-f', 'g-i', 'j-l', 'm-o', 'p-r', 's-u', 'v-z'],
-    Words: ['cat', 'dog', 'fish', 'ball', 'apple', 'banana', 'car', 'bus'],
-    Sentences: [
-        'The cat is black',
-        'The dog is brown',
-        'The fish is orange'
-    ]
-}
-
-
 const Dashboard = () => {
-
     const location = useLocation();
-    // here fetch the program list name and content from the server
-    const [programInfo, setProgramInfo] = useState({name:'Letters',program_number:1});
+    const [programInfo, setProgramInfo] = useState({ name: 'Letters', program_number: 1 });
     const [programContent, setProgramContent] = useState([]);
-
-    // here you can use this variable to render the lesson of sign or braille language
-    // eslint-disable-next-line no-unused-vars
     const languageTypeState = location.state?.languageType;
-
-
-    // eslint-disable-next-line no-unused-vars
-    const [score, setScore] = useState(199)
+    const [score, setScore] = useState(1000);
     const [lessons1, setLessons] = useState([]);
 
-
-    
-
-    const handleClick = (name,number) => {
+    const handleClick = (name, number) => {
         setProgramInfo({
             name,
-            program_number:number
+            program_number: number
         });
-        setProgramContent(lessons1);
-    }
+        const filteredLessons = lessons1.filter(lesson => lesson.level === number);
+        setProgramContent(filteredLessons);
+    };
 
     const fetchLessonData = async () => {
         try {
@@ -71,24 +45,20 @@ const Dashboard = () => {
                 level: lesson.L_level,
                 signs: lesson.L_image,
             }));
-            console.log("lessons",fetchedLessons);
-            const filteredLessons = fetchedLessons.filter(lesson => lesson.level === programInfo.program_number  );
-            console.log("lessons",filteredLessons);
-            setLessons(filteredLessons);
+            console.log("lessons", fetchedLessons);
+            setLessons(fetchedLessons);
+            // Set initial program content based on the default programInfo
+            const initialFilteredLessons = fetchedLessons.filter(lesson => lesson.level === programInfo.program_number);
+            setProgramContent(initialFilteredLessons);
         } catch (error) {
             console.error("Error fetching lessons data:", error);
         }
     };
 
-
     useEffect(() => {
         fetchLessonData();
     }, []);
 
-    
-
-
-    // here change the content
     useEffect(() => {
         console.log('Updated programContent:', programContent);
     }, [programContent]);
@@ -100,7 +70,7 @@ const Dashboard = () => {
                 <li
                     className={`bg-white rounded-md ${isDisabled ? ' bg-slate-300' : 'cursor-pointer hover:bg-slate-200'}`}
                     key={index}
-                    onClick={() => !isDisabled && handleClick(program.name,program.program_number)}
+                    onClick={() => !isDisabled && handleClick(program.name, program.program_number)}
                 >
                     <div className='flex flex-col p-5'>
                         <span className={` flex justify-between text-[20px] ${isDisabled ? 'text-gray-500' : ''}`} style={{ fontWeight: 600 }}>
@@ -113,6 +83,7 @@ const Dashboard = () => {
             );
         });
     };
+
     return (
         <>
             <Navbar_ />
@@ -120,7 +91,7 @@ const Dashboard = () => {
                 <div className="container">
                     <div className='flex gap-x-10 p-5'>
                         <div className='basis-1/3'>
-                            <Sidebar  >
+                            <Sidebar>
                                 <div className='program-list'>
                                     <span className='text-gray-600 text-[20px] font-bold'>Programs</span>
                                     <ul className='flex flex-col gap-y-2 mt-5'>
@@ -130,15 +101,14 @@ const Dashboard = () => {
                             </Sidebar>
                         </div>
                         <div className='basis-2/3'>
-                            <LessonsList programContent={lessons1}  />
+                            <LessonsList programContent={programContent} />
                         </div>
                     </div>
                 </div>
             </div>
-
             <Footer />
         </>
-    )
-}
+    );
+};
 
-export default Dashboard
+export default Dashboard;

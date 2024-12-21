@@ -2,16 +2,14 @@ import { FaRedo } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
 const LessonsList = ({ programContent }) => {
-
     const navigate = useNavigate();
 
-    const handleRestartLesson = (lessonNumber) => {
-        console.log(`Navigating to lesson: ${lessonNumber}`);
-        navigate(`/lessons`, { state: { lessonNumber } });
+    const handleRestartLesson = (lessonNumber, level) => {
+        console.log(`Navigating to lesson: ${lessonNumber}, level: ${level}`);
+        navigate(`/lessons`, { state: { lessonNumber, level } });
     };
-    console.log("program content",programContent);
 
-
+    console.log("program content", programContent);
 
     return programContent.map((content, index) => {
         return (
@@ -33,7 +31,7 @@ const LessonsList = ({ programContent }) => {
 
                 <button
                     className="bg-white text-green-500 font-bold px-4 py-2 rounded-md shadow-md text-lg hover:bg-gray-200 flex items-center gap-2"
-                    onClick={() => handleRestartLesson(content.lessonsNum)}
+                    onClick={() => handleRestartLesson(content.lessonsNum, content.level)}
                 >
                     <FaRedo />
                     <span>Restart</span>

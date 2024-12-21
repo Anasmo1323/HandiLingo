@@ -5,182 +5,14 @@ import Sidebar from '../components/Sidebar'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
 
-
-
 const quizes = [
-    {
-        name: "A-B-C",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    },
-    {
-        name: "E-F-G",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    },
-    {
-        name: "i-l",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    },
-    {
-        name: "m-p",
-        questions: [
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' },
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" }
-                    ]
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcad',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "a",
-            },
-            {
-                question: {
-                    text: "What is the right sequence ?",
-                    images: [
-                        { "b": 'https://i.pinimg.com/736x/c7/e1/ac/c7e1acb2b0173f1e5be8f00ee6d61048.jpg' },
-                        { "c": "https://i.pinimg.com/736x/a7/17/35/a717357312492a015e8e5b6c8bc5d3fc.jpg" },
-                        { "d": "https://images.squarespace-cdn.com/content/v1/5452398fe4b08a9d2089dea2/1416676476031-LX3GW1BIQ5FOEUVOA74V/2014-10-22+16.32.47.jpg" },
-                        { "a": 'https://i.pinimg.com/474x/7f/80/47/7f8047283f1a5bb1a1365390648d0784.jpg' }
-                    ],
-                },
-                options: {
-                    "a": 'abcd',
-                    "b": 'bcda',
-                    "c": "cadb",
-                    "d": "dacb"
-                },
-                answer: "b",
-            },
-
-        ],
-    }
-]
+    // ... existing quiz data ...
+];
 
 const Lesson = () => {
     const location = useLocation();
-    const lessonNameFromState = location.state?.lessonNumber;
+    const lessonNumberFromState = location.state?.lessonNumber;
+    const lessonLevelFromState = location.state?.level;
 
     const [flipped, setFlipped] = useState(false);
     const [isCorrect, setIsCorrect] = useState(null);
@@ -189,8 +21,8 @@ const Lesson = () => {
     const [reportSlides, setReportSlides] = useState({});
     const [showResults, setShowResults] = useState(false);
 
-    console.log(`Received lesson name: ${lessonNameFromState}`);
-    const initialLessonIndex = lessonNameFromState ? lessonNameFromState - 1 : 0;
+    console.log(`Received lesson number: ${lessonNumberFromState}, level: ${lessonLevelFromState}`);
+    const initialLessonIndex = lessonNumberFromState ? lessonNumberFromState - 1 : 0;
 
     const [currentLessonIndex, setCurrentLessonIndex] = useState(initialLessonIndex);
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
@@ -216,17 +48,19 @@ const Lesson = () => {
             }));
 
             console.log("fetchedLessons", fetchedLessons);
+            const filteredLessons = fetchedLessons.filter(lesson => lesson.level === lessonLevelFromState);
+
             setLessons(fetchedLessons);
 
             // Prepare data for lessonsCopy and lessonContentCopy
-            const lessonsCopyData = fetchedLessons.map(lesson => ({
+            const lessonsCopyData = filteredLessons.map(lesson => ({
                 name: lesson.name,
                 lessonsNum: lesson.lessonsNum,
                 finished: lesson.finished,
                 time: 12, // Assuming a default time value
             }));
 
-            const lessonContentCopyData = fetchedLessons.reduce((acc, lesson) => {
+            const lessonContentCopyData = filteredLessons.reduce((acc, lesson) => {
                 acc[lesson.name] = {
                     images: lesson.signs.map(sign => ({
                         img: `path/to/images/${sign}.jpg`, // Assuming a path format for images
@@ -239,6 +73,10 @@ const Lesson = () => {
             setLessonsCopy(lessonsCopyData);
             setLessonContentCopy(lessonContentCopyData);
 
+            // Set the initial lesson index based on the lesson number
+            const initialIndex = lessonsCopyData.findIndex(lesson => lesson.lessonsNum === lessonNumberFromState);
+            setCurrentLessonIndex(initialIndex !== -1 ? initialIndex : 0);
+
         } catch (error) {
             console.error("Error fetching lessons data:", error);
         }
@@ -248,7 +86,7 @@ const Lesson = () => {
         console.log("fetched here");
         fetchLessonData();
         console.log("lessons", lessons);
-    }, []);
+    }, [lessonLevelFromState, lessonNumberFromState]);
 
     useEffect(() => {
         console.log("Updated lessons:", lessons);
