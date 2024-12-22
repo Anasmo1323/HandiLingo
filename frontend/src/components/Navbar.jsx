@@ -73,13 +73,13 @@ const Navbar_ = () => {
                         </ul>
                         <span className="w-[2px] h-[30px] bg-green-500 inline-block mx-5"></span>
                         <select
-                            className="border border-gray-300 rounded-md p-2 bg-white text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 ease-in-out hover:border-green-400"
+                            className="border border-gray-300 rounded-md p-2 w-36 bg-white text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 ease-in-out hover:border-green-400"
                             onChange={(e) => {
                                 if (e.target.value === "logout") handleLogout();
                             }}
                         >
                             <option className="text-gray-800 bg-white hover:bg-green-100 cursor-pointer" value="account-settings">
-                                Account Settings
+                                {userData.name || "Account Settings"}
                             </option>
                             <option className="text-red-800 bg-white hover:bg-green-100 cursor-pointer" value="logout">
                                 Logout
