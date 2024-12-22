@@ -125,6 +125,7 @@ const Lesson = () => {
 
     const updateLessonScore = async (userId, newLessonScore) => {
         try {
+            console.log("Updating lesson score in database to:", newLessonScore);
             const response = await httpClient.post("/update_lesson_score", {
                 user_id: userId,
                 lesson_score: newLessonScore
@@ -139,6 +140,7 @@ const Lesson = () => {
             console.error("Error updating lesson score:", error);
         }
     };
+
     const updateTotalScore = async (userId, newTotalScore) => {
         try {
             const response = await httpClient.post("/update_total_score", {
@@ -159,6 +161,28 @@ const Lesson = () => {
             console.error("Error updating total score:", error);
         }
     };
+
+    const updateStage = async (userId, newStage) => {
+        try {
+            const response = await httpClient.post("/update_stage", {
+                user_id: userId,
+                stage: newStage
+            });
+            if (response.status === 207) {
+                console.log("Stage updated successfully");
+                setStage(newStage);
+                setUserData((prevUserData) => ({
+                    ...prevUserData,
+                    stage: newStage,
+                }));
+            } else {
+                console.error("Failed to update stage");
+            }
+        } catch (error) {
+            console.error("Error updating stage:", error);
+        }
+    };
+
 
     useEffect(() => {
         console.log("Updated userData:", userData);
@@ -202,12 +226,13 @@ const Lesson = () => {
         }));
     
         // Update the selected answer for the current question
-        setQuestions(prevQuestions => prevQuestions.map((q, index) => 
+        setQuestions(prevQuestions => prevQuestions.map((q, index) =>
             index === currentQuestionIndex ? { ...q, selectedAnswer: selectedKey } : q
         ));
     
         if (isCorrect) {
             const newLessonScore = lessonScore + 10; // Assuming each correct answer gives 10 points
+            console.log("Updating lesson score to:", newLessonScore);
             await updateLessonScore(userData.id, newLessonScore);
         }
     
@@ -215,7 +240,7 @@ const Lesson = () => {
     };
 
     const handleNextSlide = async () => {
-        if (isQuizMode && selectedAnswer === null) {
+        if (isQuizMode && selectedAnswer === null && !showResults) {
             console.log("Please answer the question before proceeding to the next one.");
             return;
         }
@@ -223,16 +248,28 @@ const Lesson = () => {
         setIsCorrect(null);
     
         if (showResults) {
-            if (userData.total_score >= (lessonsCopy[currentLessonIndex + 1]?.lessonsNum * 100)) {
-                setShowResults(false);
-                setCurrentLessonIndex(currentLessonIndex + 1);
-                setCurrentSlideIndex(0);
-                setIsQuizMode(false);
-                setCorrectAnswerNumber({});
-                setLessonScore(0); // Reset lesson score
-                await updateLessonScore(userData.id, 0); // Update lesson score to 0
-            } else {
+            const nextLessonIndex = currentLessonIndex + 1;
+            const nextLesson = lessonsCopy[nextLessonIndex];
+    
+            if (nextLesson && userData.total_score < nextLesson.lessonsNum * 1000) {
                 setShowModal(true); // Show modal if next lesson is locked
+                return;
+            }
+    
+            setShowResults(false);
+            setCurrentLessonIndex(nextLessonIndex);
+            setCurrentSlideIndex(0);
+            setIsQuizMode(false);
+            setCorrectAnswerNumber({});
+            setLessonScore(0); // Reset lesson score
+            setQuestions([]); // Reset questions
+            setSelectedAnswer(null); // Reset selected answer
+            console.log("Resetting lesson score to 0");
+            await updateLessonScore(userData.id, 0); // Update lesson score to 0
+    
+            // Update stage if the current lesson number is greater than the user's current stage
+            if (nextLesson && nextLesson.lessonsNum > userData.stage) {
+                await updateStage(userData.id, nextLesson.lessonsNum);
             }
             return;
         }
@@ -256,6 +293,9 @@ const Lesson = () => {
             } else {
                 setShowResults(true);
                 setLessonScore(0); // Reset lesson score
+                setQuestions([]); // Reset questions
+                setSelectedAnswer(null); // Reset selected answer
+                console.log("Resetting lesson score to 0");
                 await updateLessonScore(userData.id, 0); // Update lesson score to 0
     
                 // Calculate total score
@@ -267,6 +307,11 @@ const Lesson = () => {
     
                 // Update total score
                 await updateTotalScore(userData.id, newTotalScore);
+    
+                // Update stage if the current lesson number is greater than the user's current stage
+                if (lessonsCopy[currentLessonIndex]?.lessonsNum > userData.stage && newTotalScore >= lessonsCopy[currentLessonIndex]?.lessonsNum * 1000) {
+                    await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum);
+                }
             }
         }
     };
@@ -334,12 +379,11 @@ const Lesson = () => {
 
     const renderLessons = () => {
         return lessonsCopy.map((level, index) => {
-            const isDisabled = userData.total_score < level.lessonsNum * 100;
-            console.log("condition",level.lessonsNum * 100);
-            
+            const isDisabled = userData.total_score < level.lessonsNum * 1000;
+
             return (
                 <li
-                    className={`bg-white rounded-md ${isDisabled ? 'bg-slate-400 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
+                    className={`bg-white rounded-md ${isDisabled ? 'bg-gray-400 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
                     key={index}
                     onClick={() => {
                         if (!isDisabled) {
@@ -352,7 +396,7 @@ const Lesson = () => {
                         <span className="text-[20px]" style={{ fontWeight: 600 }}>
                             {level.name}
                         </span>
-                        <span className="text-xs text-slate-400">Progress</span>
+                        <span className="text-xs text-slate-600">Progress</span>
                     </div>
                 </li>
             );

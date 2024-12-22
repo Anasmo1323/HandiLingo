@@ -152,7 +152,7 @@ const Dashboard = () => {
                             </Sidebar>
                         </div>
                         <div className='basis-2/3'>
-                            <LessonsList programContent={programContent} />
+                            <LessonsList userTotalScore={user.total_score} programContent={programContent} />
                         </div>
                     </div>
                 </div>
