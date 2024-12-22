@@ -135,6 +135,27 @@ def get_next_question_braille():
         return jsonify({"error": str(e)}), 500
 
 
+@bp.route("/update_avatar", methods=["POST"])
+@login_required
+def update_avatar():
+    data = request.json
+    avatar = data.get("avatar")
+
+    if not avatar:
+        return jsonify({"error": "Avatar is required"}), 400
+
+    # List of valid avatars
+    valid_avatars = [f"avatar_{i}.png" for i in range(10)]  # Example: avatar_0.png to avatar_9.png
+    if avatar not in valid_avatars:
+        return jsonify({"error": "Invalid avatar"}), 400
+
+    # Update the avatar for the current user
+    current_user.avatar = avatar
+    db.session.commit()
+
+    return jsonify({"message": "Avatar updated successfully", "avatar": current_user.avatar}), 200
+
+
 @bp.route('/next_question_sign', methods=['GET'])
 @login_required
 def get_next_question_sign():
@@ -188,6 +209,44 @@ def update_lesson_score():
             return jsonify({"error": "Lesson score is required"}), 400
 
         current_user.lesson_score = new_lesson_score
+        db.session.commit()
+
+        return jsonify({"message": "Lesson score updated successfully"}), 207
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@bp.route("/update_stage", methods=["POST"])
+@login_required
+def update_stage():
+    try:
+        data = request.json
+        new_stage = data.get("stage")
+
+        if new_stage is None:
+            return jsonify({"error": "Stage is required"}), 400
+
+        current_user.stage = new_stage
+        db.session.commit()
+
+        return jsonify({"message": "Stage updated successfully"}), 207
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@bp.route("/update_total_score", methods=["POST"])
+@login_required
+def update_total_score():
+    try:
+        data = request.json
+        new_total_score = data.get("total_score")
+
+        if new_total_score is None:
+            return jsonify({"error": "Total score is required"}), 400
+
+        current_user.total_score = new_total_score
         db.session.commit()
 
         return jsonify({"message": "Lesson score updated successfully"}), 207

@@ -4,6 +4,8 @@ import Navbar_ from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
+import { FaLock } from 'react-icons/fa';
+
 
 const Lesson = () => {
     const location = useLocation();
@@ -34,6 +36,8 @@ const Lesson = () => {
     const [userData, setUserData] = useState({});
     const [lessonScore, setLessonScore] = useState(0);
     const [questions, setQuestions] = useState([]);
+    const [stage, setStage] = useState(0);
+    const [totalScore, setTotalScore] = useState(0);
 
     useEffect(() => {
         const fetchUserData = async () => {
@@ -110,8 +114,9 @@ const Lesson = () => {
             const response = await httpClient.get("/next_question_sign");
             if (response.status === 200) {
                 console.log("Fetched question:", response.data);
-                setCurrentQuestion(response.data);
-                setQuestions(prevQuestions => [...prevQuestions, response.data]);
+                const newQuestion = { ...response.data, selectedAnswer: null };
+                setCurrentQuestion(newQuestion);
+                setQuestions(prevQuestions => [...prevQuestions, newQuestion]);
             } else {
                 console.error("Failed to fetch the next question");
             }
@@ -120,8 +125,27 @@ const Lesson = () => {
         }
     };
 
+    const getNextQuestionBraille = async () => {
+        try {
+            const response = await httpClient.get("/next_question_braille");
+            if (response.status === 200) {
+                console.log("Fetched question:", response.data);
+                const newQuestion = { ...response.data, selectedAnswer: null };
+                setCurrentQuestion(newQuestion);
+                setQuestions(prevQuestions => [...prevQuestions, newQuestion]);
+            } else {
+                console.error("Failed to fetch the next question");
+            }
+        } catch (error) {
+            console.error("Error fetching the next question:", error);
+        }
+    };
+
+
+
     const updateLessonScore = async (userId, newLessonScore) => {
         try {
+            console.log("Updating lesson score in database to:", newLessonScore);
             const response = await httpClient.post("/update_lesson_score", {
                 user_id: userId,
                 lesson_score: newLessonScore
@@ -136,6 +160,53 @@ const Lesson = () => {
             console.error("Error updating lesson score:", error);
         }
     };
+
+    const updateTotalScore = async (userId, newTotalScore) => {
+        try {
+            const response = await httpClient.post("/update_total_score", {
+                user_id: userId,
+                total_score: newTotalScore
+            });
+            if (response.status === 207) {
+                console.log("Total score updated successfully");
+                setTotalScore(newTotalScore);
+                setUserData((prevUserData) => ({
+                    ...prevUserData,
+                    total_score: newTotalScore,
+                }));
+            } else {
+                console.error("Failed to update total score");
+            }
+        } catch (error) {
+            console.error("Error updating total score:", error);
+        }
+    };
+
+    const updateStage = async (userId, newStage) => {
+        try {
+            const response = await httpClient.post("/update_stage", {
+                user_id: userId,
+                stage: newStage
+            });
+            if (response.status === 207) {
+                console.log("Stage updated successfully");
+                setStage(newStage);
+                setUserData((prevUserData) => ({
+                    ...prevUserData,
+                    stage: newStage,
+                }));
+            } else {
+                console.error("Failed to update stage");
+            }
+        } catch (error) {
+            console.error("Error updating stage:", error);
+        }
+    };
+
+
+    useEffect(() => {
+        console.log("Updated userData:", userData);
+    }, [userData]);
 
     const handleCardClick = () => {
         setFlipped(!flipped);
@@ -174,8 +245,14 @@ const Lesson = () => {
             },
         }));
     
+        // Update the selected answer for the current question
+        setQuestions(prevQuestions => prevQuestions.map((q, index) =>
+            index === currentQuestionIndex ? { ...q, selectedAnswer: selectedKey } : q
+        ));
+    
         if (isCorrect) {
             const newLessonScore = lessonScore + 10; // Assuming each correct answer gives 10 points
+            console.log("Updating lesson score to:", newLessonScore);
             await updateLessonScore(userData.id, newLessonScore);
         }
     
@@ -183,25 +260,36 @@ const Lesson = () => {
     };
 
     const handleNextSlide = async () => {
-        if (isQuizMode && selectedAnswer === null) {
+        if (isQuizMode && selectedAnswer === null && !showResults) {
             console.log("Please answer the question before proceeding to the next one.");
             return;
         }
     
         setIsCorrect(null);
-        setSelectedAnswer(null);
     
         if (showResults) {
-            if (userData.total_score >= (lessonsCopy[currentLessonIndex + 1]?.lessonsNum * 100)) {
-                setShowResults(false);
-                setCurrentLessonIndex(currentLessonIndex + 1);
-                setCurrentSlideIndex(0);
-                setIsQuizMode(false);
-                setCorrectAnswerNumber({});
-                setLessonScore(0); // Reset lesson score
-                await updateLessonScore(userData.id, 0); // Update lesson score to 0
-            } else {
+            const nextLessonIndex = currentLessonIndex + 1;
+            const nextLesson = lessonsCopy[nextLessonIndex];
+    
+            if (nextLesson && userData.total_score < nextLesson.lessonsNum * 1000) {
                 setShowModal(true); // Show modal if next lesson is locked
+                return;
+            }
+    
+            setShowResults(false);
+            setCurrentLessonIndex(nextLessonIndex);
+            setCurrentSlideIndex(0);
+            setIsQuizMode(false);
+            setCorrectAnswerNumber({});
+            setLessonScore(0); // Reset lesson score
+            setQuestions([]); // Reset questions
+            setSelectedAnswer(null); // Reset selected answer
+            console.log("Resetting lesson score to 0");
+            await updateLessonScore(userData.id, 0); // Update lesson score to 0
+    
+            // Update stage if the current lesson number is greater than the user's current stage
+            if (nextLesson && nextLesson.lessonsNum > userData.stage) {
+                await updateStage(userData.id, nextLesson.lessonsNum);
             }
             return;
         }
@@ -220,18 +308,36 @@ const Lesson = () => {
         } else {
             if (currentQuestionIndex < 9) { // 10 questions per lesson
                 setCurrentQuestionIndex(currentQuestionIndex + 1);
+                setSelectedAnswer(questions[currentQuestionIndex + 1]?.selectedAnswer || null); // Retrieve the selected answer for the next question
                 await getNextQuestionSign();
             } else {
                 setShowResults(true);
                 setLessonScore(0); // Reset lesson score
+                setQuestions([]); // Reset questions
+                setSelectedAnswer(null); // Reset selected answer
+                console.log("Resetting lesson score to 0");
                 await updateLessonScore(userData.id, 0); // Update lesson score to 0
+    
+                // Calculate total score
+                const correctAnswers = Object.values(reportSlides[currentLesson.name] || {}).filter(isCorrect => isCorrect).length;
+                const newTotalScore = userData.total_score + (correctAnswers * 100);
+    
+                console.log("Correct answers:", correctAnswers);
+                console.log("New total score:", newTotalScore);
+    
+                // Update total score
+                await updateTotalScore(userData.id, newTotalScore);
+    
+                // Update stage if the current lesson number is greater than the user's current stage
+                if (lessonsCopy[currentLessonIndex]?.lessonsNum > userData.stage && newTotalScore >= lessonsCopy[currentLessonIndex]?.lessonsNum * 1000) {
+                    await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum);
+                }
             }
         }
     };
 
     const handlePrevSlide = () => {
         setIsCorrect(null);
-        setSelectedAnswer(null);
     
         if (showResults) {
             setShowResults(false);
@@ -244,6 +350,7 @@ const Lesson = () => {
             if (currentQuestionIndex > 0) {
                 setCurrentQuestionIndex(currentQuestionIndex - 1);
                 setCurrentQuestion(questions[currentQuestionIndex - 1]);
+                setSelectedAnswer(questions[currentQuestionIndex - 1]?.selectedAnswer || null); // Retrieve the selected answer for the previous question
             } else {
                 setIsQuizMode(false);
                 setCurrentSlideIndex(lessonData?.images.length - 1);
@@ -292,10 +399,11 @@ const Lesson = () => {
 
     const renderLessons = () => {
         return lessonsCopy.map((level, index) => {
-            const isDisabled = userData.total_score < level.lessonsNum * 100;
+            const isDisabled = userData.total_score < level.lessonsNum * 1000;
+    
             return (
                 <li
-                    className={`bg-white rounded-md ${isDisabled ? 'bg-slate-400 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
+                    className={`bg-white flex justify-between items-center rounded-md ${isDisabled ? 'bg-gray-300 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
                     key={index}
                     onClick={() => {
                         if (!isDisabled) {
@@ -308,18 +416,23 @@ const Lesson = () => {
                         <span className="text-[20px]" style={{ fontWeight: 600 }}>
                             {level.name}
                         </span>
-                        <span className="text-xs text-slate-400">Progress</span>
+                        <span className="text-xs text-slate-600">Progress</span>
                     </div>
+                    {isDisabled && (
+                        <div className="flex items-center justify-center mt-2">
+                            <FaLock className="text-gray-500" />
+                        </div>
+                    )}
                 </li>
             );
         });
     };
-
+    
     const renderQuizContent = () => {
         if (!currentQuestion) {
             return <div>Loading...</div>;
         }
-    
+
         const { Q_text, Q_image, Q_answer, ...rest } = currentQuestion;
         const options = Object.keys(rest)
             .filter(key => key.startsWith('Q_A'))
@@ -328,14 +441,14 @@ const Lesson = () => {
                 return obj;
             }, {});
         const images = Q_image.split(',').map(img => img.trim());
-    
+
         console.log("Current question:", currentQuestion);
         console.log("Options:", options);
-    
+
         return (
             <div className="text-center">
                 <p className="text-[30px] font-semibold mt-4">{Q_text}</p>
-    
+
                 <div className="flex justify-center gap-4 mt-4">
                     {images.map((img, index) => (
                         <img
@@ -346,7 +459,7 @@ const Lesson = () => {
                         />
                     ))}
                 </div>
-    
+
                 <div className="flex flex-col justify-center items-start mt-6">
                     {Object.entries(options).map(([key, value]) => (
                         <div
