@@ -55,6 +55,8 @@ const Dashboard = () => {
         }
     };
 
+    
+
     const [user, setLessonScore] = useState(0);
     
     useEffect(() => {

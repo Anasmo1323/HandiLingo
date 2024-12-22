@@ -4,6 +4,8 @@ import Navbar_ from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
+import { FaLock } from 'react-icons/fa';
+
 
 const Lesson = () => {
     const location = useLocation();
@@ -122,6 +124,24 @@ const Lesson = () => {
             console.error("Error fetching the next question:", error);
         }
     };
+
+    const getNextQuestionBraille = async () => {
+        try {
+            const response = await httpClient.get("/next_question_braille");
+            if (response.status === 200) {
+                console.log("Fetched question:", response.data);
+                const newQuestion = { ...response.data, selectedAnswer: null };
+                setCurrentQuestion(newQuestion);
+                setQuestions(prevQuestions => [...prevQuestions, newQuestion]);
+            } else {
+                console.error("Failed to fetch the next question");
+            }
+        } catch (error) {
+            console.error("Error fetching the next question:", error);
+        }
+    };
+
+
 
     const updateLessonScore = async (userId, newLessonScore) => {
         try {
@@ -380,10 +400,10 @@ const Lesson = () => {
     const renderLessons = () => {
         return lessonsCopy.map((level, index) => {
             const isDisabled = userData.total_score < level.lessonsNum * 1000;
-
+    
             return (
                 <li
-                    className={`bg-white rounded-md ${isDisabled ? 'bg-gray-400 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
+                    className={`bg-white flex justify-between items-center rounded-md ${isDisabled ? 'bg-gray-300 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
                     key={index}
                     onClick={() => {
                         if (!isDisabled) {
@@ -398,10 +418,16 @@ const Lesson = () => {
                         </span>
                         <span className="text-xs text-slate-600">Progress</span>
                     </div>
+                    {isDisabled && (
+                        <div className="flex items-center justify-center mt-2">
+                            <FaLock className="text-gray-500" />
+                        </div>
+                    )}
                 </li>
             );
         });
     };
+    
     const renderQuizContent = () => {
         if (!currentQuestion) {
             return <div>Loading...</div>;
