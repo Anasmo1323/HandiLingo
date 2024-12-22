@@ -53,9 +53,12 @@ def login_user_route():
     return jsonify({"id": user.id, "email": user.email})
 
 
-@bp.route("/@me")
+@bp.route("/@me", methods=["GET", "POST"])
 @login_required
 def get_current_user():
+    current_user.stage = 1
+    current_user.lesson_score = 0
+    db.session.commit()
     return jsonify({
         "id": current_user.id,
         "name": current_user.name,
@@ -77,14 +80,20 @@ def logout_user_route():
 
 
 def get_next_question(model, lesson_score, stage):
-    if lesson_score <= 200:
-        difficulty = 1
-    elif lesson_score <= 600:
-        difficulty = 2
-    elif lesson_score <= 900:
-        difficulty = 3
-    else:
-        difficulty = 3
+    difficulty = 0
+    if stage < 10:
+        if lesson_score <= 200:
+            difficulty = 1
+        elif lesson_score <= 600:
+            difficulty = 2
+        elif lesson_score <= 900:
+            difficulty = 3
+        else:
+            difficulty = 3
+    elif stage < 20:
+        difficulty = 4
+    elif stage < 30:
+        difficulty = 5
 
     question = model.query.filter_by(Q_difficulty=difficulty, Q_stage=stage).order_by(db.func.random()).first()
 
@@ -240,6 +249,7 @@ def update_stage():
 @login_required
 def update_total_score():
     try:
+        current_user.stage = 1
         data = request.json
         new_total_score = data.get("total_score")
 

@@ -16,6 +16,11 @@ const programList = [
         name: 'Words',
         program_number: 2,
     }
+    ,
+    {
+        name: 'Sentences',
+        program_number: 3
+    }
 ];
 
 const Dashboard = () => {
@@ -73,12 +78,11 @@ const Dashboard = () => {
         fetchLessonScore(); //use this to get it: user.lesson_score
     }, []);
 
-    //A function that fetches the next question sign from the database
     const getNextQuestionSign = async () => {
         try {
             const response = await httpClient.get("/next_question_sign");
             if (response.status === 200) {
-                console.log(response.data);//replace with actual logic
+                console.log(response.data);
             } else {
                 console.error("Failed to fetch the next question");
             }

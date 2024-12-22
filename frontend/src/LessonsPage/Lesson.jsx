@@ -97,6 +97,7 @@ const Lesson = () => {
 
     useEffect(() => {
         fetchLessonData();
+        // updateStage(userData.id, currentLessonIndex);
     }, [lessonLevelFromState, lessonNumberFromState]);
 
     useEffect(() => {
@@ -217,25 +218,25 @@ const Lesson = () => {
             console.log("Answer for this question is already stored.");
             return;
         }
-    
+
         const correctKey = `Q_${currentQuestion.Q_answer}`;
-    
+
         console.log("Selected answer:", selectedKey);
         console.log("Correct answer:", correctKey);
-    
+
         const isCorrect = selectedKey === correctKey;
-    
+
         setCorrectAnswerNumber((prev) => ({
             ...prev,
             [currentQuestionIndex]: isCorrect,
         }));
-    
+
         setIsCorrect(isCorrect);
-    
+
         console.log("Selected answer number:", selectedKey);
         console.log("Correct answer number:", correctKey);
         setSelectedAnswer(selectedKey);
-    
+
         // Store the result in reportSlides
         setReportSlides((prev) => ({
             ...prev,
@@ -244,18 +245,18 @@ const Lesson = () => {
                 [currentQuestionIndex]: isCorrect,
             },
         }));
-    
+
         // Update the selected answer for the current question
         setQuestions(prevQuestions => prevQuestions.map((q, index) =>
             index === currentQuestionIndex ? { ...q, selectedAnswer: selectedKey } : q
         ));
-    
+
         if (isCorrect) {
-            const newLessonScore = lessonScore + 10; // Assuming each correct answer gives 10 points
+            const newLessonScore = lessonScore + 100; // Assuming each correct answer gives 10 points
             console.log("Updating lesson score to:", newLessonScore);
             await updateLessonScore(userData.id, newLessonScore);
         }
-    
+
         return isCorrect;
     };
 
@@ -264,20 +265,23 @@ const Lesson = () => {
             console.log("Please answer the question before proceeding to the next one.");
             return;
         }
-    
+
         setIsCorrect(null);
-    
+
         if (showResults) {
             const nextLessonIndex = currentLessonIndex + 1;
             const nextLesson = lessonsCopy[nextLessonIndex];
-    
+
             if (nextLesson && userData.total_score < nextLesson.lessonsNum * 1000) {
                 setShowModal(true); // Show modal if next lesson is locked
                 return;
             }
-    
+
             setShowResults(false);
             setCurrentLessonIndex(nextLessonIndex);
+
+            // await updateStage(userData.id, nextLessonIndex);
+
             setCurrentSlideIndex(0);
             setIsQuizMode(false);
             setCorrectAnswerNumber({});
@@ -286,17 +290,32 @@ const Lesson = () => {
             setSelectedAnswer(null); // Reset selected answer
             console.log("Resetting lesson score to 0");
             await updateLessonScore(userData.id, 0); // Update lesson score to 0
-    
-            // Update stage if the current lesson number is greater than the user's current stage
+
             if (nextLesson && nextLesson.lessonsNum > userData.stage) {
-                await updateStage(userData.id, nextLesson.lessonsNum);
-            }
+            //     if(lessonLevelFromState === 1){
+            //     await updateStage(userData.id, nextLesson.lessonsNum);
+            // }
+            //     else if (lessonLevelFromState === 2){
+            //         await updateStage(userData.id, nextLesson.lessonsNum+10);
+            //     }
+            //     else if (lessonLevelFromState === 3){
+            //         await updateStage(userData.id, nextLesson.lessonsNum+20);
+            //     }
+                }
             return;
         }
-    
+
         if (!isQuizMode) {
             const currentLessonImages = lessonData?.images;
-    
+                // if(lessonLevelFromState === 1){
+                //     await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum);
+                // }
+                // else if (lessonLevelFromState === 2){
+                // await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum+10);
+                // }
+                // else if (lessonLevelFromState === 3) {
+                //     await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum + 20);
+                // }
             if (currentSlideIndex < currentLessonImages.length - 1) {
                 setCurrentSlideIndex(currentSlideIndex + 1);
             } else {
@@ -317,20 +336,28 @@ const Lesson = () => {
                 setSelectedAnswer(null); // Reset selected answer
                 console.log("Resetting lesson score to 0");
                 await updateLessonScore(userData.id, 0); // Update lesson score to 0
-    
+
                 // Calculate total score
                 const correctAnswers = Object.values(reportSlides[currentLesson.name] || {}).filter(isCorrect => isCorrect).length;
                 const newTotalScore = userData.total_score + (correctAnswers * 100);
-    
+
                 console.log("Correct answers:", correctAnswers);
                 console.log("New total score:", newTotalScore);
-    
+
                 // Update total score
                 await updateTotalScore(userData.id, newTotalScore);
-    
+
                 // Update stage if the current lesson number is greater than the user's current stage
                 if (lessonsCopy[currentLessonIndex]?.lessonsNum > userData.stage && newTotalScore >= lessonsCopy[currentLessonIndex]?.lessonsNum * 1000) {
-                    await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum);
+                // if(lessonLevelFromState === 1){
+                //     await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum);
+                // }
+                // else if (lessonLevelFromState === 2){
+                // await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum+10);
+                // }
+                // else if (lessonLevelFromState === 3){
+                // await updateStage(userData.id, lessonsCopy[currentLessonIndex]?.lessonsNum+20);
+                // }
                 }
             }
         }
@@ -338,14 +365,14 @@ const Lesson = () => {
 
     const handlePrevSlide = () => {
         setIsCorrect(null);
-    
+
         if (showResults) {
             setShowResults(false);
             setIsQuizMode(true);
             setCurrentSlideIndex(quizes[currentLessonIndex].questions.length - 1);
             return;
         }
-    
+
         if (isQuizMode) {
             if (currentQuestionIndex > 0) {
                 setCurrentQuestionIndex(currentQuestionIndex - 1);
@@ -360,6 +387,8 @@ const Lesson = () => {
                 setCurrentSlideIndex(currentSlideIndex - 1);
             } else if (currentLessonIndex > 0) {
                 setCurrentLessonIndex(currentLessonIndex - 1);
+
+                // updateStage(userData.id, currentLessonIndex - 1);
                 setIsQuizMode(true);
                 setCurrentSlideIndex(quizes[currentLessonIndex - 1].questions.length - 1);
                 setCorrectAnswerNumber(reportSlides[lessonsCopy[currentLessonIndex - 1].name] || {});
@@ -397,37 +426,45 @@ const Lesson = () => {
         );
     };
 
-    const renderLessons = () => {
-        return lessonsCopy.map((level, index) => {
-            const isDisabled = userData.total_score < level.lessonsNum * 1000;
-    
-            return (
-                <li
-                    className={`bg-white flex justify-between items-center rounded-md ${isDisabled ? 'bg-gray-300 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
-                    key={index}
-                    onClick={() => {
-                        if (!isDisabled) {
-                            setCurrentLessonIndex(index);
-                            setCurrentSlideIndex(0);
-                        }
-                    }}
-                >
-                    <div className="flex flex-col">
-                        <span className="text-[20px]" style={{ fontWeight: 600 }}>
-                            {level.name}
-                        </span>
-                        <span className="text-xs text-slate-600">Progress</span>
+const renderLessons = () => {
+    return lessonsCopy.map((level, index) => {
+        const isDisabled = userData.total_score < level.lessonsNum * 1000;
+
+        return (
+            <li
+                className={`bg-white flex justify-between items-center rounded-md ${isDisabled ? 'bg-gray-300 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
+                key={index}
+                onClick={async () => {
+                    if (!isDisabled) {
+                        setCurrentLessonIndex(index);
+                        setCurrentSlideIndex(0);
+                    if(lessonLevelFromState === 1){
+                        await updateStage(userData.id, index+1);
+                    }
+                    else if (lessonLevelFromState === 2){
+                    await updateStage(userData.id, index+10);
+                    }
+                    else if (lessonLevelFromState === 3){
+                    await updateStage(userData.id, index+20);
+                    }
+                    }
+                }}
+            >
+                <div className="flex flex-col">
+                    <span className="text-[20px]" style={{ fontWeight: 600 }}>
+                        {level.name}
+                    </span>
+                    <span className="text-xs text-slate-600">Progress</span>
+                </div>
+                {isDisabled && (
+                    <div className="flex items-center justify-center mt-2">
+                        <FaLock className="text-gray-500" />
                     </div>
-                    {isDisabled && (
-                        <div className="flex items-center justify-center mt-2">
-                            <FaLock className="text-gray-500" />
-                        </div>
-                    )}
-                </li>
-            );
-        });
-    };
-    
+                )}
+            </li>
+        );
+    });
+};
     const renderQuizContent = () => {
         if (!currentQuestion) {
             return <div>Loading...</div>;

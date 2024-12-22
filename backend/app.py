@@ -8,7 +8,7 @@ from models import db, Users
 from routes import bp
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=[r"http://localhost:3000"])
+CORS(app, supports_credentials=True, origins=[r"http://localhost:3002"])
 bcrypt = Bcrypt(app)
 app.config.from_object(ApplicationConfig)
 app.config.update(
