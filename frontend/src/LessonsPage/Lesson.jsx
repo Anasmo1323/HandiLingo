@@ -38,6 +38,7 @@ const Lesson = () => {
     const [questions, setQuestions] = useState([]);
     const [stage, setStage] = useState(0);
     const [totalScore, setTotalScore] = useState(0);
+    const [currentStage, setCurrentStage] = useState(1);
 
     useEffect(() => {
         const fetchUserData = async () => {
@@ -112,17 +113,18 @@ const Lesson = () => {
 
     const getNextQuestionSign = async () => {
         try {
-            const response = await httpClient.get("/next_question_sign");
+            const response = await httpClient.get(`/next_question_sign?level=${lessonLevelFromState}&stage=${currentStage}`);
             if (response.status === 200) {
-                console.log("Fetched question:", response.data);
+                if (response.data.error) {
+                    console.error(response.data.error);
+                    return;
+                }
                 const newQuestion = { ...response.data, selectedAnswer: null };
                 setCurrentQuestion(newQuestion);
                 setQuestions(prevQuestions => [...prevQuestions, newQuestion]);
-            } else {
-                console.error("Failed to fetch the next question");
             }
         } catch (error) {
-            console.error("Error fetching the next question:", error);
+            console.error("Error fetching question:", error);
         }
     };
 
@@ -429,24 +431,21 @@ const Lesson = () => {
 const renderLessons = () => {
     return lessonsCopy.map((level, index) => {
         const isDisabled = userData.total_score < level.lessonsNum * 1000;
+        const stageNumber = lessonLevelFromState === 1 ? index + 1 : 
+                          lessonLevelFromState === 2 ? index + 10 : 
+                          index + 20;
 
         return (
             <li
-                className={`bg-white flex justify-between items-center rounded-md ${isDisabled ? 'bg-gray-300 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
+                className={`bg-white flex justify-between items-center rounded-md 
+                    ${isDisabled ? 'bg-gray-300' : 'cursor-pointer hover:bg-slate-200'} 
+                    p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
                 key={index}
                 onClick={async () => {
                     if (!isDisabled) {
                         setCurrentLessonIndex(index);
                         setCurrentSlideIndex(0);
-                    if(lessonLevelFromState === 1){
-                        await updateStage(userData.id, index+1);
-                    }
-                    else if (lessonLevelFromState === 2){
-                    await updateStage(userData.id, index+10);
-                    }
-                    else if (lessonLevelFromState === 3){
-                    await updateStage(userData.id, index+20);
-                    }
+                        await handleStageSelection(stageNumber);
                     }
                 }}
             >
@@ -522,27 +521,136 @@ const renderLessons = () => {
             </div>
         );
     };
+    // const renderQuizResults = () => {
+    //     const results = reportSlides[currentLesson.name] || {};
+    //     const correctAnswers = Object.values(results).filter(isCorrect => isCorrect).length;
+    //     const incorrectAnswers = Object.values(results).filter(isCorrect => !isCorrect).length;
+
+    //     return (
+    //         <div className="flex flex-col justify-center items-center mt-6">
+    //             <h2 className="text-[30px] font-semibold">Quiz Results</h2>
+    //             <div className='w-full text-lg p-5 flex justify-between items-center'>
+    //                 <span>Correct Answers Number: {correctAnswers}</span>
+    //                 <span>Incorrect Answers Number: {incorrectAnswers}</span>
+    //             </div>
+    //             <ul className="mt-4">
+    //                 {Object.entries(results).map(([index, isCorrect], idx) => (
+    //                     <li key={idx} className="text-[20px]">
+    //                         Question {parseInt(index) + 1}: {isCorrect ? 'Correct' : 'Incorrect'}
+    //                     </li>
+    //                 ))}
+    //             </ul>
+    //         </div>
+    //     );
+    // };
+   
     const renderQuizResults = () => {
         const results = reportSlides[currentLesson.name] || {};
         const correctAnswers = Object.values(results).filter(isCorrect => isCorrect).length;
         const incorrectAnswers = Object.values(results).filter(isCorrect => !isCorrect).length;
-
+        const totalQuestions = Object.keys(results).length;
+        const score = (correctAnswers / totalQuestions) * 100;
+        
+        const getFeedbackMessage = () => {
+            if (score >= 90) return "Excellent! Outstanding performance! 🎉";
+            if (score >= 70) return "Great job! Keep it up! 🌟";
+            if (score >= 50) return "Good effort! Room for improvement! 💪";
+            return "Keep practicing! You'll get better! 📚";
+        };
+    
         return (
-            <div className="flex flex-col justify-center items-center mt-6">
-                <h2 className="text-[30px] font-semibold">Quiz Results</h2>
-                <div className='w-full text-lg p-5 flex justify-between items-center'>
-                    <span>Correct Answers Number: {correctAnswers}</span>
-                    <span>Incorrect Answers Number: {incorrectAnswers}</span>
+            <div className="flex flex-col justify-center items-center mt-6 max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-lg animate-fadeIn">
+                <h2 className="text-[36px] font-bold text-purple-600 mb-8">Quiz Results</h2>
+                
+                {/* Score Circle */}
+                <div className="relative w-48 h-48 mb-8">
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="text-center">
+                            <div className="text-4xl font-bold text-purple-700">{score.toFixed(0)}%</div>
+                            <div className="text-gray-500">Score</div>
+                        </div>
+                    </div>
+                    <svg className="transform -rotate-90 w-48 h-48">
+                        <circle
+                            cx="96"
+                            cy="96"
+                            r="88"
+                            stroke="currentColor"
+                            strokeWidth="12"
+                            fill="transparent"
+                            className="text-gray-200"
+                        />
+                        <circle
+                            cx="96"
+                            cy="96"
+                            r="88"
+                            stroke="currentColor"
+                            strokeWidth="12"
+                            fill="transparent"
+                            strokeDasharray={553}
+                            strokeDashoffset={553 - (553 * score) / 100}
+                            className="text-purple-500"
+                        />
+                    </svg>
                 </div>
-                <ul className="mt-4">
-                    {Object.entries(results).map(([index, isCorrect], idx) => (
-                        <li key={idx} className="text-[20px]">
-                            Question {parseInt(index) + 1}: {isCorrect ? 'Correct' : 'Incorrect'}
-                        </li>
-                    ))}
-                </ul>
+    
+                {/* Feedback Message */}
+                <div className="text-2xl font-medium text-gray-700 mb-8">
+                    {getFeedbackMessage()}
+                </div>
+    
+                {/* Stats Cards */}
+                <div className="grid grid-cols-2 gap-6 w-full mb-8">
+                    <div className="bg-green-50 p-6 rounded-lg text-center">
+                        <div className="text-3xl font-bold text-green-600">{correctAnswers}</div>
+                        <div className="text-green-600">Correct Answers</div>
+                    </div>
+                    <div className="bg-red-50 p-6 rounded-lg text-center">
+                        <div className="text-3xl font-bold text-red-600">{incorrectAnswers}</div>
+                        <div className="text-red-600">Incorrect Answers</div>
+                    </div>
+                </div>
+    
+                {/* Detailed Results */}
+                <div className="w-full bg-gray-50 rounded-lg p-6">
+                    <h3 className="text-xl font-semibold mb-4 text-gray-700">Detailed Results</h3>
+                    <div className="space-y-3">
+                        {Object.entries(results).map(([index, isCorrect], idx) => (
+                            <div 
+                                key={idx}
+                                className={`flex items-center p-3 rounded-lg ${
+                                    isCorrect ? 'bg-green-100' : 'bg-red-100'
+                                }`}
+                            >
+                                <span className="text-lg mr-3">Q{parseInt(index) + 1}</span>
+                                {isCorrect ? (
+                                    <span className="text-green-600">✓ Correct</span>
+                                ) : (
+                                    <span className="text-red-600">✗ Incorrect</span>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+    
+                {/* Try Again Button */}
+                <button 
+                    className="mt-8 px-8 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors duration-200"
+                    onClick={() => window.location.reload()}
+                >
+                    Try Again
+                </button>
             </div>
         );
+    };
+
+    const handleStageSelection = async (selectedStage) => {
+        if (selectedStage > userData.stage) {
+            setShowModal(true);
+            return;
+        }
+        setCurrentStage(selectedStage);
+        await getNextQuestionSign();
     };
 
     const renderModal = () => (

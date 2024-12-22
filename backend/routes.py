@@ -56,9 +56,9 @@ def login_user_route():
 @bp.route("/@me", methods=["GET", "POST"])
 @login_required
 def get_current_user():
-    current_user.stage = 1
-    current_user.lesson_score = 0
-    db.session.commit()
+    # current_user.stage = 1
+    # current_user.lesson_score = 0
+    # db.session.commit()
     return jsonify({
         "id": current_user.id,
         "name": current_user.name,
@@ -81,6 +81,9 @@ def logout_user_route():
 
 def get_next_question(model, lesson_score, stage):
     difficulty = 0
+    # Get user's current level
+    level = current_user.level  # Add this line
+    
     if stage < 10:
         if lesson_score <= 200:
             difficulty = 1
@@ -94,8 +97,13 @@ def get_next_question(model, lesson_score, stage):
         difficulty = 4
     elif stage < 30:
         difficulty = 5
-
-    question = model.query.filter_by(Q_difficulty=difficulty, Q_stage=stage).order_by(db.func.random()).first()
+    # Add Q_level to the filter conditions
+    question = model.query.filter_by(
+        Q_difficulty=difficulty, 
+        Q_stage=stage,
+        Q_level=level  # Add this line
+    ).order_by(db.func.random()).first()
+    # question = model.query.filter_by(Q_difficulty=difficulty, Q_stage=stage).order_by(db.func.random()).first()
 
     if question:
         if model == Questions_signs:
@@ -169,10 +177,32 @@ def update_avatar():
 @login_required
 def get_next_question_sign():
     try:
-        lesson_score = current_user.lesson_score
-        stage = current_user.stage
-        question = get_next_question(Questions_signs, lesson_score, stage)
-        return jsonify(question)
+        selected_stage = int(request.args.get('stage', 1))
+        level = int(request.args.get('level', 1))
+        
+        # Check if stage is locked
+        if selected_stage > current_user.stage:
+            return jsonify({"error": "This stage is locked", "maxStage": current_user.stage}), 403
+        
+        question = Questions_signs.query.filter_by(
+            Q_stage=selected_stage,
+            Q_level=level
+        ).order_by(db.func.random()).first()
+        
+        if question:
+            return jsonify({
+                "Q_ID": question.Q_ID,
+                "Q_image": question.Q_image,
+                "Q_answer": question.Q_answer,
+                "Q_A1": question.Q_A1,
+                "Q_A2": question.Q_A2,
+                "Q_A3": question.Q_A3,
+                "Q_A4": question.Q_A4,
+                "Q_text": question.Q_text,
+                "Q_stage": selected_stage,
+                "Q_level": level
+            })
+        return jsonify({"error": "No questions found"}), 404
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -231,19 +261,26 @@ def update_lesson_score():
 def update_stage():
     try:
         data = request.json
-        new_stage = data.get("stage")
-
-        if new_stage is None:
+        completed_stage = data.get("stage")
+        
+        if completed_stage is None:
             return jsonify({"error": "Stage is required"}), 400
-
-        current_user.stage = new_stage
-        db.session.commit()
-
-        return jsonify({"message": "Stage updated successfully"}), 207
+            
+        # Only update if completed stage is current or previous stage
+        if completed_stage <= current_user.stage:
+            new_stage = max(current_user.stage, completed_stage + 1)
+            current_user.stage = new_stage
+            db.session.commit()
+            
+            return jsonify({
+                "message": "Stage updated successfully",
+                "newStage": new_stage
+            }), 200
+            
+        return jsonify({"error": "Invalid stage progression"}), 400
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 @bp.route("/update_total_score", methods=["POST"])
 @login_required
