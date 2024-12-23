@@ -10,7 +10,12 @@ import { FaLock } from 'react-icons/fa';
 const Lesson = () => {
     const location = useLocation();
     const lessonNumberFromState = location.state?.lessonNumber;
-    const lessonLevelFromState = location.state?.level;
+    const lessonLevelFromState = location.state?.level || 1; // Default to 1 if not provided
+
+    useEffect(() => {
+        console.log("Current level:", lessonLevelFromState); // Debug log
+    }, [lessonLevelFromState]);
+
 
     const [flipped, setFlipped] = useState(false);
     const [isCorrect, setIsCorrect] = useState(null);
@@ -38,7 +43,6 @@ const Lesson = () => {
     const [questions, setQuestions] = useState([]);
     const [stage, setStage] = useState(0);
     const [totalScore, setTotalScore] = useState(0);
-    const [currentStage, setCurrentStage] = useState(1);
 
     useEffect(() => {
         const fetchUserData = async () => {
@@ -113,21 +117,23 @@ const Lesson = () => {
 
     const getNextQuestionSign = async () => {
         try {
-            const response = await httpClient.get(`/next_question_sign?level=${lessonLevelFromState}&stage=${currentStage}`);
+            const response = await httpClient.get(`/next_question_sign?level=${lessonLevelFromState}`);
             if (response.status === 200) {
                 if (response.data.error) {
                     console.error(response.data.error);
                     return;
                 }
+                console.log("Fetched question:", response.data);
                 const newQuestion = { ...response.data, selectedAnswer: null };
                 setCurrentQuestion(newQuestion);
                 setQuestions(prevQuestions => [...prevQuestions, newQuestion]);
+            } else {
+                console.error("Failed to fetch the next question");
             }
         } catch (error) {
-            console.error("Error fetching question:", error);
+            console.error("Error fetching the next question:", error);
         }
     };
-
     const getNextQuestionBraille = async () => {
         try {
             const response = await httpClient.get("/next_question_braille");
@@ -270,41 +276,48 @@ const Lesson = () => {
 
         setIsCorrect(null);
 
+        // if (showResults) {
+        //     const nextLessonIndex = currentLessonIndex + 1;
+        //     const nextLesson = lessonsCopy[nextLessonIndex];
+
+        //     if (nextLesson && userData.total_score < nextLesson.lessonsNum * 1000) {
+        //         setShowModal(true); // Show modal if next lesson is locked
+        //         return;
+        //     }
+
+        //     setShowResults(false);
+        //     setCurrentLessonIndex(nextLessonIndex);
+
+        //     // await updateStage(userData.id, nextLessonIndex);
+
+        //     setCurrentSlideIndex(0);
+        //     setIsQuizMode(false);
+        //     setCorrectAnswerNumber({});
+        //     setLessonScore(0); // Reset lesson score
+        //     setQuestions([]); // Reset questions
+        //     setSelectedAnswer(null); // Reset selected answer
+        //     console.log("Resetting lesson score to 0");
+        //     await updateLessonScore(userData.id, 0); // Update lesson score to 0
+
+        //     if (nextLesson && nextLesson.lessonsNum > userData.stage) {
+        //     //     if(lessonLevelFromState === 1){
+        //     //     await updateStage(userData.id, nextLesson.lessonsNum);
+        //     // }
+        //     //     else if (lessonLevelFromState === 2){
+        //     //         await updateStage(userData.id, nextLesson.lessonsNum+10);
+        //     //     }
+        //     //     else if (lessonLevelFromState === 3){
+        //     //         await updateStage(userData.id, nextLesson.lessonsNum+20);
+        //     //     }
+        //         }
+        //     return;
+        // }
         if (showResults) {
-            const nextLessonIndex = currentLessonIndex + 1;
-            const nextLesson = lessonsCopy[nextLessonIndex];
-
-            if (nextLesson && userData.total_score < nextLesson.lessonsNum * 1000) {
-                setShowModal(true); // Show modal if next lesson is locked
-                return;
+            const correctAnswers = Object.values(reportSlides[currentLesson.name] || {}).filter(isCorrect => isCorrect).length;
+            if (correctAnswers >= 7) { // If user passed the lesson
+                const newStage = Math.max(userData.stage, currentLesson.stage + 1);
+                await updateStage(userData.id, newStage); // Update max reached stage
             }
-
-            setShowResults(false);
-            setCurrentLessonIndex(nextLessonIndex);
-
-            // await updateStage(userData.id, nextLessonIndex);
-
-            setCurrentSlideIndex(0);
-            setIsQuizMode(false);
-            setCorrectAnswerNumber({});
-            setLessonScore(0); // Reset lesson score
-            setQuestions([]); // Reset questions
-            setSelectedAnswer(null); // Reset selected answer
-            console.log("Resetting lesson score to 0");
-            await updateLessonScore(userData.id, 0); // Update lesson score to 0
-
-            if (nextLesson && nextLesson.lessonsNum > userData.stage) {
-            //     if(lessonLevelFromState === 1){
-            //     await updateStage(userData.id, nextLesson.lessonsNum);
-            // }
-            //     else if (lessonLevelFromState === 2){
-            //         await updateStage(userData.id, nextLesson.lessonsNum+10);
-            //     }
-            //     else if (lessonLevelFromState === 3){
-            //         await updateStage(userData.id, nextLesson.lessonsNum+20);
-            //     }
-                }
-            return;
         }
 
         if (!isQuizMode) {
@@ -431,21 +444,24 @@ const Lesson = () => {
 const renderLessons = () => {
     return lessonsCopy.map((level, index) => {
         const isDisabled = userData.total_score < level.lessonsNum * 1000;
-        const stageNumber = lessonLevelFromState === 1 ? index + 1 : 
-                          lessonLevelFromState === 2 ? index + 10 : 
-                          index + 20;
 
         return (
             <li
-                className={`bg-white flex justify-between items-center rounded-md 
-                    ${isDisabled ? 'bg-gray-300' : 'cursor-pointer hover:bg-slate-200'} 
-                    p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
+                className={`bg-white flex justify-between items-center rounded-md ${isDisabled ? 'bg-gray-300 ' : 'cursor-pointer hover:bg-slate-200'} p-4 ${index === currentLessonIndex ? 'ring-2 ring-green-500' : ''}`}
                 key={index}
                 onClick={async () => {
                     if (!isDisabled) {
                         setCurrentLessonIndex(index);
                         setCurrentSlideIndex(0);
-                        await handleStageSelection(stageNumber);
+                    if(lessonLevelFromState === 1){
+                        await updateStage(userData.id, index+1);
+                    }
+                    else if (lessonLevelFromState === 2){
+                    await updateStage(userData.id, index+10);
+                    }
+                    else if (lessonLevelFromState === 3){
+                    await updateStage(userData.id, index+20);
+                    }
                     }
                 }}
             >
@@ -644,14 +660,6 @@ const renderLessons = () => {
         );
     };
 
-    const handleStageSelection = async (selectedStage) => {
-        if (selectedStage > userData.stage) {
-            setShowModal(true);
-            return;
-        }
-        setCurrentStage(selectedStage);
-        await getNextQuestionSign();
-    };
 
     const renderModal = () => (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
@@ -719,5 +727,35 @@ const renderLessons = () => {
         </>
     );
 };
+
+const handleStageSelection = async (selectedStage) => {
+    if (selectedStage > userData.stage) {
+        setShowModal(true);
+        return;
+    }
+    setCurrentStage(selectedStage);
+    await getNextQuestionSign(selectedStage);
+};
+
+const handleLessonComplete = async () => {
+    if (correctAnswers >= 7) { // Pass threshold
+        try {
+            const response = await httpClient.post("/update_stage", {
+                stage: currentStage
+            });
+            
+            if (response.status === 200) {
+                const { newStage } = response.data;
+                setUserData(prev => ({
+                    ...prev,
+                    stage: newStage
+                }));
+            }
+        } catch (error) {
+            console.error("Error updating stage:", error);
+        }
+    }
+};
+
 
 export default Lesson;

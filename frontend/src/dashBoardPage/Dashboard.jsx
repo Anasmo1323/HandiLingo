@@ -25,11 +25,25 @@ const programList = [
 
 const Dashboard = () => {
     const location = useLocation();
+    const languageTypeState = location.state?.languageType;
     const [programInfo, setProgramInfo] = useState({ name: 'Letters', program_number: 1 });
     const [programContent, setProgramContent] = useState([]);
-    const languageTypeState = location.state?.languageType;
     const [score, setScore] = useState(1000);
     const [lessons1, setLessons] = useState([]);
+    
+
+    // Early return for braille
+    if (languageTypeState === "braille") {
+        return (
+            <>
+                <Navbar_ />
+                <div className="min-h-[100vh] flex items-center justify-center" style={{ backgroundColor: '#f2f2f2' }}>
+                    <h1 className="text-3xl font-bold">Braille Coming Soon!</h1>
+                </div>
+                <Footer />
+            </>
+        );
+    }
 
     const handleClick = (name, number) => {
         setProgramInfo({
