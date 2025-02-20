@@ -62,7 +62,7 @@ HandiLingo aims to revolutionize the language learning process by providing user
 - Add quizzes or practice exercises within the lesson for engagement.
 
 ### Quiz Page
-![Quiz Page](path/to/quiz_page_image.png)
+![Quiz Page](photo_2024-12-22_23-16-34.jpg)
 - Use a variety of question types (multiple choice, true/false, drag and drop).
 - Offer immediate feedback on answers to enhance learning.
 - Show a progress bar to keep users motivated.
