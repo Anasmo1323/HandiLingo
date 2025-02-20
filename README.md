@@ -1,7 +1,7 @@
 # HandiLingo
 
 HandiLingo is a comprehensive Sign language & Braille learning platform that combines the power of Python and JavaScript to offer interactive lessons and a seamless user experience.
-We have documented our research and development process in a comprehensive paper. You can find and read our paper ![here](HandiLingo.pdf).
+We have documented our research and development process in a comprehensive paper. You can find and read our paper [here](HandiLingo.pdf).
 ## Overview
 HandiLingo aims to revolutionize the language learning process by providing users with:
 - Interactive lessons
