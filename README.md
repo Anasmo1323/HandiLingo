@@ -68,7 +68,7 @@ HandiLingo aims to revolutionize the language learning process by providing user
 - Show a progress bar to keep users motivated.
 
 ### Results Page
-![Results Page](path/to/results_page_image.png)
+![Results Page](photo_2024-12-22_23-16-35.jpg)
 - Display a summary of the user's performance, highlighting strengths and areas for improvement.
 - Provide detailed feedback on each question, explaining correct and incorrect answers.
 - Suggest next steps or additional resources based on the user's performance.
