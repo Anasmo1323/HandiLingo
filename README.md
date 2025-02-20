@@ -35,7 +35,6 @@ HandiLingo aims to revolutionize the language learning process by providing user
 3. Install the dependencies:
    ```bash
    npm install
-   pip install -r requirements.txt
    ```
 
 ## Usage
