@@ -56,7 +56,7 @@ HandiLingo aims to revolutionize the language learning process by providing user
 - Include a prominent "Start Course" button for easy access.
 
 ### Lesson Page
-![Lesson Page](path/to/lesson_page_image.png)
+![Lesson Page](photo_2024-12-22_23-16-33.jpg)
 - Break down lessons into manageable sections with text, images, and videos.
 - Provide clear navigation options to move between lessons or modules.
 - Add quizzes or practice exercises within the lesson for engagement.
