@@ -46,3 +46,29 @@ HandiLingo aims to revolutionize the language learning process by providing user
    ```bash
    npm start
    ```
+
+## Pages
+
+### Courses Page
+![Courses Page](path/to/courses_page_image.png)
+- Display a grid or list of available courses with thumbnails and brief descriptions.
+- Allow users to filter courses by level, category, or language.
+- Include a prominent "Start Course" button for easy access.
+
+### Lesson Page
+![Lesson Page](path/to/lesson_page_image.png)
+- Break down lessons into manageable sections with text, images, and videos.
+- Provide clear navigation options to move between lessons or modules.
+- Add quizzes or practice exercises within the lesson for engagement.
+
+### Quiz Page
+![Quiz Page](path/to/quiz_page_image.png)
+- Use a variety of question types (multiple choice, true/false, drag and drop).
+- Offer immediate feedback on answers to enhance learning.
+- Show a progress bar to keep users motivated.
+
+### Results Page
+![Results Page](path/to/results_page_image.png)
+- Display a summary of the user's performance, highlighting strengths and areas for improvement.
+- Provide detailed feedback on each question, explaining correct and incorrect answers.
+- Suggest next steps or additional resources based on the user's performance.
