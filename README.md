@@ -50,7 +50,7 @@ HandiLingo aims to revolutionize the language learning process by providing user
 ## Pages
 
 ### Courses Page
-![Courses Page](photo_2024-12-22_23-16-34 (2).jpg)
+![Courses Page](photo_2024-12-22_23-16-3.jpg)
 - Display a grid or list of available courses with thumbnails and brief descriptions.
 - Allow users to filter courses by level, category, or language.
 - Include a prominent "Start Course" button for easy access.
